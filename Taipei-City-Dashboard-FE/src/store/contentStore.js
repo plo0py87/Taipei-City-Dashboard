@@ -600,7 +600,7 @@ export const useContentStore = defineStore("content", {
 		async setLanguage(lang) {
 			this.lang = lang;
 			// await http.patch("/user/me", { lang: this.user.lang });
-			i18n.locale = lang;
+			i18n.global.locale = lang;
 		},
 
 		/* /component methods */

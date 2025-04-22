@@ -3,7 +3,6 @@
 <!-- Sidebar used in /component and /component/:index -->
 <script setup>
 import { ref, computed } from "vue";
-import { t as $t } from "@/i18ns/i18nInstance";
 import { storeToRefs } from "pinia";
 import { useContentStore } from "../../../store/contentStore";
 import ComponentDragTags from "../forms/ComponentDragTags.vue";

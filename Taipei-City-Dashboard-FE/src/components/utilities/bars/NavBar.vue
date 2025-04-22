@@ -9,10 +9,10 @@ import { useRoute } from "vue-router";
 import { useFullscreen } from "@vueuse/core";
 import { useAuthStore } from "../../../store/authStore";
 import { useDialogStore } from "../../../store/dialogStore";
-
+import { useContentStore } from "../../../store/contentStore";
 import UserSettings from "../../dialogs/UserSettings.vue";
 import ContributorsList from "../../dialogs/ContributorsList.vue";
-
+const contentStore = useContentStore();
 const route = useRoute();
 const authStore = useAuthStore();
 const dialogStore = useDialogStore();
