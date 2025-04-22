@@ -3,6 +3,7 @@
 <!-- Sidebar used in /component and /component/:index -->
 <script setup>
 import { ref, computed } from "vue";
+import { t as $t } from "@/i18ns/i18nInstance";
 import { storeToRefs } from "pinia";
 import { useContentStore } from "../../../store/contentStore";
 import ComponentDragTags from "../forms/ComponentDragTags.vue";
@@ -37,7 +38,7 @@ const availableIcons = computed(() => {
 function switchDashboard() {
 	if (selectedDashboard.value === "new") {
 		editDashboard.value = {
-			name: "我的新儀表板",
+			name: $t("我的新儀表板"),
 			icon: "dashboard",
 			components: [],
 		};
@@ -74,92 +75,78 @@ function handleConfirm() {
 </script>
 
 <template>
-  <div :class="{ componentsidebar: true, 'hide-if-mobile': true }">
-    <h2>新增組件至儀表板</h2>
-    <div class="componentsidebar-settings">
-      <label>選擇儀表板</label>
-      <!-- 之後要在contentStore寫處理的東西 -->
-      <select
-        v-model="selectedDashboard"
-        @change="switchDashboard"
-      >
-        <option value="new">
-          新增儀表板
-        </option>
-        <option
-          v-for="dashboard in contentStore.personalDashboards.filter(
-            (el) => el.index !== contentStore.favorites.index
-          )"
-          :key="dashboard.index"
-          :value="dashboard.index"
-        >
-          {{ dashboard.name }}
-        </option>
-      </select>
-    </div>
-    <div
-      v-if="selectedDashboard === 'new'"
-      class="componentsidebar-settings"
-    >
-      <label>名稱*</label>
-      <input
-        v-model="editDashboard.name"
-        placeholder=""
-        required
-      >
-      <label>圖示*</label>
-      <input
-        v-model="iconSearch"
-        placeholder="尋找圖示(英文)"
-      >
-      <div class="componentsidebar-settings-icon">
-        <div
-          v-for="item in availableIcons"
-          :key="item"
-        >
-          <input
-            :id="item"
-            v-model="editDashboard.icon"
-            type="radio"
-            :value="item"
-          >
-          <label :for="item">{{ item }}</label>
-        </div>
-      </div>
-    </div>
-    <div class="componentsidebar-settings">
-      <label>儀表板組件 (點擊右側組件 [+] 圖示以新增)</label>
-      <div class="componentsidebar-settings-components">
-        <ComponentDragTags
-          :tags="editDashboard.components"
-          @deletetag="
-            (index) => {
-              editDashboard.components.splice(index, 1);
-            }
-          "
-          @updatetagorder="
-            (updatedTags) => {
-              editDashboard.components = updatedTags;
-            }
-          "
-        />
-      </div>
-    </div>
-    <div class="componentsidebar-footer">
-      <button
-        v-if="selectedDashboard === 'new' && editDashboard.name"
-        @click="handleConfirm"
-      >
-        新增組件至儀表板
-      </button>
-      <button
-        v-else-if="selectedDashboard !== 'new'"
-        @click="handleConfirm"
-      >
-        更新儀表板
-      </button>
-    </div>
-  </div>
+	<div :class="{ componentsidebar: true, 'hide-if-mobile': true }">
+		<h2>{{ $t("新增組件至儀表板") }}</h2>
+		<div class="componentsidebar-settings">
+			<label>{{ $t("選擇儀表板") }}</label>
+			<select v-model="selectedDashboard" @change="switchDashboard">
+				<option value="new">
+					{{ $t("新增儀表板") }}
+				</option>
+				<option
+					v-for="dashboard in contentStore.personalDashboards.filter(
+						(el) => el.index !== contentStore.favorites.index
+					)"
+					:key="dashboard.index"
+					:value="dashboard.index"
+				>
+					{{ dashboard.name }}
+				</option>
+			</select>
+		</div>
+		<div
+			v-if="selectedDashboard === 'new'"
+			class="componentsidebar-settings"
+		>
+			<label>{{ $t("名稱*") }}</label>
+			<input v-model="editDashboard.name" placeholder="" required />
+			<label>{{ $t("圖示*") }}</label>
+			<input v-model="iconSearch" :placeholder="$t('尋找圖示(英文)')" />
+			<div class="componentsidebar-settings-icon">
+				<div v-for="item in availableIcons" :key="item">
+					<input
+						:id="item"
+						v-model="editDashboard.icon"
+						type="radio"
+						:value="item"
+					/>
+					<label :for="item">{{ item }}</label>
+				</div>
+			</div>
+		</div>
+		<div class="componentsidebar-settings">
+			<label>{{ $t("儀表板組件 (點擊右側組件 [+] 圖示以新增)") }}</label>
+			<div class="componentsidebar-settings-components">
+				<ComponentDragTags
+					:tags="editDashboard.components"
+					@deletetag="
+						(index) => {
+							editDashboard.components.splice(index, 1);
+						}
+					"
+					@updatetagorder="
+						(updatedTags) => {
+							editDashboard.components = updatedTags;
+						}
+					"
+				/>
+			</div>
+		</div>
+		<div class="componentsidebar-footer">
+			<button
+				v-if="selectedDashboard === 'new' && editDashboard.name"
+				@click="handleConfirm"
+			>
+				{{ $t("新增組件至儀表板") }}
+			</button>
+			<button
+				v-else-if="selectedDashboard !== 'new'"
+				@click="handleConfirm"
+			>
+				{{ $t("更新儀表板") }}
+			</button>
+		</div>
+	</div>
 </template>
 
 <style scoped lang="scss">

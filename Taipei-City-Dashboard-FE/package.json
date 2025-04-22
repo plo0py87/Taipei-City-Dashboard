@@ -28,6 +28,7 @@
 		"threebox-plugin": "^2.2.7",
 		"uuid": "^9.0.1",
 		"vue": "^3.4.15",
+		"vue-i18n": "10",
 		"vue-router": "^4.2.5",
 		"vue3-apexcharts": "^1.4.4"
 	},
