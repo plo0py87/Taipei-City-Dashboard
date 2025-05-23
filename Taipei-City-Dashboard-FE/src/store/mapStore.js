@@ -28,8 +28,6 @@ import {
 	MapObjectConfig,
 	CityMapView,
 	TaipeiBuilding,
-	// TpDistrict,
-	// TpVillage,
 	metroTaipeiTown,
 	metroTaipeiVillage,
 	metroTpDistrict,
@@ -170,41 +168,20 @@ export const useMapStore = defineStore("map", {
 					scheme: "tms",
 					tolerance: 0,
 					tiles: [
-						`https://citydashboard.taipei/geo_server/gwc/service/tms/1.0.0/taipei_vioc:metrotaipei_village@EPSG:900913@pbf/{z}/{x}/{y}.pbf`,
-						// `${location.origin}/geo_server/gwc/service/tms/1.0.0/taipei_vioc:metrotaipei_village@EPSG:900913@pbf/{z}/{x}/{y}.pbf`,
-
+						`${location.origin}/geo_server/gwc/service/tms/1.0.0/taipei_vioc:metrotaipei_village@EPSG:900913@pbf/{z}/{x}/{y}.pbf`,
 					],
 				})
 				.addLayer(metroTpVillage);
-			// .addSource(`tp_village`, {
-			// 	type: "vector",
-			// 	scheme: "tms",
-			// 	tolerance: 0,
-			// 	tiles: [
-			// 		`${location.origin}/geo_server/gwc/service/tms/1.0.0/taipei_vioc:tp_village@EPSG:900913@pbf/{z}/{x}/{y}.pbf`,
-			// 	],
-			// })
-			// .addLayer(TpVillage);
-			// Taipei District Boundaries
 			this.map
 				.addSource(`metrotaipei_town`, {
 					type: "vector",
 					scheme: "tms",
 					tolerance: 0,
 					tiles: [
-						`https://citydashboard.taipei/geo_server/gwc/service/tms/1.0.0/taipei_vioc:metrotaipei_town@EPSG:900913@pbf/{z}/{x}/{y}.pbf`,
+						`${location.origin}/geo_server/gwc/service/tms/1.0.0/taipei_vioc:metrotaipei_town@EPSG:900913@pbf/{z}/{x}/{y}.pbf`,
 					],
 				})
 				.addLayer(metroTpDistrict);
-			// .addSource(`tp_district`, {
-			// 	type: "vector",
-			// 	scheme: "tms",
-			// 	tolerance: 0,
-			// 	tiles: [
-			// 		`${location.origin}/geo_server/gwc/service/tms/1.0.0/taipei_vioc:tp_district@EPSG:900913@pbf/{z}/{x}/{y}.pbf`,
-			// 	],
-			// })
-			// .addLayer(TpDistrict);
 
 			this.addSymbolSources();
 		},
@@ -368,24 +345,11 @@ export const useMapStore = defineStore("map", {
 				}
 			} else {
 				try {
-					// 獲取當前地圖可視區域的範圍
-					const bounds = this.map.getBounds();
-
 					// 添加源
 					this.map.addSource(`${map_config.layerId}-source`, {
 						type: "vector",
 						scheme: "tms",
 						tolerance: 0,
-						// 限制瓦片範圍在當前可視區域
-						bounds: [
-							bounds.getWest(),  // 最小經度
-							bounds.getSouth(), // 最小緯度
-							bounds.getEast(),  // 最大經度
-							bounds.getNorth()  // 最大緯度
-						],
-						// // 限制縮放級別
-						// minzoom: Math.floor(this.map.getZoom() - 1),
-						// maxzoom: Math.ceil(this.map.getZoom() + 1),
 						tiles: [
 							`https://citydashboard.taipei/geo_server/gwc/service/tms/1.0.0/taipei_vioc:${map_config.index}@EPSG:900913@pbf/{z}/{x}/{y}.pbf`,
 						],
