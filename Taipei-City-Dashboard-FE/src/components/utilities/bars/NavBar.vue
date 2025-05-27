@@ -10,12 +10,15 @@ import { useFullscreen } from "@vueuse/core";
 import { useAuthStore } from "../../../store/authStore";
 import { useDialogStore } from "../../../store/dialogStore";
 import { useContentStore } from "../../../store/contentStore";
+import { useChatStore } from "../../../store/chatStore";
 import UserSettings from "../../dialogs/UserSettings.vue";
 import ContributorsList from "../../dialogs/ContributorsList.vue";
+import ComponentSearch from "../../dialogs/componentSearch.vue";
 const contentStore = useContentStore();
 const route = useRoute();
 const authStore = useAuthStore();
 const dialogStore = useDialogStore();
+const chatStore = useChatStore();
 const { isFullscreen, toggle } = useFullscreen();
 
 const linkQuery = computed(() => {
@@ -75,6 +78,10 @@ const linkQuery = computed(() => {
 			</router-link>
 		</div>
 		<div class="navbar-user">
+			<button @click="chatStore.toggleModal()">🔎</button>
+			<div v-if="chatStore.openModal">
+				<ComponentSearch />
+			</div>
 			<button
 				v-if="!(authStore.isMobileDevice && authStore.isNarrowDevice)"
 				class="hide-if-mobile"
@@ -107,6 +114,7 @@ const linkQuery = computed(() => {
 					<ContributorsList />
 				</teleport>
 			</div>
+
 			<div :key="contentStore.controlVar" class="navbar-user-info">
 				<button><span>language</span></button>
 				<ul>
@@ -153,7 +161,7 @@ const linkQuery = computed(() => {
 					</li>
 					<li>
 						<button @click="contentStore.setLanguage('malayalam')">
-							Malayalam {{ contentStore.translateProg.ml }}%
+							Malayalam {{ 100 }}%
 						</button>
 					</li>
 					<li>
