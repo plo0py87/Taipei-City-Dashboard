@@ -4,10 +4,12 @@
 import { ref, onMounted } from "vue";
 import { useDialogStore } from "../../store/dialogStore";
 import { useMapStore } from "../../store/mapStore";
+import { useI18n } from "vue-i18n";
 import http from "../../router/axios";
 
 import DialogContainer from "./DialogContainer.vue";
 
+const { t } = useI18n();
 const dialogStore = useDialogStore();
 const mapStore = useMapStore();
 
@@ -16,19 +18,19 @@ const incidentDesc = ref("");
 const incidentDis = ref(0.5);
 
 const typeOptions = [
-	{ label: "火災 Fire", value: "fire" },
-	{ label: "淹水 Flood", value: "flood" },
-	{ label: "道路 Road", value: "road" },
-	{ label: "建物 Building", value: "building" },
-	{ label: "其他 Others", value: "other" },
+	{ label: t("dialog.火災 Fire"), value: "fire" },
+	{ label: t("dialog.淹水 Flood"), value: "flood" },
+	{ label: t("dialog.道路 Road"), value: "road" },
+	{ label: t("dialog.建物 Building"), value: "building" },
+	{ label: t("dialog.其他 Others"), value: "other" },
 	// Add more options as needed
 ];
 
 const disOptions = [
-	{ label: "500公尺內", value: 0.5 },
-	{ label: "500公尺~2公里", value: 2 },
-	{ label: "2公里~5公里", value: 5 },
-	{ label: "大於5公里", value: 10 },
+	{ label: t("dialog.500公尺內"), value: 0.5 },
+	{ label: t("dialog.500公尺~2公里"), value: 2 },
+	{ label: t("dialog.2公里~5公里"), value: 5 },
+	{ label: t("dialog.大於5公里"), value: 10 },
 	// Add more options as needed
 ];
 
@@ -49,7 +51,7 @@ async function handleSubmit() {
 	incidentType.value = "";
 	incidentDesc.value = "";
 	incidentDis.value = "";
-	dialogStore.showNotification("success", "災害新增成功");
+	dialogStore.showNotification("success", t("dialog.災害新增成功"));
 	dialogStore.hideAllDialogs();
 }
 
@@ -59,67 +61,63 @@ onMounted(() => {
 </script>
 
 <template>
-  <DialogContainer
-    :dialog="`incidentReport`"
-    @on-close="handleClose"
-  >
-    <div class="incidentreport">
-      <h2>事件通報</h2>
-      <label> 事件類型 </label>
-      <select v-model="incidentType">
-        <option
-          v-for="(option, index) in typeOptions"
-          :key="index"
-          :value="option.value"
-        >
-          {{ option.label }}
-        </option>
-      </select>
+	<DialogContainer :dialog="`incidentReport`" @on-close="handleClose">
+		<div class="incidentreport">
+			<h2>{{ $t("dialog.事件通報") }}</h2>
+			<label> {{ $t("dialog.事件類型") }} </label>
+			<select v-model="incidentType">
+				<option
+					v-for="(option, index) in typeOptions"
+					:key="index"
+					:value="option.value"
+				>
+					{{ option.label }}
+				</option>
+			</select>
 
-      <label> 事件描述 ({{ incidentDesc.length }}/30) </label>
-      <input
-        v-model="incidentDesc"
-        type="text"
-        placeholder="(請概述事件過程)"
-        required
-        :maxlength="30"
-      >
-      <label> 事件發生位置 </label>
-      <select v-model="incidentDis">
-        <option
-          v-for="(option, index) in disOptions"
-          :key="index"
-          :value="option.value"
-        >
-          {{ option.label }}
-        </option>
-      </select>
-      <label> 通報位置 </label>
-      <!-- <input :value="parseTime(editUser.login_at)" disabled /> -->
-      <input
-        :value="
-          mapStore.userLocation.latitude +
-            `, ` +
-            mapStore.userLocation.longitude
-        "
-        disabled
-      >
-      <label> 通報時間 </label>
-      <input
-        :value="new Date().toLocaleString()"
-        disabled
-      >
-      <div class="incidentreport-control">
-        <button
-          v-if="mapStore.userLocation.latitude && incidentDesc"
-          class="incidentreport-control-confirm"
-          @click="handleSubmit"
-        >
-          提交
-        </button>
-      </div>
-    </div>
-  </DialogContainer>
+			<label>
+				{{ $t("dialog.事件描述") }} ({{ incidentDesc.length }}/30)
+			</label>
+			<input
+				v-model="incidentDesc"
+				type="text"
+				:placeholder="$t('dialog.(請概述事件過程)')"
+				required
+				:maxlength="30"
+			/>
+			<label> {{ $t("dialog.事件發生位置") }} </label>
+			<select v-model="incidentDis">
+				<option
+					v-for="(option, index) in disOptions"
+					:key="index"
+					:value="option.value"
+				>
+					{{ option.label }}
+				</option>
+			</select>
+			<label> {{ $t("dialog.通報位置") }} </label>
+			<!-- <input :value="parseTime(editUser.login_at)" disabled /> -->
+			<input
+				:value="
+					mapStore.userLocation.latitude +
+					`, ` +
+					mapStore.userLocation.longitude
+				"
+				disabled
+			/>
+			<label> {{ $t("dialog.通報時間") }} </label>
+			<input :value="new Date().toLocaleString()" disabled />
+			<div class="incidentreport-control">
+				<button
+					v-if="mapStore.userLocation.latitude && incidentDesc"
+					class="incidentreport-control-confirm"
+					@click="handleSubmit"
+				>
+					{{ $t("dialog.提交") }}
+				</button>
+			</div>
+		</div>
+	</DialogContainer>
 </template>
 
 <style scoped lang="scss">

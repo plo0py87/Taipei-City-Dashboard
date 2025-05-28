@@ -4,7 +4,9 @@
 
 <script setup>
 import { useDialogStore } from "../../store/dialogStore";
+import { useI18n } from "vue-i18n";
 
+const { t } = useI18n();
 const dialogStore = useDialogStore();
 
 const statusToIcon = {
@@ -15,31 +17,36 @@ const statusToIcon = {
 </script>
 
 <template>
-  <Teleport to="body">
-    <Transition name="notification">
-      <div
-        v-if="dialogStore.dialogs.notificationBar"
-        class="notificationbar"
-      >
-        <span
-          :class="{
-            success: dialogStore.notification.status === 'success',
-            fail: dialogStore.notification.status === 'fail',
-            info: dialogStore.notification.status === 'info',
-          }"
-        >{{ statusToIcon[dialogStore.notification.status] }}</span>
-        <h5
-          :class="{
-            success: dialogStore.notification.status === 'success',
-            fail: dialogStore.notification.status === 'fail',
-            info: dialogStore.notification.status === 'info',
-          }"
-        >
-          {{ dialogStore.notification.message }}
-        </h5>
-      </div>
-    </Transition>
-  </Teleport>
+	<Teleport to="body">
+		<Transition name="notification">
+			<div
+				v-if="dialogStore.dialogs.notificationBar"
+				class="notificationbar"
+			>
+				<span
+					:class="{
+						success: dialogStore.notification.status === 'success',
+						fail: dialogStore.notification.status === 'fail',
+						info: dialogStore.notification.status === 'info',
+					}"
+					>{{ statusToIcon[dialogStore.notification.status] }}</span
+				>
+				<h5
+					:class="{
+						success: dialogStore.notification.status === 'success',
+						fail: dialogStore.notification.status === 'fail',
+						info: dialogStore.notification.status === 'info',
+					}"
+				>
+					{{
+						dialogStore.notification.message.startsWith("dialog.")
+							? $t(dialogStore.notification.message)
+							: dialogStore.notification.message
+					}}
+				</h5>
+			</div>
+		</Transition>
+	</Teleport>
 </template>
 
 <style scoped lang="scss">

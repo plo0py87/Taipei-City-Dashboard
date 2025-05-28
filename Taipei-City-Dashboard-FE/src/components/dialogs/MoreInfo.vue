@@ -5,6 +5,7 @@ import DashboardComponent from "../../dashboardComponent/DashboardComponent.vue"
 import { useDialogStore } from "../../store/dialogStore";
 import { useContentStore } from "../../store/contentStore";
 import { useAuthStore } from "../../store/authStore";
+import { useI18n } from "vue-i18n";
 
 import DialogContainer from "./DialogContainer.vue";
 import HistoryChart from "../charts/HistoryChart.vue";
@@ -14,133 +15,145 @@ import EmbedComponent from "./EmbedComponent.vue";
 const dialogStore = useDialogStore();
 const contentStore = useContentStore();
 const authStore = useAuthStore();
+const { t } = useI18n();
 
 function getLinkTag(link, index) {
 	if (link.includes("data.taipei")) {
-		return `資料集 - ${index + 1} (data.taipei)`;
+		return `${t("dialog.資料集")} - ${index + 1} (data.taipei)`;
 	} else if (link.includes("data.ntpc")) {
-		return `資料集 - ${index + 1} (data.ntpc)`;
+		return `${t("dialog.資料集")} - ${index + 1} (data.ntpc)`;
 	} else if (link.includes("tuic.gov.taipei")) {
-		return `大數據中心專案網頁`;
+		return t("dialog.大數據中心專案網頁");
 	} else if (link.includes("github.com")) {
-		return `GitHub 程式庫`;
+		return t("dialog.GitHub 程式庫");
 	} else {
-		return `資料集 - ${index + 1} (其他)`;
+		return `${t("dialog.資料集")} - ${index + 1} (${t("dialog.其他")})`;
 	}
 }
 </script>
 
 <template>
-  <DialogContainer
-    :dialog="`moreInfo`"
-    @on-close="dialogStore.hideAllDialogs"
-  >
-    <div class="moreinfo">
-      <DashboardComponent
-        :config="dialogStore.moreInfoContent"
-        :active-city="dialogStore.moreInfoContent.city"
-        :city-tag="contentStore.cityManager.getTagList(dialogStore.moreInfoContent.city)"
-        mode="large"
-      />
-      <div class="moreinfo-info">
-        <div class="moreinfo-info-data">
-          <h3>
-            組件說明（{{
-              ` ID: ${dialogStore.moreInfoContent.id}｜Index: ${dialogStore.moreInfoContent.index}｜City: ${dialogStore.moreInfoContent.city}`
-            }}）
-          </h3>
-          <p>{{ dialogStore.moreInfoContent.long_desc }}</p>
-          <h3>範例情境</h3>
-          <p>{{ dialogStore.moreInfoContent.use_case }}</p>
-          <div v-if="dialogStore.moreInfoContent.history_config">
-            <h3>歷史軸</h3>
-            <h4>*點擊並拉動以檢視細部區間資料</h4>
-            <HistoryChart
-              :chart_config="
-                dialogStore.moreInfoContent.chart_config
-              "
-              :series="dialogStore.moreInfoContent.history_data"
-              :history_config="
-                dialogStore.moreInfoContent.history_config
-              "
-            />
-          </div>
-          <div v-if="dialogStore.moreInfoContent.links?.length > 0">
-            <h3>相關資料</h3>
-            <div class="moreinfo-info-links">
-              <a
-                v-for="(link, index) in dialogStore
-                  .moreInfoContent.links"
-                :key="link"
-                :href="link"
-                target="_blank"
-                rel="noreferrer"
-              >{{ getLinkTag(link, index) }}</a>
-            </div>
-          </div>
-          <div v-if="dialogStore.moreInfoContent.contributors">
-            <h3>協作者</h3>
-            <div class="moreinfo-info-contributors">
-              <div
-                v-for="contributor in dialogStore
-                  .moreInfoContent.contributors"
-                :key="contributor"
-              >
-                <a
-                  :href="
-                    contentStore.contributors[contributor]
-                      .link
-                  "
-                  target="_blank"
-                  rel="noreferrer"
-                ><img
-                  :src="
-                    contentStore.contributors[
-                      contributor
-                    ].image.includes('http')
-                      ? contentStore.contributors[
-                        contributor
-                      ].image
-                      : `/images/contributors/${contentStore.contributors[contributor].image}`
-                  "
-                  :alt="`協作者-${contentStore.contributors[contributor].user_name}`"
-                >
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="moreinfo-info-control">
-          <button
-            v-if="authStore.token"
-            @click="
-              dialogStore.showReportIssue(
-                dialogStore.moreInfoContent.id,
-                dialogStore.moreInfoContent.index,
-                dialogStore.moreInfoContent.name
-              )
-            "
-          >
-            <span>flag</span>回報
-          </button>
-          <button
-            v-if="
-              dialogStore.moreInfoContent.chart_config
-                .types[0] !== 'MetroChart'
-            "
-            @click="dialogStore.showDialog('downloadData')"
-          >
-            <span>download</span>下載
-          </button>
-          <button @click="dialogStore.showDialog('embedComponent')">
-            <span>code</span>內嵌
-          </button>
-        </div>
-        <DownloadData />
-        <EmbedComponent />
-      </div>
-    </div>
-  </DialogContainer>
+	<DialogContainer
+		:dialog="`moreInfo`"
+		@on-close="dialogStore.hideAllDialogs"
+	>
+		<div class="moreinfo">
+			<DashboardComponent
+				:config="dialogStore.moreInfoContent"
+				:active-city="dialogStore.moreInfoContent.city"
+				:city-tag="
+					contentStore.cityManager.getTagList(
+						dialogStore.moreInfoContent.city
+					)
+				"
+				mode="large"
+			/>
+			<div class="moreinfo-info">
+				<div class="moreinfo-info-data">
+					<h3>
+						{{ $t("dialog.組件說明") }}（{{
+							` ID: ${dialogStore.moreInfoContent.id}｜Index: ${dialogStore.moreInfoContent.index}｜City: ${dialogStore.moreInfoContent.city}`
+						}}）
+					</h3>
+					<p>{{ dialogStore.moreInfoContent.long_desc }}</p>
+					<h3>{{ $t("dialog.範例情境") }}</h3>
+					<p>{{ dialogStore.moreInfoContent.use_case }}</p>
+					<div v-if="dialogStore.moreInfoContent.history_config">
+						<h3>{{ $t("dialog.歷史軸") }}</h3>
+						<h4>
+							*{{ $t("dialog.點擊並拉動以檢視細部區間資料") }}
+						</h4>
+						<HistoryChart
+							:chart_config="
+								dialogStore.moreInfoContent.chart_config
+							"
+							:series="dialogStore.moreInfoContent.history_data"
+							:history_config="
+								dialogStore.moreInfoContent.history_config
+							"
+						/>
+					</div>
+					<div v-if="dialogStore.moreInfoContent.links?.length > 0">
+						<h3>{{ $t("dialog.相關資料") }}</h3>
+						<div class="moreinfo-info-links">
+							<a
+								v-for="(link, index) in dialogStore
+									.moreInfoContent.links"
+								:key="link"
+								:href="link"
+								target="_blank"
+								rel="noreferrer"
+								>{{ getLinkTag(link, index) }}</a
+							>
+						</div>
+					</div>
+					<div v-if="dialogStore.moreInfoContent.contributors">
+						<h3>{{ $t("dialog.協作者") }}</h3>
+						<div class="moreinfo-info-contributors">
+							<div
+								v-for="contributor in dialogStore
+									.moreInfoContent.contributors"
+								:key="contributor"
+							>
+								<a
+									:href="
+										contentStore.contributors[contributor]
+											.link
+									"
+									target="_blank"
+									rel="noreferrer"
+									><img
+										:src="
+											contentStore.contributors[
+												contributor
+											].image.includes('http')
+												? contentStore.contributors[
+														contributor
+												  ].image
+												: `/images/contributors/${contentStore.contributors[contributor].image}`
+										"
+										:alt="`${$t('dialog.協作者')}-${
+											contentStore.contributors[
+												contributor
+											].user_name
+										}`"
+									/>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="moreinfo-info-control">
+					<button
+						v-if="authStore.token"
+						@click="
+							dialogStore.showReportIssue(
+								dialogStore.moreInfoContent.id,
+								dialogStore.moreInfoContent.index,
+								dialogStore.moreInfoContent.name
+							)
+						"
+					>
+						<span>flag</span>{{ $t("dialog.回報") }}
+					</button>
+					<button
+						v-if="
+							dialogStore.moreInfoContent.chart_config
+								.types[0] !== 'MetroChart'
+						"
+						@click="dialogStore.showDialog('downloadData')"
+					>
+						<span>download</span>{{ $t("dialog.下載") }}
+					</button>
+					<button @click="dialogStore.showDialog('embedComponent')">
+						<span>code</span>{{ $t("dialog.內嵌") }}
+					</button>
+				</div>
+				<DownloadData />
+				<EmbedComponent />
+			</div>
+		</div>
+	</DialogContainer>
 </template>
 
 <style scoped lang="scss">

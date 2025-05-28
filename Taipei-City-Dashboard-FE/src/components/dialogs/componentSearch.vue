@@ -1,9 +1,11 @@
 <!-- Developed by Taipei Urban Intelligence Center 2023-2024-->
 
 <script setup>
-import { ref, nextTick, onMounted } from "vue";
+import { ref, nextTick } from "vue";
 import { useChatStore } from "../../store/chatStore";
+import { useI18n } from "vue-i18n";
 
+const { t } = useI18n();
 const chatStore = useChatStore();
 const newMessage = ref("");
 const messagesContainer = ref(null);
@@ -82,15 +84,15 @@ const handleClose = () => {
 						v-model="newMessage"
 						class="chat-input"
 						type="text"
-						placeholder="輸入您的訊息..."
+						:placeholder="$t('dialog.輸入您的訊息...')"
 						@keyup.enter="sendMessage"
 					/>
 					<button
+						:disabled="!newMessage.trim()"
 						class="send-button"
 						@click="sendMessage"
-						:disabled="!newMessage.trim()"
 					>
-						發送
+						{{ $t("dialog.發送") }}
 					</button>
 				</div>
 			</div>
