@@ -7,7 +7,9 @@ requires-python = ">=3.12"
 dependencies = [
     "anthropic>=0.52.0",
     "asyncpg>=0.30.0",
+    "fastapi>=0.100.0",
     "mcp>=1.9.1",
     "ollama>=0.4.8",
     "python-dotenv>=1.1.0",
+    "uvicorn>=0.20.0",
 ]

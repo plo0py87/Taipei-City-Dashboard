@@ -3,9 +3,14 @@ Enhanced MCP Client with Ollama Integration and Dynamic Tool Discovery
 """
 import asyncio
 import logging
+import sys
 from mcp import ClientSession, StdioServerParameters
 from mcp.client.stdio import stdio_client
 import ollama
+
+# Fix for Windows subprocess issue with asyncio
+if sys.platform == "win32":
+    asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -18,33 +23,6 @@ class SimpleMCPOllamaClient:
         self.model = model
         self.ollama_client = ollama.Client(host=ollama_host)
         self.available_tools = []  # Cache for MCP tools
-        self.get_mcp_tools()
-    
-    async def get_mcp_tools(self):
-        """Get available tools from MCP server and cache them"""
-        server_params = StdioServerParameters(
-            command="python",
-            args=["../server/server.py"]
-        )
-        
-        try:
-            async with stdio_client(server_params) as (read, write):
-                async with ClientSession(read, write) as session:
-                    await session.initialize()
-                    
-                    # Get tools from MCP server
-                    response = await session.list_tools()
-                    self.available_tools = [{
-                        "name": tool.name,
-                        "description": tool.description,
-                        "input_schema": tool.inputSchema
-                    } for tool in response.tools]
-                    
-                    logger.info(f"Loaded {len(self.available_tools)} MCP tools")
-                    return self.available_tools
-        except Exception as e:
-            logger.error(f"Failed to get MCP tools: {e}")
-            return []
     
     def convert_mcp_tools_to_ollama_format(self, mcp_tools):
         """Convert MCP tool schemas to Ollama function calling format"""
@@ -67,46 +45,59 @@ class SimpleMCPOllamaClient:
             command="python",
             args=["../server/server.py"]
         )
-        
         try:
+            print("📡 Connecting to MCP server...")    
+            print(f"Server params: command={server_params.command}, args={server_params.args}")
             async with stdio_client(server_params) as (read, write):
+                print("✅ MCP server connected successfully")
                 async with ClientSession(read, write) as session:
-                    await session.initialize()
-                    
+                    print("🔧 Initializing MCP session...")
+                    await session.initialize()     
+                    print("✅ MCP session initialized")     
+                    components = await session.read_resource("components://")
                     # Step 1: Get available tools from MCP server (like Claude example)
-                    response = await session.list_tools()
+                    tools = await session.list_tools()
                     available_tools = [{ 
                         "name": tool.name,
                         "description": tool.description,
                         "input_schema": tool.inputSchema
-                    } for tool in response.tools]
-                    
+                    } for tool in tools.tools]
+                    print(f"🛠️  Found {len(available_tools)} available tools")    
                     if not available_tools:
                         # Fallback to basic chat without tools
+                        print("⚠️  No tools available, falling back to basic chat")
                         ollama_response = self.ollama_client.chat(
                             model=self.model,
-                            messages=[{"role": "user", "content": query}]
+                            messages=[
+                                {"role": "system", "content": "You are a helpful assistant."},
+                                {"role": "user", "content": query}
+                                ]
                         )
                         return ollama_response['message']['content']
-                    
+                    print("🔄 Converting tools to Ollama format...")    
                     # Step 2: Convert tools to Ollama format
                     ollama_tools = self.convert_mcp_tools_to_ollama_format(available_tools)
                     
                     # Step 3: Initial Ollama call with tools
+                    print("🤖 Sending query to Ollama...")
                     ollama_response = self.ollama_client.chat(
                         model=self.model,
-                        messages=[{"role": "user", "content": query}],
+                        messages=[
+                            {"role": "system", "content": f"available components: {components.contents[0].text}"},
+                            {"role": "user", "content": query}
+                            ],
                         tools=ollama_tools
                     )
-                    
+                    print("✅ Received response from Ollama")    
                     message = ollama_response['message']
-                    print(message)
                     final_text = []
+                    component_ids = []
                     
                     # Step 4: Process response and handle tool calls (like Claude example)
                     if message.get('content'):
                         final_text.append(message['content'])
                     
+                    print("🔍 Processing tool calls...")    
                     if message.get('tool_calls'):
                         for tool_call in message['tool_calls']:
                             tool_name = tool_call['function']['name']
@@ -116,11 +107,39 @@ class SimpleMCPOllamaClient:
                             result = await session.call_tool(tool_name, tool_args)
                             final_text.append(f"[Calling tool {tool_name} with args {tool_args}]")
                             final_text.append(f"Tool result: {result.content}")
+                              # Extract component IDs from the result
+                            if result.content:
+                                for content_item in result.content:
+                                    if hasattr(content_item, 'text'):
+                                        # Parse the text content to extract component IDs
+                                        text_content = content_item.text
+                                        # Split by newlines and filter out empty lines
+                                        lines = [line.strip() for line in text_content.split('\n') if line.strip()]
+                                        
+                                        # Filter lines to only include valid component IDs
+                                        # Component IDs are typically alphanumeric with underscores
+                                        import re
+                                        for line in lines:
+                                            # Match lines that look like component IDs (alphanumeric + underscores)
+                                            if re.match(r'^[a-zA-Z0-9_]+$', line):
+                                                component_ids.append(line)
                     
-                    return "\n".join(final_text)
-                    
+                    # Return only component IDs if found, otherwise return full text
+                    if component_ids:
+                        print(f"📋 Found component IDs: {component_ids}")
+                        # Return as JSON string for API compatibility
+                        import json
+                        return json.dumps(component_ids)
+                    else:
+                        print("📄 No component IDs found, returning full response")
+                        return "\n".join(final_text)
         except Exception as e:
+            import traceback
+            full_traceback = traceback.format_exc()
             logger.error(f"Error in process_query: {e}")
+            logger.error(f"Full traceback: {full_traceback}")
+            print(f"❌ Exception occurred: {e}")
+            print(f"❌ Full traceback: {full_traceback}")
             return f"Error processing query: {e}"
     
     async def test_ollama_connection(self):
@@ -174,21 +193,6 @@ class SimpleMCPOllamaClient:
             logger.error(f"Failed to connect to Ollama: {e}")
             return False
     
-    async def chat_with_ollama(self, prompt: str):
-        """Send a prompt to Ollama and get response"""
-        try:
-            response = self.ollama_client.chat(
-                model=self.model,
-                messages=[{
-                    'role': 'user',
-                    'content': prompt
-                }]
-            )
-            return response['message']['content']
-        except Exception as e:
-            logger.error(f"Error chatting with Ollama: {e}")
-            return None
-    
     async def test_mcp_server(self):
         """Test connection to MCP server"""
         server_params = StdioServerParameters(
@@ -200,7 +204,6 @@ class SimpleMCPOllamaClient:
             async with stdio_client(server_params) as (read, write):
                 async with ClientSession(read, write) as session:
                     await session.initialize()
-                    
                     # List available tools
                     tools = await session.list_tools()
                     logger.info(f"Available MCP tools: {[tool.name for tool in tools.tools]}")
@@ -224,12 +227,7 @@ class SimpleMCPOllamaClient:
         """Interactive chat session combining MCP and Ollama"""
         print("=== Enhanced MCP + Ollama Client ===")
         print("Commands:")
-        print("  chat <message>     - Chat with Ollama")
         print("  process <query>    - Process query with dynamic tool discovery")
-        print("  add <a> <b>        - Use MCP add tool")
-        print("  greeting <name>    - Use MCP greeting resource")
-        print("  components         - Get dashboard components from database")
-        print("  tables             - List all database tables")
         print("  test               - Test both connections")
         print("  quit               - Exit")
         print()
@@ -252,39 +250,10 @@ class SimpleMCPOllamaClient:
                 
                 if command == "quit":
                     break
-                elif command == "chat" and len(parts) == 2:
-                    if ollama_ok:
-                        response = await self.chat_with_ollama(parts[1])
-                        if response:
-                            print(f"🤖 Ollama: {response}")
-                        else:
-                            print("❌ Failed to get response from Ollama")
-                    else:
-                        print("❌ Ollama not available")
                 elif command == "process" and len(parts) == 2:
                     print("🔍 Processing query with dynamic tool discovery...")
                     response = await self.process_query(parts[1])
                     print(f"🤖 Result: {response}")
-                elif command == "add" and len(parts) == 2:
-                    try:
-                        nums = parts[1].split()
-                        if len(nums) == 2:
-                            a, b = int(nums[0]), int(nums[1])
-                            await self._use_mcp_add(a, b)
-                        else:
-                            print("Usage: add <number1> <number2>")
-                    except ValueError:
-                        print("Please provide valid numbers")
-                elif command == "greeting" and len(parts) == 2:
-                    await self._use_mcp_greeting(parts[1])
-                elif command == "tables":
-                    await self._use_mcp_list_tables()
-                elif command == "components":
-                    await self._use_mcp_get_components()
-                elif command == "table" and len(parts) == 2:
-                    print("❌ Table reading feature is currently disabled")
-                elif command == "schema" and len(parts) == 2:
-                    print("❌ Schema info feature is currently disabled")
                 elif command == "test":
                     print("Testing connections...")
                     ollama_ok = await self.test_ollama_connection()
@@ -293,116 +262,11 @@ class SimpleMCPOllamaClient:
                     print(f"MCP Server: {'✅' if mcp_ok else '❌'}")
                 else:
                     print("Invalid command. Available commands:")
-                    print("  chat <message>, process <query>, add <a> <b>, greeting <name>")
-                    print("  tables, table <name> [limit], schema <name>, test, quit")
                     
             except KeyboardInterrupt:
                 break
             except Exception as e:
                 print(f"Error: {e}")
-        
-        print("Goodbye! 👋")
-    
-    async def _use_mcp_add(self, a: int, b: int):
-        """Use MCP server add tool"""
-        server_params = StdioServerParameters(
-            command="python",
-            args=["../server/server.py"]
-        )
-        
-        try:
-            async with stdio_client(server_params) as (read, write):
-                async with ClientSession(read, write) as session:
-                    await session.initialize()
-                    result = await session.call_tool("add", {"a": a, "b": b})
-                    print(f"➕ MCP Add Result: {a} + {b} = {result.content[0].text}")
-        except Exception as e:
-            print(f"❌ MCP add failed: {e}")
-
-    async def _use_mcp_greeting(self, name: str):
-        """Use MCP server greeting resource"""
-        server_params = StdioServerParameters(
-            command="python",
-            args=["../server/simple_server.py"]  # Use simple server for now
-        )
-        
-        try:
-            async with stdio_client(server_params) as (read, write):
-                async with ClientSession(read, write) as session:
-                    await session.initialize()
-                    greeting = await session.read_resource(f"greeting://{name}")
-                    print(f"👋 MCP Greeting: {greeting.contents[0].text}")
-        except Exception as e:
-            print(f"❌ MCP greeting failed: {e}")
-
-    async def _use_mcp_get_components(self):
-        """Get components from database using MCP server"""
-        server_params = StdioServerParameters(
-            command="python",
-            args=["../server/simple_server.py"]
-        )
-        
-        try:
-            async with stdio_client(server_params) as (read, write):
-                async with ClientSession(read, write) as session:
-                    await session.initialize()
-                    result = await session.call_tool("get_components", {})
-                    print(f"🧩 Components:\n{result.content[0].text}")
-        except Exception as e:
-            print(f"❌ Get components failed: {e}")
-
-    async def _use_mcp_list_tables(self):
-        """List all database tables using MCP server"""
-        server_params = StdioServerParameters(
-            command="python",
-            args=["../server/simple_server.py"]  # Use simple server for now
-        )
-        
-        try:
-            async with stdio_client(server_params) as (read, write):
-                async with ClientSession(read, write) as session:
-                    await session.initialize()
-                    result = await session.call_tool("list_tables", {})
-                    print(f"📋 Database Tables:\n{result.content[0].text}")
-        except Exception as e:
-            print(f"❌ List tables failed: {e}")
-    
-    async def _use_mcp_read_table(self, table_name: str, limit: int = 100):
-        """Read data from specified table using MCP server"""
-        server_params = StdioServerParameters(
-            command="python",
-            args=["../server/server.py"]
-        )
-        
-        try:
-            async with stdio_client(server_params) as (read, write):
-                async with ClientSession(read, write) as session:
-                    await session.initialize()
-                    result = await session.call_tool("read_table", {
-                        "table_name": table_name,
-                        "limit": limit
-                    })
-                    print(f"📊 Table Data for '{table_name}':\n{result.content[0].text}")
-        except Exception as e:
-            print(f"❌ Read table failed: {e}")
-    
-    async def _use_mcp_get_table_info(self, table_name: str):
-        """Get table schema information using MCP server"""
-        server_params = StdioServerParameters(
-            command="python",
-            args=["../server/server.py"]
-        )
-        
-        try:
-            async with stdio_client(server_params) as (read, write):
-                async with ClientSession(read, write) as session:
-                    await session.initialize()
-                    result = await session.call_tool("get_table_info", {
-                        "table_name": table_name
-                    })
-                    print(f"🔍 Table Schema for '{table_name}':\n{result.content[0].text}")
-        except Exception as e:
-            print(f"❌ Get table info failed: {e}")
 
 async def main():
     """Main function demonstrating the enhanced MCP + Ollama integration"""    
