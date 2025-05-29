@@ -5,11 +5,13 @@
 <script setup>
 import { computed } from "vue";
 import { useDialogStore } from "../../store/dialogStore";
+import { useI18n } from "vue-i18n";
 
 import DialogContainer from "./DialogContainer.vue";
 
 const props = defineProps(["content"]);
 const dialogStore = useDialogStore();
+const { t } = useI18n();
 const content = computed(() => props.content || dialogStore.moreInfoContent);
 
 const embedTemplate = computed(() => {
@@ -29,7 +31,7 @@ const embedTemplate = computed(() => {
 
 function handleCopy() {
 	navigator.clipboard.writeText(embedTemplate.value);
-	dialogStore.showNotification("success", "複製內嵌碼成功");
+	dialogStore.showNotification("success", t("dialog.複製內嵌碼成功"));
 }
 function handleClose() {
 	dialogStore.dialogs.embedComponent = false;
@@ -37,30 +39,25 @@ function handleClose() {
 </script>
 
 <template>
-  <DialogContainer
-    dialog="embedComponent"
-    @on-close="handleClose"
-  >
-    <div class="embedcomponent">
-      <h2>內嵌組件</h2>
-      <div class="embedcomponent-input">
-        <h3>複製以下內嵌碼至您的網頁即可內嵌本組件</h3>
-        <textarea
-          type="text"
-          disabled
-          :value="embedTemplate"
-        />
-      </div>
-      <div class="embedcomponent-control">
-        <button
-          class="embedcomponent-control-confirm"
-          @click="handleCopy"
-        >
-          複製內嵌碼
-        </button>
-      </div>
-    </div>
-  </DialogContainer>
+	<DialogContainer dialog="embedComponent" @on-close="handleClose">
+		<div class="embedcomponent">
+			<h2>{{ $t("dialog.內嵌組件") }}</h2>
+			<div class="embedcomponent-input">
+				<h3>
+					{{ $t("dialog.複製以下內嵌碼至您的網頁即可內嵌本組件") }}
+				</h3>
+				<textarea type="text" disabled :value="embedTemplate" />
+			</div>
+			<div class="embedcomponent-control">
+				<button
+					class="embedcomponent-control-confirm"
+					@click="handleCopy"
+				>
+					{{ $t("dialog.複製內嵌碼") }}
+				</button>
+			</div>
+		</div>
+	</DialogContainer>
 </template>
 
 <style scoped lang="scss">

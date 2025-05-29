@@ -4,11 +4,13 @@
 import { ref } from "vue";
 import { useDialogStore } from "../../store/dialogStore";
 import { useMapStore } from "../../store/mapStore";
+import { useI18n } from "vue-i18n";
 
 import DialogContainer from "./DialogContainer.vue";
 
 const dialogStore = useDialogStore();
 const mapStore = useMapStore();
+const { t } = useI18n();
 
 const props = defineProps(["name"]);
 
@@ -34,10 +36,10 @@ function handleClose() {
 function handleAddViewPoint() {
 	if (props.name === "addPin") {
 		mapStore.addMarker(viewPoint.value.name);
-		dialogStore.showNotification("success", "新增地標成功");
+		dialogStore.showNotification("success", t("dialog.新增地標成功"));
 	} else {
 		mapStore.addViewPoint(viewPoint.value.name);
-		dialogStore.showNotification("success", "新增視角成功");
+		dialogStore.showNotification("success", t("dialog.新增視角成功"));
 	}
 
 	handleClose();
@@ -45,39 +47,48 @@ function handleAddViewPoint() {
 </script>
 
 <template>
-  <DialogContainer
-    :dialog="name"
-    @on-close="handleClose"
-  >
-    <div class="addviewpoint">
-      <div class="addviewpoint-title">
-        <h2>
-          {{ name === "addPin" ? "新增地標" : "新增視角" }}
-        </h2>
-        <button
-          v-if="viewPoint.name.length > 0"
-          @click="handleAddViewPoint"
-        >
-          確認
-        </button>
-      </div>
-      <div class="addviewpoint-content">
-        <label>{{ name === "addPin" ? "地標" : "視角" }}名稱 ({{
-          viewPoint.name.length
-        }}/10)</label>
-        <input
-          v-model="viewPoint.name"
-          maxlength="10"
-          type="text"
-          name="view-point-name"
-          :placeholder="`請輸入${
-            name === 'addPin' ? '地標' : '視角'
-          }名稱`"
-          required
-        >
-      </div>
-    </div>
-  </DialogContainer>
+	<DialogContainer :dialog="name" @on-close="handleClose">
+		<div class="addviewpoint">
+			<div class="addviewpoint-title">
+				<h2>
+					{{
+						name === "addPin"
+							? $t("dialog.新增地標")
+							: $t("dialog.新增視角")
+					}}
+				</h2>
+				<button
+					v-if="viewPoint.name.length > 0"
+					@click="handleAddViewPoint"
+				>
+					{{ $t("dialog.確認") }}
+				</button>
+			</div>
+			<div class="addviewpoint-content">
+				<label
+					>{{
+						name === "addPin"
+							? $t("dialog.地標")
+							: $t("dialog.視角")
+					}}{{ $t("dialog.名稱") }} ({{
+						viewPoint.name.length
+					}}/10)</label
+				>
+				<input
+					v-model="viewPoint.name"
+					maxlength="10"
+					type="text"
+					name="view-point-name"
+					:placeholder="
+						name === 'addPin'
+							? $t('dialog.請輸入地標名稱')
+							: $t('dialog.請輸入視角名稱')
+					"
+					required
+				/>
+			</div>
+		</div>
+	</DialogContainer>
 </template>
 
 <style scoped lang="scss">

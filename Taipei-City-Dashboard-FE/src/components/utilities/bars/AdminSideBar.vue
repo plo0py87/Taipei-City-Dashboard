@@ -32,69 +32,66 @@ onMounted(() => {
 </script>
 
 <template>
-  <div
-    :class="{
-      adminsidebar: true,
-      'adminsidebar-collapse': !isExpanded,
-    }"
-  >
-    <button
-      class="adminsidebar-collapse-button"
-      @click="toggleExpand"
-    >
-      <span>{{
-        isExpanded
-          ? "keyboard_double_arrow_left"
-          : "keyboard_double_arrow_right"
-      }}</span>
-    </button>
-    <h2>{{ isExpanded ? `儀表板設定` : `表板` }}</h2>
-    <template
-      v-for="city in contentStore.cityManager.activeCities"
-      :key="city"
-    >
-      <SideBarTab
-        icon="dashboard"
-        :title="`${contentStore.cityManager.getExpandedNameName(city)}`"
-        index="dashboard"
-        :expanded="isExpanded"
-        :city="city"
-      />
-    </template>
-    <h2>{{ isExpanded ? `組件設定` : `組件` }}</h2>
-    <SideBarTab
-      icon="edit_note"
-      title="編輯公開組件"
-      :expanded="isExpanded"
-      index="edit-component"
-    />
-    <h2>{{ isExpanded ? `問題回報` : `問題` }}</h2>
-    <SideBarTab
-      icon="bug_report"
-      title="待回覆問題"
-      :expanded="isExpanded"
-      index="issue"
-    />
-    <SideBarTab
-      icon="flood"
-      title="民眾災害通報"
-      :expanded="isExpanded"
-      index="disaster"
-    />
-    <h2>{{ isExpanded ? `系統總覽` : `系統` }}</h2>
-    <SideBarTab
-      icon="person"
-      title="使用者資訊"
-      :expanded="isExpanded"
-      index="user"
-    />
-    <SideBarTab
-      icon="handshake"
-      title="貢獻者資訊"
-      :expanded="isExpanded"
-      index="contributor"
-    />
-  </div>
+	<div
+		:class="{
+			adminsidebar: true,
+			'adminsidebar-collapse': !isExpanded,
+		}"
+	>
+		<button class="adminsidebar-collapse-button" @click="toggleExpand">
+			<span>{{
+				isExpanded
+					? "keyboard_double_arrow_left"
+					: "keyboard_double_arrow_right"
+			}}</span>
+		</button>
+		<h2>{{ isExpanded ? $t("儀表板設定") : $t("表板") }}</h2>
+		<template
+			v-for="city in contentStore.cityManager.activeCities"
+			:key="city"
+		>
+			<SideBarTab
+				icon="dashboard"
+				:title="`${contentStore.cityManager.getExpandedNameName(city)}`"
+				index="dashboard"
+				:expanded="isExpanded"
+				:city="city"
+			/>
+		</template>
+		<h2>{{ isExpanded ? $t(`組件設定`) : $t(`組件`) }}</h2>
+		<SideBarTab
+			icon="edit_note"
+			title="編輯公開組件"
+			:expanded="isExpanded"
+			index="edit-component"
+		/>
+		<h2>{{ isExpanded ? $t(`問題回報`) : $t(`問題`) }}</h2>
+		<SideBarTab
+			icon="bug_report"
+			title="待回覆問題"
+			:expanded="isExpanded"
+			index="issue"
+		/>
+		<SideBarTab
+			icon="flood"
+			title="民眾災害通報"
+			:expanded="isExpanded"
+			index="disaster"
+		/>
+		<h2>{{ isExpanded ? $t(`系統總覽`) : $t(`系統`) }}</h2>
+		<SideBarTab
+			icon="person"
+			title="使用者資訊"
+			:expanded="isExpanded"
+			index="user"
+		/>
+		<SideBarTab
+			icon="handshake"
+			title="貢獻者資訊"
+			:expanded="isExpanded"
+			index="contributor"
+		/>
+	</div>
 </template>
 
 <style scoped lang="scss">

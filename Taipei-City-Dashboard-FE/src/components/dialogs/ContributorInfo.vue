@@ -2,10 +2,12 @@
 
 <script setup>
 import { useDialogStore } from "../../store/dialogStore";
+import { useI18n } from "vue-i18n";
 
 import DialogContainer from "./DialogContainer.vue";
 
 const dialogStore = useDialogStore();
+const { t } = useI18n();
 
 defineProps(["contributor"]);
 
@@ -15,41 +17,36 @@ function handleClose() {
 </script>
 
 <template>
-  <DialogContainer
-    :dialog="`contributorInfo`"
-    @on-close="handleClose"
-  >
-    <div class="contributorinfo">
-      <div class="contributorinfo-img">
-        <img
-          :src="
-            contributor.image.includes('http')
-              ? contributor.image
-              : `/images/contributors/${contributor.image}`
-          "
-          :alt="`協作者-${contributor.user_name}`"
-        >
-        <h2>{{ contributor.user_name }}</h2>
-      </div>
-      <div class="contributorinfo-info">
-        <label>身份</label>
-        <p>
-          {{ contributor.identity }}
-        </p>
-        <label>貢獻項目</label>
-        <p>{{ contributor.description }}</p>
-        <a
-          :href="contributor.link"
-          target="_blank"
-          rel="noreferrer"
-        >{{
-          contributor.link.includes("github")
-            ? "GitHub "
-            : "相關"
-        }}連結 <span>open_in_new</span></a>
-      </div>
-    </div>
-  </DialogContainer>
+	<DialogContainer :dialog="`contributorInfo`" @on-close="handleClose">
+		<div class="contributorinfo">
+			<div class="contributorinfo-img">
+				<img
+					:src="
+						contributor.image.includes('http')
+							? contributor.image
+							: `/images/contributors/${contributor.image}`
+					"
+					:alt="`${$t('dialog.協作者')}-${contributor.user_name}`"
+				/>
+				<h2>{{ contributor.user_name }}</h2>
+			</div>
+			<div class="contributorinfo-info">
+				<label>{{ $t("dialog.身份") }}</label>
+				<p>
+					{{ contributor.identity }}
+				</p>
+				<label>{{ $t("dialog.貢獻項目") }}</label>
+				<p>{{ contributor.description }}</p>
+				<a :href="contributor.link" target="_blank" rel="noreferrer"
+					>{{
+						contributor.link.includes("github")
+							? "GitHub "
+							: $t("dialog.相關")
+					}}{{ $t("dialog.連結") }} <span>open_in_new</span></a
+				>
+			</div>
+		</div>
+	</DialogContainer>
 </template>
 
 <style scoped lang="scss">

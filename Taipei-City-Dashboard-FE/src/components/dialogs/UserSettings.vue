@@ -4,11 +4,13 @@
 import { storeToRefs } from "pinia";
 import { useDialogStore } from "../../store/dialogStore";
 import { useAuthStore } from "../../store/authStore";
+import { useI18n } from "vue-i18n";
 
 import DialogContainer from "./DialogContainer.vue";
 
 const dialogStore = useDialogStore();
 const authStore = useAuthStore();
+const { t } = useI18n();
 
 const { editUser } = storeToRefs(authStore);
 
@@ -26,60 +28,58 @@ function parseTime(time) {
 
 async function handleSubmit() {
 	if (editUser.value.name === authStore.user.name || !editUser.value.name) {
-		dialogStore.showNotification("info", "用戶名稱不變");
+		dialogStore.showNotification("info", t("dialog.用戶名稱不變"));
 		dialogStore.hideAllDialogs();
 		return;
 	}
 	await authStore.updateUserInfo();
-	dialogStore.showNotification("success", "用戶資訊已更新");
+	dialogStore.showNotification("success", t("dialog.用戶資訊已更新"));
 	dialogStore.hideAllDialogs();
 }
 </script>
 
 <template>
-  <DialogContainer
-    :dialog="`userSettings`"
-    @on-close="handleClose"
-  >
-    <div class="usersettings">
-      <h2>用戶設定</h2>
-      <label> 用戶名稱 </label>
-      <input
-        v-model="editUser.name"
-        :minlength="1"
-        :maxlength="10"
-        required
-      >
-      <label> 用戶帳號 </label>
-      <input
-        :value="
-          editUser.account ? editUser.account : editUser.TpAccount
-        "
-        :minlength="1"
-        disabled
-      >
-      <label> 用戶類型 </label>
-      <input
-        :value="editUser.is_admin ? '管理員' : '一般用戶'"
-        disabled="true"
-        required
-      >
-      <label> 最近登入時間 </label>
-      <input
-        :value="parseTime(editUser.login_at)"
-        disabled
-      >
-      <div class="usersettings-control">
-        <button
-          v-if="editUser.name"
-          class="usersettings-control-confirm"
-          @click="handleSubmit"
-        >
-          更改用戶資訊
-        </button>
-      </div>
-    </div>
-  </DialogContainer>
+	<DialogContainer :dialog="`userSettings`" @on-close="handleClose">
+		<div class="usersettings">
+			<h2>{{ $t("dialog.用戶設定") }}</h2>
+			<label> {{ $t("dialog.用戶名稱") }} </label>
+			<input
+				v-model="editUser.name"
+				:minlength="1"
+				:maxlength="10"
+				required
+			/>
+			<label> {{ $t("dialog.用戶帳號") }} </label>
+			<input
+				:value="
+					editUser.account ? editUser.account : editUser.TpAccount
+				"
+				:minlength="1"
+				disabled
+			/>
+			<label> {{ $t("dialog.用戶類型") }} </label>
+			<input
+				:value="
+					editUser.is_admin
+						? $t('dialog.管理員')
+						: $t('dialog.一般用戶')
+				"
+				disabled="true"
+				required
+			/>
+			<label> {{ $t("dialog.最近登入時間") }} </label>
+			<input :value="parseTime(editUser.login_at)" disabled />
+			<div class="usersettings-control">
+				<button
+					v-if="editUser.name"
+					class="usersettings-control-confirm"
+					@click="handleSubmit"
+				>
+					{{ $t("dialog.更改用戶資訊") }}
+				</button>
+			</div>
+		</div>
+	</DialogContainer>
 </template>
 
 <style scoped lang="scss">
