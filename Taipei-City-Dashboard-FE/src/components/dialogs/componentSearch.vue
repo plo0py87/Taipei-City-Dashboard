@@ -3,135 +3,114 @@
 <script setup>
 import { ref, nextTick } from "vue";
 import { useChatStore } from "../../store/chatStore";
+import { useDialogStore } from "../../store/dialogStore";
 import { useI18n } from "vue-i18n";
+import DialogContainer from "./DialogContainer.vue";
 
 const { t } = useI18n();
 const chatStore = useChatStore();
+const dialogStore = useDialogStore();
 const newMessage = ref("");
 const messagesContainer = ref(null);
 
 const sendMessage = async () => {
 	if (newMessage.value.trim()) {
-		chatStore.addMessage({
+		// Add message to store
+		if (!chatStore.messages) {
+			chatStore.messages = [];
+		}
+
+		chatStore.messages.push({
 			text: newMessage.value,
 			sender: "user",
 			timestamp: new Date().toLocaleTimeString(),
 		});
+
 		newMessage.value = "";
 
-		// 滾動到最新訊息
+		// Scroll to the latest message
 		await nextTick();
 		if (messagesContainer.value) {
 			messagesContainer.value.scrollTop =
 				messagesContainer.value.scrollHeight;
 		}
+
+		// Here you would typically handle the bot response
+		// Simulating a bot response after a short delay
+		setTimeout(() => {
+			chatStore.messages.push({
+				text: "This is a demo response. The actual implementation would connect to your backend service.",
+				sender: "bot",
+				timestamp: new Date().toLocaleTimeString(),
+			});
+
+			// Scroll to the new message
+			nextTick(() => {
+				if (messagesContainer.value) {
+					messagesContainer.value.scrollTop =
+						messagesContainer.value.scrollHeight;
+				}
+			});
+		}, 1000);
 	}
 };
 
-// 處理關閉動畫
+// Handle the dialog close event
 const handleClose = () => {
-	const chatBox = document.querySelector(".chatBOX");
-	const shadow = document.querySelector(".chat-shadow");
-
-	if (chatBox && shadow) {
-		chatBox.classList.add("closing");
-		shadow.classList.add("closing");
-
-		setTimeout(() => {
-			chatStore.toggleModal();
-		}, 300); // 等待動畫完成
-	} else {
-		chatStore.toggleModal();
-	}
+	dialogStore.hideAllDialogs();
 };
 </script>
 
 <template>
-	<Transition name="modal" appear>
-		<div class="chat-shadow" @click="handleClose" />
-	</Transition>
-
-	<Transition name="chatbox" appear>
-		<div class="chatBOX">
-			<div class="chat-container">
-				<div ref="messagesContainer" class="chat-messages">
-					<TransitionGroup
-						name="message"
-						tag="div"
-						class="messages-wrapper"
+	<DialogContainer dialog="NLPDialog" @on-close="handleClose">
+		<div class="chat-container">
+			<div ref="messagesContainer" class="chat-messages">
+				<TransitionGroup
+					name="message"
+					tag="div"
+					class="messages-wrapper"
+				>
+					<div
+						v-for="(message, index) in chatStore.messages"
+						:key="`${message.timestamp}-${index}`"
+						:class="[
+							'message',
+							message.sender === 'user'
+								? 'user-message'
+								: 'bot-message',
+						]"
 					>
-						<div
-							v-for="(message, index) in chatStore.messages"
-							:key="`${message.timestamp}-${index}`"
-							:class="[
-								'message',
-								message.sender === 'user'
-									? 'user-message'
-									: 'bot-message',
-							]"
-						>
-							<div class="message-content">
-								{{ message.text }}
-							</div>
-							<div class="message-time">
-								{{ message.timestamp }}
-							</div>
+						<div class="message-content">
+							{{ message.text }}
 						</div>
-					</TransitionGroup>
-				</div>
-				<div class="chat-input-container">
-					<input
-						v-model="newMessage"
-						class="chat-input"
-						type="text"
-						:placeholder="$t('dialog.輸入您的訊息...')"
-						@keyup.enter="sendMessage"
-					/>
-					<button
-						:disabled="!newMessage.trim()"
-						class="send-button"
-						@click="sendMessage"
-					>
-						{{ $t("dialog.發送") }}
-					</button>
-				</div>
+						<div class="message-time">
+							{{ message.timestamp }}
+						</div>
+					</div>
+				</TransitionGroup>
+			</div>
+			<div class="chat-input-container">
+				<input
+					v-model="newMessage"
+					class="chat-input"
+					type="text"
+					:placeholder="$t('dialog.輸入您的訊息...')"
+					@keyup.enter="sendMessage"
+				/>
+				<button
+					:disabled="!newMessage.trim()"
+					class="send-button"
+					@click="sendMessage"
+				>
+					{{ $t("dialog.發送") }}
+				</button>
 			</div>
 		</div>
-	</Transition>
+	</DialogContainer>
 </template>
 
 <style scoped>
-/* 模態框淡入淡出動畫 */
-.modal-enter-active,
-.modal-leave-active {
-	transition: opacity 0.3s ease;
-}
-
-.modal-enter-from,
-.modal-leave-to {
-	opacity: 0;
-}
-
-/* 聊天框彈出動畫 */
-.chatbox-enter-active {
-	transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.chatbox-leave-active {
-	transition: all 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
-
-.chatbox-enter-from {
-	opacity: 0;
-	transform: translate(-50%, -50%) scale(0.7) rotateX(30deg);
-}
-
-.chatbox-leave-to {
-	opacity: 0;
-	transform: translate(-50%, -50%) scale(0.9);
-}
-
-/* 新訊息淡入動畫 */
+/* Message animations */
 .message-enter-active {
 	transition: all 0.4s ease;
 }
@@ -154,55 +133,15 @@ const handleClose = () => {
 	transition: transform 0.3s ease;
 }
 
-/* 基本樣式 */
-.chat-shadow {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	height: 100vh;
-	background-color: rgba(0, 0, 0, 0.5);
-	z-index: 9998;
-	cursor: pointer;
-	backdrop-filter: blur(2px);
-	transition: backdrop-filter 0.3s ease;
-}
-
-.chat-shadow.closing {
-	backdrop-filter: blur(0px);
-}
-
-.chatBOX {
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 66.67vw;
-	height: 66.67vh;
-	background-color: #f8f9fa;
-	border-radius: 16px;
-	box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15), 0 8px 30px rgba(0, 0, 0, 0.1);
-	overflow: hidden;
-	z-index: 9999;
-	border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.chatBOX.closing {
-	animation: chatboxClose 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards;
-}
-
-@keyframes chatboxClose {
-	to {
-		opacity: 0;
-		transform: translate(-50%, -50%) scale(0.9);
-	}
-}
-
+/* Chat container styles */
 .chat-container {
 	display: flex;
 	flex-direction: column;
-	height: 100%;
+	height: 70vh;
+	width: 60vw;
 	background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+	border-radius: 12px;
+	overflow: hidden;
 }
 
 .chat-messages {
@@ -388,7 +327,7 @@ const handleClose = () => {
 	left: 100%;
 }
 
-/* 自定義滾動條 */
+/* Custom scrollbar */
 .chat-messages::-webkit-scrollbar {
 	width: 6px;
 }
@@ -408,11 +347,11 @@ const handleClose = () => {
 	background: linear-gradient(135deg, #0056b3, #004085);
 }
 
-/* 響應式設計 */
+/* Responsive design */
 @media (max-width: 768px) {
-	.chatBOX {
+	.chat-container {
 		width: 90vw;
-		height: 80vh;
+		height: 70vh;
 	}
 
 	.message {
@@ -429,7 +368,7 @@ const handleClose = () => {
 	}
 }
 
-/* 載入動畫 */
+/* Loading animation */
 @keyframes pulse {
 	0%,
 	100% {

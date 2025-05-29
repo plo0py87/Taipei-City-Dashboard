@@ -2,11 +2,15 @@ import { defineStore } from "pinia";
 
 export const useChatStore = defineStore("chat", {
 	state: () => ({
-		openModal: false,
+		messages: [],
 	}),
 	actions: {
-		toggleModal() {
-			this.openModal = !this.openModal;
+		addMessage(message) {
+			this.messages.push(message);
+		},
+
+		clearMessages() {
+			this.messages = [];
 		},
 	},
 });
