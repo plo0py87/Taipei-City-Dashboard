@@ -3,11 +3,12 @@ import zhBar from "./bars/zh.json";
 import zhDialog from "./dialog/zh.json";
 import enBar from "./bars/en.json";
 import enDialog from "./dialog/en.json";
-
+import zhMisc from "./misc/zh.json";
 const messages = {
 	zh: {
 		...zhBar,
 		dialog: zhDialog,
+		...zhMisc,
 	},
 	en: {
 		...enBar,
