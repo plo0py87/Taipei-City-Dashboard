@@ -62,18 +62,6 @@ class SimpleMCPOllamaClient:
                         "description": tool.description,
                         "input_schema": tool.inputSchema
                     } for tool in tools.tools]
-                    print(f"🛠️  Found {len(available_tools)} available tools")    
-                    if not available_tools:
-                        # Fallback to basic chat without tools
-                        print("⚠️  No tools available, falling back to basic chat")
-                        ollama_response = self.ollama_client.chat(
-                            model=self.model,
-                            messages=[
-                                {"role": "system", "content": "You are a helpful assistant."},
-                                {"role": "user", "content": query}
-                                ]
-                        )
-                        return ollama_response['message']['content']
                     print("🔄 Converting tools to Ollama format...")    
                     # Step 2: Convert tools to Ollama format
                     ollama_tools = self.convert_mcp_tools_to_ollama_format(available_tools)
@@ -132,7 +120,7 @@ class SimpleMCPOllamaClient:
                         return json.dumps(component_ids)
                     else:
                         print("📄 No component IDs found, returning full response")
-                        return "\n".join(final_text)
+                        return 'null'
         except Exception as e:
             import traceback
             full_traceback = traceback.format_exc()

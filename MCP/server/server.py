@@ -54,7 +54,7 @@ async def get_db_connection(db_type: str = "dashboard") -> asyncpg.Connection:
     except Exception as e:
         raise Exception(f"Database connection failed: {str(e)}")
 
-@mcp.tool()
+@mcp.resource("components://")
 async def get_components() -> List[Dict[str, str]]:
     """Fetch components from db_mannager.components"""
     connection = None
@@ -77,128 +77,27 @@ async def get_components() -> List[Dict[str, str]]:
         if connection:
             await connection.close()
 
-# Add an addition tool
-@mcp.tool()
-def add(a: int, b: int) -> int:
-    """Add two numbers"""
-    return a + b
-
-
 # Add database table reading tool
-# @mcp.tool()
-# async def read_table(table_name: str, limit: int = 100) -> str:
-#     """
-#     讀取指定資料庫表格的資料
-    
-#     Args:
-#         table_name: 表格名稱
-#         limit: 限制返回的記錄數量 (預設: 100)
-    
-#     Returns:
-#         JSON格式的表格資料
-#     """
-#     try:
-#         data = await fetch_table_data(table_name, limit)
-#         return json.dumps({
-#             "table_name": table_name,
-#             "record_count": len(data),
-#             "limit": limit,
-#             "data": data
-#         }, ensure_ascii=False, indent=2, default=str)
-#     except Exception as e:
-#         return json.dumps({
-#             "error": str(e),
-#             "table_name": table_name
-#         }, ensure_ascii=False, indent=2)
-
-
-# # Add table schema tool
-# @mcp.tool()
-# async def get_table_info(table_name: str) -> str:
-#     """
-#     獲取指定表格的結構資訊
-    
-#     Args:
-#         table_name: 表格名稱
-    
-#     Returns:
-#         JSON格式的表格結構資訊
-#     """
-#     try:
-#         schema = await get_table_schema(table_name)
-#         return json.dumps(schema, ensure_ascii=False, indent=2)
-#     except Exception as e:
-#         return json.dumps({
-#             "error": str(e),
-#             "table_name": table_name
-#         }, ensure_ascii=False, indent=2)
-
-
-# Add list tables tool
 @mcp.tool()
-async def list_tables() -> str:
+async def read_component(component_indices: list[str]) -> str:
     """
-    列出資料庫中所有可用的表格
+    讀取指定組件資料 (支援多個組件查詢)
+    
+    Args:
+        component_indices: 組件索引列表，例如 ["bike_map", "city_age_distribution"]
     
     Returns:
-        JSON格式的表格列表
+        所有查詢組件的資訊
     """
-    connection = None
-    try:
-        connection = await get_db_connection()
-        
-        query = """
-        SELECT table_name, table_type
-        FROM information_schema.tables 
-        WHERE table_schema = 'public'
-        ORDER BY table_name;
-        """
-        
-        tables = await connection.fetch(query)
-        
-        result = {
-            "database": DB_CONFIG["database"],
-            "schema": "public",
-            "tables": []
-        }
-        
-        for table in tables:
-            result["tables"].append({
-                "name": table["table_name"],
-                "type": table["table_type"]
-            })
-        
-        return json.dumps(result, ensure_ascii=False, indent=2)
-        
-    except Exception as e:
-        return json.dumps({
-            "error": f"Error listing tables: {str(e)}"
-        }, ensure_ascii=False, indent=2)
-    finally:
-        if connection:
-            await connection.close()
-
-
+    if not component_indices:
+        return "No components specified"
+    
+    results = []
+    for index in component_indices:
+        results.append(index)
+    
+    return "\n".join(results)
 # Add a dynamic greeting resource
-@mcp.resource("greeting://{name}")
-def get_greeting(name: str) -> str:
-    """Get a personalized greeting"""
-    return f"Hello, {name}!"
-
-
 # Run the server in stdio mode
 if __name__ == "__main__":
-    # # Test database connection first (optional)
-    # try:
-    #     import asyncio
-    #     loop = asyncio.new_event_loop()
-    #     asyncio.set_event_loop(loop)
-    #     result = loop.run_until_complete(get_components())
-    #     print(f"✅ Successfully connected to database! Found {len(result)} components.")
-    #     loop.close()
-    # except Exception as e:
-    #     print(f"⚠️  Database connection test failed: {e}")
-    #     print("MCP server will start anyway - database features may not work until connection is fixed.")
-    
-    # print("🚀 Starting MCP server...")
     mcp.run()
