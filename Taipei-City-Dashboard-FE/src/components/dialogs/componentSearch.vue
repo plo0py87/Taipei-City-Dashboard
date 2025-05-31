@@ -146,15 +146,21 @@ const sendMessage = async () => {
 			console.log("All components:", allComponents);
 			if (foundComponent) {
 				const component = allComponents.find(
-					(item) => item.id === foundComponent
+					(item) => item.name === foundComponent
 				);
 				if (component) {
 					chatStore.messages.push({
 						text: `我找到了一個組件：${component.name}，點下面的按鈕前往智慧儀表板吧！`,
 						sender: "bot",
 						timestamp: new Date().toLocaleTimeString(),
-						newDashboard: component.index,
 					});
+					const vc = await http.get(
+						`/component/${component.id}/view-count`
+					);
+					http.post(`/component/${component.id}/view`);
+					dialogStore.showMoreInfo(component, vc.data.view_count);
+					dialogStore.showDialog("moreInfo");
+					dialogStore.dialogs.NLPDialog = false;
 				} else {
 					chatStore.messages.push({
 						text: "抱歉，我找不到相關的組件。",
