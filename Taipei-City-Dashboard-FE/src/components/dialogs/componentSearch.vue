@@ -12,7 +12,7 @@ const dialogStore = useDialogStore();
 const newMessage = ref("");
 const messagesContainer = ref(null);
 import { useI18nStore } from "../../i18ns/i18nInstance";
-import router from "../../router";
+// import router from "../../router"; // Unused import
 const i18nStore = useI18nStore();
 let curFeat = ref("MCP");
 const sendMessage = async () => {
@@ -43,7 +43,7 @@ const sendMessage = async () => {
 						},
 					}
 				);
-				console.log(response.data);
+				// console.log(response.data);
 				const resultString = response.data?.result;
 				if (resultString) {
 					const parsedResult = JSON.parse(resultString);
@@ -56,7 +56,7 @@ const sendMessage = async () => {
 				console.error("API request failed:", error);
 				// Handle error appropriately
 			}
-			console.log("New components to add:", newComponents);
+			// console.log("New components to add:", newComponents);
 			const createDashboard = await http.post("/dashboard/", {
 				name: topic,
 				components: newComponents.map((component) =>
@@ -72,7 +72,7 @@ const sendMessage = async () => {
 					}
 				);
 			});
-			console.log("New components:", createDashboard);
+			// console.log("New components:", createDashboard);
 			// Scroll to the latest message
 			await nextTick();
 			if (messagesContainer.value) {
@@ -106,19 +106,18 @@ const sendMessage = async () => {
 			}, 1000);
 		}
 	} else if (curFeat.value == "NLP") {
-		console.log("NLP feature selected");
+		// console.log("NLP feature selected");
 		if (newMessage.value.trim()) {
 			// Add message to store
 			if (!chatStore.messages) {
 				chatStore.messages = [];
 			}
-			let newComponents = [];
-			let topic = "智慧儀表板"; // Default topic - moved outside try-catch
 			chatStore.messages.push({
 				text: newMessage.value,
 				sender: "user",
 				timestamp: new Date().toLocaleTimeString(),
 			});
+			let foundComponent = null; // Initialize foundComponent
 			try {
 				const msg = newMessage.value;
 				newMessage.value = "";
@@ -136,40 +135,45 @@ const sendMessage = async () => {
 					}
 				);
 				console.log(response.data);
+				foundComponent = response.data?.individual[0].prediction;
+				// TODO: Use foundComponent to do something
 			} catch (error) {
 				console.error("API request failed:", error);
-				// Show a more helpful message to the user
-				setTimeout(() => {
+			} // Added missing closing brace for try block
+			const allComponents = await http
+				.get("/component/")
+				.then((response) => response.data.data);
+			console.log("All components:", allComponents);
+			if (foundComponent) {
+				const component = allComponents.find(
+					(item) => item.id === foundComponent
+				);
+				if (component) {
 					chatStore.messages.push({
-						text: "Sorry, I couldn't connect to the NLP service. The server might not be running.",
+						text: `我找到了一個組件：${component.name}，點下面的按鈕前往智慧儀表板吧！`,
+						sender: "bot",
+						timestamp: new Date().toLocaleTimeString(),
+						newDashboard: component.index,
+					});
+				} else {
+					chatStore.messages.push({
+						text: "抱歉，我找不到相關的組件。",
 						sender: "bot",
 						timestamp: new Date().toLocaleTimeString(),
 					});
-				}, 500);
+				}
+			} else {
+				chatStore.messages.push({
+					text: "抱歉，我找不到相關的組件。",
+					sender: "bot",
+					timestamp: new Date().toLocaleTimeString(),
+				});
 			}
 			await nextTick();
 			if (messagesContainer.value) {
 				messagesContainer.value.scrollTop =
 					messagesContainer.value.scrollHeight;
 			}
-
-			// Here you would typically handle the bot response
-			// Simulating a bot response after a short delay
-			setTimeout(() => {
-				chatStore.messages.push({
-					text: "喵喵喵",
-					sender: "bot",
-					timestamp: new Date().toLocaleTimeString(),
-				});
-
-				// Scroll to the new message
-				nextTick(() => {
-					if (messagesContainer.value) {
-						messagesContainer.value.scrollTop =
-							messagesContainer.value.scrollHeight;
-					}
-				});
-			}, 1000);
 		}
 	}
 };
@@ -184,7 +188,7 @@ const handleFeat = (feat) => {
 	} else if (feat === "NLP") {
 		curFeat.value = "NLP";
 	}
-	console.log("Current feature set to:", curFeat.value);
+	// console.log("Current feature set to:", curFeat.value);
 };
 </script>
 
