@@ -1,0 +1,5000 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.403681,25.1493627 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"弘安診所",
+    "hospID":"3531231145",
+    "hospAddress":"新北市八里區舊城里中山路二段215號1樓",
+    "hospTel":"02-86303263"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4344239,25.1593175 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"施世明診所",
+    "hospID":"3531230086",
+    "hospAddress":"新北市八里區訊塘里華峰一街18號",
+    "hospTel":"02-86302193"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4006252,25.1479353 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"文心診所",
+    "hospID":"3531231154",
+    "hospAddress":"新北市八里區訊塘里中山路二段392號",
+    "hospTel":"02-26191537"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4044695,25.1500928 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"台加診所",
+    "hospID":"3531231136",
+    "hospAddress":"新北市八里區頂罟里中山路二段310號1樓",
+    "hospTel":"02-26369622"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4109423,25.157637 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"誠泰診所",
+    "hospID":"3531231190",
+    "hospAddress":"新北市八里區埤頭里中山路一段231號",
+    "hospTel":"02-26369942"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5008227,25.2573021 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"三芝彭小兒科診所",
+    "hospID":"3531211081",
+    "hospAddress":"新北市三芝區埔頭里中山路一段59號1樓",
+    "hospTel":"02-26362007"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5027919,25.2590623 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"曾明診所",
+    "hospID":"3531211090",
+    "hospAddress":"新北市三芝區埔坪里中正路一段6號",
+    "hospTel":"02-29716626"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.499801,25.0633657 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"禾順診所",
+    "hospID":"3531026859",
+    "hospAddress":"新北市三重區錦通里文化北路3號1樓",
+    "hospTel":"02-29959680"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4971934,25.0638312 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"明安耳鼻喉科診所",
+    "hospID":"3531025290",
+    "hospAddress":"新北市三重區正德里正義北路54號",
+    "hospTel":"02-26732674"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4995206,25.0626679 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"聰明耳鼻喉科診所",
+    "hospID":"3531024220",
+    "hospAddress":"新北市三重區光榮里重新路二段14號1樓",
+    "hospTel":"02-86743684"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4837835,25.0539981 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"宏仁醫院",
+    "hospID":"1531020122",
+    "hospAddress":"新北市三重區福祉里水漾路一段158號",
+    "hospTel":"02-86716866"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4908666,25.0685965 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"德河聯合診所",
+    "hospID":"3531024462",
+    "hospAddress":"新北市三重區幸福里重陽路三段117號",
+    "hospTel":"02-26718080"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4837301,25.0780507 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"德心診所",
+    "hospID":"3531025067",
+    "hospAddress":"新北市三重區永福里力行路二段206號",
+    "hospTel":"02-26739288"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4951375,25.0613827 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"德慈聯合診所",
+    "hospID":"3531022208",
+    "hospAddress":"新北市三重區中山里重新路三段14號",
+    "hospTel":"02-26723456"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4899747,25.07785 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"鄭俊堂診所",
+    "hospID":"3531021407",
+    "hospAddress":"新北市三重區福隆里自強路四段49號",
+    "hospTel":"02-26732885"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4466222,24.97746 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"延平診所",
+    "hospID":"3531130572",
+    "hospAddress":"新北市土城區員林里學士路386號1樓",
+    "hospTel":"02-29571200"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590519,24.9823079 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"大昌診所",
+    "hospID":"3531133608",
+    "hospAddress":"新北市土城區青雲里青雲路184號",
+    "hospTel":"02-82457641"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4422733,24.9731763 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"興城骨科診所",
+    "hospID":"3531133653",
+    "hospAddress":"新北市土城區土城里光明街58號",
+    "hospTel":"02-29479165"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4605554,24.9789968 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"仁康診所",
+    "hospID":"3531133555",
+    "hospAddress":"新北市土城區清水里青仁路29號1樓",
+    "hospTel":"02-29481089"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4488072,24.9759558 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"新北市立土城醫院（委託長庚醫療財團法人興建經營）",
+    "hospID":"1131130018",
+    "hospAddress":"新北市土城區埤塘里金城路二段6號",
+    "hospTel":"02-82456006"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4142602,24.9565515 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"頂埔中心診所",
+    "hospID":"3531133064",
+    "hospAddress":"新北市土城區頂福里中央路四段286號",
+    "hospTel":"02-82455795"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5098968,24.9983722 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"余泰昌小兒科診所",
+    "hospID":"3531045265",
+    "hospAddress":"新北市中和區安平里宜安路134之1號",
+    "hospTel":"02-29471565"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5058468,24.9998606 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"陳信吉耳鼻喉科診所",
+    "hospID":"3531044366",
+    "hospAddress":"新北市中和區枋寮里中和路281號1樓",
+    "hospTel":"02-29401710"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5056151,24.9998285 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"劉彭小兒科診所",
+    "hospID":"3531040715",
+    "hospAddress":"新北市中和區枋寮里中和路271號",
+    "hospTel":"02-29406035"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5030357,24.9957094 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"祐嘉骨科診所",
+    "hospID":"3531044802",
+    "hospAddress":"新北市中和區南山里南華路22號",
+    "hospTel":"02-22490088"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5084314,24.9872728 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"莊福仁內科診所",
+    "hospID":"3531044651",
+    "hospAddress":"新北市中和區壽南里興南路一段142-6號",
+    "hospTel":"02-22491936"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5117784,24.9866083 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"永育醫療南勢角診所",
+    "hospID":"3531046468",
+    "hospAddress":"新北市中和區東南里仁愛街128號",
+    "hospTel":"02-22450009"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5083623,24.9870867 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"李凱國皮膚科診所",
+    "hospID":"3531046333",
+    "hospAddress":"新北市中和區壽南里興南路一段146號1-2樓",
+    "hospTel":"02-22402885"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5077703,24.9987563 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"王曜庭診所",
+    "hospID":"3531046002",
+    "hospAddress":"新北市中和區安平里景安路29號",
+    "hospTel":"02-22493353"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5079625,24.9858239 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"廣祥診所",
+    "hospID":"3531044615",
+    "hospAddress":"新北市中和區忠孝里興南路二段29號",
+    "hospTel":"02-82313668"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4892022,24.9960553 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"康萊診所",
+    "hospID":"3531042531",
+    "hospAddress":"新北市中和區中山里連城路317-2號",
+    "hospTel":"02-84410532"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5107047,24.9924435 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"英生耳鼻喉科診所",
+    "hospID":"3531041034",
+    "hospAddress":"新北市中和區景新里景新街272號",
+    "hospTel":"02-22493557"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5069102,24.9853809 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"德祐診所",
+    "hospID":"3531041785",
+    "hospAddress":"新北市中和區福南里興南路二段34巷1號",
+    "hospTel":"02-89413009"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5107055,24.9906125 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"南勢角德祐診所",
+    "hospID":"3531044982",
+    "hospAddress":"新北市中和區景新里興南路一段56巷1弄1號1樓",
+    "hospTel":"02-82921336"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4985247,25.0018899 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"怡和醫院",
+    "hospID":"1531041390",
+    "hospAddress":"新北市中和區廟美里連城路49號",
+    "hospTel":"02-22919463"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.502168,24.99927 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"日欣診所",
+    "hospID":"3531041178",
+    "hospAddress":"新北市中和區漳和里南山路15號",
+    "hospTel":"02-22953202"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5022834,24.9990575 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"朝安診所",
+    "hospID":"3531045890",
+    "hospAddress":"新北市中和區漳和里南山路27-1號1樓及夾層",
+    "hospTel":"02-22931155"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5088264,24.9998687 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"全裕診所",
+    "hospID":"3531046440",
+    "hospAddress":"新北市中和區安平里中和路294號",
+    "hospTel":"02-22951919"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5132764,24.9884746 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"賴俊元皮膚科",
+    "hospID":"3531042522",
+    "hospAddress":"新北市中和區景南里景新街453號",
+    "hospTel":"02-22911734"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4971696,25.0025946 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"郭長堺診所",
+    "hospID":"3531043618",
+    "hospAddress":"新北市中和區福善里中山路二段268號",
+    "hospTel":"02-24951776"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5134093,24.9881749 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"建良耳鼻喉科診所",
+    "hospID":"3531046397",
+    "hospAddress":"新北市中和區景南里景新街465號",
+    "hospTel":"02-24951015"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4996231,24.9939783 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"正生婦幼聯合診所",
+    "hospID":"3531042479",
+    "hospAddress":"新北市中和區正行里中正路122號",
+    "hospTel":"02-29258680"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5126799,24.9897361 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"禾益診所",
+    "hospID":"3531046502",
+    "hospAddress":"新北市中和區景本里景新街401號",
+    "hospTel":"02-29293045"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5126799,24.9897361 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"安祐診所",
+    "hospID":"3531046271",
+    "hospAddress":"新北市中和區景本里景新街401號",
+    "hospTel":"02-22311663"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5126799,24.9897361 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"健和診所",
+    "hospID":"3531046280",
+    "hospAddress":"新北市中和區景本里景新街401號",
+    "hospTel":"02-29279011"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5154885,24.9975576 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"杏日診所",
+    "hospID":"3531034879",
+    "hospAddress":"新北市永和區潭安里中正路111號",
+    "hospTel":"02-26482121"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.522688,24.9997914 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"杏福診所",
+    "hospID":"3531035134",
+    "hospAddress":"新北市永和區秀元里得和路289號",
+    "hospTel":"02-26412030"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5144539,24.9958641 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"德上診所",
+    "hospID":"3531034039",
+    "hospAddress":"新北市永和區智光里中正路106號",
+    "hospTel":"02-26656272"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5086664,25.0147589 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"惠恩診所",
+    "hospID":"3531034413",
+    "hospAddress":"新北市永和區保安路77號1樓",
+    "hospTel":"02-22545665"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5268687,24.9989241 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"黃濂輝診所",
+    "hospID":"3531031761",
+    "hospAddress":"新北市永和區民樂里成功路二段105號",
+    "hospTel":"02-29535396#13"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5267686,24.9980874 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"崇恩診所",
+    "hospID":"3531033201",
+    "hospAddress":"新北市永和區民富里成功路二段133號",
+    "hospTel":"02-29555457"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5147029,24.9965518 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"平安診所",
+    "hospID":"3531035330",
+    "hospAddress":"新北市永和區潭安里中正路61號1樓",
+    "hospTel":"02-29622255"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6287083,25.0645669 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"馨生婦產科小兒科診所",
+    "hospID":"3531113017",
+    "hospAddress":"新北市汐止區中興里福德二路215號",
+    "hospTel":"02-29522688"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6287083,25.0645669 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"馨悅婦產科診所",
+    "hospID":"3531113026",
+    "hospAddress":"新北市汐止區中興里福德二路215號12樓",
+    "hospTel":"02-22593168"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.632267,25.06918 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"幸湖診所",
+    "hospID":"3531113517",
+    "hospAddress":"新北市汐止區金龍里湖前街27號",
+    "hospTel":"02-22537500"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.661079,25.0683457 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"合康診所",
+    "hospID":"3531113035",
+    "hospAddress":"新北市汐止區信望里大同路二段512號",
+    "hospTel":"02-29560606"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6635033,25.0724009 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"祥和診所",
+    "hospID":"3531112654",
+    "hospAddress":"新北市汐止區城中里建成路37巷13號",
+    "hospTel":"02-86871766"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.630739,25.070409 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"佳祥診所",
+    "hospID":"3531112083",
+    "hospAddress":"新北市汐止區金龍里民族三街7號",
+    "hospTel":"02-29652683"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4561809,25.0205335 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"中正診所",
+    "hospID":"3531011027",
+    "hospAddress":"新北市板橋區新生里金華街21巷4號",
+    "hospTel":"02-24942358"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4716617,25.0080259 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"耀安小兒科診所",
+    "hospID":"3531016862",
+    "hospAddress":"新北市板橋區民族里漢生東路324號",
+    "hospTel":"02-24901431"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4629676,25.0187974 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"漢生診所",
+    "hospID":"3531017832",
+    "hospAddress":"新北市板橋區公舘里漢生西路73.75號",
+    "hospTel":"02-26229596"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4601693,25.0031905 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"正家診所",
+    "hospID":"353101A495",
+    "hospAddress":"新北市板橋區福星里四川路一段223號",
+    "hospTel":"02-26259595"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4614678,25.0267741 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"徐自菱皮膚科",
+    "hospID":"3531016513",
+    "hospAddress":"新北市板橋區新翠里互助街31號",
+    "hospTel":"02-26253428"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460038,25.004387 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"黃世鑫診所",
+    "hospID":"3531012024",
+    "hospAddress":"新北市板橋區福星里四川路一段143號",
+    "hospTel":"02-26259798"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4596017,25.0064019 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"常春聯合診所",
+    "hospID":"3531015169",
+    "hospAddress":"新北市板橋區景星里四川路一段47號",
+    "hospTel":"02-26226551"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4665558,25.0202564 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"陳志洪診所",
+    "hospID":"3531017903",
+    "hospAddress":"新北市板橋區百壽里文化路一段216號",
+    "hospTel":"02-28094661"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4665558,25.0202564 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"陳恩哲小兒科診所",
+    "hospID":"3531011901",
+    "hospAddress":"新北市板橋區百壽里文化路一段216號",
+    "hospTel":"02-26215620"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4610723,25.0227961 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"鄭仕程診所",
+    "hospID":"3531017878",
+    "hospAddress":"新北市板橋區幸福里新海路113號",
+    "hospTel":"02-28082277"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4286761,24.98563 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"樂佳診所",
+    "hospID":"353101A566",
+    "hospAddress":"新北市板橋區溪福里金門街306號",
+    "hospTel":"02-26203669"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4570209,25.0110333 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"樂澄診所",
+    "hospID":"3531019603",
+    "hospAddress":"新北市板橋區黃石里北門街13號",
+    "hospTel":"02-86311111"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3786381,25.074209 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"羊咩咩親子診所",
+    "hospID":"3531172007",
+    "hospAddress":"新北市林口區西林里仁愛路二段206號",
+    "hospTel":"02-26621660"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3667475,25.0678504 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"侯志龍小兒科診所",
+    "hospID":"3531171368",
+    "hospAddress":"新北市林口區麗林里公園路25號",
+    "hospTel":"02-26623302"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3602777,25.0701768 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"杏蒔診所",
+    "hospID":"3531172070",
+    "hospAddress":"新北市林口區南勢里三民路96號1樓",
+    "hospTel":"02-26628011"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3630389,25.071356 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"庚長優質診所",
+    "hospID":"3531172123",
+    "hospAddress":"新北市林口區南勢里文化三路一段235號1樓",
+    "hospTel":"02-26621567"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3890261,25.0791076 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"明揚診所",
+    "hospID":"3531170174",
+    "hospAddress":"新北市林口區菁湖里中山路192號",
+    "hospTel":"02-22177669"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3846253,25.0757096 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"林漢邦診所",
+    "hospID":"3531171386",
+    "hospAddress":"新北市林口區西林里仁愛路二段60號",
+    "hospTel":"02-86658711"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3888124,25.079798 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"德林診所",
+    "hospID":"3531171671",
+    "hospAddress":"新北市林口區菁湖里竹林路170號",
+    "hospTel":"02-29116698"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6363536,25.2194282 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"百勝診所",
+    "hospID":"3531271238",
+    "hospAddress":"新北市金山區金美里仁愛路37號-5.37-6號",
+    "hospTel":"02-89119181"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4616681,25.13589 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"鴻恩診所",
+    "hospID":"3531100529",
+    "hospAddress":"新北市淡水區民權里民族路50巷1號",
+    "hospTel":"02-29960303"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4477427,25.1772909 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"水碓瑞安診所",
+    "hospID":"3531104947",
+    "hospAddress":"新北市淡水區北新里北新路182巷61號",
+    "hospTel":"02-22057193"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4454608,25.1781229 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"梁衛賓診所",
+    "hospID":"3531104901",
+    "hospAddress":"新北市淡水區水碓里北新路43號",
+    "hospTel":"02-89925770"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4389666,25.1892299 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"沐恩診所",
+    "hospID":"3531105293",
+    "hospAddress":"新北市淡水區崁頂里濱海路一段143號1樓",
+    "hospTel":"02-22011378"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.605884,25.0016498 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"瑞和診所",
+    "hospID":"3531181355",
+    "hospAddress":"新北市深坑區萬順里北深路三段99號6樓",
+    "hospTel":"02-89921881"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6056873,25.0016854 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"詠靜診所",
+    "hospID":"3531181373",
+    "hospAddress":"新北市深坑區萬順里北深路三段101號.103號.105號2樓",
+    "hospTel":"02-29938636"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.543269,24.97336 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"聖新診所",
+    "hospID":"3531053150",
+    "hospAddress":"新北市新店區張北里寶橋路4號",
+    "hospTel":"02-24971563"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5391914,24.9731848 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"陳正宗診所",
+    "hospID":"3531050659",
+    "hospAddress":"新北市新店區中正里中正路241號",
+    "hospTel":"02-24960683"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5411313,24.9662843 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"嘉齊診所",
+    "hospID":"3531054399",
+    "hospAddress":"新北市新店區中興里北新路一段56號1樓",
+    "hospTel":"02-24972350"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.516587,24.9855019 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"欣和診所",
+    "hospID":"3531052760",
+    "hospAddress":"新北市新店區永平里安和路三段151號",
+    "hospTel":"02-24974128"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5398459,24.9783029 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"吳耳鼻喉科診所",
+    "hospID":"3531051147",
+    "hospAddress":"新北市新店區明德里民族路61號",
+    "hospTel":"02-24960189"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5411413,24.9662806 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"蘇永誠家醫科診所",
+    "hospID":"3531053972",
+    "hospAddress":"新北市新店區中興里北新路一段52號1樓",
+    "hospTel":"02-24965415"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5419896,24.9812796 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"聖康診所",
+    "hospID":"3531053641",
+    "hospAddress":"新北市新店區寶安里北新路三段104號1樓",
+    "hospTel":"02-24974101"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5414838,24.9719129 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"林建良耳鼻喉科診所",
+    "hospID":"3531052635",
+    "hospAddress":"新北市新店區仁愛里中正路158號1樓",
+    "hospTel":"02-24972132"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.427195,25.0203829 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"吳政德耳鼻喉科診所",
+    "hospID":"3531062060",
+    "hospAddress":"新北市新莊區民安里民安西路60號",
+    "hospTel":"02-22890332"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4472572,25.0493893 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"王榮文小兒科診所",
+    "hospID":"3531061830",
+    "hospAddress":"新北市新莊區中平里中和街149號",
+    "hospTel":"02-28481500"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4454927,25.0344689 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"新仁醫療社團法人新仁醫院",
+    "hospID":"0931060016",
+    "hospAddress":"新北市新莊區海山里中正路395號",
+    "hospTel":"02-22855598"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4542668,25.0481274 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"宏太診所",
+    "hospID":"3531067190",
+    "hospAddress":"新北市新莊區自強里自信街28號",
+    "hospTel":"02-22890666"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4252253,25.0240423 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"邱欽斌小兒科診所",
+    "hospID":"3531061045",
+    "hospAddress":"新北市新莊區後港里民安路141號1樓",
+    "hospTel":"02-82833588"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.447281,25.038333 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"王中煌診所",
+    "hospID":"3531061009",
+    "hospAddress":"新北市新莊區全泰里新泰路194號",
+    "hospTel":"02-82852066"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4551687,25.0545592 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"果仁小兒科診所",
+    "hospID":"3531066291",
+    "hospAddress":"新北市新莊區昌平里中原路146號",
+    "hospTel":"02-28487669"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.8084165,25.1074089 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"瑞聯診所",
+    "hospID":"3531120343",
+    "hospAddress":"新北市瑞芳區龍興里明燈路三段13號1樓",
+    "hospTel":"02-26707200"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6906751,25.1785691 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"萬里診所",
+    "hospID":"3531280059",
+    "hospAddress":"新北市萬里區萬里里瑪鋉路98-1號",
+    "hospTel":"02-29650920"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.384014,24.9489018 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"承恩診所",
+    "hospID":"3531072225",
+    "hospAddress":"新北市樹林區南園里學勤路597號1樓",
+    "hospTel":"02-89727370"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4229227,24.9921058 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"樹林立康診所",
+    "hospID":"3531072646",
+    "hospAddress":"新北市樹林區樹福里日新街39號",
+    "hospTel":"02-29788877"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4229227,24.9921058 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"立康診所",
+    "hospID":"3531072539",
+    "hospAddress":"新北市樹林區樹福里日新街39號",
+    "hospTel":"02-89915595"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4176074,24.9806516 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"樹林金鶯診所",
+    "hospID":"3531072575",
+    "hospAddress":"新北市樹林區大同里中華路124號",
+    "hospTel":"02-29403938"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3830516,25.0909943 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"保惠診所",
+    "hospID":"3531251414",
+    "hospAddress":"新北市雙溪區中湖里中華路53號",
+    "hospTel":"02-89210079"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3830738,25.0909807 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"冠麒診所",
+    "hospID":"3531251361",
+    "hospAddress":"新北市雙溪區中湖里中華路45號",
+    "hospTel":"02-22017212-4"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3510918,24.9533937 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"慈德聯合診所",
+    "hospID":"3531081494",
+    "hospAddress":"新北市鶯歌區南鶯里國慶街151號1樓",
+    "hospTel":"02-86681070"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3509337,24.9535613 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"崇文診所",
+    "hospID":"3531080200",
+    "hospAddress":"新北市鶯歌區南鶯里國慶街141號",
+    "hospTel":"02-26860588"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3485565,24.95331 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"康健家庭醫學科診所",
+    "hospID":"3531080433",
+    "hospAddress":"新北市鶯歌區南鶯里建國路231號",
+    "hospTel":"02-22751010"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4000292,25.1470689 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"八里區衛生所",
+    "hospID":"2331230018",
+    "hospAddress":"新北市八里區舊城里舊城路16號",
+    "hospTel":"02-26101902"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5007618,25.2584021 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"三芝區衛生所",
+    "hospID":"2331210016",
+    "hospAddress":"新北市三芝區埔頭里中山路一段12號",
+    "hospTel":"02-29810568"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4945572,25.0716769 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"華貞診所",
+    "hospID":"3531024211",
+    "hospAddress":"新北市三重區三安里三和路三段80號",
+    "hospTel":"02-29781998"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4867966,25.0600605 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"惠心婦幼診所(重陽院區)",
+    "hospID":"3531024935",
+    "hospAddress":"新北市三重區光田里重陽路1段138-144號1-4樓",
+    "hospTel":"02-29876226"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4862566,25.0527344 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"惠心婦幼診所(成功院區)",
+    "hospID":"3531026304",
+    "hospAddress":"新北市三重區福德里成功路173號",
+    "hospTel":"02-89851660"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.492813,25.0821834 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"京辰耳鼻喉科診所",
+    "hospID":"3531025825",
+    "hospAddress":"新北市三重區慈祐里五華街92號1樓",
+    "hospTel":"02-29775177"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4890189,25.0802617 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"健福診所",
+    "hospID":"3531025610",
+    "hospAddress":"新北市三重區慈祐里溪尾街171號",
+    "hospTel":"02-29765868"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4903416,25.0533026 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"集美診所",
+    "hospID":"3531024668",
+    "hospAddress":"新北市三重區光明里集美街174之1號",
+    "hospTel":"02-29883500"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4956725,25.0614833 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"重新診所",
+    "hospID":"3531025389",
+    "hospAddress":"新北市三重區仁德里重新路二段150號",
+    "hospTel":"02-22808558"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4926403,25.0825032 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"龍華診所",
+    "hospID":"3531025254",
+    "hospAddress":"新北市三重區慈祐里五華街100號",
+    "hospTel":"02-89828775"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4826806,25.0786404 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"三重祥安診所",
+    "hospID":"3531024882",
+    "hospAddress":"新北市三重區永清里三和路四段374號",
+    "hospTel":"02-29861235"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4965008,25.0662255 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"益安診所",
+    "hospID":"3531025861",
+    "hospAddress":"新北市三重區正義里正義北路152號",
+    "hospTel":"02-29855630"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4970073,25.0657672 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"正興診所",
+    "hospID":"3531026706",
+    "hospAddress":"新北市三重區中央里正義北路113號",
+    "hospTel":"02-89853888"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4978831,25.0627047 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"保順聯合診所",
+    "hospID":"3531024122",
+    "hospAddress":"新北市三重區文化里正義北路5號",
+    "hospTel":"02-29780089"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4969737,25.0646341 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"采新婦幼診所",
+    "hospID":"3531025423",
+    "hospAddress":"新北市三重區正義里正義北路86號",
+    "hospTel":"02-29829111"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4902027,25.0609301 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"新北市立聯合醫院(三重院區)",
+    "hospID":"0131020016",
+    "hospAddress":"新北市三重區中山里新北大道一段3號",
+    "hospTel":"02-29783456"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4696644,25.0464905 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"三重中興醫院",
+    "hospID":"1531021165",
+    "hospAddress":"新北市三重區中興里中興北街21號",
+    "hospTel":"02-29825233"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.499475,25.063086 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"祐民醫院",
+    "hospID":"1531021174",
+    "hospAddress":"新北市三重區光榮里重新路二段2號",
+    "hospTel":"02-26713119"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4906043,25.0616234 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"三重區衛生所",
+    "hospID":"2331020012",
+    "hospAddress":"新北市三重區中山里新北大道1段1號",
+    "hospTel":"02-26711676"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3668162,24.9359369 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"如原診所",
+    "hospID":"3531091838",
+    "hospAddress":"新北市三峽區鳶山里文化路264之1號1樓",
+    "hospTel":"02-26711592"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.374561,24.94309 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"星龍耳鼻喉科診所",
+    "hospID":"3531092102",
+    "hospAddress":"新北市三峽區龍恩里國際一街5號",
+    "hospTel":"02-22603307"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.373406,24.9308008 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"永澄診所",
+    "hospID":"3531090206",
+    "hospAddress":"新北市三峽區安溪里光明路20號1樓",
+    "hospTel":"02-82611080"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3718546,24.9362574 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"錦霖診所",
+    "hospID":"3531090386",
+    "hospAddress":"新北市三峽區永舘里文化路86號",
+    "hospTel":"02-22613300"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3748003,24.9429801 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"新禾診所",
+    "hospID":"3531092111",
+    "hospAddress":"新北市三峽區龍恩里學成路235號1樓",
+    "hospTel":"02-22620555"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3758821,24.9417621 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"北大小兒科診所",
+    "hospID":"3531092068",
+    "hospAddress":"新北市三峽區龍恩里大學路87號1樓",
+    "hospTel":"02-82614588"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3798342,24.9300529 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"清福醫院",
+    "hospID":"1531091130",
+    "hospAddress":"新北市三峽區介壽里介壽路一段286號2樓",
+    "hospTel":"02-82629168"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3630686,24.9383661 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"行天宮醫療志業醫療財團法人恩主公醫院",
+    "hospID":"1131090019",
+    "hospAddress":"新北市三峽區鳶山里復興路399號",
+    "hospTel":"02-22630609"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3760214,24.9322201 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"永聖醫療社團法人文化醫院",
+    "hospID":"0931090014",
+    "hospAddress":"新北市三峽區礁溪里介壽路1段199號",
+    "hospTel":"02-82732660"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3761849,24.9284222 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"三峽區衛生所",
+    "hospID":"2331090014",
+    "hospAddress":"新北市三峽區介壽里光明路71號3樓",
+    "hospTel":"02-22635968"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4428391,24.9760331 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"土城診所",
+    "hospID":"3531130483",
+    "hospAddress":"新北市土城區員林里中央路二段177巷22號",
+    "hospTel":"02-22674991"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.467406,24.9898109 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"洪正祝小兒科診所",
+    "hospID":"3531132709",
+    "hospAddress":"新北市土城區安和里延和路112號",
+    "hospTel":"02-22703394"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4515205,24.9866056 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"裕安診所",
+    "hospID":"3531133171",
+    "hospAddress":"新北市土城區埤林里裕民路131號",
+    "hospTel":"02-22742208"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4633119,24.9854467 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"秀偉小兒科診所",
+    "hospID":"3531130125",
+    "hospAddress":"新北市土城區清溪里金城路二段380號",
+    "hospTel":"02-22639966"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4405989,24.972951 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"祐生耳鼻喉科診所",
+    "hospID":"3531132478",
+    "hospAddress":"新北市土城區土城里中央路二段223之9號",
+    "hospTel":"02-22609090"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.456018,24.9875497 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"宏陽耳鼻喉科診所",
+    "hospID":"3531132496",
+    "hospAddress":"新北市土城區廣福里學府路一段105號",
+    "hospTel":"02-22617000"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4497891,24.9872337 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"嘉恩耳鼻喉科診所",
+    "hospID":"3531130929",
+    "hospAddress":"新北市土城區樂利里裕民路76號",
+    "hospTel":"02-22630588"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4462421,24.9756364 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"康城診所",
+    "hospID":"3531133813",
+    "hospAddress":"新北市土城區員信里中正路152號",
+    "hospTel":"02-22603181"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4431414,24.9754297 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"家峰耳鼻喉科診所",
+    "hospID":"3531130830",
+    "hospAddress":"新北市土城區員林里中正路15號",
+    "hospTel":"02-22331117"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4174617,24.9580558 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"梁診所",
+    "hospID":"3531132281",
+    "hospAddress":"新北市土城區頂埔里中央路四段75號",
+    "hospTel":"02-22421190"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4548156,24.9822464 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"廣川醫院",
+    "hospID":"1531130052",
+    "hospAddress":"新北市土城區學士里裕民路274號、276號、278號",
+    "hospTel":"02-29230336"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4431739,24.9728567 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"土城區衛生所",
+    "hospID":"2331130013",
+    "hospAddress":"新北市土城區埤塘里和平路26號",
+    "hospTel":"02-22483136"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.512122,25.0037397 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"捷安診所",
+    "hospID":"3531045532",
+    "hospAddress":"新北市中和區中安里中和路456號",
+    "hospTel":"02-29457550-9"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5022981,24.9986069 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"通安診所",
+    "hospID":"3531045050",
+    "hospAddress":"新北市中和區漳和里南山路45號1樓",
+    "hospTel":"02-29402202"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4725533,25.0005263 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"尚安診所",
+    "hospID":"3531045069",
+    "hospAddress":"新北市中和區德穗里莒光路154號1樓",
+    "hospTel":"02-86680185"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4990149,25.0020852 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"力禾耳鼻喉科診所",
+    "hospID":"3531046075",
+    "hospAddress":"新北市中和區廟美里連城路15號1樓",
+    "hospTel":"02-89432226"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.513319,24.988416 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"唯安診所",
+    "hospID":"3531044535",
+    "hospAddress":"新北市中和區景南里景新街455號",
+    "hospTel":"02-86683090"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5075928,24.9847426 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"張維發診所",
+    "hospID":"3531041301",
+    "hospAddress":"新北市中和區正南里華新街26號",
+    "hospTel":"02-32341890"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4936559,24.9927442 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"衛生福利部雙和醫院(委託臺北醫學大學興建經營)",
+    "hospID":"1331040513",
+    "hospAddress":"新北市中和區力行里中正路291號",
+    "hospTel":"02-22921516"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5017142,24.9985288 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"中和區衛生所",
+    "hospID":"2331040014",
+    "hospAddress":"新北市中和區漳和里南山路4巷3號",
+    "hospTel":"02-82950772"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4340449,25.0892442 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"祐聖小兒科診所",
+    "hospID":"3531151517",
+    "hospAddress":"新北市五股區五福里五福路34號1樓",
+    "hospTel":"02-29296170"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4338275,25.0740947 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"五股水碓診所",
+    "hospID":"3531151731",
+    "hospAddress":"新北市五股區水碓里自強路36號",
+    "hospTel":"02-29273001"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4378327,25.0835719 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"鴻佑診所",
+    "hospID":"3531150216",
+    "hospAddress":"新北市五股區五股里成泰路二段61號1樓",
+    "hospTel":"02-22323300"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4510446,25.1010949 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"成洲診所",
+    "hospID":"3531150163",
+    "hospAddress":"新北市五股區成州里凌雲路一段73號",
+    "hospTel":"02-29233317"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4469112,25.0918506 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"林筱琪診所",
+    "hospID":"3531151811",
+    "hospAddress":"新北市五股區成功里新城六路180號1樓",
+    "hospTel":"02-29461171"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4320824,25.0706413 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"德音診所",
+    "hospID":"3531151651",
+    "hospAddress":"新北市五股區貿商里自強路146號",
+    "hospTel":"02-89252926"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4384586,25.0841557 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"翔展診所",
+    "hospID":"3531151820",
+    "hospAddress":"新北市五股區五股里成泰路二段162號1樓",
+    "hospTel":"02-29286060"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.44775,25.0940597 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"五股區衛生所",
+    "hospID":"2331150015",
+    "hospAddress":"新北市五股區成功里新城三路11號",
+    "hospTel":"02-29240925"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.7387223,25.024961 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"瑞安診所",
+    "hospID":"3531241043",
+    "hospAddress":"新北市平溪區石底里平溪街9號1樓",
+    "hospTel":"02-32332780"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.7372435,25.0248195 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"平溪區衛生所",
+    "hospID":"2331240014",
+    "hospAddress":"新北市平溪區石底里公園街17號",
+    "hospTel":"02-29425936"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5079362,25.0118969 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"永愛診所",
+    "hospID":"3531034244",
+    "hospAddress":"新北市永和區中溪里永平路282之1號1樓",
+    "hospTel":"02-22320101"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.520528,25.0001103 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"蔡正平耳鼻喉科",
+    "hospID":"3531031163",
+    "hospAddress":"新北市永和區永元里得和路245號",
+    "hospTel":"02-26381007"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5141665,25.0152527 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"長欣診所",
+    "hospID":"3531031903",
+    "hospAddress":"新北市永和區頂溪里文化路78號",
+    "hospTel":"02-26631325"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5094351,25.0070251 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"郭烽裕診所",
+    "hospID":"3531031270",
+    "hospAddress":"新北市永和區保平里永貞路339號",
+    "hospTel":"02-26945180"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.517776,25.0025722 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"唐小兒科診所",
+    "hospID":"3531030077",
+    "hospAddress":"新北市永和區得和里中正路436號",
+    "hospTel":"02-26420233"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.516985,25.0056671 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"德美診所",
+    "hospID":"3531033747",
+    "hospAddress":"新北市永和區店街里中正路455之1號",
+    "hospTel":"02-26476506"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5147018,25.0133857 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"文林診所",
+    "hospID":"3531033532",
+    "hospAddress":"新北市永和區後溪里仁愛路15號1樓",
+    "hospTel":"02-26959877"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5195512,25.0074484 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"愛兒小兒科診所",
+    "hospID":"3531030559",
+    "hospAddress":"新北市永和區永貞里福和路199號",
+    "hospTel":"02-26486803"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5163421,24.9985135 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"洪碩壎小兒科診所",
+    "hospID":"3531034020",
+    "hospAddress":"新北市永和區潭安里中正路157號",
+    "hospTel":"02-26927666"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5207021,25.0096899 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"洪源裕小兒科診所",
+    "hospID":"3531031289",
+    "hospAddress":"新北市永和區竹林里竹林路181號",
+    "hospTel":"02-26927666"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5179183,25.0118281 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"天主教耕莘醫療財團法人永和耕莘醫院",
+    "hospID":"1231030015",
+    "hospAddress":"新北市永和區永興里中興街80號、52巷1弄28號",
+    "hospTel":"02-26925222"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5119755,25.0038303 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"永和復康醫院",
+    "hospID":"1531031278",
+    "hospAddress":"新北市永和區安和里中和路575號、577號、579號",
+    "hospTel":"02-86425222"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5335205,24.9881944 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"永和區衛生所",
+    "hospID":"2331030018",
+    "hospAddress":"新北市永和區店街里秀朗路1段137號",
+    "hospTel":"02-86422558"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5659907,25.290217 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"石門區衛生所",
+    "hospID":"2331220012",
+    "hospAddress":"新北市石門區石門里中山路28之1號",
+    "hospTel":"02-89521258"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.7124307,24.9365143 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"石碇區衛生所",
+    "hospID":"2331190019",
+    "hospAddress":"新北市石碇區潭邊里碇坪路1段82號",
+    "hospTel":"02-22500890"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6375689,25.0677331 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"德祐小兒科診所",
+    "hospID":"3531112887",
+    "hospAddress":"新北市汐止區康福里福德一路117之1號1樓",
+    "hospTel":"02-29606999"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6560533,25.0672085 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"楊內科小兒科診所",
+    "hospID":"3531110025",
+    "hospAddress":"新北市汐止區智慧里汐萬路1段25號",
+    "hospTel":"02-29591986"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6421729,25.0643438 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"黃玟珍診所",
+    "hospID":"3531110605",
+    "hospAddress":"新北市汐止區忠孝里樟樹一路122號",
+    "hospTel":"02-29584966"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6307588,25.0650843 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"福德診所",
+    "hospID":"3531112618",
+    "hospAddress":"新北市汐止區中興里福德二路171號",
+    "hospTel":"02-22509566"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.662359,25.070171 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"育和診所",
+    "hospID":"3531113366",
+    "hospAddress":"新北市汐止區信望里中正路31號",
+    "hospTel":"02-22509566"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6609281,25.0729852 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"國泰醫療財團法人汐止國泰綜合醫院",
+    "hospID":"1131110516",
+    "hospAddress":"新北市汐止區城中里建成路59巷2號",
+    "hospTel":"02-22527700"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6586581,25.0636194 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"汐止區衛生所",
+    "hospID":"2331110011",
+    "hospAddress":"新北市汐止區秀峰里新台五路一段266號",
+    "hospTel":"02-26820560"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.706536,24.936192 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"坪林區衛生所",
+    "hospID":"2331200010",
+    "hospAddress":"新北市坪林區坪林里坪林104號",
+    "hospTel":"02-29650765"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.462779,25.0187989 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"翰生診所",
+    "hospID":"3531012695",
+    "hospAddress":"新北市板橋區公舘里漢生西路73號",
+    "hospTel":"02-26816661"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4784046,25.018031 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"德一診所",
+    "hospID":"3531017752",
+    "hospAddress":"新北市板橋區九如里中山路二段236號",
+    "hospTel":"02-22501841"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4776584,25.0178272 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"陳嘉偉診所",
+    "hospID":"3531010744",
+    "hospAddress":"新北市板橋區光仁里懷仁街92號1樓",
+    "hospTel":"02-89517755"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4787803,25.0182354 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"柯明奇耳鼻喉科診所",
+    "hospID":"3531011018",
+    "hospAddress":"新北市板橋區九如里中山路二段256號",
+    "hospTel":"02-29597755"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4764899,25.0168919 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"佳誠診所",
+    "hospID":"3531017814",
+    "hospAddress":"新北市板橋區東丘里中山路二段140號1樓",
+    "hospTel":"02-29696995"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4658929,25.0220364 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"徐小兒科診所",
+    "hospID":"3531015481",
+    "hospAddress":"新北市板橋區新埔里陽明街46之2號1樓",
+    "hospTel":"02-29646662"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4580411,25.0072567 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"板橋李耳鼻喉科診所",
+    "hospID":"3531010217",
+    "hospAddress":"新北市板橋區流芳里縣民大道一段185號(1樓)",
+    "hospTel":"02-29646662"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.477674,25.0175679 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"林子敬診所",
+    "hospID":"3531015383",
+    "hospAddress":"新北市板橋區九如里中山路二段198號",
+    "hospTel":"02-22558699"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4600302,25.001733 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"王林小兒科",
+    "hospID":"3531016568",
+    "hospAddress":"新北市板橋區福星里忠孝路20號",
+    "hospTel":"02-89663577"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4659165,25.0219802 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"佳恩耳鼻喉科診所",
+    "hospID":"3531018660",
+    "hospAddress":"新北市板橋區新埔里陽明街40號1樓",
+    "hospTel":"02-89681111"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4659165,25.0219802 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"嘉恩診所",
+    "hospID":"3531018204",
+    "hospAddress":"新北市板橋區新埔里陽明街40號1樓",
+    "hospTel":"02-22525158"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.477613,25.017524 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"嘉禾診所",
+    "hospID":"3531018740",
+    "hospAddress":"新北市板橋區九如里中山路二段194號(1樓)",
+    "hospTel":"02-29685661#516"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4603865,25.0260782 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"安慶診所",
+    "hospID":"3531017369",
+    "hospAddress":"新北市板橋區新翠里互助街77巷1號(1樓)",
+    "hospTel":"02-22563584#112"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4763403,25.0265157 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"鴻仁診所",
+    "hospID":"3531013165",
+    "hospAddress":"新北市板橋區忠翠里雙十路二段59號",
+    "hospTel":"02-22575151"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4795187,25.0164837 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"樂福診所",
+    "hospID":"3531017083",
+    "hospAddress":"新北市板橋區長壽里三民路二段89號",
+    "hospTel":"02-29590707"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4268592,24.9905075 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"聯德診所",
+    "hospID":"3531016719",
+    "hospAddress":"新北市板橋區溪北里溪北路13號",
+    "hospTel":"02-89667000"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.470166,25.0245139 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"莒光診所",
+    "hospID":"3531018062",
+    "hospAddress":"新北市板橋區莒光里莒光路30號",
+    "hospTel":"02-22586606"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4299266,24.9862202 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"陳榮泰小兒科診所",
+    "hospID":"3531017010",
+    "hospAddress":"新北市板橋區溪福里金門街311號",
+    "hospTel":"02-86012801"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.443144,25.0009596 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"興安診所",
+    "hospID":"3531013905",
+    "hospAddress":"新北市板橋區龍安里龍興街51號",
+    "hospTel":"02-26028885"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4430363,25.0007819 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"龍興診所",
+    "hospID":"3531013567",
+    "hospAddress":"新北市板橋區龍安里龍興街45號",
+    "hospTel":"02-26089001"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4269354,24.9890356 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"陳敏玲內科診所",
+    "hospID":"3531013003",
+    "hospAddress":"新北市板橋區溪洲里溪崑二街97號",
+    "hospTel":"02-26081196"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4777139,25.0323277 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"麗晹診所",
+    "hospID":"3531013432",
+    "hospAddress":"新北市板橋區嵐翠里懷德街69號",
+    "hospTel":"02-26080992"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.462582,25.0025603 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"重慶耳鼻喉科診所",
+    "hospID":"3531015810",
+    "hospAddress":"新北市板橋區福星里重慶路204號",
+    "hospTel":"02-26035801"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4629321,24.9964868 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"重心診所",
+    "hospID":"3531018624",
+    "hospAddress":"新北市板橋區重慶里國慶路189號",
+    "hospTel":"02-26068760"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4589058,25.0142359 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"林儀文診所",
+    "hospID":"3531017912",
+    "hospAddress":"新北市板橋區民安里民權路218號",
+    "hospTel":"02-26030056"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4768154,25.0173067 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"晴天家醫科診所",
+    "hospID":"3531019005",
+    "hospAddress":"新北市板橋區西安里中山路二段225號",
+    "hospTel":"02-24987959"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4605794,25.0300085 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"春和診所",
+    "hospID":"3531010691",
+    "hospAddress":"新北市板橋區宏翠里長江路一段138號",
+    "hospTel":"02-24989898"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.466619,25.021806 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"新埔立安診所",
+    "hospID":"3531018455",
+    "hospAddress":"新北市板橋區新埔里陽明街12號",
+    "hospTel":"02-24982778"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4542051,24.99528 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"仁佑耳鼻喉科診所",
+    "hospID":"3531017207",
+    "hospAddress":"新北市板橋區華德里四川路二段39號",
+    "hospTel":"02-22961869"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.442894,25.0003457 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"劉宜光診所",
+    "hospID":"3531018946",
+    "hospAddress":"新北市板橋區龍安里龍興街33號",
+    "hospTel":"02-29098253"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.468354,25.024253 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"周耳鼻喉科診所",
+    "hospID":"3531010137",
+    "hospAddress":"新北市板橋區聯翠里文化路二段5號",
+    "hospTel":"02-22974050"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4564446,25.0068789 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"蕭中正醫院",
+    "hospID":"1531010108",
+    "hospAddress":"新北市板橋區新興里南雅南路一段15之1號",
+    "hospTel":"02-22093645"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4662881,25.0199064 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"中英醫療社團法人中英醫院",
+    "hospID":"0931010016",
+    "hospAddress":"新北市板橋區百壽里文化路一段196號",
+    "hospTel":"02-85314123"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4574246,25.0232911 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"新北市立聯合醫院(板橋院區)",
+    "hospID":"7531010533",
+    "hospAddress":"新北市板橋區德翠里英士路198號",
+    "hospTel":"02-29052526"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460159,25.0019608 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"板橋中興醫院",
+    "hospID":"1531010279",
+    "hospAddress":"新北市板橋區福星里忠孝路15號",
+    "hospTel":"02-29099921"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4532954,24.997236 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"醫療財團法人徐元智先生醫藥基金會亞東紀念醫院",
+    "hospID":"1131010011",
+    "hospAddress":"新北市板橋區華東里南雅南路二段21號",
+    "hospTel":"02-26617390"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4582051,25.023207 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"板橋區衛生所",
+    "hospID":"2331010016",
+    "hospAddress":"新北市板橋區德翠里英士路192號",
+    "hospTel":"02-26617200"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3910586,25.0776766 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"仲全診所",
+    "hospID":"3531170147",
+    "hospAddress":"新北市林口區西林里中正路200號",
+    "hospTel":"02-26625951"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3640802,25.0696435 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"林口區衛生所",
+    "hospID":"2331170017",
+    "hospAddress":"新北市林口區南勢里忠孝二路55號1樓",
+    "hospTel":"02-86662207"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6197527,25.2120835 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"國立臺灣大學醫學院附設醫院金山分院",
+    "hospID":"0431270012",
+    "hospAddress":"新北市金山區五湖里玉爐路7號",
+    "hospTel":"02-29170201"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6411814,25.2205814 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"金山區衛生所",
+    "hospID":"2331270012",
+    "hospAddress":"新北市金山區大同里民生路59號",
+    "hospTel":"02-22152345"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.433731,25.060857 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"泰安診所",
+    "hospID":"3531161648",
+    "hospAddress":"新北市泰山區福泰里泰林路二段182號",
+    "hospTel":"02-22122111"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4335532,25.060792 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"溫法烈耳鼻喉科診所",
+    "hospID":"3531160203",
+    "hospAddress":"新北市泰山區福泰里泰林路二段175號",
+    "hospTel":"02-22193391"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4299458,25.0536726 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"陳獻宗診所",
+    "hospID":"3531160285",
+    "hospAddress":"新北市泰山區義學里明志路二段12號",
+    "hospTel":"02-66289779"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4248746,25.044013 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"蔡興龍小兒科診所",
+    "hospID":"3531160258",
+    "hospAddress":"新北市泰山區明志里明志路二段422號",
+    "hospTel":"02-29113984"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4321308,25.060105 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"王嘉興診所",
+    "hospID":"3531161595",
+    "hospAddress":"新北市泰山區福興里明志路一段271號",
+    "hospTel":"02-29131415"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4314868,25.0404811 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"輔仁大學學校財團法人輔仁大學附設醫院",
+    "hospID":"1331160010",
+    "hospAddress":"新北市泰山區貴賢里貴子路69號",
+    "hospTel":"02-29129981"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4336296,25.0562788 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"泰山區衛生所",
+    "hospID":"2331160011",
+    "hospAddress":"新北市泰山區全興里全興路212號3樓",
+    "hospTel":"02-89193094"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.548551,24.870012 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"烏來安泰診所",
+    "hospID":"3531290028",
+    "hospAddress":"新北市烏來區忠治里堰堤7號",
+    "hospTel":"02-29401103"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5479599,24.8719975 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"烏來區衛生所",
+    "hospID":"2331290014",
+    "hospAddress":"新北市烏來區忠治里新烏路五段109號",
+    "hospTel":"02-29151245"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.907666,25.0189098 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"樂文診所",
+    "hospID":"3531261134",
+    "hospAddress":"新北市貢寮區貢寮里貢寮街3號1樓",
+    "hospTel":"02-29160650"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.9046407,25.0278017 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"貢寮區衛生所",
+    "hospID":"2331260016",
+    "hospAddress":"新北市貢寮區貢寮里仁愛路128號",
+    "hospTel":"02-86655858"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.444095,25.1696509 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"黃秋陽診所",
+    "hospID":"3531100047",
+    "hospAddress":"新北市淡水區長庚里中山路7號",
+    "hospTel":"02-22040904"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4443866,25.1697577 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"陳正熙診所",
+    "hospID":"3531105186",
+    "hospAddress":"新北市淡水區長庚里中山路30號",
+    "hospTel":"02-22040904"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4432744,25.170326 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"劉政耳鼻喉科診所",
+    "hospID":"3531100314",
+    "hospAddress":"新北市淡水區清文里中山路53號",
+    "hospTel":"02-22030993"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4464699,25.183147 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"宜禾診所",
+    "hospID":"3531105266",
+    "hospAddress":"新北市淡水區北投里新市一路三段105號",
+    "hospTel":"02-29986191"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4442784,25.1699716 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"公祥診所",
+    "hospID":"1531100027",
+    "hospAddress":"新北市淡水區長庚里中山路38號",
+    "hospTel":"02-22765992"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4611268,25.138576 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"台灣基督長老教會馬偕醫療財團法人淡水馬偕紀念醫院",
+    "hospID":"1131100010",
+    "hospAddress":"新北市淡水區民生里民生路45號新北市淡水區民生里民權路47號",
+    "hospTel":"02-22014370"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4409754,25.1727381 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"淡水區衛生所",
+    "hospID":"2331100015",
+    "hospAddress":"新北市淡水區協元里中山路158號",
+    "hospTel":"02-29061510"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6016891,25.003517 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"幼恩診所",
+    "hospID":"3531180198",
+    "hospAddress":"新北市深坑區萬順里北深路三段173號",
+    "hospTel":"02-22779000"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.605884,25.0016498 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"紹善診所",
+    "hospID":"3531181337",
+    "hospAddress":"新北市深坑區萬順里北深路三段99號",
+    "hospTel":"02-22925105"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.614764,25.001754 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"深坑區衛生所",
+    "hospID":"2331180013",
+    "hospAddress":"新北市深坑區深坑里深坑街165號",
+    "hospTel":"02-22056955"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5482282,24.9514069 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"安立診所",
+    "hospID":"3531053141",
+    "hospAddress":"新北市新店區青潭里北宜路二段28號",
+    "hospTel":"02-29942300"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5122943,24.9615574 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"呈恩診所",
+    "hospID":"3531051512",
+    "hospAddress":"新北市新店區公崙里安康路二段146號1樓",
+    "hospTel":"02-29942300"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.535314,24.971739 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"富森診所",
+    "hospID":"3531051325",
+    "hospAddress":"新北市新店區百福里三民路97號",
+    "hospTel":"02-29942300"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5377199,24.9590701 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"碧潭診所",
+    "hospID":"3531053730",
+    "hospAddress":"新北市新店區張南里北新路一段21號1樓",
+    "hospTel":"02-29923806"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5419883,24.9715093 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"安倍診所",
+    "hospID":"3531054200",
+    "hospAddress":"新北市新店區仁愛里中正路132號",
+    "hospTel":"02-29919474"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5377321,24.9826334 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"同仁醫院",
+    "hospID":"1531050077",
+    "hospAddress":"新北市新店區江陵里民權路89號",
+    "hospTel":"02-29052526"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4997383,24.9555591 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"新北仁康醫院",
+    "hospID":"1531051127",
+    "hospAddress":"新北市新店區德安里安康路二段323號",
+    "hospTel":"02-22066608"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5119386,24.9628753 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"豐榮醫院",
+    "hospID":"1531051163",
+    "hospAddress":"新北市新店區安昌里安德街26巷3號(B棟)",
+    "hospTel":"02-29962121"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5359298,24.9763593 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"天主教耕莘醫療財團法人耕莘醫院",
+    "hospID":"1231050017",
+    "hospAddress":"新北市新店區百和里中正路362號",
+    "hospTel":"02-82006600"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5355355,24.9861221 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"佛教慈濟醫療財團法人台北慈濟醫院",
+    "hospID":"1131050515",
+    "hospAddress":"新北市新店區復興里建國路289號",
+    "hospTel":"02-22765566"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5430438,24.9673313 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"新店區衛生所",
+    "hospID":"2331050010",
+    "hospAddress":"新北市新店區五峯里北新路一段88巷11號",
+    "hospTel":"02-29967123"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4493747,25.0339906 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"弘久診所",
+    "hospID":"3531065730",
+    "hospAddress":"新北市新莊區文衡里新泰路57號",
+    "hospTel":"02-24928190"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4493747,25.0339906 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"宏久診所",
+    "hospID":"3531065936",
+    "hospAddress":"新北市新莊區文衡里新泰路57號",
+    "hospTel":"02-24921117"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4271399,25.0213789 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"祐幼小兒科診所",
+    "hospID":"3531061643",
+    "hospAddress":"新北市新莊區民全里民安西路21號1樓",
+    "hospTel":"02-26751099"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4458969,25.0348742 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"聯安診所",
+    "hospID":"3531061278",
+    "hospAddress":"新北市新莊區忠孝里中正路330號",
+    "hospTel":"02-26830108"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.452412,25.0449369 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"中心診所",
+    "hospID":"3531063601",
+    "hospAddress":"新北市新莊區中和里中港路321號",
+    "hospTel":"02-26818919"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4261067,25.0223487 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"聯福診所",
+    "hospID":"3531061867",
+    "hospAddress":"新北市新莊區八德里民安路232號",
+    "hospTel":"02-26874410"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4181655,25.0278806 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"晉安診所",
+    "hospID":"3531065294",
+    "hospAddress":"新北市新莊區合鳳里中正路700之24號",
+    "hospTel":"02-89705297"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4444803,25.0444226 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"寶祥診所",
+    "hospID":"3531066273",
+    "hospAddress":"新北市新莊區立志里中平路53號",
+    "hospTel":"02-26863898"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.428016,25.0188699 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"鉅儒診所",
+    "hospID":"3531067038",
+    "hospAddress":"新北市新莊區民有里西盛街180號",
+    "hospTel":"02-26863898"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450388,25.04556 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"自立診所",
+    "hospID":"3531065794",
+    "hospAddress":"新北市新莊區中泰里中港一街52號",
+    "hospTel":"02-86850096"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.42595,25.022547 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"林復森耳鼻喉科診所",
+    "hospID":"3531062195",
+    "hospAddress":"新北市新莊區八德里民安路220號",
+    "hospTel":"02-26834567"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.452739,25.045152 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"安庚內科診所",
+    "hospID":"3531065141",
+    "hospAddress":"新北市新莊區中華里中安街1號1樓",
+    "hospTel":"02-26812134"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4514179,25.048214 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"建嘉小兒科診所",
+    "hospID":"3531066282",
+    "hospAddress":"新北市新莊區中誠里中誠街40號1樓",
+    "hospTel":"02-24934095"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4452831,25.0447535 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"馨平耳鼻喉科診所",
+    "hospID":"3531062168",
+    "hospAddress":"新北市新莊區立基里中平路82巷12號",
+    "hospTel":"02-24931233"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4572557,25.0492952 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"新和耳鼻喉科診所",
+    "hospID":"3531066942",
+    "hospAddress":"新北市新莊區仁愛里幸福路69號1樓",
+    "hospTel":"02-24931210"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4249486,25.018516 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"隆安診所",
+    "hospID":"3531064331",
+    "hospAddress":"新北市新莊區民安里龍安路465號",
+    "hospTel":"02-22826588"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.458181,25.0492917 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"家貞診所",
+    "hospID":"3531066415",
+    "hospAddress":"新北市新莊區仁愛里福壽街67號",
+    "hospTel":"02-22826588"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.458181,25.0492917 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"家慈診所",
+    "hospID":"3531066148",
+    "hospAddress":"新北市新莊區仁愛里福壽街67號",
+    "hospTel":"02-22826588"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.458181,25.0492917 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"家福診所",
+    "hospID":"3531066139",
+    "hospAddress":"新北市新莊區仁愛里福壽街67號",
+    "hospTel":"02-82831555"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.456737,25.045351 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"思賢診所",
+    "hospID":"3531066264",
+    "hospAddress":"新北市新莊區自立里自立街200號1樓",
+    "hospTel":"02-82863223"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.449262,25.0490369 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"幸福小兒科診所",
+    "hospID":"3531063647",
+    "hospAddress":"新北市新莊區中港里幸福路729號",
+    "hospTel":"02-82822809"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4310643,25.038791 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"輔大診所",
+    "hospID":"3531064528",
+    "hospAddress":"新北市新莊區營盤里中正路510號(輔仁大學醫學院綜合大樓1F)",
+    "hospTel":"02-22836622"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4477894,25.0368921 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"新泰綜合醫院",
+    "hospID":"1531060180",
+    "hospAddress":"新北市新莊區全泰里新泰路157號",
+    "hospTel":"02-82811112"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4089468,25.0224955 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"衛生福利部樂生療養院",
+    "hospID":"0131060010",
+    "hospAddress":"新北市新莊區雙鳳里中正路794號",
+    "hospTel":"02-22885110"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590085,25.0430059 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"衛生福利部臺北醫院",
+    "hospID":"0131060029",
+    "hospAddress":"新北市新莊區思源里思源路127號",
+    "hospTel":"02-82811112"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4523357,25.0364228 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"新莊區衛生所",
+    "hospID":"2331060016",
+    "hospAddress":"新北市新莊區榮和里中華路一段2號",
+    "hospTel":"02-82857866"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.807723,25.1079292 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"家康陳診所",
+    "hospID":"3531120174",
+    "hospAddress":"新北市瑞芳區龍興里明燈路三段36號",
+    "hospTel":"02-28487669"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.8052573,25.1082461 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"詠安診所",
+    "hospID":"3531120183",
+    "hospAddress":"新北市瑞芳區龍潭里明燈路三段79號1樓",
+    "hospTel":"02-28487669"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.8067588,25.1078337 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"簡診所",
+    "hospID":"3531120076",
+    "hospAddress":"新北市瑞芳區龍潭里明燈路三段39之3號",
+    "hospTel":"02-22838078"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.8068898,25.1078509 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"康橋診所",
+    "hospID":"3531121528",
+    "hospAddress":"新北市瑞芳區龍潭里明燈路三段39-7號",
+    "hospTel":"02-22881202"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.80553,25.107687 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"福康診所",
+    "hospID":"3531121546",
+    "hospAddress":"新北市瑞芳區龍潭里中正路82號1樓",
+    "hospTel":"02-22812011"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.8021747,25.1086013 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"瑞芳礦工醫院",
+    "hospID":"1531120038",
+    "hospAddress":"新北市瑞芳區龍川里一坑路71之2號",
+    "hospTel":"02-26702559"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.8089504,25.107323 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"瑞芳區衛生所",
+    "hospID":"2331120017",
+    "hospAddress":"新北市瑞芳區龍興里明燈路3段1號",
+    "hospTel":"02-26772600"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6892669,25.1774314 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"享悅診所",
+    "hospID":"3531281172",
+    "hospAddress":"新北市萬里區萬里里瑪鋉路34號1樓",
+    "hospTel":"02-26783366"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6897342,25.1783898 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"萬里區衛生所",
+    "hospID":"2331280018",
+    "hospAddress":"新北市萬里區萬里里瑪鋉路157號",
+    "hospTel":"02-26702304"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4181311,24.9882534 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"念生耳鼻喉科診所",
+    "hospID":"3531070722",
+    "hospAddress":"新北市樹林區樹人里文化街45號1樓",
+    "hospTel":"02-29616781"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4225165,24.9946171 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"莊豐如診所",
+    "hospID":"3531072422",
+    "hospAddress":"新北市樹林區樹德里復興路18號",
+    "hospTel":"02-22545665"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4260355,24.9925864 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"大樹診所",
+    "hospID":"3531072379",
+    "hospAddress":"新北市樹林區樹北里鎮前街19號",
+    "hospTel":"02-29862228"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4238998,24.9926172 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"樹林泰新診所",
+    "hospID":"3531070820",
+    "hospAddress":"新北市樹林區樹福里中山路一段30號",
+    "hospTel":"02-24922022"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4199928,24.9871959 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"仁愛醫院",
+    "hospID":"1531071030",
+    "hospAddress":"新北市樹林區樹南里文化街9號",
+    "hospTel":"02-29249333"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4151194,24.9840297 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"樹林區衛生所",
+    "hospID":"2331070012",
+    "hospAddress":"新北市樹林區東昇里中山路2段80之1號",
+    "hospTel":"02-29266264"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.8663007,25.0380061 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"雙溪區衛生所",
+    "hospID":"2331250010",
+    "hospAddress":"新北市雙溪區新基里新基南街18號",
+    "hospTel":"02-89851515"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4585862,25.0838109 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"建安診所",
+    "hospID":"3531143631",
+    "hospAddress":"新北市蘆洲區永德里長安街265號1樓",
+    "hospTel":"02-86302275"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4585862,25.0838109 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"健侒診所",
+    "hospID":"3531143800",
+    "hospAddress":"新北市蘆洲區永德里長安街265號1樓",
+    "hospTel":"02-82878007"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4585862,25.0838109 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"健安診所",
+    "hospID":"3531143622",
+    "hospAddress":"新北市蘆洲區永德里長安街265號1樓",
+    "hospTel":"02-29736693"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4698743,25.0836978 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"詠贊聯合診所",
+    "hospID":"3531142198",
+    "hospAddress":"新北市蘆洲區光華里中正路85號",
+    "hospTel":"02-26108205"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4820071,25.0870628 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"鴻文耳鼻喉科",
+    "hospID":"3531142090",
+    "hospAddress":"新北市蘆洲區樓厝里集賢路224巷14號",
+    "hospTel":"02-89431317"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.463908,25.0793442 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"丁良文內科診所",
+    "hospID":"3531143613",
+    "hospAddress":"新北市蘆洲區九芎里長安街30號",
+    "hospTel":"02-22671382"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4628265,25.0828287 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"本一診所",
+    "hospID":"3531142947",
+    "hospAddress":"新北市蘆洲區忠義里長榮路43-1號",
+    "hospTel":"02-29944523"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4734077,25.0805051 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"永全診所",
+    "hospID":"3531140372",
+    "hospAddress":"新北市蘆洲區樹德里中山一路241號",
+    "hospTel":"02-26954806"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4814488,25.0850448 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"蘆洲現代耳鼻喉科診所",
+    "hospID":"3531143686",
+    "hospAddress":"新北市蘆洲區仁義里集賢路306號",
+    "hospTel":"02-26788558"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.478594,25.086299 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"李明哲診所",
+    "hospID":"3531142410",
+    "hospAddress":"新北市蘆洲區信義里信義路246號1樓",
+    "hospTel":"02-89520988"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4814488,25.0850448 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"蘆洲集賢耳鼻喉科診所",
+    "hospID":"3531143695",
+    "hospAddress":"新北市蘆洲區仁義里集賢路306號",
+    "hospTel":"02-22551158"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4785449,25.0855283 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"民族診所",
+    "hospID":"3531142509",
+    "hospAddress":"新北市蘆洲區鷺江里民族路53號",
+    "hospTel":"02-29536051"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4599707,25.0821735 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"華安診所",
+    "hospID":"3531143435",
+    "hospAddress":"新北市蘆洲區長安里長安街205號1樓",
+    "hospTel":"02-29642694"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.476011,25.087316 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"德興診所",
+    "hospID":"3531143462",
+    "hospAddress":"新北市蘆洲區福安里復興路67號",
+    "hospTel":"02-26022210"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4596755,25.0868414 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"愛麗生婦產科診所",
+    "hospID":"3531143382",
+    "hospAddress":"新北市蘆洲區正義里長榮路323號",
+    "hospTel":"02-29131313"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4589245,25.0833515 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"蘆洲成功耳鼻喉科診所",
+    "hospID":"3531140943",
+    "hospAddress":"新北市蘆洲區永德里長安街253號",
+    "hospTel":"02-22050717"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4709869,25.0824807 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"六福診所",
+    "hospID":"3531143533",
+    "hospAddress":"新北市蘆洲區得勝里中正路45號1樓",
+    "hospTel":"02-22863333"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4622444,25.0805387 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"健群診所",
+    "hospID":"3531143060",
+    "hospAddress":"新北市蘆洲區九芎里中華街71號1樓",
+    "hospTel":"02-82522832"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4622444,25.0805387 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"建群診所",
+    "hospID":"3531143097",
+    "hospAddress":"新北市蘆洲區九芎里中華街71號1樓",
+    "hospTel":"02-22567200"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4622444,25.0805387 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"健群耳鼻喉科診所",
+    "hospID":"3531143177",
+    "hospAddress":"新北市蘆洲區九芎里中華街71號1樓",
+    "hospTel":"02-22767366"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4720432,25.0815228 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"俊亨婦產科診所",
+    "hospID":"3531143364",
+    "hospAddress":"新北市蘆洲區得勝里中山二路135號",
+    "hospTel":"02-22446969"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4573748,25.0880436 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"許修平診所",
+    "hospID":"3531142894",
+    "hospAddress":"新北市蘆洲區成功里長安街290號",
+    "hospTel":"02-22502200"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.473383,25.0841717 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"蘆洲區衛生所",
+    "hospID":"2331140019",
+    "hospAddress":"新北市蘆洲區保和里中央路58號",
+    "hospTel":"02-85225828"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3499574,24.9534062 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"怡兒診所",
+    "hospID":"3531081538",
+    "hospAddress":"新北市鶯歌區南鶯里建國路173號1-3樓",
+    "hospTel":"02-86681070"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3513375,24.9529837 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"金鶯診所",
+    "hospID":"3531081663",
+    "hospAddress":"新北市鶯歌區南鶯里國慶街167號1樓",
+    "hospTel":"02-86681070"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3524958,24.9504204 ]
+    },
+    "properties": {
+    "code":31,
+    "city":"新北市",
+    "hospName":"鶯歌區衛生所",
+    "hospID":"2331080018",
+    "hospAddress":"新北市鶯歌區南靖里文化路389號",
+    "hospTel":"02-22751010"
+    }
+  }
+]
+}
