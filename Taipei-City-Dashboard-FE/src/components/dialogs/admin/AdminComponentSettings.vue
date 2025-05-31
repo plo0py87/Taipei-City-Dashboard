@@ -138,7 +138,9 @@ function handleClose() {
 								required
 							/>
 							<select v-model="currentComponent.update_freq_unit">
-								<option value="minute" />
+								<option value="minute">
+									{{ i18nStore.$t("分") }}
+								</option>
 								<option value="hour">
 									{{ i18nStore.$t("時") }}
 								</option>

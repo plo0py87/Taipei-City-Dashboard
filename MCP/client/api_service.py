@@ -91,7 +91,7 @@ async def lifespan(app: FastAPI):
 # Pydantic models for API request/response
 class QueryRequest(BaseModel):
     prompt: str
-    model: Optional[str] = "qwen3:4b"
+    model: Optional[str] = "llama3.2:3b"
     ollama_host: Optional[str] = "http://localhost:11434"
 
 class QueryResponse(BaseModel):
@@ -177,7 +177,7 @@ async def process_query(request: QueryRequest):
     Process a user query using MCP + Ollama integration
     
     - **prompt**: The user's question or request
-    - **model**: Ollama model to use (optional, defaults to qwen3:4b)
+    - **model**: Ollama model to use (optional, defaults to llama3.2:3b)
     - **ollama_host**: Ollama host URL (optional, defaults to localhost:11434)
     """
     if not app_state.is_initialized or not app_state.mcp_client:

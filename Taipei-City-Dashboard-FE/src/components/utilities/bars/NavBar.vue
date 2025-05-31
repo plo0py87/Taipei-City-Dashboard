@@ -75,7 +75,12 @@ const linkQuery = computed(() => {
 			</router-link>
 		</div>
 		<div class="navbar-user">
-			<button @click="dialogStore.showDialog('NLPDialog')">🔎</button>
+			<button
+				v-if="authStore.token"
+				@click="dialogStore.showDialog('NLPDialog')"
+			>
+				🔎
+			</button>
 			<teleport to="body">
 				<ComponentSearch />
 			</teleport>

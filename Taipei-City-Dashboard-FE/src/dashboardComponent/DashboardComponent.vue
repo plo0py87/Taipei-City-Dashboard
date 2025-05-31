@@ -6,7 +6,7 @@ import "material-icons/iconfont/material-icons.css";
 import { getComponentDataTimeframe } from "./utilities/dataTimeframe";
 import { timeTerms } from "./utilities/AllTimes";
 import { chartTypes } from "./utilities/chartTypes";
-
+import { useI18nStore } from "../i18ns/i18nInstance";
 import ComponentTag from "./components/ComponentTag.vue";
 import TagTooltip from "./components/TagTooltip.vue";
 import DistrictChart from "./components/DistrictChart.vue";
@@ -49,7 +49,6 @@ import TreemapChartSvg from "./assets/chart/TreemapChart.svg";
 import IndicatorChartSvg from "./assets/chart/IndicatorChart.svg";
 import TextUnitChartSvg from "./assets/chart/TextUnitChart.svg";
 
-
 const props = defineProps({
 	style: { type: Object, default: () => ({}) },
 	mode: {
@@ -63,17 +62,20 @@ const props = defineProps({
 	config: { type: Object, required: true },
 	selectBtn: { type: Boolean, default: false },
 	selectBtnDisabled: { type: Boolean, default: false },
-	selectBtnList: { type: Array, default: () => ([])  },
-	cityTag: { type: Array, default: () => ([]) },
+	selectBtnList: { type: Array, default: () => [] },
+	cityTag: { type: Array, default: () => [] },
 	favoriteBtn: { type: Boolean, default: false },
 	isFavorite: { type: Boolean, default: false },
 	deleteBtn: { type: Boolean, default: false },
 	addBtn: { type: Boolean, default: false },
 	infoBtn: { type: Boolean, default: false },
-	infoBtnText: { type: String, default: "組件資訊" },
+	infoBtnText: {
+		type: String,
+		default: () => "組件資訊",
+	},
 	toggleDisable: { type: Boolean, default: false },
 	footer: { type: Boolean, default: true },
-	activeCity: { type: String, default: '' },
+	activeCity: { type: String, default: "" },
 	toggleOn: { type: Boolean, default: false },
 });
 
@@ -88,7 +90,7 @@ const emits = defineEmits([
 	"clearByParamFilter",
 	"clearByLayerFilter",
 	"fly",
-	"changeCity"
+	"changeCity",
 ]);
 
 const activeChart = ref(props.config.chart_config.types[0]);
@@ -113,13 +115,13 @@ const showTagTooltip = ref(false);
 // Parses time data into display format
 const dataTime = computed(() => {
 	if (props.config.time_from === "static") {
-		return "固定資料";
+		return i18nStore.$t("components.固定資料");
 	} else if (props.config.time_from === "current") {
-		return "即時資料";
+		return i18nStore.$t("components.即時資料");
 	} else if (props.config.time_from === "demo") {
-		return "示範靜態資料";
+		return i18nStore.$t("components.示範靜態資料");
 	} else if (props.config.time_from === "maintain") {
-		return "維護修復中";
+		return i18nStore.$t("components.維護修復中");
 	}
 	const { timefrom, timeto } = getComponentDataTimeframe(
 		props.config.time_from,
@@ -134,11 +136,11 @@ const dataTime = computed(() => {
 // Parses update frequency data into display format
 const updateFreq = computed(() => {
 	if (props.config.update_freq && props.config.update_freq_unit) {
-		return `每${props.config.update_freq}${
-			timeTerms[props.config.update_freq_unit]
-		}更新`;
+		return `${props.config.update_freq}${
+			props.config.update_freq_unit
+		}${i18nStore.$t("components.更新")}`;
 	} else {
-		return "不定期更新";
+		return i18nStore.$t("components.不定期更新");
 	}
 });
 
@@ -182,347 +184,346 @@ function changeShowTagTooltipState(state) {
 }
 function returnChartComponent(name, svg) {
 	switch (name) {
-	case "DistrictChart":
-		return svg ? DistrictChartSvg : DistrictChart;
-	case "BarChart":
-		return svg ? BarChartSvg : BarChart;
-	case "MapLegend":
-		return svg ? MapLegendSvg : MapLegend;
-	case "MetroChart":
-		return svg ? MetroChartSvg : MetroChart;
-	case "TimelineSeparateChart":
-		return svg ? TimelineSeparateChartSvg : TimelineSeparateChart;
-	case "TimelineStackedChart":
-		return svg ? TimelineStackedChartSvg : TimelineStackedChart;
-	case "PolarAreaChart":
-		return svg ? PolarAreaChartSvg : PolarAreaChart;
-	case "IconPercentChart":
-		return svg ? IconPercentChartSvg : IconPercentChart;
-	case "ColumnChart":
-		return svg ? ColumnChartSvg : ColumnChart;
-	case "DonutChart":
-		return svg ? DonutChartSvg : DonutChart;
-	case "TreemapChart":
-		return svg ? TreemapChartSvg : TreemapChart;
-	case "BarPercentChart":
-		return svg ? BarPercentChartSvg : BarPercentChart;
-	case "GuageChart":
-		return svg ? GuageChartSvg : GuageChart;
-	case "RadarChart":
-		return svg ? RadarChartSvg : RadarChart;
-	case "HeatmapChart":
-		return svg ? HeatmapChartSvg : HeatmapChart;
-	case "ColumnLineChart":
-		return svg ? ColumnLineChartSvg : ColumnLineChart;
-	case "BarChartWithGoal":
-		return svg ? BarChartWithGoalSvg : BarChartWithGoal;
-	case "IndicatorChart":
-		return svg ? IndicatorChartSvg : IndicatorChart;
-	case "TextUnitChart":
-		return svg ? TextUnitChartSvg : TextUnitChart;
-	default:
-		return svg ? MapLegendSvg : MapLegend;
+		case "DistrictChart":
+			return svg ? DistrictChartSvg : DistrictChart;
+		case "BarChart":
+			return svg ? BarChartSvg : BarChart;
+		case "MapLegend":
+			return svg ? MapLegendSvg : MapLegend;
+		case "MetroChart":
+			return svg ? MetroChartSvg : MetroChart;
+		case "TimelineSeparateChart":
+			return svg ? TimelineSeparateChartSvg : TimelineSeparateChart;
+		case "TimelineStackedChart":
+			return svg ? TimelineStackedChartSvg : TimelineStackedChart;
+		case "PolarAreaChart":
+			return svg ? PolarAreaChartSvg : PolarAreaChart;
+		case "IconPercentChart":
+			return svg ? IconPercentChartSvg : IconPercentChart;
+		case "ColumnChart":
+			return svg ? ColumnChartSvg : ColumnChart;
+		case "DonutChart":
+			return svg ? DonutChartSvg : DonutChart;
+		case "TreemapChart":
+			return svg ? TreemapChartSvg : TreemapChart;
+		case "BarPercentChart":
+			return svg ? BarPercentChartSvg : BarPercentChart;
+		case "GuageChart":
+			return svg ? GuageChartSvg : GuageChart;
+		case "RadarChart":
+			return svg ? RadarChartSvg : RadarChart;
+		case "HeatmapChart":
+			return svg ? HeatmapChartSvg : HeatmapChart;
+		case "ColumnLineChart":
+			return svg ? ColumnLineChartSvg : ColumnLineChart;
+		case "BarChartWithGoal":
+			return svg ? BarChartWithGoalSvg : BarChartWithGoal;
+		case "IndicatorChart":
+			return svg ? IndicatorChartSvg : IndicatorChart;
+		case "TextUnitChart":
+			return svg ? TextUnitChartSvg : TextUnitChart;
+		default:
+			return svg ? MapLegendSvg : MapLegend;
 	}
 }
+const i18nStore = useI18nStore();
 </script>
 
 <template>
-  <div
-    :class="[
-      {
-        dashboardcomponent: true,
-        mapclosed: mode.includes('map') && !toggleOn,
-        mapopen: mode === 'map' && toggleOn,
-        halfmapopen: mode === 'halfmap' && toggleOn,
-        half: mode === 'half',
-        large: mode === 'large',
-        preview: mode === 'preview',
-      },
-    ]"
-    :style="style"
-  >
-    <!-- Header -->
-    <div class="dashboardcomponent-header">
-      <!-- Upper Left Corner -->
-      <div>
-        <h3>
-          {{ config.name }}
-          <ComponentTag
-            v-if="!mode.includes('map')"
-            icon=""
-            :text="updateFreq"
-            mode="small"
-          />
-          <div
-            v-else
-            @mouseenter="changeShowTagTooltipState(true)"
-            @mousemove="updateMouseLocation"
-            @mouseleave="changeShowTagTooltipState(false)"
-          >
-            <span v-if="config.map_filter && config.map_config">tune</span>
-            <span v-if="config.map_config && config.map_config[0]">map</span>
-            <span v-if="config.history_config?.range">insights</span>
-          </div>
-        </h3>
-        <p v-if="mode === 'preview'">
-          {{ props.config.short_desc }}
-        </p>
-        <div v-if="!mode.includes('map') || toggleOn">
-          <h4 v-if="dataTime === '維護修復中'">
-            {{ `${config.source} | ` }}<span>warning</span>
-            <h4>{{ `${dataTime}` }}</h4>
-            <span>warning</span>
-          </h4>
-          <h4 v-else>
-            {{ `${config.source} | ${dataTime}` }}
-          </h4>
-          <div
-            v-if="mode !== 'preview'"
-            class="city-tag-container"
-          >
-            <ComponentTag
-              v-for=" city in props.cityTag"
-              :key="city"
-              :icon="''"
-              :text="city.name"
-              :mode="'small'"
-              :class="`city-tag-item ${city.value}`"
-            />
-          </div>
-        </div>
-      </div>
-      <!-- Upper Right Corner -->
-      <div
-        v-if="['default', 'half', 'preview'].includes(mode)"
-        class="dashboardcomponent-header-button"
-      >
-        <button
-          v-if="addBtn"
-          @click="$emit('add', config.id, config.name)"
-        >
-          <span>add_circle</span>
-        </button>
-        <button
-          v-if="favoriteBtn"
-          :class="{
-            isfavorite: isFavorite,
-          }"
-          @click="$emit('favorite', config.id)"
-        >
-          <span>favorite</span>
-        </button>
-        <button
-          v-if="deleteBtn"
-          class="isDelete"
-          @click="$emit('delete', config.id)"
-        >
-          <span>delete</span>
-        </button>
-      </div>
-      <div
-        v-else-if="mode.includes('map')"
-        class="dashboardcomponent-header-toggle"
-      >
-        <label class="toggleswitch">
-          <input
-            v-model="toggleOn"
-            type="checkbox"
-            :disabled="toggleDisable"
-          >
-          <span class="toggleswitch-slider" />
-        </label>
-      </div>
-    </div>
-    <!-- Control Buttons -->
-    <div
-      v-if="
-        (!mode.includes('map') || toggleOn) &&
-          mode !== 'preview'
-      "
-      class="dashboardcomponent-control"
-    >
-      <select
-        v-if="selectBtn && !selectBtnDisabled"
-        v-model="activeCity"
-        name="city"
-        class="selectBtn"
-        :class="{'selectBtn-disabled': selectBtnDisabled}"
-      >
-        <template
-          v-for="city in props.selectBtnList"
-          :key="city.value"
-        >
-          <option :value="city.value">
-            {{ city.name }}
-          </option>
-        </template>
-      </select>
-      <div
-        v-if="config.chart_config.types.length > 1"
-        class="dashboardcomponent-control-group"
-      >
-        <button
-          v-for="item in config.chart_config.types"
-          :key="`${config.index}-${item}-button`"
-          :class="{
-            'dashboardcomponent-control-group-button': true,
-            'dashboardcomponent-control-group-active': activeChart === item,
-          }"
-          @click="changeActiveChart(item)"
-        >
-          {{ chartTypes[item] }}
-        </button>
-      </div>
-    </div>
-    <!-- Main Content -->
-    <div
-      v-if="mode === 'preview'"
-      class="preview-content"
-    >
-      <div
-        class="preview-content-id"
-      >
-        <div
-          v-if="mode === 'preview'"
-          class="city-tag-container-preview"
-        >
-          <ComponentTag
-            v-for="city in props.cityTag"
-            :key="city.value"
-            :icon="''"
-            :text="city.name"
-            :mode="'small'"
-            :class="`city-tag-item ${city.value}`"
-          />
-        </div>
-        <p :title="props.config.index">
-          Index: {{ props.config.index }}
-        </p>
-      </div>
-      <div class="preview-content-charts">
-        <img
-          v-for="chart in props.config.chart_config.types"
-          :key="`${props.config.index} - ${chart}`"
-          :src="returnChartComponent(chart, true).toString()"
-        >
-      </div>
-    </div>
-    <div
-      v-else-if="config.chart_data && (toggleOn || !mode.includes('map'))"
-      :class="{
-        'dashboardcomponent-chart': true,
-        'half-chart': mode === 'half',
-        'mapopen-chart': mode === 'map',
-        'halfmapopen-chart': mode === 'halfmap',
-      }"
-    >
-      <component
-        :is="returnChartComponent(item)"
-        v-for="item in config.chart_config.types"
-        :key="`${props.config.index}-${item}-chart-${item.city}`"
-        :active-chart="activeChart"
-        :active-city="activeCity"
-        :chart_config="config.chart_config"
-        :series="config.chart_data"
-        :map_config="config.map_config"
-        :map_filter="config.map_filter"
-        :map_filter_on="mode.includes('map')"
-        @filter-by-param="
-          (map_filter, map_config, x, y) =>
-            $emit('filterByParam', map_filter, map_config, x, y)
-        "
-        @filter-by-layer="
-          (map_config, x) => $emit('filterByLayer', map_config, x)
-        "
-        @clear-by-param-filter="
-          (map_config) => $emit('clearByParamFilter', map_config)
-        "
-        @clear-by-layer-filter="
-          (map_config) => $emit('clearByLayerFilter', map_config)
-        "
-        @fly="(location) => $emit('fly', location)"
-      />
-    </div>
-    <div
-      v-else-if="
-        config.chart_data === null &&
-          (toggleOn || !mode.includes('map'))
-      "
-      :class="{
-        'dashboardcomponent-error': true,
-        'half-loading': mode === 'half',
-        'mapopen-loading': mode.includes('map'),
-      }"
-    >
-      <span>error</span>
-      <p>組件資料異常</p>
-    </div>
-    <div
-      v-else-if="toggleOn || !mode.includes('map')"
-      :class="{
-        'dashboardcomponent-loading': true,
-        'mapopen-loading': mode.includes('map'),
-        'half-loading': mode === 'half',
-      }"
-    >
-      <div />
-    </div>
-    <!-- Footer -->
-    <div
-      v-if="footer && (!mode.includes('map') || toggleOn)"
-      class="dashboardcomponent-footer"
-    >
-      <div
-        v-if="!mode.includes('map')"
-        @mouseenter="changeShowTagTooltipState(true)"
-        @mousemove="updateMouseLocation"
-        @mouseleave="changeShowTagTooltipState(false)"
-      >
-        <ComponentTag
-          v-if="config.map_filter && config.map_config?.length > 0"
-          :icon="mode === 'preview' ? '' : 'tune'"
-          text="篩選地圖"
-          class="hide-if-mobile"
-        />
-        <ComponentTag
-          v-if="config.map_config && config.map_config[0] !== null && config.map_config?.length > 0"
-          :icon="mode === 'preview' ? '' : 'map'"
-          text="空間資料"
-          class="hide-if-mobile"
-        />
-        <ComponentTag
-          v-if="config.history_config?.range"
-          :icon="mode === 'preview' ? '' : 'insights'"
-          text="歷史資料"
-          class="history-tag"
-        />
-      </div>
-      <div v-else />
-      <button
-        v-if="infoBtn"
-        @click="$emit('info', config)"
-      >
-        <p>{{ infoBtnText }}</p>
-        <span>arrow_circle_right</span>
-      </button>
-    </div>
-    <div
-      v-else-if="!mode.includes('map')"
-      class="dashboardcomponent-footer"
-    />
-  </div>
-  <Teleport to="body">
-    <!-- The class "chart-tooltip" could be edited in /assets/styles/chartStyles.css -->
-    <TagTooltip
-      v-if="showTagTooltip"
-      :position="tooltipPosition"
-      :has-filter="config.map_filter ? true : false"
-      :has-map-layer="
-        config.map_config && config.map_config[0] ? true : false
-      "
-      :has-history="config.history_config?.range ? true : false"
-    />
-  </Teleport>
+	<div
+		:class="[
+			{
+				dashboardcomponent: true,
+				mapclosed: mode.includes('map') && !toggleOn,
+				mapopen: mode === 'map' && toggleOn,
+				halfmapopen: mode === 'halfmap' && toggleOn,
+				half: mode === 'half',
+				large: mode === 'large',
+				preview: mode === 'preview',
+			},
+		]"
+		:style="style"
+	>
+		<!-- Header -->
+		<div class="dashboardcomponent-header">
+			<!-- Upper Left Corner -->
+			<div>
+				<h3>
+					{{ config.name }}
+					<ComponentTag
+						v-if="!mode.includes('map')"
+						icon=""
+						:text="updateFreq"
+						mode="small"
+					/>
+					<div
+						v-else
+						@mouseenter="changeShowTagTooltipState(true)"
+						@mousemove="updateMouseLocation"
+						@mouseleave="changeShowTagTooltipState(false)"
+					>
+						<span v-if="config.map_filter && config.map_config"
+							>tune</span
+						>
+						<span v-if="config.map_config && config.map_config[0]"
+							>map</span
+						>
+						<span v-if="config.history_config?.range"
+							>insights</span
+						>
+					</div>
+				</h3>
+				<p v-if="mode === 'preview'">
+					{{ props.config.short_desc }}
+				</p>
+				<div v-if="!mode.includes('map') || toggleOn">
+					<h4
+						v-if="
+							dataTime === i18nStore.$t('components.維護修復中')
+						"
+					>
+						{{ `${config.source} | ` }}<span>warning</span>
+						<h4>{{ dataTime }}</h4>
+						<span>warning</span>
+					</h4>
+					<h4 v-else>
+						{{ `${config.source} | ${dataTime}` }}
+					</h4>
+					<div v-if="mode !== 'preview'" class="city-tag-container">
+						<ComponentTag
+							v-for="city in props.cityTag"
+							:key="city"
+							:icon="''"
+							:text="city.name"
+							:mode="'small'"
+							:class="`city-tag-item ${city.value}`"
+						/>
+					</div>
+				</div>
+			</div>
+			<!-- Upper Right Corner -->
+			<div
+				v-if="['default', 'half', 'preview'].includes(mode)"
+				class="dashboardcomponent-header-button"
+			>
+				<button
+					v-if="addBtn"
+					@click="$emit('add', config.id, config.name)"
+				>
+					<span>add_circle</span>
+				</button>
+				<button
+					v-if="favoriteBtn"
+					:class="{
+						isfavorite: isFavorite,
+					}"
+					@click="$emit('favorite', config.id)"
+				>
+					<span>favorite</span>
+				</button>
+				<button
+					v-if="deleteBtn"
+					class="isDelete"
+					@click="$emit('delete', config.id)"
+				>
+					<span>delete</span>
+				</button>
+			</div>
+			<div
+				v-else-if="mode.includes('map')"
+				class="dashboardcomponent-header-toggle"
+			>
+				<label class="toggleswitch">
+					<input
+						v-model="toggleOn"
+						type="checkbox"
+						:disabled="toggleDisable"
+					/>
+					<span class="toggleswitch-slider" />
+				</label>
+			</div>
+		</div>
+		<!-- Control Buttons -->
+		<div
+			v-if="(!mode.includes('map') || toggleOn) && mode !== 'preview'"
+			class="dashboardcomponent-control"
+		>
+			<select
+				v-if="selectBtn && !selectBtnDisabled"
+				v-model="activeCity"
+				name="city"
+				class="selectBtn"
+				:class="{ 'selectBtn-disabled': selectBtnDisabled }"
+			>
+				<template v-for="city in props.selectBtnList" :key="city.value">
+					<option :value="city.value">
+						{{ city.name }}
+					</option>
+				</template>
+			</select>
+			<div
+				v-if="config.chart_config.types.length > 1"
+				class="dashboardcomponent-control-group"
+			>
+				<button
+					v-for="item in config.chart_config.types"
+					:key="`${config.index}-${item}-button`"
+					:class="{
+						'dashboardcomponent-control-group-button': true,
+						'dashboardcomponent-control-group-active':
+							activeChart === item,
+					}"
+					@click="changeActiveChart(item)"
+				>
+					{{ chartTypes[item] }}
+				</button>
+			</div>
+		</div>
+		<!-- Main Content -->
+		<div v-if="mode === 'preview'" class="preview-content">
+			<div class="preview-content-id">
+				<div
+					v-if="mode === 'preview'"
+					class="city-tag-container-preview"
+				>
+					<ComponentTag
+						v-for="city in props.cityTag"
+						:key="city.value"
+						:icon="''"
+						:text="city.name"
+						:mode="'small'"
+						:class="`city-tag-item ${city.value}`"
+					/>
+				</div>
+				<p :title="props.config.index">
+					Index: {{ props.config.index }}
+				</p>
+			</div>
+			<div class="preview-content-charts">
+				<img
+					v-for="chart in props.config.chart_config.types"
+					:key="`${props.config.index} - ${chart}`"
+					:src="returnChartComponent(chart, true).toString()"
+				/>
+			</div>
+		</div>
+		<div
+			v-else-if="config.chart_data && (toggleOn || !mode.includes('map'))"
+			:class="{
+				'dashboardcomponent-chart': true,
+				'half-chart': mode === 'half',
+				'mapopen-chart': mode === 'map',
+				'halfmapopen-chart': mode === 'halfmap',
+			}"
+		>
+			<component
+				:is="returnChartComponent(item)"
+				v-for="item in config.chart_config.types"
+				:key="`${props.config.index}-${item}-chart-${item.city}`"
+				:active-chart="activeChart"
+				:active-city="activeCity"
+				:chart_config="config.chart_config"
+				:series="config.chart_data"
+				:map_config="config.map_config"
+				:map_filter="config.map_filter"
+				:map_filter_on="mode.includes('map')"
+				@filter-by-param="
+					(map_filter, map_config, x, y) =>
+						$emit('filterByParam', map_filter, map_config, x, y)
+				"
+				@filter-by-layer="
+					(map_config, x) => $emit('filterByLayer', map_config, x)
+				"
+				@clear-by-param-filter="
+					(map_config) => $emit('clearByParamFilter', map_config)
+				"
+				@clear-by-layer-filter="
+					(map_config) => $emit('clearByLayerFilter', map_config)
+				"
+				@fly="(location) => $emit('fly', location)"
+			/>
+		</div>
+		<div
+			v-else-if="
+				config.chart_data === null &&
+				(toggleOn || !mode.includes('map'))
+			"
+			:class="{
+				'dashboardcomponent-error': true,
+				'half-loading': mode === 'half',
+				'mapopen-loading': mode.includes('map'),
+			}"
+		>
+			<span>error</span>
+			<p>{{ i18nStore.$t("components.組件資料異常") }}</p>
+		</div>
+		<div
+			v-else-if="toggleOn || !mode.includes('map')"
+			:class="{
+				'dashboardcomponent-loading': true,
+				'mapopen-loading': mode.includes('map'),
+				'half-loading': mode === 'half',
+			}"
+		>
+			<div />
+		</div>
+		<!-- Footer -->
+		<div
+			v-if="footer && (!mode.includes('map') || toggleOn)"
+			class="dashboardcomponent-footer"
+		>
+			<div
+				v-if="!mode.includes('map')"
+				@mouseenter="changeShowTagTooltipState(true)"
+				@mousemove="updateMouseLocation"
+				@mouseleave="changeShowTagTooltipState(false)"
+			>
+				<ComponentTag
+					v-if="config.map_filter && config.map_config?.length > 0"
+					:icon="mode === 'preview' ? '' : 'tune'"
+					:text="i18nStore.$t('components.篩選地圖')"
+					class="hide-if-mobile"
+				/>
+				<ComponentTag
+					v-if="
+						config.map_config &&
+						config.map_config[0] !== null &&
+						config.map_config?.length > 0
+					"
+					:icon="mode === 'preview' ? '' : 'map'"
+					:text="i18nStore.$t('components.空間資料')"
+					class="hide-if-mobile"
+				/>
+				<ComponentTag
+					v-if="config.history_config?.range"
+					:icon="mode === 'preview' ? '' : 'insights'"
+					:text="i18nStore.$t('components.歷史資料')"
+					class="history-tag"
+				/>
+			</div>
+			<div v-else />
+			<button v-if="infoBtn" @click="$emit('info', config)">
+				<p>{{ infoBtnText }}</p>
+				<span>arrow_circle_right</span>
+			</button>
+		</div>
+		<div
+			v-else-if="!mode.includes('map')"
+			class="dashboardcomponent-footer"
+		/>
+	</div>
+	<Teleport to="body">
+		<!-- The class "chart-tooltip" could be edited in /assets/styles/chartStyles.css -->
+		<TagTooltip
+			v-if="showTagTooltip"
+			:position="tooltipPosition"
+			:has-filter="config.map_filter ? true : false"
+			:has-map-layer="
+				config.map_config && config.map_config[0] ? true : false
+			"
+			:has-history="config.history_config?.range ? true : false"
+		/>
+	</Teleport>
 </template>
 
 <style scoped lang="scss">
@@ -641,10 +642,7 @@ button:hover {
 			button span {
 				color: var(--color-complement-text);
 				font-family: var(--font-icon);
-				font-size: calc(
-					var(--font-l) *
-						var(--font-to-icon)
-				);
+				font-size: calc(var(--font-l) * var(--font-to-icon));
 				transition: color 0.2s;
 
 				&:hover {
@@ -715,13 +713,13 @@ button:hover {
 				text-align: center;
 				transition: color 0.2s, opacity 0.2s;
 				user-select: none;
-	
+
 				&:hover {
 					opacity: 1;
 					color: white;
 				}
 			}
-	
+
 			&-active {
 				background-color: var(--color-complement-text);
 				color: white;
@@ -938,9 +936,7 @@ button:hover {
 				width: 40px;
 				height: 40px;
 				border-radius: 5px;
-				background-color: var(
-					--color-complement-text
-				);
+				background-color: var(--color-complement-text);
 			}
 		}
 	}
@@ -952,7 +948,7 @@ button:hover {
 			margin: 4px 0;
 			display: flex;
 			gap: 5px;
-	
+
 			div:first-child {
 				margin-left: 5px;
 			}

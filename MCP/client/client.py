@@ -2,8 +2,11 @@
 Enhanced MCP Client with Ollama Integration and Dynamic Tool Discovery
 """
 import asyncio
+import json
 import logging
+import re
 import sys
+import traceback
 from mcp import ClientSession, StdioServerParameters
 from mcp.client.stdio import stdio_client
 import ollama
@@ -18,7 +21,7 @@ logger = logging.getLogger(__name__)
 
 class SimpleMCPOllamaClient:
     
-    def __init__(self, ollama_host: str = "http://localhost:11434", model: str = "qwen3:4b"):
+    def __init__(self, ollama_host: str = "http://localhost:11434", model: str = "llama3.2:3b"):
         self.ollama_host = ollama_host
         self.model = model
         self.ollama_client = ollama.Client(host=ollama_host)
@@ -80,8 +83,7 @@ class SimpleMCPOllamaClient:
                     message = ollama_response['message']
                     final_text = []
                     component_ids = []
-                    
-                    # Step 4: Process response and handle tool calls (like Claude example)
+                      # Step 4: Process response and handle tool calls (like Claude example)
                     if message.get('content'):
                         final_text.append(message['content'])
                     
@@ -90,34 +92,44 @@ class SimpleMCPOllamaClient:
                         for tool_call in message['tool_calls']:
                             tool_name = tool_call['function']['name']
                             tool_args = tool_call['function']['arguments']
-                            
-                            # Execute tool call via MCP
+                            print(f"🔧 Found tool call: {tool_name} with args {tool_args}")
+                            # Fix type conversion for component_ids - convert integers to strings
+                            if 'component_ids' in tool_args and isinstance(tool_args['component_ids'], list):
+                                tool_args['component_ids'] = [str(id) for id in tool_args['component_ids']]
+                                print(f"🔧 Converted component_ids to strings: {tool_args['component_ids']}")
+                              # Execute tool call via MCP
                             result = await session.call_tool(tool_name, tool_args)
                             final_text.append(f"[Calling tool {tool_name} with args {tool_args}]")
                             final_text.append(f"Tool result: {result.content}")
-                              # Extract component IDs from the result
+                            
+                            # Extract component IDs from the result
                             if result.content:
                                 for content_item in result.content:
                                     if hasattr(content_item, 'text'):
                                         # Parse the text content to extract component IDs
                                         text_content = content_item.text
+                                        print(text_content)
                                         # Split by newlines and filter out empty lines
                                         lines = [line.strip() for line in text_content.split('\n') if line.strip()]
-                                        
+                                        topic = lines[0] if lines else ""
                                         # Filter lines to only include valid component IDs
                                         # Component IDs are typically alphanumeric with underscores
                                         import re
-                                        for line in lines:
+                                        for line in lines[1:]:
                                             # Match lines that look like component IDs (alphanumeric + underscores)
                                             if re.match(r'^[a-zA-Z0-9_]+$', line):
                                                 component_ids.append(line)
+                                        result={
+											"topic": topic,
+											"component_ids": component_ids
+										}
                     
                     # Return only component IDs if found, otherwise return full text
-                    if component_ids:
+                    if result:
                         print(f"📋 Found component IDs: {component_ids}")
                         # Return as JSON string for API compatibility
                         import json
-                        return json.dumps(component_ids)
+                        return json.dumps(result)
                     else:
                         print("📄 No component IDs found, returning full response")
                         return 'null'

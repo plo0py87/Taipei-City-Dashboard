@@ -3,6 +3,11 @@ import zhDialog from "./dialog/zh.json";
 import enBar from "./bars/en.json";
 import enDialog from "./dialog/en.json";
 import zhMisc from "./misc/zh.json";
+import enMisc from "./misc/en.json"; // Added import for English misc translations
+import zhComponents from "./components/zh.json";
+import enComponents from "./components/en.json"; // Added import for English components translations
+import zhMaps from "./maps/zh.json";
+import enMaps from "./maps/en.json"; // Added import for English maps translations
 import { defineStore } from "pinia";
 import http from "../router/axios";
 const messages = {
@@ -10,10 +15,15 @@ const messages = {
 		...zhBar,
 		dialog: zhDialog,
 		...zhMisc,
+		components: zhComponents, // Changed from component to components
+		maps: zhMaps, // Added Chinese maps translations
 	},
 	en: {
 		...enBar,
 		dialog: enDialog,
+		...enMisc, // Added English misc translations
+		components: enComponents, // Added English components translations
+		maps: enMaps, // Added English maps translations
 	},
 };
 
@@ -40,15 +50,19 @@ export const useI18nStore = defineStore("i18n", {
 				return key;
 			}
 			// Ensure key is a string before trying to split
-			if (typeof key !== 'string') {
+			if (typeof key !== "string") {
 				return key;
 			}
 
-			const keys = key.split('.');
+			const keys = key.split(".");
 			let result = localeMessages;
 
 			for (const k of keys) {
-				if (result && typeof result === 'object' && Object.prototype.hasOwnProperty.call(result, k)) {
+				if (
+					result &&
+					typeof result === "object" &&
+					Object.prototype.hasOwnProperty.call(result, k)
+				) {
 					result = result[k];
 				} else {
 					// Translation not found, return original key

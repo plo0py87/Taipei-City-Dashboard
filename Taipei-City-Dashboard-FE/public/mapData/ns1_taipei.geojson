@@ -1,0 +1,1490 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5493054,25.0556512 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"長庚紀念醫院",
+    "hospID":"1101010012",
+    "hospAddress":"臺北市松山區敦化北路199號",
+    "hospTel":"02-27135211"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5223977,25.0588457 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"馬偕紀念醫院",
+    "hospID":"1101100011",
+    "hospAddress":"臺北市中山區中山北路二段92號",
+    "hospTel":"02-25433535"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5584967,25.0004801 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"臺北市立萬芳醫院",
+    "hospID":"1301200010",
+    "hospAddress":"臺北市文山區興隆路三段111號",
+    "hospTel":"02-29307930"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5227627,25.1208483 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"臺北榮民總醫院",
+    "hospID":"0601160016",
+    "hospAddress":"臺北市北投區石牌路二段201號",
+    "hospTel":"02-28712121"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5959272,25.0733691 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"三軍總醫院",
+    "hospID":"0501110514",
+    "hospAddress":"臺北市內湖區成功路二段325號",
+    "hospTel":"02-27903311"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.520938,25.0964085 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"新光吳火獅紀念醫院",
+    "hospID":"1101150011",
+    "hospAddress":"臺北市士林區文昌路95號",
+    "hospTel":"02-28332211"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5453853,25.037298 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"臺北市立聯合醫院仁愛院區",
+    "hospID":"0101090517",
+    "hospAddress":"臺北市大安區仁愛路四段10號",
+    "hospTel":"02-27093600"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5861422,25.0465997 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"臺北市立聯合醫院忠孝院區",
+    "hospID":"0101090517",
+    "hospAddress":"臺北市南港區同德路87號",
+    "hospTel":"02-27861288"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5318912,25.1051369 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"臺北市立聯合醫院陽明院區",
+    "hospID":"0101090517",
+    "hospAddress":"臺北市士林區雨聲街105號",
+    "hospTel":"02-28353456"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5087132,25.0513086 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"臺北市立聯合醫院中興院區",
+    "hospID":"0101090517",
+    "hospAddress":"臺北市大同區鄭州路145號",
+    "hospTel":"02-25523234"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5071105,25.0353943 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"臺北市立聯合醫院和平院區",
+    "hospID":"0101090517",
+    "hospAddress":"臺北市中正區中華路二段33號",
+    "hospTel":"02-23889595"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5223697,25.1161524 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"振興醫院",
+    "hospID":"1101160017",
+    "hospAddress":"臺北市北投區振興街45號",
+    "hospTel":"02-28264400"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.608877,25.0756867 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"康寧醫院",
+    "hospID":"1101110026",
+    "hospAddress":"臺北市內湖區成功路五段420巷26號",
+    "hospTel":"02-26343500"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5035547,25.0416765 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"臺大醫院北護分院",
+    "hospID":"0401190010",
+    "hospAddress":"臺北市萬華區內江街87號",
+    "hospTel":"02-23717101"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5095218,25.1390731 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"三軍總醫院北投分院",
+    "hospID":"0501160014",
+    "hospAddress":"臺北市北投區新民路60號",
+    "hospTel":"02-28959808"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5576579,25.0544026 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"三軍總醫院松山分院",
+    "hospID":"0501010019",
+    "hospAddress":"臺北市松山區健康路131號",
+    "hospTel":"02-27648851"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4661496,25.1206037 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"臺北市立關渡醫院",
+    "hospID":"0701160518",
+    "hospAddress":"臺北市北投區知行路225巷12號",
+    "hospTel":"02-28587000"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5474831,25.0476829 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"臺安醫院",
+    "hospID":"1101010021",
+    "hospAddress":"臺北市松山區八德路二段424號",
+    "hospTel":"02-27118151"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5188096,25.0285986 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"郵政醫院",
+    "hospID":"0901180023",
+    "hospAddress":"臺北市中正區福州街14號",
+    "hospTel":"02-23956755"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5468571,25.0384849 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"宏恩醫院",
+    "hospID":"1101020036",
+    "hospAddress":"臺北市大安區仁愛路4段61號",
+    "hospTel":"02-27713161"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4943799,25.0277299 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"西園醫療財團法人西園醫院",
+    "hospID":"0901190010",
+    "hospAddress":"臺北市萬華區西園路二段270號",
+    "hospTel":"02-23076968"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5097291,25.0240418 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"同仁院醫療財團法人萬華醫院",
+    "hospID":"1401190039",
+    "hospAddress":"臺北市萬華區中華路2段606巷6號",
+    "hospTel":"02-23059292"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6068266,25.0547158 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"臺北市立聯合醫院忠孝院區南港門診部",
+    "hospID":"2101120014",
+    "hospAddress":"臺北市南港區南港路一段360號1樓",
+    "hospTel":"02-27868756"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5013459,25.128338 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"祐民聯合診所",
+    "hospID":"3501161238",
+    "hospAddress":"臺北市北投區中央南路一段207號",
+    "hospTel":"02-28951301"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5131469,25.1142258 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"欣安耳鼻喉科診所",
+    "hospID":"3501163312",
+    "hospAddress":"臺北市北投區石牌路一段152號",
+    "hospTel":"02-28210501"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.511753,25.1139841 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"李伯匯小兒科診所",
+    "hospID":"3501161185",
+    "hospAddress":"臺北市北投區石牌路一段93號",
+    "hospTel":"02-28221212"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5157602,25.1154517 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"何叔芳小兒科診所",
+    "hospID":"3501162940",
+    "hospAddress":"臺北市北投區裕民四路4號1樓",
+    "hospTel":"02-28206886"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5026846,25.1349966 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"張參雄診所",
+    "hospID":"3501160991",
+    "hospAddress":"臺北市北投區光明路166號",
+    "hospTel":"02-28926555"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5012176,25.1330638 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"昱德聯合診所",
+    "hospID":"3501161363",
+    "hospAddress":"臺北市北投區光明路102號1樓",
+    "hospTel":"02-28975050"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5159948,25.116562 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"紀耳鼻喉科診所",
+    "hospID":"3501160311",
+    "hospAddress":"臺北市北投區石牌路2段57號",
+    "hospTel":"02-28214485"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.501369,25.1322055 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"洪耳鼻喉科診所",
+    "hospID":"3501160231",
+    "hospAddress":"臺北市北投區中央南路1段43號",
+    "hospTel":"02-28928769"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.467284,25.120377 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"杏華診所",
+    "hospID":"3501160937",
+    "hospAddress":"臺北市北投區知行路218號",
+    "hospTel":"02-28585522"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.516844,25.1118929 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"黃正宏診所",
+    "hospID":"3501163036",
+    "hospAddress":"臺北市北投區西安街1段359號",
+    "hospTel":"02-28217076"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4951222,25.1371817 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"萬泰診所",
+    "hospID":"3501161372",
+    "hospAddress":"臺北市北投區中央北路2段52號",
+    "hospTel":"02-28930727"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5197184,25.0887571 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"蘇慧卿診所",
+    "hospID":"3501151161",
+    "hospAddress":"臺北市士林區大南路274號",
+    "hospTel":"02-28829955"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5324541,25.1213403 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"貝爾聯合診所",
+    "hospID":"3501153236",
+    "hospAddress":"臺北市士林區中山北路七段82巷9號1樓",
+    "hospTel":"02-28729980"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5304358,25.1191314 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"高醫師家庭醫學科診所",
+    "hospID":"3501151376",
+    "hospAddress":"臺北市士林區中山北路七段17號2樓",
+    "hospTel":"02-28744545"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5471817,25.1380856 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"華崗文化診所",
+    "hospID":"3501154242",
+    "hospAddress":"臺北市士林區菁山路26號",
+    "hospTel":"02-26626188"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5246179,25.0956489 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"存德小兒科診所",
+    "hospID":"3501150422",
+    "hospAddress":"臺北市士林區文林路460號",
+    "hospTel":"02-28342567"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5075724,25.0874157 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"平安診所",
+    "hospID":"3501153567",
+    "hospAddress":"臺北市士林區社子街36號",
+    "hospTel":"02-28167263"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5066888,25.0874978 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"李世澤小兒科內科診所",
+    "hospID":"3501150208",
+    "hospAddress":"臺北市士林區社子街67號",
+    "hospTel":"02-28111472"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5214423,25.0804587 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"德泰耳鼻喉科診所",
+    "hospID":"3501151054",
+    "hospAddress":"臺北市士林區通河街42-1號",
+    "hospTel":"02-28851570"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5561799,25.0481627 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"車參薇診所",
+    "hospID":"3501011493",
+    "hospAddress":"臺北市松山區八德路三段195號1樓",
+    "hospTel":"02-25770101"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5678081,25.0515645 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"親親家庭診所",
+    "hospID":"3501013059",
+    "hospAddress":"臺北市松山區南京東路五段347號1樓",
+    "hospTel":"02-25283232"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5664496,25.0511463 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"榮恩耳鼻喉科小兒科聯合診所",
+    "hospID":"3501010012",
+    "hospAddress":"臺北市松山區南京東路五段258號",
+    "hospTel":"02-27688749"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5304358,25.1191314 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"樂康診所",
+    "hospID":"3501113410",
+    "hospAddress":"臺北市士林區中山北路七段17號2樓",
+    "hospTel":"02-25788360"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.578434,25.0806835 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"仁弘耳鼻喉科診所",
+    "hospID":"3501113330",
+    "hospAddress":"臺北市內湖區內湖路一段737巷50弄37號",
+    "hospTel":"02- 26596360"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6191009,25.0716329 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"林永正診所",
+    "hospID":"3501110777",
+    "hospAddress":"臺北市內湖區康樂街130號",
+    "hospTel":"02-26315567"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6004361,25.0848303 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"大湖診所",
+    "hospID":"3501113714",
+    "hospAddress":"臺北市內湖區成功路4段366號",
+    "hospTel":"02-27906002"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.618846,25.070294 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"康樂診所",
+    "hospID":"3501113410",
+    "hospAddress":"臺北市內湖區康樂街82號",
+    "hospTel":"02-26308800"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5803312,25.0548379 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"新明診所",
+    "hospID":"3501114042",
+    "hospAddress":"臺北市內湖區新明路386號",
+    "hospTel":"02-87921282"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5677381,25.0793209 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"國泰醫療財團法人內湖國泰診所",
+    "hospID":"4001110018",
+    "hospAddress":"臺北市內湖區瑞光路506號",
+    "hospTel":"02-87972121"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6072004,25.0747932 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"日新診所",
+    "hospID":"3501112851",
+    "hospAddress":"臺北市內湖區成功路5段446號1樓",
+    "hospTel":"02- 26342743"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5795351,25.0788586 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"焉醫師診所",
+    "hospID":"3501113134",
+    "hospAddress":"臺北市內湖區內湖路2段21號1樓",
+    "hospTel":"02-27932008"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5191533,25.0502735 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"建成診所",
+    "hospID":"3501092890",
+    "hospAddress":"臺北市大同區長安西路82號",
+    "hospTel":"02-25500712"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.515086,25.0514479 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"羅源彰診所",
+    "hospID":"3501093299",
+    "hospAddress":"臺北市大同區長安西路137號",
+    "hospTel":"02-25552500"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5487516,25.0824638 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"惟廉診所",
+    "hospID":"3501108213",
+    "hospAddress":"臺北市中山區北安路607號",
+    "hospTel":"02-25323036"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5483172,25.0819988 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"大直診所",
+    "hospID":"3501103272",
+    "hospAddress":"臺北市中山區北安路595巷2弄2號",
+    "hospTel":"02-25332339"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5482474,25.0809155 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"北安聯合診所",
+    "hospID":"3501101849",
+    "hospAddress":"臺北市中山區北安路569-3號1樓",
+    "hospTel":"02- 25337777"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.542574,25.047355 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"中崙聯合診所",
+    "hospID":"3501100182",
+    "hospAddress":"臺北市中山區八德路2段303號",
+    "hospTel":"02-27711501"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5237044,25.0223714 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"怡和診所",
+    "hospID":"3501183547",
+    "hospAddress":"臺北市中正區汀州路二段212號",
+    "hospTel":"02-23625100"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5240207,25.022065 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"朱小兒科診所",
+    "hospID":"3501181267",
+    "hospAddress":"臺北市中正區汀州路二段220號1樓",
+    "hospTel":"02-23651810"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5042939,25.0380699 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"永康診所",
+    "hospID":"3501194657",
+    "hospAddress":"臺北市萬華區桂林路４７號",
+    "hospTel":"02-23123455"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4948197,25.0280431 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"瑞生診所",
+    "hospID":"3501195690",
+    "hospAddress":"臺北市萬華區西園路二段250號",
+    "hospTel":"02-23012788"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4917949,25.0322509 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"盧漢隆耳鼻喉科診所",
+    "hospID":"3501192144",
+    "hospAddress":"臺北市萬華區環河南路二段197號",
+    "hospTel":"02-23361363"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.506136,25.0275478 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"青年診所",
+    "hospID":"3501194451",
+    "hospAddress":"臺北市萬華區中華路2段424號",
+    "hospTel":"02- 23032450"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5064733,25.027104 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"漢宗小兒科診所",
+    "hospID":"3501192251",
+    "hospAddress":"臺北市萬華區中華路2段434號",
+    "hospTel":"02-23039022"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4948419,25.0251946 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"快樂兒童診所",
+    "hospID":"3501194424",
+    "hospAddress":"臺北市萬華區寶興街121號",
+    "hospTel":"02- 23328610"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5034524,25.0294985 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"許孟權小兒科診所",
+    "hospID":"3501192608",
+    "hospAddress":"臺北市萬華區西藏路107-2號",
+    "hospTel":"02-23393331"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5011611,25.0385212 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"安興診所",
+    "hospID":"3501195332",
+    "hospAddress":"臺北市萬華區桂林路101號",
+    "hospTel":"02-23111636"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.543831,25.0249795 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"健華診所",
+    "hospID":"3501029922",
+    "hospAddress":"臺北市大安區和平東路二段255號1樓",
+    "hospTel":"02-27020399"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5417644,25.0268541 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"仁安診所",
+    "hospID":"3501022496",
+    "hospAddress":"臺北市大安區和平東路二段175巷34號",
+    "hospTel":"02-27065995"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5447167,25.0284749 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"劉耳鼻喉科診所",
+    "hospID":"3501020161",
+    "hospAddress":"臺北市大安區復興南路2段151巷27號",
+    "hospTel":"02-27546060"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5537866,25.0433348 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"萬通耳鼻喉科診所",
+    "hospID":"3501022825",
+    "hospAddress":"臺北市大安區延吉街64-2號",
+    "hospTel":"02-27518909"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5557346,25.036298 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"田嘉程診所",
+    "hospID":"3501028649",
+    "hospAddress":"臺北市大安區延吉街239號",
+    "hospTel":"02-27018262"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4252204,25.0005655 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"安民家庭醫學科診所",
+    "hospID":"350102E445",
+    "hospAddress":"臺北市大安區大安路1段65號2樓之1",
+    "hospTel":"02-27218556"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5847199,25.038379 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"德佑診所",
+    "hospID":"3501174235",
+    "hospAddress":"臺北市信義區福德街215號",
+    "hospTel":"02-27596037"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.554889,25.0223859 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"新穎全診所",
+    "hospID":"3501173685",
+    "hospAddress":"臺北市信義區和平東路三段265號",
+    "hospTel":"02-27325809"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.569123,25.0237801 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"張育驍診所",
+    "hospID":"3501171225",
+    "hospAddress":"臺北市信義區吳興街467巷4、6號",
+    "hospTel":"02-27291011"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5576657,25.0312589 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"春田耳鼻喉專科",
+    "hospID":"3501171092",
+    "hospAddress":"臺北市信義區光復南路555號",
+    "hospTel":"02-27297135"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5813254,25.0424736 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"登瑞安診所",
+    "hospID":"3501173336",
+    "hospAddress":"臺北市信義區林口街232號",
+    "hospTel":"02-27265228"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5684012,25.042693 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"俊安診所",
+    "hospID":"3501173783",
+    "hospAddress":"臺北市信義區永吉路30巷148弄6號",
+    "hospTel":"02-27605757"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5652968,25.0406521 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"理恩診所",
+    "hospID":"3501174593",
+    "hospAddress":"臺北市信義區忠孝東路5段410-2號",
+    "hospTel":"02-87899728"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5627305,25.0287545 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"莊敬診所",
+    "hospID":"3501174815",
+    "hospAddress":"臺北市信義區莊敬路280號",
+    "hospTel":"02-27589258"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.566949,25.0271929 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"陳世卿診所",
+    "hospID":"3501173103",
+    "hospAddress":"臺北市信義區莊敬路435號1樓",
+    "hospTel":"02-87803565"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5768198,25.0383995 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"信義邱婦產科診所",
+    "hospID":"3501170237",
+    "hospAddress":"臺北市信義區虎林街198號",
+    "hospTel":"02-27278275"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5686999,24.9878549 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"欣民診所",
+    "hospID":"3501201139",
+    "hospAddress":"臺北市文山區保儀路37號",
+    "hospTel":"02-29375115"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5687742,24.988106 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"林正豐診所",
+    "hospID":"3501202823",
+    "hospAddress":"臺北市文山區保儀路25號",
+    "hospTel":"02-86615855"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5613216,24.9850885 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"洪佑承小兒專科診所",
+    "hospID":"3501201004",
+    "hospAddress":"臺北市文山區興隆路四段64之2號",
+    "hospTel":"02-29364708"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5589315,24.9977567 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"葉洪小兒科診所",
+    "hospID":"3501200963",
+    "hospAddress":"臺北市文山區興隆路三段202號",
+    "hospTel":"02-22300055"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5446382,24.9933198 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"定安診所",
+    "hospID":"3501202798",
+    "hospAddress":"臺北市文山區景興路165號",
+    "hospTel":"02-29323755"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5449064,24.9944281 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"震杰小兒科診所",
+    "hospID":"3501202592",
+    "hospAddress":"臺北市文山區景興路129號",
+    "hospTel":"02-89351869"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6151031,25.0455491 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"李文珍小兒科診所",
+    "hospID":"3501121814",
+    "hospAddress":"臺北市南港區研究院路二段74號",
+    "hospTel":"02-25611871"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5371884,25.0252194 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"書田泌尿科眼科診所",
+    "hospID":"4001020028",
+    "hospAddress":"臺北市大安區建國南路2段276號",
+    "hospTel":"02-23690211"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5315141,25.0614915 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"泰安醫院",
+    "hospID":"1501101141",
+    "hospAddress":"臺北市中山區民權東路二段92巷2-1號",
+    "hospTel":"02-25251111"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5248746,25.1229365 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"文遠診所",
+    "hospID":"3501161318",
+    "hospAddress":"臺北市北投區石牌路2段346號1樓",
+    "hospTel":"02-28739991"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6075911,25.0725892 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"葫洲診所",
+    "hospID":"3501114202",
+    "hospAddress":"臺北市內湖區康寧路三段35、37號",
+    "hospTel":"02-26342253"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5082866,25.0876786 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"杏暉診所",
+    "hospID":"3501153496",
+    "hospAddress":"臺北市士林區社子街15號",
+    "hospTel":"02-28117094"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5408718,25.0624386 ]
+    },
+    "properties": {
+    "code":"1",
+    "city":"台北市",
+    "hospName":"弘宇診所",
+    "hospID":"3501015133",
+    "hospAddress":"臺北市松山區民權東路3段160巷7號",
+    "hospTel":"02-27128875"
+    }
+  }
+]
+}
