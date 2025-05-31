@@ -1,9 +1,10 @@
-import { createI18n } from "vue-i18n";
 import zhBar from "./bars/zh.json";
 import zhDialog from "./dialog/zh.json";
 import enBar from "./bars/en.json";
 import enDialog from "./dialog/en.json";
 import zhMisc from "./misc/zh.json";
+import { defineStore } from "pinia";
+import http from "../router/axios";
 const messages = {
 	zh: {
 		...zhBar,
@@ -16,11 +17,48 @@ const messages = {
 	},
 };
 
-const instance = createI18n({
-	locale: "zh", // Default locale
-	fallbackLocale: "zh", // Fallback to default if translation not found
-	messages,
+// const instance = createI18n({
+// 	locale: "zh", // Default locale
+// 	fallbackLocale: "zh", // Fallback to default if translation not found
+// 	messages,
+// });
+
+// export default instance;
+// export const i18n = instance.global;
+
+export const useI18nStore = defineStore("i18n", {
+	state: () => ({
+		locale: "zh", // 從 localStorage 讀取或預設為 'en'
+		messages: messages,
+	}),
+	getters: {
+		// 翻譯方法
+		$t: (state) => (key) => {
+			// 確保當前語系存在，並嘗試取得翻譯，否則返回 key 本身
+			return state.messages[state.locale]?.[key] || key;
+		},
+		// 取得當前語系 (如果組件需要顯示當前語系)
+		currentLocale: (state) => state.locale,
+	},
+	actions: {
+		setLocale(newLocale) {
+			if (this.messages[newLocale]) {
+				// 檢查語系是否存在
+				this.locale = newLocale;
+				http.patch("/user/me", { locale: newLocale });
+			} else {
+				console.warn(`Locale '${newLocale}' not found in messages.`);
+			}
+		},
+		// 初始化語系，可以在應用啟動時調用
+		async initializeLocale() {
+			const req = await http.get("/user/me");
+			const savedLocale = req.data?.user.language || "zh";
+			if (savedLocale && this.messages[savedLocale]) {
+				this.locale = savedLocale;
+			}
+		},
+	},
 });
 
-export default instance;
-export const i18n = instance.global;
+export default useI18nStore;
