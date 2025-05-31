@@ -69,14 +69,14 @@ onMounted(() => {
   >
     <div class="addcomponent">
       <div class="addcomponent-header">
-        <h2>新增組件至儀表板</h2>
+        <h2>{{ $t('新增組件至儀表板') }}</h2>
         <div class="addcomponent-header-search">
           <div>
             <div>
               <input
                 v-model="searchName"
                 type="text"
-                placeholder="以名稱搜尋 (Enter)"
+                :placeholder="$t('以名稱搜尋 (Enter)')"
                 @keypress.enter="handleSearch"
               >
               <span
@@ -93,7 +93,7 @@ onMounted(() => {
               <input
                 v-model="searchIndex"
                 type="text"
-                placeholder="以Index搜尋 (Enter)"
+                :placeholder="$t('以Index搜尋 (Enter)')"
                 @keypress.enter="handleSearch"
               >
               <span
@@ -109,20 +109,19 @@ onMounted(() => {
           </div>
           <div>
             <button @click="handleClose">
-              取消
+              {{ $t('取消') }}
             </button>
             <button
               v-if="componentsSelected?.length > 0"
               @click="handleSubmit"
             >
-              <span>add_chart</span>確認新增
+              <span>add_chart</span>{{ $t('確認新增') }}
             </button>
           </div>
         </div>
       </div>
       <p :style="{ margin: '1rem 0 0.5rem' }">
-        計 {{ availableComponents?.length }} 個組件符合篩選條件 | 共選取
-        {{ componentsSelected?.length }} 個
+        {{ $t('計 {count} 個組件符合篩選條件', { count: availableComponents?.length }) }} | {{ $t('共選取 {count} 個', { count: componentsSelected?.length }) }}
       </p>
 
       <div class="addcomponent-list">

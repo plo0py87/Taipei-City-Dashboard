@@ -64,11 +64,7 @@ function handleClose() {
 			</div>
 			<div v-else class="initialwarning-message">
 				<p>
-					{{
-						$t(
-							"dialog.歡迎使用臺北城市儀表板，本產品的目的為 1. 分享府內重要決策工具與成果 2. 促進府內與民間開發者的交流互動 3. 推廣臺北開放資料應用。"
-						)
-					}}
+					{{ $t("dialog.welcome") }}
 				</p>
 				<br />
 				<p>

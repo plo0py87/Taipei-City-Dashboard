@@ -26,82 +26,71 @@ function handleClose() {
 </script>
 
 <template>
-  <DialogContainer
-    :dialog="`adminEditIssue`"
-    @on-close="handleClose"
-  >
-    <div class="admineditissue">
-      <div class="admineditissue-header">
-        <h2>用戶問題處理</h2>
-        <button @click="handleConfirm">
-          確定更改
-        </button>
-      </div>
-      <div class="admineditissue-settings">
-        <div class="admineditissue-settings-items">
-          <div class="two-block">
-            <label>回報用戶名稱</label>
-            <label>回報用戶 ID</label>
-          </div>
-          <div class="two-block">
-            <input
-              v-model="currentIssue.user_name"
-              type="text"
-              disabled
-            >
-            <input
-              v-model="currentIssue.user_id"
-              type="text"
-              disabled
-            >
-          </div>
-          <label>問題標題</label>
-          <input
-            v-model="currentIssue.title"
-            type="text"
-            disabled
-          >
-          <label>問題簡述</label>
-          <textarea
-            v-model="currentIssue.description"
-            disabled
-          />
-          <label>系統註記</label>
-          <textarea
-            v-model="currentIssue.context"
-            disabled
-          />
-          <label>更改處理狀態</label>
-          <select v-model="currentIssue.status">
-            <option value="待處理">
-              待處理
-            </option>
-            <option value="處理中">
-              處理中
-            </option>
-            <option value="已處理">
-              已處理
-            </option>
-            <option value="不處理">
-              不處理
-            </option>
-          </select>
-          <label>完成問題處理說明 (已處理/不處理時填寫)</label>
-          <textarea
-            v-model="currentIssue.decision_desc"
-            :disabled="
-              currentIssue.status !== '已處理' &&
-                currentIssue.status !== '不處理'
-            "
-            :required="
-              currentIssue.status === '已處理' ||
-                currentIssue.status === '不處理'
-            "
-          />
-        </div>
-      </div>
-    </div>
-  </DialogContainer>
+	<DialogContainer :dialog="`adminEditIssue`" @on-close="handleClose">
+		<div class="admineditissue">
+			<div class="admineditissue-header">
+				<h2>{{ $t("用戶問題處理") }}</h2>
+				<button @click="handleConfirm">
+					{{ $t("確定更改") }}
+				</button>
+			</div>
+			<div class="admineditissue-settings">
+				<div class="admineditissue-settings-items">
+					<div class="two-block">
+						<label>{{ $t("回報用戶名稱") }}</label>
+						<label>{{ $t("回報用戶 ID") }}</label>
+					</div>
+					<div class="two-block">
+						<input
+							v-model="currentIssue.user_name"
+							type="text"
+							disabled
+						/>
+						<input
+							v-model="currentIssue.user_id"
+							type="text"
+							disabled
+						/>
+					</div>
+					<label>{{ $t("問題標題") }}</label>
+					<input v-model="currentIssue.title" type="text" disabled />
+					<label>{{ $t("問題簡述") }}</label>
+					<textarea v-model="currentIssue.description" disabled />
+					<label>{{ $t("系統註記") }}</label>
+					<textarea v-model="currentIssue.context" disabled />
+					<label>{{ $t("更改處理狀態") }}</label>
+					<select v-model="currentIssue.status">
+						<option value="待處理">
+							{{ $t("待處理") }}
+						</option>
+						<option value="處理中">
+							{{ $t("處理中") }}
+						</option>
+						<option value="已處理">
+							{{ $t("已處理") }}
+						</option>
+						<option value="不處理">
+							{{ $t("不處理") }}
+						</option>
+					</select>
+					<label>{{
+						$t("完成問題處理說明 (已處理/不處理時填寫)")
+					}}</label>
+					<textarea
+						v-model="currentIssue.decision_desc"
+						:disabled="
+							currentIssue.status !== '已處理' &&
+							currentIssue.status !== '不處理'
+						"
+						:required="
+							currentIssue.status === '已處理' ||
+							currentIssue.status === '不處理'
+						"
+					/>
+				</div>
+			</div>
+		</div>
+	</DialogContainer>
 </template>
 
 <style scoped lang="scss">
