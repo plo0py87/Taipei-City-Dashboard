@@ -54,7 +54,7 @@ function handleClose() {
 		time_from: null,
 		time_to: null,
 		update_freq: null,
-		update_freq_unit: "minute",
+		update_freq_unit: "分",
 		source: "",
 		short_desc: "",
 		long_desc: "",

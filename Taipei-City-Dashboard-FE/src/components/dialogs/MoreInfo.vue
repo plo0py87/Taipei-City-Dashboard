@@ -18,15 +18,17 @@ const authStore = useAuthStore();
 
 function getLinkTag(link, index) {
 	if (link.includes("data.taipei")) {
-		return `${t("dialog.資料集")} - ${index + 1} (data.taipei)`;
+		return `${i18nStore.$t("dialog.資料集")} - ${index + 1} (data.taipei)`;
 	} else if (link.includes("data.ntpc")) {
-		return `${t("dialog.資料集")} - ${index + 1} (data.ntpc)`;
+		return `${i18nStore.$t("dialog.資料集")} - ${index + 1} (data.ntpc)`;
 	} else if (link.includes("tuic.gov.taipei")) {
-		return t("dialog.大數據中心專案網頁");
+		return i18nStore.$t("dialog.大數據中心專案網頁");
 	} else if (link.includes("github.com")) {
-		return t("dialog.GitHub 程式庫");
+		return i18nStore.$t("dialog.GitHub 程式庫");
 	} else {
-		return `${t("dialog.資料集")} - ${index + 1} (${t("dialog.其他")})`;
+		return `${i18nStore.$t("dialog.資料集")} - ${index + 1} (${i18nStore.$t(
+			"dialog.其他"
+		)})`;
 	}
 }
 </script>

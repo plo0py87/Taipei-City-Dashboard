@@ -126,12 +126,12 @@ const handleClose = () => {
 							class="teleport-waypoint"
 							@click="handleClose"
 						>
-							<router-link
-								:to="`/dashboard?index=${message.newDashboard}`"
+							<a
+								:href="`/dashboard?index=${message.newDashboard}`"
 								class="teleport-link"
 							>
 								前往智慧儀表板
-							</router-link>
+							</a>
 						</div>
 						<div class="message-time">
 							{{ message.timestamp }}
