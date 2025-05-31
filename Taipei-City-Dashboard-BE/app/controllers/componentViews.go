@@ -1,14 +1,16 @@
 package controllers
 
 import (
-	"net/http"
-	"strconv"
+    "net/http"
+    "strconv"
+    "fmt"
 
-	"TaipeiCityDashboardBE/app/models"
+    "TaipeiCityDashboardBE/app/models"
 
-	"github.com/gin-gonic/gin"
+    "github.com/gin-gonic/gin"
+    "gorm.io/gorm"
+    "github.com/lib/pq"
 )
-
 /*
 RecordComponentView 記錄組件瀏覽次數
 POST /api/v1/component/:id/view
@@ -113,4 +115,73 @@ func GetComponentViewCount(c *gin.Context) {
 			"view_count":     viewCount,
 		},
 	})
+}
+
+func UpdateDashboardTopComponents(c *gin.Context) {
+    // 從 query 參數取得 limit（最多取前幾名），預設 3，範圍 1～10
+    limitStr := c.DefaultQuery("limit", "3")
+    limit, err := strconv.Atoi(limitStr)
+    if err != nil || limit <= 0 || limit > 10 {
+        limit = 3
+    }
+
+    err = models.DBManager.Transaction(func(tx *gorm.DB) error {
+        // 執行 UPDATE 並同時回傳更新後的 components
+        var updatedComponents []int64
+        updateSQL := fmt.Sprintf(`
+            UPDATE dashboards
+            SET
+                components = ARRAY(
+                    SELECT top_components.component_id
+                    FROM (
+                        SELECT
+                            component_id,
+                            COUNT(component_id) AS query_count
+                        FROM
+                            component_views
+                        GROUP BY
+                            component_id
+                        ORDER BY
+                            query_count DESC
+                        LIMIT %d
+                    ) AS top_components
+                ),
+                updated_at = NOW()
+            WHERE index = 'spicyDashboard'
+            RETURNING components;
+        `, limit)
+
+        rows, err := tx.Raw(updateSQL).Rows()
+        if err != nil {
+            return err
+        }
+        defer rows.Close()
+
+        for rows.Next() {
+            var components []int64
+            if err := rows.Scan(pq.Array(&components)); err != nil {
+                return err
+            }
+            updatedComponents = components
+        }
+
+        // 儲存結果到 Gin Context
+        c.Set("components", updatedComponents)
+        return nil
+    })
+
+    if err != nil {
+        c.JSON(http.StatusInternalServerError, gin.H{
+            "status":  "error",
+            "message": "更新失敗：" + err.Error(),
+        })
+        return
+    }
+
+    // 回傳更新後的 components 給前端
+    comps, _ := c.Get("components")
+    c.JSON(http.StatusOK, gin.H{
+        "status":     "success",
+        "components": comps,
+    })
 }
