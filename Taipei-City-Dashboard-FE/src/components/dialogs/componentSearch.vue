@@ -14,7 +14,12 @@ const messagesContainer = ref(null);
 import { useI18nStore } from "../../i18ns/i18nInstance";
 import router from "../../router";
 const i18nStore = useI18nStore();
+curFeat = ref("MCP"); // Current feature, default to NLP
 const sendMessage = async () => {
+	if (curFeat === "MCP") {
+		router.push("/dashboard");
+		return;
+	}
 	if (newMessage.value.trim()) {
 		// Add message to store
 		if (!chatStore.messages) {
@@ -64,7 +69,13 @@ const sendMessage = async () => {
 			icon: "science",
 			updated_at: new Date().toISOString(),
 		});
-
+		newComponents.forEach((item) => {
+			http.post(`/component/${parseInt(item, 10)}/view`).catch(
+				(error) => {
+					console.error("Error logging component view:", error);
+				}
+			);
+		});
 		console.log("New components:", createDashboard);
 		// Scroll to the latest message
 		await nextTick();
@@ -104,11 +115,30 @@ const sendMessage = async () => {
 const handleClose = () => {
 	dialogStore.hideAllDialogs();
 };
+const handleFeat = (feat) => {
+	if (feat === "MCP") {
+		router.push("/dashboard");
+	} else if (feat === "NLP") {
+		dialogStore.hideDialog("NLPDialog");
+	}
+};
 </script>
 
 <template>
 	<DialogContainer dialog="NLPDialog" @on-close="handleClose">
 		<div class="chat-container">
+			<nav>
+				<div class="chat-header">
+					<button class="close-button" @click="handleFeat('MCP')">
+						<span class="material-icons">dashboard</span>
+						{{ i18nStore.$t("dialog.智慧儀表板") }}
+					</button>
+					<button class="minimize-button" @click="handleFeat('NLP')">
+						<span class="material-icons">search</span>
+						{{ i18nStore.$t("dialog.精準查詢") }}
+					</button>
+				</div>
+			</nav>
 			<div ref="messagesContainer" class="chat-messages">
 				<TransitionGroup
 					name="message"
@@ -200,6 +230,62 @@ const handleClose = () => {
 	border-radius: 12px;
 	overflow: hidden;
 	box-shadow: 0 4px 32px rgba(0, 0, 0, 0.7);
+}
+
+.chat-header {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 20px;
+	background: linear-gradient(
+		to right,
+		rgba(23, 25, 35, 0.95),
+		rgba(30, 35, 50, 0.95)
+	);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15);
+
+	button {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		padding: 8px 16px;
+		border-radius: 8px;
+		font-weight: 500;
+		font-size: 14px;
+		transition: all 0.3s ease;
+		background: rgba(37, 99, 235, 0.1);
+		border: 1px solid rgba(255, 255, 255, 0.05);
+
+		.material-icons {
+			font-size: 18px;
+			margin-right: 4px;
+		}
+
+		&:hover {
+			background: rgba(37, 99, 235, 0.2);
+			transform: translateY(-2px);
+		}
+
+		&:active {
+			transform: translateY(0);
+		}
+	}
+
+	.close-button {
+		background: linear-gradient(
+			90deg,
+			rgba(37, 99, 235, 0.2),
+			rgba(37, 99, 235, 0.1)
+		);
+	}
+
+	.minimize-button {
+		background: rgba(30, 41, 59, 0.4);
+
+		&:hover {
+			background: rgba(30, 41, 59, 0.6);
+		}
+	}
 }
 
 .chat-messages {

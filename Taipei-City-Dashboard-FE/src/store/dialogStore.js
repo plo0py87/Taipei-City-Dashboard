@@ -96,11 +96,12 @@ export const useDialogStore = defineStore("dialog", {
 			this.curTimeout = setTimeout(() => {
 				this.dialogs.notificationBar = false;
 			}, showtime);
-		},
-		// Show the more info dialog and update the content
-		showMoreInfo(content) {
+		}, // Show the more info dialog and update the content
+		showMoreInfo(content, vc) {
 			this.showDialog("moreInfo");
-			this.moreInfoContent = content;
+			// Wrap the content in an array for consistency with other code
+			this.moreInfoContent = [content, vc];
+			console.log("More Info Content:", this.moreInfoContent);
 		},
 		// Show the report issue dialog and enter the id and name of the component of origin
 		showReportIssue(id, index, name) {
