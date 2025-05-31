@@ -14,7 +14,7 @@ import router from "../router";
 import { useContentStore } from "../store/contentStore";
 import { useDialogStore } from "../store/dialogStore";
 import { useAuthStore } from "../store/authStore";
-
+import http from "../router/axios";
 import MoreInfo from "../components/dialogs/MoreInfo.vue";
 import ReportIssue from "../components/dialogs/ReportIssue.vue";
 
@@ -37,15 +37,20 @@ function toggleFavorite(id) {
 		contentStore.favoriteComponent(id);
 	}
 }
-function handleMoreInfo(item) {
-	console.log("handleMoreInfo", item);
+async function handleMoreInfo(item) {
+	// console.log("handleMoreInfo", item);
+	http.post(`/component/${item.id}/view`).catch((error) => {
+		console.error("Error logging component view:", error);
+	});
 	if (authStore.isMobileDevice && authStore.isNarrowDevice) {
 		router.push({
-			name: "componsent-info",
+			name: "component-info", // Fixed typo: "componsent-info" to "component-info"
 			params: { index: item.index },
 		});
 	} else {
-		dialogStore.showMoreInfo(item);
+		const vc = await http.get(`/component/${item.id}/view-count`);
+		// console.log("View count:", vc.data.data);
+		dialogStore.showMoreInfo(item, vc.data.data);
 	}
 }
 </script>

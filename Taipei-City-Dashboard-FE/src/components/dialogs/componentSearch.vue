@@ -14,82 +14,163 @@ const messagesContainer = ref(null);
 import { useI18nStore } from "../../i18ns/i18nInstance";
 import router from "../../router";
 const i18nStore = useI18nStore();
+let curFeat = ref("MCP");
 const sendMessage = async () => {
-	if (newMessage.value.trim()) {
-		// Add message to store
-		if (!chatStore.messages) {
-			chatStore.messages = [];
-		}
-		let newComponents = [];
-		chatStore.messages.push({
-			text: newMessage.value,
-			sender: "user",
-			timestamp: new Date().toLocaleTimeString(),
-		});
-		try {
-			const msg = newMessage.value;
-			newMessage.value = "";
-			const response = await axios.post(
-				"http://localhost:8000/query",
-				{
-					prompt: msg,
-				},
-				{
-					headers: {
-						"Content-Type": "application/json",
-						accept: "application/json",
-					},
-				}
-			);
-			console.log(response.data);
-			const resultString = response.data?.result;
-			if (resultString) {
-				newComponents = JSON.parse(resultString).map(Number);
-			} else {
-				newComponents = [];
+	if (curFeat.value === "MCP") {
+		if (newMessage.value.trim()) {
+			if (!chatStore.messages) {
+				chatStore.messages = [];
 			}
-		} catch (error) {
-			console.error("API request failed:", error);
-			// Handle error appropriately
-		}
-		console.log("New components to add:", newComponents);
-		const createDashboard = await http.post("/dashboard/", {
-			name: "智慧儀表板",
-			components: newComponents.map((component) =>
-				parseInt(component, 10)
-			),
-			icon: "science",
-			updated_at: new Date().toISOString(),
-		});
-
-		console.log("New components:", createDashboard);
-		// Scroll to the latest message
-		await nextTick();
-		if (messagesContainer.value) {
-			messagesContainer.value.scrollTop =
-				messagesContainer.value.scrollHeight;
-		}
-
-		// Here you would typically handle the bot response
-		// Simulating a bot response after a short delay
-		setTimeout(() => {
+			let newComponents = [];
+			let topic = "智慧儀表板";
 			chatStore.messages.push({
-				text: newComponents
-					? "LLM 幫你選出了相關的組件，點下面的按鈕前往智慧儀表板吧！"
-					: "喔不，LLM 看起來不知道有什麼組件可以推薦給你…",
-				sender: "bot",
+				text: newMessage.value,
+				sender: "user",
 				timestamp: new Date().toLocaleTimeString(),
-				newDashboard: createDashboard.data.data.index,
 			});
-
-			// Scroll to the new message
-			nextTick(() => {
-				if (messagesContainer.value) {
-					messagesContainer.value.scrollTop =
-						messagesContainer.value.scrollHeight;
+			try {
+				const msg = newMessage.value;
+				newMessage.value = "";
+				const response = await axios.post(
+					"http://localhost:8000/query",
+					{
+						prompt: msg,
+					},
+					{
+						headers: {
+							"Content-Type": "application/json",
+							accept: "application/json",
+						},
+					}
+				);
+				console.log(response.data);
+				const resultString = response.data?.result;
+				if (resultString) {
+					const parsedResult = JSON.parse(resultString);
+					newComponents = parsedResult.component_ids.map(Number);
+					topic = parsedResult.topic || topic;
+				} else {
+					newComponents = [];
 				}
+			} catch (error) {
+				console.error("API request failed:", error);
+				// Handle error appropriately
+			}
+			console.log("New components to add:", newComponents);
+			const createDashboard = await http.post("/dashboard/", {
+				name: topic,
+				components: newComponents.map((component) =>
+					parseInt(component, 10)
+				),
+				icon: "science",
+				updated_at: new Date().toISOString(),
 			});
-		}, 1000);
+			newComponents.forEach((item) => {
+				http.post(`/component/${parseInt(item, 10)}/view`).catch(
+					(error) => {
+						console.error("Error logging component view:", error);
+					}
+				);
+			});
+			console.log("New components:", createDashboard);
+			// Scroll to the latest message
+			await nextTick();
+			if (messagesContainer.value) {
+				messagesContainer.value.scrollTop =
+					messagesContainer.value.scrollHeight;
+			}
+
+			// Here you would typically handle the bot response
+			// Simulating a bot response after a short delay
+			setTimeout(() => {
+				chatStore.messages.push({
+					text:
+						newComponents.length > 0
+							? "LLM 幫你選出了相關的組件，點下面的按鈕前往智慧儀表板吧！"
+							: "喔不，LLM 看起來不知道有什麼組件可以推薦給你…",
+					sender: "bot",
+					timestamp: new Date().toLocaleTimeString(),
+					newDashboard:
+						newComponents.length > 0
+							? createDashboard.data.data.index
+							: null,
+				});
+
+				// Scroll to the new message
+				nextTick(() => {
+					if (messagesContainer.value) {
+						messagesContainer.value.scrollTop =
+							messagesContainer.value.scrollHeight;
+					}
+				});
+			}, 1000);
+		}
+	} else if (curFeat.value == "NLP") {
+		console.log("NLP feature selected");
+		if (newMessage.value.trim()) {
+			// Add message to store
+			if (!chatStore.messages) {
+				chatStore.messages = [];
+			}
+			let newComponents = [];
+			let topic = "智慧儀表板"; // Default topic - moved outside try-catch
+			chatStore.messages.push({
+				text: newMessage.value,
+				sender: "user",
+				timestamp: new Date().toLocaleTimeString(),
+			});
+			try {
+				const msg = newMessage.value;
+				newMessage.value = "";
+				// Using proxy to avoid CORS issues
+				const response = await axios.post(
+					"/nlp_api/predict",
+					{
+						question: msg,
+					},
+					{
+						headers: {
+							"Content-Type": "application/json",
+							accept: "application/json",
+						},
+					}
+				);
+				console.log(response.data);
+			} catch (error) {
+				console.error("API request failed:", error);
+				// Show a more helpful message to the user
+				setTimeout(() => {
+					chatStore.messages.push({
+						text: "Sorry, I couldn't connect to the NLP service. The server might not be running.",
+						sender: "bot",
+						timestamp: new Date().toLocaleTimeString(),
+					});
+				}, 500);
+			}
+			await nextTick();
+			if (messagesContainer.value) {
+				messagesContainer.value.scrollTop =
+					messagesContainer.value.scrollHeight;
+			}
+
+			// Here you would typically handle the bot response
+			// Simulating a bot response after a short delay
+			setTimeout(() => {
+				chatStore.messages.push({
+					text: "喵喵喵",
+					sender: "bot",
+					timestamp: new Date().toLocaleTimeString(),
+				});
+
+				// Scroll to the new message
+				nextTick(() => {
+					if (messagesContainer.value) {
+						messagesContainer.value.scrollTop =
+							messagesContainer.value.scrollHeight;
+					}
+				});
+			}, 1000);
+		}
 	}
 };
 
@@ -97,11 +178,31 @@ const sendMessage = async () => {
 const handleClose = () => {
 	dialogStore.hideAllDialogs();
 };
+const handleFeat = (feat) => {
+	if (feat === "MCP") {
+		curFeat.value = "MCP";
+	} else if (feat === "NLP") {
+		curFeat.value = "NLP";
+	}
+	console.log("Current feature set to:", curFeat.value);
+};
 </script>
 
 <template>
 	<DialogContainer dialog="NLPDialog" @on-close="handleClose">
 		<div class="chat-container">
+			<nav>
+				<div class="chat-header">
+					<button class="close-button" @click="handleFeat('MCP')">
+						<span class="material-icons">dashboard</span>
+						{{ i18nStore.$t("dialog.智慧儀表板") }}
+					</button>
+					<button class="minimize-button" @click="handleFeat('NLP')">
+						<span class="material-icons">search</span>
+						{{ i18nStore.$t("dialog.精準查詢") }}
+					</button>
+				</div>
+			</nav>
 			<div ref="messagesContainer" class="chat-messages">
 				<TransitionGroup
 					name="message"
@@ -193,6 +294,62 @@ const handleClose = () => {
 	border-radius: 12px;
 	overflow: hidden;
 	box-shadow: 0 4px 32px rgba(0, 0, 0, 0.7);
+}
+
+.chat-header {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 20px;
+	background: linear-gradient(
+		to right,
+		rgba(23, 25, 35, 0.95),
+		rgba(30, 35, 50, 0.95)
+	);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15);
+
+	button {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		padding: 8px 16px;
+		border-radius: 8px;
+		font-weight: 500;
+		font-size: 14px;
+		transition: all 0.3s ease;
+		background: rgba(37, 99, 235, 0.1);
+		border: 1px solid rgba(255, 255, 255, 0.05);
+
+		.material-icons {
+			font-size: 18px;
+			margin-right: 4px;
+		}
+
+		&:hover {
+			background: rgba(37, 99, 235, 0.2);
+			transform: translateY(-2px);
+		}
+
+		&:active {
+			transform: translateY(0);
+		}
+	}
+
+	.close-button {
+		background: linear-gradient(
+			90deg,
+			rgba(37, 99, 235, 0.2),
+			rgba(37, 99, 235, 0.1)
+		);
+	}
+
+	.minimize-button {
+		background: rgba(30, 41, 59, 0.4);
+
+		&:hover {
+			background: rgba(30, 41, 59, 0.6);
+		}
+	}
 }
 
 .chat-messages {
