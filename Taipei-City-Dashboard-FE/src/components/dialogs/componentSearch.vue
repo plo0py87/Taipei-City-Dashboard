@@ -21,6 +21,7 @@ const sendMessage = async () => {
 			chatStore.messages = [];
 		}
 		let newComponents = [];
+		let topic = "智慧儀表板"; // Default topic - moved outside try-catch
 		chatStore.messages.push({
 			text: newMessage.value,
 			sender: "user",
@@ -44,7 +45,9 @@ const sendMessage = async () => {
 			console.log(response.data);
 			const resultString = response.data?.result;
 			if (resultString) {
-				newComponents = JSON.parse(resultString).map(Number);
+				const parsedResult = JSON.parse(resultString);
+				newComponents = parsedResult.component_ids.map(Number);
+				topic = parsedResult.topic || topic;
 			} else {
 				newComponents = [];
 			}
@@ -54,7 +57,7 @@ const sendMessage = async () => {
 		}
 		console.log("New components to add:", newComponents);
 		const createDashboard = await http.post("/dashboard/", {
-			name: "智慧儀表板",
+			name: topic,
 			components: newComponents.map((component) =>
 				parseInt(component, 10)
 			),
@@ -74,12 +77,16 @@ const sendMessage = async () => {
 		// Simulating a bot response after a short delay
 		setTimeout(() => {
 			chatStore.messages.push({
-				text: newComponents
-					? "LLM 幫你選出了相關的組件，點下面的按鈕前往智慧儀表板吧！"
-					: "喔不，LLM 看起來不知道有什麼組件可以推薦給你…",
+				text:
+					newComponents.length > 0
+						? "LLM 幫你選出了相關的組件，點下面的按鈕前往智慧儀表板吧！"
+						: "喔不，LLM 看起來不知道有什麼組件可以推薦給你…",
 				sender: "bot",
 				timestamp: new Date().toLocaleTimeString(),
-				newDashboard: createDashboard.data.data.index,
+				newDashboard:
+					newComponents.length > 0
+						? createDashboard.data.data.index
+						: null,
 			});
 
 			// Scroll to the new message
