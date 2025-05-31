@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 
 class SimpleMCPOllamaClient:
     
-    def __init__(self, ollama_host: str = "http://localhost:11434", model: str = "qwen3:4b"):
+    def __init__(self, ollama_host: str = "http://localhost:11434", model: str = "llama3.2:3b"):
         self.ollama_host = ollama_host
         self.model = model
         self.ollama_client = ollama.Client(host=ollama_host)
@@ -101,23 +101,28 @@ class SimpleMCPOllamaClient:
                                     if hasattr(content_item, 'text'):
                                         # Parse the text content to extract component IDs
                                         text_content = content_item.text
+                                        print(text_content)
                                         # Split by newlines and filter out empty lines
                                         lines = [line.strip() for line in text_content.split('\n') if line.strip()]
-                                        
+                                        topic = lines[0] if lines else ""
                                         # Filter lines to only include valid component IDs
                                         # Component IDs are typically alphanumeric with underscores
                                         import re
-                                        for line in lines:
+                                        for line in lines[1:]:
                                             # Match lines that look like component IDs (alphanumeric + underscores)
                                             if re.match(r'^[a-zA-Z0-9_]+$', line):
                                                 component_ids.append(line)
+                                        result={
+											"topic": topic,
+											"component_ids": component_ids
+										}
                     
                     # Return only component IDs if found, otherwise return full text
-                    if component_ids:
+                    if result:
                         print(f"📋 Found component IDs: {component_ids}")
                         # Return as JSON string for API compatibility
                         import json
-                        return json.dumps(component_ids)
+                        return json.dumps(result)
                     else:
                         print("📄 No component IDs found, returning full response")
                         return 'null'

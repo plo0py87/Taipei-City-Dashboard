@@ -79,11 +79,12 @@ async def get_components() -> List[Dict[str, str]]:
 
 # Add database table reading tool
 @mcp.tool()
-async def read_component(component_ids: list[str]) -> str:
+async def read_component(components_topic: str,component_ids: list[str]) -> str:
     """
     讀取指定組件資料 (支援多個組件查詢)
     
     Args:
+		components_topic: 獲取組件之共同主題，例如 "高齡照護狀況"
         component_ids: 組件索引列表，例如 ["212", "213", "214"]
     
     Returns:
@@ -92,7 +93,7 @@ async def read_component(component_ids: list[str]) -> str:
     if not component_ids:
         return "No components specified"
     
-    results = []
+    results = [components_topic]
     for id in component_ids:
         results.append(id)
     
