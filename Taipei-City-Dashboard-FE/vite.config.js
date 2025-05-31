@@ -18,7 +18,7 @@ const serverConfig = isDockerCompose
 					rewrite: (path) => path.replace("/dev", "/v1"),
 				},
 				"/nlp_api": {
-					target: "http://localhost:8001",
+					target: "http://host.docker.internal:8001",
 					changeOrigin: true,
 					rewrite: (path) => path.replace(/^\/nlp_api/, ""),
 				},

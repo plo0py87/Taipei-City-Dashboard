@@ -61,6 +61,7 @@ Docker 網路注意事項
 資料庫連線問題: 檢查 .env 設定和網路設置
 容器啟動問題: 查看 docker logs <container_name>
 應用錯誤: 參考各服務的日誌輸出
+連接埠衝突：如果出現 "port is already allocated" 錯誤，請使用 `Get-Process -Id (Get-NetTCPConnection -LocalPort <port_number>).OwningProcess` (Windows) 或 `sudo lsof -i :<port_number>` (Linux/macOS) 找到占用連接埠的程序，然後停止該程序或更改 Docker 容器的連接埠映射。
 CI/CD 流程
 GitHub Actions 用於自動化測試
 Docker 映像檔建置和部署流程遵循 GitOps 原則
