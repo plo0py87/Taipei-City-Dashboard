@@ -6,7 +6,8 @@
 import { computed } from "vue";
 import { useRoute } from "vue-router";
 import { useAuthStore } from "../../../store/authStore";
-
+import { useI18nStore } from "../../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 const route = useRoute();
 
 const props = defineProps({
@@ -47,7 +48,7 @@ const linkActiveOrNot = computed(() => {
 	>
 		<span :title="!expanded ? title : ''">{{ icon }}</span>
 		<h3 v-if="expanded">
-			{{ $t(title) }}
+			{{ i18nStore.$t(title) }}
 		</h3>
 	</router-link>
 </template>

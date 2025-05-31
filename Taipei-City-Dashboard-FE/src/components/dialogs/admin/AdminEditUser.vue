@@ -10,7 +10,8 @@ import DialogContainer from "../DialogContainer.vue";
 
 const dialogStore = useDialogStore();
 const adminStore = useAdminStore();
-
+import { useI18nStore } from "../../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 const props = defineProps(["searchParams"]);
 
 const { currentUser } = storeToRefs(adminStore);
@@ -36,16 +37,16 @@ function handleClose() {
 	<DialogContainer :dialog="`adminEditUser`" @on-close="handleClose">
 		<div class="adminedituser">
 			<div class="adminedituser-header">
-				<h2>{{ $t("設定用戶") }}</h2>
+				<h2>{{ i18nStore.$t("設定用戶") }}</h2>
 				<button @click="handleConfirm">
-					{{ $t("確定更改") }}
+					{{ i18nStore.$t("確定更改") }}
 				</button>
 			</div>
 			<div class="adminedituser-settings">
 				<div class="adminedituser-settings-items">
 					<div class="two-block">
-						<label>{{ $t("用戶名稱") }}</label>
-						<label>{{ $t("用戶 ID") }}</label>
+						<label>{{ i18nStore.$t("用戶名稱") }}</label>
+						<label>{{ i18nStore.$t("用戶 ID") }}</label>
 					</div>
 					<div class="two-block">
 						<input
@@ -59,7 +60,7 @@ function handleClose() {
 							disabled
 						/>
 					</div>
-					<label>{{ $t("用戶帳號") }}</label>
+					<label>{{ i18nStore.$t("用戶帳號") }}</label>
 					<input
 						type="text"
 						:value="
@@ -69,9 +70,9 @@ function handleClose() {
 						"
 						disabled
 					/>
-					<label>{{ $t("用戶身份") }}</label>
+					<label>{{ i18nStore.$t("用戶身份") }}</label>
 					<div class="toggle">
-						<p>{{ $t("一般用戶") }}</p>
+						<p>{{ i18nStore.$t("一般用戶") }}</p>
 						<label class="toggleswitch">
 							<input
 								v-model="currentUser.is_admin"
@@ -81,11 +82,11 @@ function handleClose() {
 							/>
 							<span class="toggleswitch-slider" />
 						</label>
-						<p>{{ $t("管理員") }}</p>
+						<p>{{ i18nStore.$t("管理員") }}</p>
 					</div>
 					<div class="two-block">
-						<label>{{ $t("API白名單") }}</label
-						><label>{{ $t("API黑名單") }}</label>
+						<label>{{ i18nStore.$t("API白名單") }}</label
+						><label>{{ i18nStore.$t("API黑名單") }}</label>
 					</div>
 					<div class="two-block">
 						<label class="toggleswitch">
@@ -107,9 +108,9 @@ function handleClose() {
 							<span class="toggleswitch-slider" />
 						</label>
 					</div>
-					<label>{{ $t("啟用狀態") }}</label>
+					<label>{{ i18nStore.$t("啟用狀態") }}</label>
 					<div class="toggle">
-						<p>{{ $t("停用") }}</p>
+						<p>{{ i18nStore.$t("停用") }}</p>
 						<label class="toggleswitch">
 							<input
 								v-model="currentUser.is_active"
@@ -119,10 +120,10 @@ function handleClose() {
 							/>
 							<span class="toggleswitch-slider" />
 						</label>
-						<p>{{ $t("啟用") }}</p>
+						<p>{{ i18nStore.$t("啟用") }}</p>
 					</div>
 
-					<label>{{ $t("最近登入時間") }}</label>
+					<label>{{ i18nStore.$t("最近登入時間") }}</label>
 					<input :value="parseTime(currentUser.login_at)" disabled />
 				</div>
 			</div>

@@ -7,7 +7,8 @@ import DashboardComponent from "../../../dashboardComponent/DashboardComponent.v
 import { useDialogStore } from "../../../store/dialogStore";
 import { useAdminStore } from "../../../store/adminStore";
 import { useContentStore } from "../../../store/contentStore";
-
+import { useI18nStore } from "../../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 import DialogContainer from "../DialogContainer.vue";
 import InputTags from "../../utilities/forms/InputTags.vue";
 import SelectButtons from "../../utilities/forms/SelectButtons.vue";
@@ -48,9 +49,9 @@ function handleClose() {
 	<DialogContainer :dialog="`adminComponentSettings`" @on-close="handleClose">
 		<div class="admincomponentsettings">
 			<div class="admincomponentsettings-header">
-				<h2>{{ $t("組件設定") }}</h2>
+				<h2>{{ i18nStore.$t("組件設定") }}</h2>
 				<button @click="handleConfirm">
-					{{ $t("確定更改") }}
+					{{ i18nStore.$t("確定更改") }}
 				</button>
 			</div>
 			<div class="admincomponentsettings-tabs">
@@ -58,27 +59,27 @@ function handleClose() {
 					:class="{ active: currentSettings === 'all' }"
 					@click="currentSettings = 'all'"
 				>
-					{{ $t("整體") }}
+					{{ i18nStore.$t("整體") }}
 				</button>
 				<button
 					:class="{ active: currentSettings === 'chart' }"
 					@click="currentSettings = 'chart'"
 				>
-					{{ $t("圖表") }}
+					{{ i18nStore.$t("圖表") }}
 				</button>
 				<button
 					v-if="currentComponent.history_config !== null"
 					:class="{ active: currentSettings === 'history' }"
 					@click="currentSettings = 'history'"
 				>
-					{{ $t("歷史軸") }}
+					{{ i18nStore.$t("歷史軸") }}
 				</button>
 				<button
 					v-if="currentComponent.map_config[0] !== null"
 					:class="{ active: currentSettings === 'map' }"
 					@click="currentSettings = 'map'"
 				>
-					{{ $t("地圖") }}
+					{{ i18nStore.$t("地圖") }}
 				</button>
 			</div>
 			<div class="admincomponentsettings-content">
@@ -88,7 +89,7 @@ function handleClose() {
 						class="admincomponentsettings-settings-items"
 					>
 						<label
-							>{{ $t("組件名稱") }}* ({{
+							>{{ i18nStore.$t("組件名稱") }}* ({{
 								currentComponent.name.length
 							}}/10)</label
 						>
@@ -101,8 +102,8 @@ function handleClose() {
 							disabled
 						/>
 						<div class="two-block">
-							<label>{{ $t("組件 ID") }}</label>
-							<label>{{ $t("組件 Index") }}</label>
+							<label>{{ i18nStore.$t("組件 ID") }}</label>
+							<label>{{ i18nStore.$t("組件 Index") }}</label>
 						</div>
 						<div class="two-block">
 							<input
@@ -116,7 +117,7 @@ function handleClose() {
 								disabled
 							/>
 						</div>
-						<label>{{ $t("資料來源") }}*</label>
+						<label>{{ i18nStore.$t("資料來源") }}*</label>
 						<input
 							v-model="currentComponent.source"
 							type="text"
@@ -125,8 +126,8 @@ function handleClose() {
 							required
 						/>
 						<label
-							>{{ $t("更新頻率") }}* (0 =
-							{{ $t("不定期更新") }})</label
+							>{{ i18nStore.$t("更新頻率") }}* (0 =
+							{{ i18nStore.$t("不定期更新") }})</label
 						>
 						<div class="two-block">
 							<input
@@ -139,23 +140,23 @@ function handleClose() {
 							<select v-model="currentComponent.update_freq_unit">
 								<option value="minute" />
 								<option value="hour">
-									{{ $t("時") }}
+									{{ i18nStore.$t("時") }}
 								</option>
 								<option value="day">
-									{{ $t("天") }}
+									{{ i18nStore.$t("天") }}
 								</option>
 								<option value="week">
-									{{ $t("週") }}
+									{{ i18nStore.$t("週") }}
 								</option>
 								<option value="month">
-									{{ $t("月") }}
+									{{ i18nStore.$t("月") }}
 								</option>
 								<option value="year">
-									{{ $t("年") }}
+									{{ i18nStore.$t("年") }}
 								</option>
 							</select>
 						</div>
-						<label>{{ $t("資料區間") }}</label>
+						<label>{{ i18nStore.$t("資料區間") }}</label>
 						<!-- eslint-disable no-mixed-spaces-and-tabs -->
 						<div class="three-block">
 							<select
@@ -210,19 +211,19 @@ function handleClose() {
 									justifyContent: 'center',
 								}"
 							>
-								{{ $t("至") }}
+								{{ i18nStore.$t("至") }}
 							</div>
 							<input
 								:value="
 									currentComponent.time_to === 'now'
-										? $t('現在')
+										? i18nStore.$t('現在')
 										: 'N/A'
 								"
 								:disabled="true"
 							/>
 						</div>
 						<label
-							>{{ $t("組件簡述") }}* ({{
+							>{{ i18nStore.$t("組件簡述") }}* ({{
 								currentComponent.short_desc.length
 							}}/50)</label
 						>
@@ -233,7 +234,7 @@ function handleClose() {
 							required
 						/>
 						<label
-							>{{ $t("組件詳述") }}* ({{
+							>{{ i18nStore.$t("組件詳述") }}* ({{
 								currentComponent.long_desc.length
 							}}/100)</label
 						>
@@ -244,7 +245,7 @@ function handleClose() {
 							required
 						/>
 						<label
-							>{{ $t("範例情境") }}* ({{
+							>{{ i18nStore.$t("範例情境") }}* ({{
 								currentComponent.use_case.length
 							}}/100)</label
 						>
@@ -254,7 +255,7 @@ function handleClose() {
 							:maxlength="100"
 							required
 						/>
-						<label>{{ $t("資料連結") }}</label>
+						<label>{{ i18nStore.$t("資料連結") }}</label>
 						<InputTags
 							:tags="currentComponent.links"
 							@deletetag="
@@ -283,7 +284,7 @@ function handleClose() {
 								}
 							"
 						/>
-						<label>{{ $t("貢獻者") }}</label>
+						<label>{{ i18nStore.$t("貢獻者") }}</label>
 						<InputTags
 							:tags="currentComponent.contributors"
 							@deletetag="
@@ -321,25 +322,25 @@ function handleClose() {
 						v-else-if="currentSettings === 'chart'"
 						class="admincomponentsettings-settings-items"
 					>
-						<label>{{ $t("圖表資料型態") }}</label>
+						<label>{{ i18nStore.$t("圖表資料型態") }}</label>
 						<select :value="currentComponent.query_type" disabled>
 							<option value="two_d">
-								{{ $t("二維資料") }}
+								{{ i18nStore.$t("二維資料") }}
 							</option>
 							<option value="three_d">
-								{{ $t("三維資料") }}
+								{{ i18nStore.$t("三維資料") }}
 							</option>
 							<option value="time">
-								{{ $t("時間序列資料") }}
+								{{ i18nStore.$t("時間序列資料") }}
 							</option>
 							<option value="percent">
-								{{ $t("百分比資料") }}
+								{{ i18nStore.$t("百分比資料") }}
 							</option>
 							<option value="map_legend">
-								{{ $t("圖例資料") }}
+								{{ i18nStore.$t("圖例資料") }}
 							</option>
 						</select>
-						<label>{{ $t("資料單位") }}*</label>
+						<label>{{ i18nStore.$t("資料單位") }}*</label>
 						<input
 							v-model="currentComponent.chart_config.unit"
 							type="text"
@@ -348,8 +349,8 @@ function handleClose() {
 							required
 						/>
 						<label
-							>{{ $t("圖表類型") }}*（{{
-								$t("限3種，依點擊順序排列")
+							>{{ i18nStore.$t("圖表類型") }}*（{{
+								i18nStore.$t("限3種，依點擊順序排列")
 							}}）</label
 						>
 						<SelectButtons
@@ -365,7 +366,7 @@ function handleClose() {
 								}
 							"
 						/>
-						<label>{{ $t("圖表顏色") }}</label>
+						<label>{{ i18nStore.$t("圖表顏色") }}</label>
 						<InputTags
 							:tags="currentComponent.chart_config.color"
 							:color-data="true"
@@ -402,7 +403,7 @@ function handleClose() {
 							"
 						/>
 						<div v-if="currentComponent.map_config[0] !== null">
-							<label>{{ $t("地圖篩選") }}</label>
+							<label>{{ i18nStore.$t("地圖篩選") }}</label>
 							<textarea v-model="currentComponent.map_filter" />
 						</div>
 					</div>
@@ -411,8 +412,8 @@ function handleClose() {
 						class="admincomponentsettings-settings-items"
 					>
 						<label
-							>{{ $t("歷史軸時間區間") }} ({{
-								$t("依點擊順序排列，資料無法預覽")
+							>{{ i18nStore.$t("歷史軸時間區間") }} ({{
+								i18nStore.$t("依點擊順序排列，資料無法預覽")
 							}})</label
 						>
 						<SelectButtons
@@ -435,8 +436,8 @@ function handleClose() {
 							"
 						/>
 						<label
-							>{{ $t("歷史軸顏色") }} ({{
-								$t("若無提供沿用圖表顏色")
+							>{{ i18nStore.$t("歷史軸顏色") }} ({{
+								i18nStore.$t("若無提供沿用圖表顏色")
 							}})</label
 						>
 						<InputTags
@@ -487,7 +488,7 @@ function handleClose() {
 						>
 							<hr v-if="index > 0" />
 							<label
-								>{{ $t("地圖") }}{{ index + 1 }} ID /
+								>{{ i18nStore.$t("地圖") }}{{ index + 1 }} ID /
 								Index</label
 							>
 							<div class="two-block">
@@ -508,8 +509,8 @@ function handleClose() {
 							</div>
 
 							<label
-								>{{ $t("地圖") }}{{ index + 1 }}
-								{{ $t("名稱") }}* ({{
+								>{{ i18nStore.$t("地圖") }}{{ index + 1 }}
+								{{ i18nStore.$t("名稱") }}* ({{
 									currentComponent.map_config[index].title
 										.length
 								}}/10)</label
@@ -524,8 +525,8 @@ function handleClose() {
 								required
 							/>
 							<label
-								>{{ $t("地圖") }}{{ index + 1 }}
-								{{ $t("類型") }}*</label
+								>{{ i18nStore.$t("地圖") }}{{ index + 1 }}
+								{{ i18nStore.$t("類型") }}*</label
 							>
 							<select
 								v-model="
@@ -541,8 +542,10 @@ function handleClose() {
 								</option>
 							</select>
 							<label
-								>{{ $t("地圖") }}{{ index + 1 }}
-								{{ $t("預設變形（大小/圖示）") }}</label
+								>{{ i18nStore.$t("地圖") }}{{ index + 1 }}
+								{{
+									i18nStore.$t("預設變形（大小/圖示）")
+								}}</label
 							>
 							<div class="two-block">
 								<select
@@ -551,16 +554,16 @@ function handleClose() {
 									"
 								>
 									<option :value="''">
-										{{ $t("無") }}
+										{{ i18nStore.$t("無") }}
 									</option>
 									<option value="small">
-										small ({{ $t("點圖") }})
+										small ({{ i18nStore.$t("點圖") }})
 									</option>
 									<option value="big">
-										big ({{ $t("點圖") }})
+										big ({{ i18nStore.$t("點圖") }})
 									</option>
 									<option value="wide">
-										wide ({{ $t("線圖") }})
+										wide ({{ i18nStore.$t("線圖") }})
 									</option>
 								</select>
 								<select
@@ -569,40 +572,47 @@ function handleClose() {
 									"
 								>
 									<option :value="''">
-										{{ $t("無") }}
+										{{ i18nStore.$t("無") }}
 									</option>
 									<option value="heatmap">
-										heatmap ({{ $t("點圖") }})
+										heatmap ({{ i18nStore.$t("點圖") }})
 									</option>
 									<option value="dash">
-										dash ({{ $t("線圖") }})
+										dash ({{ i18nStore.$t("線圖") }})
 									</option>
 									<option value="metro">
-										metro ({{ $t("符號圖") }})
+										metro ({{ i18nStore.$t("符號圖") }})
 									</option>
 									<option value="metro-density">
-										metro-density ({{ $t("符號圖") }})
+										metro-density ({{
+											i18nStore.$t("符號圖")
+										}})
 									</option>
 									<option value="triangle_green">
-										triangle_green ({{ $t("符號圖") }})
+										triangle_green ({{
+											i18nStore.$t("符號圖")
+										}})
 									</option>
 									<option value="triangle_white">
-										triangle_white ({{ $t("符號圖") }})
+										triangle_white ({{
+											i18nStore.$t("符號圖")
+										}})
 									</option>
 									<option value="youbike">
-										youbike ({{ $t("符號圖") }})
+										youbike ({{ i18nStore.$t("符號圖") }})
 									</option>
 									<option value="bus">
-										bus ({{ $t("符號圖") }})
+										bus ({{ i18nStore.$t("符號圖") }})
 									</option>
 									<option value="cctv">
-										cctv ({{ $t("符號圖") }})
+										cctv ({{ i18nStore.$t("符號圖") }})
 									</option>
 								</select>
 							</div>
 							<label
-								>{{ $t("地圖") }}{{ index + 1 }} Paint{{
-									$t("屬性")
+								>{{ i18nStore.$t("地圖")
+								}}{{ index + 1 }} Paint{{
+									i18nStore.$t("屬性")
 								}}</label
 							>
 							<textarea
@@ -611,8 +621,9 @@ function handleClose() {
 								"
 							/>
 							<label
-								>{{ $t("地圖") }}{{ index + 1 }} Popup{{
-									$t("標籤")
+								>{{ i18nStore.$t("地圖")
+								}}{{ index + 1 }} Popup{{
+									i18nStore.$t("標籤")
 								}}</label
 							>
 							<textarea

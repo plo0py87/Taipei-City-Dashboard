@@ -7,7 +7,8 @@ import { useDialogStore } from "../../../store/dialogStore";
 import { useAdminStore } from "../../../store/adminStore";
 
 import DialogContainer from "../DialogContainer.vue";
-
+import { useI18nStore } from "../../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 const dialogStore = useDialogStore();
 const adminStore = useAdminStore();
 
@@ -27,11 +28,11 @@ function handleDelete() {
 <template>
 	<DialogContainer dialog="adminDeleteDashboard" @on-close="handleClose">
 		<div class="admindeletedashboard">
-			<h2>{{ $t("確定刪除儀表板嗎？") }}</h2>
+			<h2>{{ i18nStore.$t("確定刪除儀表板嗎？") }}</h2>
 			<div class="admindeletedashboard-input">
 				<label for="name">
 					{{
-						$t("輸入「{name}」以刪除", {
+						i18nStore.$t("輸入「{name}」以刪除", {
 							name: currentDashboard.name,
 						})
 					}}
@@ -44,7 +45,7 @@ function handleDelete() {
 					class="admindeletedashboard-control-delete"
 					@click="handleDelete"
 				>
-					{{ $t("刪除儀表板") }}
+					{{ i18nStore.$t("刪除儀表板") }}
 				</button>
 			</div>
 		</div>

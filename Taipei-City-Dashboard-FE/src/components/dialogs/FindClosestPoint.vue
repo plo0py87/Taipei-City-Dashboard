@@ -5,15 +5,14 @@ import { ref, computed } from "vue";
 import { useMapStore } from "../../store/mapStore";
 import { useDialogStore } from "../../store/dialogStore";
 import { useAuthStore } from "../../store/authStore";
-import { useI18n } from "vue-i18n";
-
+import { useI18nStore } from "../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 import DialogContainer from "./DialogContainer.vue";
 import CustomCheckBox from "../utilities/forms/CustomCheckBox.vue";
 
 const mapStore = useMapStore();
 const dialogStore = useDialogStore();
 const authStore = useAuthStore();
-const { t } = useI18n();
 
 const selectedLocation = ref("0");
 
@@ -55,13 +54,13 @@ function handleFind() {
 <template>
 	<DialogContainer dialog="findClosestPoint" @on-close="handleClose">
 		<div class="findclosestpoint">
-			<h2>{{ $t("dialog.尋找最近點") }}</h2>
+			<h2>{{ i18nStore.$t("dialog.尋找最近點") }}</h2>
 			<div class="findclosestpoint-input">
 				<label>
-					{{ $t("dialog.請選擇搜尋基準點")
+					{{ i18nStore.$t("dialog.請選擇搜尋基準點")
 					}}{{
 						authStore.token &&
-						" (" + $t("dialog.用戶定位與地標") + ")"
+						" (" + i18nStore.$t("dialog.用戶定位與地標") + ")"
 					}}
 				</label>
 				<div
@@ -87,10 +86,13 @@ function handleFind() {
 				<div v-else>
 					<p>
 						{{
-							$t(
+							i18nStore.$t(
 								"dialog.查無基準點。請點擊地圖右上角按紐，開啟定位功能"
 							)
-						}}{{ authStore.token && $t("dialog.或加入地標") }}。
+						}}{{
+							authStore.token &&
+							i18nStore.$t("dialog.或加入地標")
+						}}。
 					</p>
 				</div>
 			</div>
@@ -99,7 +101,7 @@ function handleFind() {
 					v-if="availableLocations.length > 0"
 					@click="handleFind"
 				>
-					{{ $t("dialog.搜尋") }}
+					{{ i18nStore.$t("dialog.搜尋") }}
 				</button>
 			</div>
 		</div>

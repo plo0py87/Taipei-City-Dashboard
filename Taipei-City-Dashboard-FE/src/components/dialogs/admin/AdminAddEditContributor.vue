@@ -5,7 +5,8 @@ import { defineProps } from "vue";
 import { storeToRefs } from "pinia";
 import { useDialogStore } from "../../../store/dialogStore";
 import { useAdminStore } from "../../../store/adminStore";
-
+import { useI18nStore } from "../../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 import DialogContainer from "../DialogContainer.vue";
 
 const dialogStore = useDialogStore();
@@ -49,21 +50,23 @@ function handleClose() {
 				<h2>
 					{{
 						props.mode === "edit"
-							? $t("設定貢獻者")
-							: $t("新增貢獻者")
+							? i18nStore.$t("設定貢獻者")
+							: i18nStore.$t("新增貢獻者")
 					}}
 				</h2>
 				<button @click="handleConfirm">
 					{{
-						props.mode === "edit" ? $t("確定更改") : $t("確定新增")
+						props.mode === "edit"
+							? i18nStore.$t("確定更改")
+							: i18nStore.$t("確定新增")
 					}}
 				</button>
 			</div>
 			<div class="adminaddeditcontributor-settings">
 				<div class="adminaddeditcontributor-settings-items">
 					<div class="two-block">
-						<label>{{ $t("貢獻者 ID") }}</label>
-						<label>{{ $t("貢獻者名稱") }}</label>
+						<label>{{ i18nStore.$t("貢獻者 ID") }}</label>
+						<label>{{ i18nStore.$t("貢獻者名稱") }}</label>
 					</div>
 					<div class="two-block">
 						<input
@@ -78,8 +81,8 @@ function handleClose() {
 						/>
 					</div>
 					<div class="small-two-block">
-						<label>{{ $t("貢獻者身份") }}</label>
-						<label>{{ $t("貢獻者清單") }}</label>
+						<label>{{ i18nStore.$t("貢獻者身份") }}</label>
+						<label>{{ i18nStore.$t("貢獻者清單") }}</label>
 					</div>
 					<div class="small-two-block">
 						<input
@@ -95,18 +98,18 @@ function handleClose() {
 							<span class="toggleswitch-slider" />
 						</label>
 					</div>
-					<label>{{ $t("貢獻者照片") }}</label>
+					<label>{{ i18nStore.$t("貢獻者照片") }}</label>
 					<input
 						v-model="currentContributor.image"
 						type="text"
 						required
 					/>
-					<label>{{ $t("貢獻者簡介") }}</label>
+					<label>{{ i18nStore.$t("貢獻者簡介") }}</label>
 					<input
 						v-model="currentContributor.description"
 						type="text"
 					/>
-					<label>{{ $t("貢獻者連結") }}</label>
+					<label>{{ i18nStore.$t("貢獻者連結") }}</label>
 					<input
 						v-model="currentContributor.link"
 						type="text"
@@ -114,7 +117,7 @@ function handleClose() {
 					/>
 
 					<template v-if="props.mode === 'edit'">
-						<label>{{ $t("最後更新時間") }}</label>
+						<label>{{ i18nStore.$t("最後更新時間") }}</label>
 						<input
 							:value="parseTime(currentContributor.created_at)"
 							disabled

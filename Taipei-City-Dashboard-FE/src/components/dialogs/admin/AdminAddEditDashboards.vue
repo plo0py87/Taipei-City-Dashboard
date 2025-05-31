@@ -5,7 +5,8 @@ import { ref, computed } from "vue";
 import { useRoute } from "vue-router";
 import http from "../../../router/axios";
 import { storeToRefs } from "pinia";
-
+import { useI18nStore } from "../../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 import { useDialogStore } from "../../../store/dialogStore";
 import { useAdminStore } from "../../../store/adminStore";
 import { useContentStore } from "../../../store/contentStore";
@@ -80,12 +81,19 @@ function handleClose() {
 		<div class="adminaddeditdashboards">
 			<div class="adminaddeditdashboards-header">
 				<h2>
-					{{ mode === "edit" ? $t("編輯") : $t("新增")
-					}}{{ $t("公開儀表板") }}
+					{{
+						mode === "edit"
+							? i18nStore.$t("編輯")
+							: i18nStore.$t("新增")
+					}}{{ i18nStore.$t("公開儀表板") }}
 				</h2>
 				<button @click="handleConfirm">
-					{{ $t("確認")
-					}}{{ mode === "edit" ? $t("更改") : $t("新增") }}
+					{{ i18nStore.$t("確認")
+					}}{{
+						mode === "edit"
+							? i18nStore.$t("更改")
+							: i18nStore.$t("新增")
+					}}
 				</button>
 			</div>
 			<div class="adminaddeditdashboards-content">
@@ -119,7 +127,7 @@ function handleClose() {
 							>
 						</div>
 						<label
-							>{{ $t("名稱") }}* ({{
+							>{{ i18nStore.$t("名稱") }}* ({{
 								currentDashboard.name.length
 							}}/10)</label
 						>
@@ -133,10 +141,10 @@ function handleClose() {
 							<label>city</label>
 							<input v-model="city" :disabled="true" />
 						</template>
-						<label>{{ $t("圖示") }}*</label>
+						<label>{{ i18nStore.$t("圖示") }}*</label>
 						<input
 							v-model="iconSearch"
-							:placeholder="$t('尋找圖示(英文)')"
+							:placeholder="i18nStore.$t('尋找圖示(英文)')"
 						/>
 						<div class="adminaddeditdashboards-settings-icon">
 							<div v-for="item in availableIcons" :key="item">
@@ -153,8 +161,11 @@ function handleClose() {
 				</div>
 				<div class="adminaddeditdashboards-settings">
 					<label
-						>{{ mode === "edit" ? $t("編輯") : $t("新增")
-						}}{{ $t("儀表板組件") }}</label
+						>{{
+							mode === "edit"
+								? i18nStore.$t("編輯")
+								: i18nStore.$t("新增")
+						}}{{ i18nStore.$t("儀表板組件") }}</label
 					>
 					<div class="adminaddeditdashboards-settings-components">
 						<ComponentDragTags

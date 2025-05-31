@@ -4,15 +4,15 @@
 import { ref, nextTick } from "vue";
 import { useChatStore } from "../../store/chatStore";
 import { useDialogStore } from "../../store/dialogStore";
-import { useI18n } from "vue-i18n";
+
 import DialogContainer from "./DialogContainer.vue";
 import axios from "axios";
-const { t } = useI18n();
 const chatStore = useChatStore();
 const dialogStore = useDialogStore();
 const newMessage = ref("");
 const messagesContainer = ref(null);
-
+import { useI18nStore } from "../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 const sendMessage = async () => {
 	if (newMessage.value.trim()) {
 		// Add message to store
@@ -111,7 +111,7 @@ const handleClose = () => {
 					v-model="newMessage"
 					class="chat-input"
 					type="text"
-					:placeholder="$t('dialog.輸入您的訊息...')"
+					:placeholder="i18nStore.$t('dialog.輸入您的訊息...')"
 					@keyup.enter="sendMessage"
 				/>
 				<button
@@ -119,7 +119,7 @@ const handleClose = () => {
 					class="send-button"
 					@click="sendMessage"
 				>
-					{{ $t("dialog.發送") }}
+					{{ i18nStore.$t("dialog.發送") }}
 				</button>
 			</div>
 		</div>

@@ -9,7 +9,8 @@ import { useAdminStore } from "../../../store/adminStore";
 import DialogContainer from "../DialogContainer.vue";
 const dialogStore = useDialogStore();
 const adminStore = useAdminStore();
-
+import { useI18nStore } from "../../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 const props = defineProps(["searchParams"]);
 
 const { currentContributor } = storeToRefs(adminStore);
@@ -29,11 +30,11 @@ function handleClose() {
 <template>
 	<DialogContainer dialog="adminDeleteContributor" @on-close="handleClose">
 		<div class="admindeletecontributor">
-			<h2>{{ $t("確定刪除貢獻者嗎？") }}</h2>
+			<h2>{{ i18nStore.$t("確定刪除貢獻者嗎？") }}</h2>
 			<div class="admindeletecontributor-input">
 				<label for="name">
 					{{
-						$t("輸入「{name}」刪除", {
+						i18nStore.$t("輸入「{name}」刪除", {
 							name: currentContributor.user_name,
 						})
 					}}
@@ -46,7 +47,7 @@ function handleClose() {
 					class="admindeletecontributor-control-delete"
 					@click="handleDelete"
 				>
-					{{ $t("刪除貢獻者") }}
+					{{ i18nStore.$t("刪除貢獻者") }}
 				</button>
 			</div>
 		</div>

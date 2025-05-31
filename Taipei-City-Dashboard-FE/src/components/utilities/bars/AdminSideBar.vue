@@ -6,7 +6,8 @@ import { useMapStore } from "../../../store/mapStore";
 import { useContentStore } from "../../../store/contentStore";
 
 import SideBarTab from "../miscellaneous/SideBarTab.vue";
-
+import { useI18nStore } from "../../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 const mapStore = useMapStore();
 const contentStore = useContentStore();
 
@@ -45,7 +46,9 @@ onMounted(() => {
 					: "keyboard_double_arrow_right"
 			}}</span>
 		</button>
-		<h2>{{ isExpanded ? $t("儀表板設定") : $t("表板") }}</h2>
+		<h2>
+			{{ isExpanded ? i18nStore.$t("儀表板設定") : i18nStore.$t("表板") }}
+		</h2>
 		<template
 			v-for="city in contentStore.cityManager.activeCities"
 			:key="city"
@@ -58,14 +61,18 @@ onMounted(() => {
 				:city="city"
 			/>
 		</template>
-		<h2>{{ isExpanded ? $t(`組件設定`) : $t(`組件`) }}</h2>
+		<h2>
+			{{ isExpanded ? i18nStore.$t(`組件設定`) : i18nStore.$t(`組件`) }}
+		</h2>
 		<SideBarTab
 			icon="edit_note"
 			title="編輯公開組件"
 			:expanded="isExpanded"
 			index="edit-component"
 		/>
-		<h2>{{ isExpanded ? $t(`問題回報`) : $t(`問題`) }}</h2>
+		<h2>
+			{{ isExpanded ? i18nStore.$t(`問題回報`) : i18nStore.$t(`問題`) }}
+		</h2>
 		<SideBarTab
 			icon="bug_report"
 			title="待回覆問題"
@@ -78,7 +85,9 @@ onMounted(() => {
 			:expanded="isExpanded"
 			index="disaster"
 		/>
-		<h2>{{ isExpanded ? $t(`系統總覽`) : $t(`系統`) }}</h2>
+		<h2>
+			{{ isExpanded ? i18nStore.$t(`系統總覽`) : i18nStore.$t(`系統`) }}
+		</h2>
 		<SideBarTab
 			icon="person"
 			title="使用者資訊"

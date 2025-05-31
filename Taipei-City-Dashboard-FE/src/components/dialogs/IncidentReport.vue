@@ -4,12 +4,12 @@
 import { ref, onMounted } from "vue";
 import { useDialogStore } from "../../store/dialogStore";
 import { useMapStore } from "../../store/mapStore";
-import { useI18n } from "vue-i18n";
+import { useI18nStore } from "../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 import http from "../../router/axios";
 
 import DialogContainer from "./DialogContainer.vue";
 
-const { t } = useI18n();
 const dialogStore = useDialogStore();
 const mapStore = useMapStore();
 
@@ -63,8 +63,8 @@ onMounted(() => {
 <template>
 	<DialogContainer :dialog="`incidentReport`" @on-close="handleClose">
 		<div class="incidentreport">
-			<h2>{{ $t("dialog.事件通報") }}</h2>
-			<label> {{ $t("dialog.事件類型") }} </label>
+			<h2>{{ i18nStore.$t("dialog.事件通報") }}</h2>
+			<label> {{ i18nStore.$t("dialog.事件類型") }} </label>
 			<select v-model="incidentType">
 				<option
 					v-for="(option, index) in typeOptions"
@@ -76,16 +76,18 @@ onMounted(() => {
 			</select>
 
 			<label>
-				{{ $t("dialog.事件描述") }} ({{ incidentDesc.length }}/30)
+				{{ i18nStore.$t("dialog.事件描述") }} ({{
+					incidentDesc.length
+				}}/30)
 			</label>
 			<input
 				v-model="incidentDesc"
 				type="text"
-				:placeholder="$t('dialog.(請概述事件過程)')"
+				:placeholder="i18nStore.$t('dialog.(請概述事件過程)')"
 				required
 				:maxlength="30"
 			/>
-			<label> {{ $t("dialog.事件發生位置") }} </label>
+			<label> {{ i18nStore.$t("dialog.事件發生位置") }} </label>
 			<select v-model="incidentDis">
 				<option
 					v-for="(option, index) in disOptions"
@@ -95,7 +97,7 @@ onMounted(() => {
 					{{ option.label }}
 				</option>
 			</select>
-			<label> {{ $t("dialog.通報位置") }} </label>
+			<label> {{ i18nStore.$t("dialog.通報位置") }} </label>
 			<!-- <input :value="parseTime(editUser.login_at)" disabled /> -->
 			<input
 				:value="
@@ -105,7 +107,7 @@ onMounted(() => {
 				"
 				disabled
 			/>
-			<label> {{ $t("dialog.通報時間") }} </label>
+			<label> {{ i18nStore.$t("dialog.通報時間") }} </label>
 			<input :value="new Date().toLocaleString()" disabled />
 			<div class="incidentreport-control">
 				<button
@@ -113,7 +115,7 @@ onMounted(() => {
 					class="incidentreport-control-confirm"
 					@click="handleSubmit"
 				>
-					{{ $t("dialog.提交") }}
+					{{ i18nStore.$t("dialog.提交") }}
 				</button>
 			</div>
 		</div>

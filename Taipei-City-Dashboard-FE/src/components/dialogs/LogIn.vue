@@ -4,7 +4,8 @@
 import { computed, ref } from "vue";
 import { useDialogStore } from "../../store/dialogStore";
 import { useAuthStore } from "../../store/authStore";
-
+import { useI18nStore } from "../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 import DialogContainer from "./DialogContainer.vue";
 
 const {
@@ -69,30 +70,36 @@ function handleClose() {
 			<div v-if="loginMode === 'tp'" class="login-form">
 				<button @click="handleTaipeiPassLogin">
 					<img src="../../assets/images/taipeipass.png" />{{
-						$t("dialog.台北通登入")
+						i18nStore.$t("dialog.台北通登入")
 					}}
 				</button>
 			</div>
 			<div v-if="loginMode === 'email'" class="login-form">
-				<label>{{ $t("dialog.電子郵件") }}</label>
+				<label>{{ i18nStore.$t("dialog.電子郵件") }}</label>
 				<input v-model="email" required type="email" />
-				<label>{{ $t("dialog.密碼") }}</label>
+				<label>{{ i18nStore.$t("dialog.密碼") }}</label>
 				<input v-model="password" required type="password" />
 				<button @click="handleEmailLogin">
-					{{ $t("dialog.登入") }}
+					{{ i18nStore.$t("dialog.登入") }}
 				</button>
 			</div>
-			<p>{{ $t("dialog.點擊「台北通登入」即表示您已閱讀並同意") }}</p>
+			<p>
+				{{
+					i18nStore.$t(
+						"dialog.點擊「台北通登入」即表示您已閱讀並同意"
+					)
+				}}
+			</p>
 			<p>
 				<a
 					href="https://tuic.gov.taipei/zh/works/dashboard"
 					target="_blank"
-					>{{ $t("dialog.臺北城市儀表板") }}</a
-				>{{ $t("dialog.的")
+					>{{ i18nStore.$t("dialog.臺北城市儀表板") }}</a
+				>{{ i18nStore.$t("dialog.的")
 				}}<a
 					href="https://tuic.gov.taipei/zh/privacy"
 					target="_blank"
-					>{{ $t("dialog.隱私權政策") }}</a
+					>{{ i18nStore.$t("dialog.隱私權政策") }}</a
 				>
 			</p>
 			<p
@@ -104,7 +111,9 @@ function handleClose() {
 			>
 				TUIC Igor Ann Iima Chu Jack 2023-2024
 			</p>
-			<p>《{{ $t("dialog.讓臺北城市儀表板成為您的儀表板") }}》</p>
+			<p>
+				《{{ i18nStore.$t("dialog.讓臺北城市儀表板成為您的儀表板") }}》
+			</p>
 		</div>
 	</DialogContainer>
 </template>

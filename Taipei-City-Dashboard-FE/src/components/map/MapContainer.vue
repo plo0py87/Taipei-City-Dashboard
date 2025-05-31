@@ -7,7 +7,8 @@ import { useAuthStore } from "../../store/authStore";
 import { useContentStore } from "../../store/contentStore";
 import { useDialogStore } from "../../store/dialogStore";
 import { useMapStore } from "../../store/mapStore";
-
+import { useI18nStore } from "../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 import AddViewPoint from "../dialogs/AddViewPoint.vue";
 import MobileLayers from "../dialogs/MobileLayers.vue";
 import IncidentReport from "../dialogs/IncidentReport.vue";
@@ -77,7 +78,7 @@ onMounted(() => {
 					}"
 					@click="toggleDistrictLayer"
 				>
-					{{ $t("區") }}
+					{{ i18nStore.$t("區") }}
 				</button>
 				<button
 					:style="{
@@ -87,7 +88,7 @@ onMounted(() => {
 					}"
 					@click="toggleVillageLayer"
 				>
-					{{ $t("里") }}
+					{{ i18nStore.$t("里") }}
 				</button>
 
 				<button
@@ -101,7 +102,7 @@ onMounted(() => {
 					type="button"
 					@click="dialogStore.showDialog('findClosestPoint')"
 				>
-					{{ $t("近") }}
+					{{ i18nStore.$t("近") }}
 				</button>
 				<button
 					class="show-if-mobile"
@@ -120,7 +121,7 @@ onMounted(() => {
 			<button
 				v-if="authStore.user.is_admin"
 				class="mapcontainer-layers-incident"
-				:title="$t('通報災害')"
+				:title="i18nStore.$t('通報災害')"
 				@click="dialogStore.showDialog('incidentReport')"
 			>
 				!</button
@@ -141,7 +142,7 @@ onMounted(() => {
 					])
 				"
 			>
-				{{ $t("返回預設") }}
+				{{ i18nStore.$t("返回預設") }}
 			</button>
 			<template v-if="!authStore.user?.user_id">
 				<div
@@ -172,7 +173,7 @@ onMounted(() => {
 				v-if="authStore.user?.user_id"
 				@click="dialogStore.showDialog('addViewPoint')"
 			>
-				{{ $t("新增") }}
+				{{ i18nStore.$t("新增") }}
 			</button>
 		</div>
 	</div>

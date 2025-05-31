@@ -7,14 +7,14 @@
 import { ref } from "vue";
 import { useAdminStore } from "../../../store/adminStore";
 import { useDialogStore } from "../../../store/dialogStore";
-import { useI18n } from "vue-i18n";
+
 import http from "../../../router/axios";
 import InputTags from "../../utilities/forms/InputTags.vue";
 import DialogContainer from "../DialogContainer.vue";
-
+import { useI18nStore } from "../../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 const dialogStore = useDialogStore();
 const adminStore = useAdminStore();
-const { t } = useI18n();
 
 const currentTab = ref(0);
 const params = ref({
@@ -124,14 +124,14 @@ function isShowTimeToBlock(time_to) {
 	>
 		<div class="admincomponenttemplate">
 			<div class="admincomponenttemplate-header">
-				<h2>{{ $t("組件設定") }}</h2>
+				<h2>{{ i18nStore.$t("組件設定") }}</h2>
 				<button @click="handleSubmit">
-					{{ $t("確定新增") }}
+					{{ i18nStore.$t("確定新增") }}
 				</button>
 			</div>
 			<div class="admincomponenttemplate-tabs">
 				<button @click="currentTab = 0">
-					{{ $t("整體") }}
+					{{ i18nStore.$t("整體") }}
 				</button>
 			</div>
 			<div class="admincomponenttemplate-content">
@@ -141,7 +141,7 @@ function isShowTimeToBlock(time_to) {
 						class="admincomponenttemplate-settings-items"
 					>
 						<label
-							>{{ $t("組件名稱") }}* ({{
+							>{{ i18nStore.$t("組件名稱") }}* ({{
 								params.name.length
 							}}/10)</label
 						>
@@ -153,7 +153,7 @@ function isShowTimeToBlock(time_to) {
 							required
 						/>
 						<div class="two-block">
-							<label>{{ $t("組件 Index") }}*</label>
+							<label>{{ i18nStore.$t("組件 Index") }}*</label>
 						</div>
 						<div class="two-block">
 							<input
@@ -162,7 +162,7 @@ function isShowTimeToBlock(time_to) {
 								required
 							/>
 						</div>
-						<label>{{ $t("資料來源") }}*</label>
+						<label>{{ i18nStore.$t("資料來源") }}*</label>
 						<input
 							v-model="params.source"
 							type="text"
@@ -171,8 +171,8 @@ function isShowTimeToBlock(time_to) {
 							required
 						/>
 						<label
-							>{{ $t("更新頻率") }}* (0 =
-							{{ $t("不定期更新") }})</label
+							>{{ i18nStore.$t("更新頻率") }}* (0 =
+							{{ i18nStore.$t("不定期更新") }})</label
 						>
 						<div class="two-block">
 							<input
@@ -184,63 +184,63 @@ function isShowTimeToBlock(time_to) {
 							/>
 							<select v-model="params.update_freq_unit">
 								<option value="minute">
-									{{ $t("分") }}
+									{{ i18nStore.$t("分") }}
 								</option>
 								<option value="hour">
-									{{ $t("時") }}
+									{{ i18nStore.$t("時") }}
 								</option>
 								<option value="day">
-									{{ $t("天") }}
+									{{ i18nStore.$t("天") }}
 								</option>
 								<option value="week">
-									{{ $t("週") }}
+									{{ i18nStore.$t("週") }}
 								</option>
 								<option value="month">
-									{{ $t("月") }}
+									{{ i18nStore.$t("月") }}
 								</option>
 								<option value="year">
-									{{ $t("年") }}
+									{{ i18nStore.$t("年") }}
 								</option>
 							</select>
 						</div>
-						<label>{{ $t("資料區間") }}</label>
+						<label>{{ i18nStore.$t("資料區間") }}</label>
 						<div class="time-block">
 							<select v-model="params.time_from" required>
 								<option value="day_ago">
-									{{ $t("一天前") }}
+									{{ i18nStore.$t("一天前") }}
 								</option>
 								<option value="week_ago">
-									{{ $t("一週前") }}
+									{{ i18nStore.$t("一週前") }}
 								</option>
 								<option value="month_ago">
-									{{ $t("一個月前") }}
+									{{ i18nStore.$t("一個月前") }}
 								</option>
 								<option value="quarter_ago">
-									{{ $t("一季前") }}
+									{{ i18nStore.$t("一季前") }}
 								</option>
 								<option value="halfyear_ago">
-									{{ $t("半年前") }}
+									{{ i18nStore.$t("半年前") }}
 								</option>
 								<option value="year_ago">
-									{{ $t("一年前") }}
+									{{ i18nStore.$t("一年前") }}
 								</option>
 								<option value="twoyear_ago">
-									{{ $t("兩年前") }}
+									{{ i18nStore.$t("兩年前") }}
 								</option>
 								<option value="fiveyear_ago">
-									{{ $t("五年前") }}
+									{{ i18nStore.$t("五年前") }}
 								</option>
 								<option value="tenyear_ago">
-									{{ $t("十年前") }}
+									{{ i18nStore.$t("十年前") }}
 								</option>
 								<option value="now">
-									{{ $t("現在") }}
+									{{ i18nStore.$t("現在") }}
 								</option>
 								<option value="static">
-									{{ $t("固定資料") }}
+									{{ i18nStore.$t("固定資料") }}
 								</option>
 								<option value="current">
-									{{ $t("即時資料") }}
+									{{ i18nStore.$t("即時資料") }}
 								</option>
 							</select>
 							<span v-show="isShowTimeToBlock(params.time_from)"
@@ -252,45 +252,45 @@ function isShowTimeToBlock(time_to) {
 								required
 							>
 								<option value="day_ago">
-									{{ $t("一天前") }}
+									{{ i18nStore.$t("一天前") }}
 								</option>
 								<option value="week_ago">
-									{{ $t("一週前") }}
+									{{ i18nStore.$t("一週前") }}
 								</option>
 								<option value="month_ago">
-									{{ $t("一個月前") }}
+									{{ i18nStore.$t("一個月前") }}
 								</option>
 								<option value="quarter_ago">
-									{{ $t("一季前") }}
+									{{ i18nStore.$t("一季前") }}
 								</option>
 								<option value="halfyear_ago">
-									{{ $t("半年前") }}
+									{{ i18nStore.$t("半年前") }}
 								</option>
 								<option value="year_ago">
-									{{ $t("一年前") }}
+									{{ i18nStore.$t("一年前") }}
 								</option>
 								<option value="twoyear_ago">
-									{{ $t("兩年前") }}
+									{{ i18nStore.$t("兩年前") }}
 								</option>
 								<option value="fiveyear_ago">
-									{{ $t("五年前") }}
+									{{ i18nStore.$t("五年前") }}
 								</option>
 								<option value="tenyear_ago">
-									{{ $t("十年前") }}
+									{{ i18nStore.$t("十年前") }}
 								</option>
 								<option value="now">
-									{{ $t("現在") }}
+									{{ i18nStore.$t("現在") }}
 								</option>
 								<option value="static">
-									{{ $t("固定資料") }}
+									{{ i18nStore.$t("固定資料") }}
 								</option>
 								<option value="current">
-									{{ $t("即時資料") }}
+									{{ i18nStore.$t("即時資料") }}
 								</option>
 							</select>
 						</div>
 						<label required
-							>{{ $t("組件簡述") }}* ({{
+							>{{ i18nStore.$t("組件簡述") }}* ({{
 								params.short_desc.length
 							}}/50)</label
 						>
@@ -301,7 +301,7 @@ function isShowTimeToBlock(time_to) {
 							required
 						/>
 						<label
-							>{{ $t("組件詳述") }}* ({{
+							>{{ i18nStore.$t("組件詳述") }}* ({{
 								params.long_desc.length
 							}}/100)</label
 						>
@@ -312,7 +312,7 @@ function isShowTimeToBlock(time_to) {
 							required
 						/>
 						<label
-							>{{ $t("範例情境") }}* ({{
+							>{{ i18nStore.$t("範例情境") }}* ({{
 								params.use_case.length
 							}}/100)</label
 						>
@@ -322,7 +322,7 @@ function isShowTimeToBlock(time_to) {
 							:maxlength="100"
 							required
 						/>
-						<label>{{ $t("資料連結") }}</label>
+						<label>{{ i18nStore.$t("資料連結") }}</label>
 						<InputTags
 							:tags="params.links"
 							@deletetag="
@@ -351,7 +351,7 @@ function isShowTimeToBlock(time_to) {
 								}
 							"
 						/>
-						<label>{{ $t("貢獻者") }}</label>
+						<label>{{ i18nStore.$t("貢獻者") }}</label>
 						<InputTags
 							:tags="params.contributors"
 							@deletetag="
@@ -391,13 +391,13 @@ function isShowTimeToBlock(time_to) {
 						>
 							<hr v-if="index > 0" />
 							<label
-								>{{ $t("地圖") }}{{ index + 1 }} ID /
+								>{{ i18nStore.$t("地圖") }}{{ index + 1 }} ID /
 								Index</label
 							>
 
 							<label
-								>{{ $t("地圖") }}{{ index + 1 }}
-								{{ $t("名稱") }}* ({{}}/10)</label
+								>{{ i18nStore.$t("地圖") }}{{ index + 1 }}
+								{{ i18nStore.$t("名稱") }}* ({{}}/10)</label
 							>
 							<input
 								type="text"
@@ -406,55 +406,63 @@ function isShowTimeToBlock(time_to) {
 								required
 							/>
 							<label
-								>{{ $t("地圖") }}{{ index + 1 }}
-								{{ $t("類型") }}*</label
+								>{{ i18nStore.$t("地圖") }}{{ index + 1 }}
+								{{ i18nStore.$t("類型") }}*</label
 							>
 							<label
-								>{{ $t("地圖") }}{{ index + 1 }}
-								{{ $t("預設變形（大小/圖示）") }}</label
+								>{{ i18nStore.$t("地圖") }}{{ index + 1 }}
+								{{
+									i18nStore.$t("預設變形（大小/圖示）")
+								}}</label
 							>
 							<div class="two-block">
 								<select>
 									<option :value="''">
-										{{ $t("無") }}
+										{{ i18nStore.$t("無") }}
 									</option>
 									<option value="small">
-										small ({{ $t("點圖") }})
+										small ({{ i18nStore.$t("點圖") }})
 									</option>
 									<option value="big">
-										big ({{ $t("點圖") }})
+										big ({{ i18nStore.$t("點圖") }})
 									</option>
 									<option value="wide">
-										wide ({{ $t("線圖") }})
+										wide ({{ i18nStore.$t("線圖") }})
 									</option>
 								</select>
 								<select>
 									<option :value="''">
-										{{ $t("無") }}
+										{{ i18nStore.$t("無") }}
 									</option>
 									<option value="heatmap">
-										heatmap ({{ $t("點圖") }})
+										heatmap ({{ i18nStore.$t("點圖") }})
 									</option>
 									<option value="dash">
-										dash ({{ $t("線圖") }})
+										dash ({{ i18nStore.$t("線圖") }})
 									</option>
 									<option value="metro">
-										metro ({{ $t("符號圖") }})
+										metro ({{ i18nStore.$t("符號圖") }})
 									</option>
 									<option value="metro-density">
-										metro-density ({{ $t("符號圖") }})
+										metro-density ({{
+											i18nStore.$t("符號圖")
+										}})
 									</option>
 									<option value="triangle_green">
-										triangle_green ({{ $t("符號圖") }})
+										triangle_green ({{
+											i18nStore.$t("符號圖")
+										}})
 									</option>
 									<option value="triangle_white">
-										triangle_white ({{ $t("符號圖") }})
+										triangle_white ({{
+											i18nStore.$t("符號圖")
+										}})
 									</option>
 									<option value="youbike">
-										youbike ({{ $t("符號圖") }})
+										youbike ({{ i18nStore.$t("符號圖") }})
 									</option>
 									<option value="bus">
-										bus ({{ $t("符號圖") }})
+										bus ({{ i18nStore.$t("符號圖") }})
 									</option>
 								</select>
 							</div>

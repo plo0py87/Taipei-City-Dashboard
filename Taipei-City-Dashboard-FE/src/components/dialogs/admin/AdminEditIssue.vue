@@ -10,7 +10,8 @@ import DialogContainer from "../DialogContainer.vue";
 
 const dialogStore = useDialogStore();
 const adminStore = useAdminStore();
-
+import { useI18nStore } from "../../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 const props = defineProps(["searchParams"]);
 
 const { currentIssue } = storeToRefs(adminStore);
@@ -29,16 +30,16 @@ function handleClose() {
 	<DialogContainer :dialog="`adminEditIssue`" @on-close="handleClose">
 		<div class="admineditissue">
 			<div class="admineditissue-header">
-				<h2>{{ $t("用戶問題處理") }}</h2>
+				<h2>{{ i18nStore.$t("用戶問題處理") }}</h2>
 				<button @click="handleConfirm">
-					{{ $t("確定更改") }}
+					{{ i18nStore.$t("確定更改") }}
 				</button>
 			</div>
 			<div class="admineditissue-settings">
 				<div class="admineditissue-settings-items">
 					<div class="two-block">
-						<label>{{ $t("回報用戶名稱") }}</label>
-						<label>{{ $t("回報用戶 ID") }}</label>
+						<label>{{ i18nStore.$t("回報用戶名稱") }}</label>
+						<label>{{ i18nStore.$t("回報用戶 ID") }}</label>
 					</div>
 					<div class="two-block">
 						<input
@@ -52,29 +53,29 @@ function handleClose() {
 							disabled
 						/>
 					</div>
-					<label>{{ $t("問題標題") }}</label>
+					<label>{{ i18nStore.$t("問題標題") }}</label>
 					<input v-model="currentIssue.title" type="text" disabled />
-					<label>{{ $t("問題簡述") }}</label>
+					<label>{{ i18nStore.$t("問題簡述") }}</label>
 					<textarea v-model="currentIssue.description" disabled />
-					<label>{{ $t("系統註記") }}</label>
+					<label>{{ i18nStore.$t("系統註記") }}</label>
 					<textarea v-model="currentIssue.context" disabled />
-					<label>{{ $t("更改處理狀態") }}</label>
+					<label>{{ i18nStore.$t("更改處理狀態") }}</label>
 					<select v-model="currentIssue.status">
 						<option value="待處理">
-							{{ $t("待處理") }}
+							{{ i18nStore.$t("待處理") }}
 						</option>
 						<option value="處理中">
-							{{ $t("處理中") }}
+							{{ i18nStore.$t("處理中") }}
 						</option>
 						<option value="已處理">
-							{{ $t("已處理") }}
+							{{ i18nStore.$t("已處理") }}
 						</option>
 						<option value="不處理">
-							{{ $t("不處理") }}
+							{{ i18nStore.$t("不處理") }}
 						</option>
 					</select>
 					<label>{{
-						$t("完成問題處理說明 (已處理/不處理時填寫)")
+						i18nStore.$t("完成問題處理說明 (已處理/不處理時填寫)")
 					}}</label>
 					<textarea
 						v-model="currentIssue.decision_desc"

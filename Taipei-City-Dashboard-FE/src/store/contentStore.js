@@ -594,12 +594,12 @@ export const useContentStore = defineStore("content", {
 		// 			});
 		// 	}
 		// },
-		//setLang
-		async setLanguage(lang) {
-			this.lang = lang;
-			await http.patch("/user/me", { lang: this.user.lang });
-			// i18n.global.locale = lang;
-		},
+		// //setLang
+		// async setLanguage(lang) {
+		// 	this.lang = lang;
+		// 	await http.patch("/user/me", { lang: this.user.lang });
+		// 	// i18n.global.locale = lang;
+		// },
 
 		/* /component methods */
 		// 1. Search through all the components (used in /component)

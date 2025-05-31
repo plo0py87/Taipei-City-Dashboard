@@ -7,7 +7,8 @@ import { useDialogStore } from "../../store/dialogStore";
 import { useAuthStore } from "../../store/authStore";
 import { useContentStore } from "../../store/contentStore";
 import DialogContainer from "./DialogContainer.vue";
-
+import { useI18nStore } from "../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 const dialogStore = useDialogStore();
 const authStore = useAuthStore();
 const contentStore = useContentStore();
@@ -51,9 +52,11 @@ function handleClose() {
 <template>
 	<DialogContainer dialog="reportIssue" @on-close="handleClose">
 		<div class="reportissue">
-			<h2>{{ $t("dialog.回報問題") }}</h2>
+			<h2>{{ i18nStore.$t("dialog.回報問題") }}</h2>
 			<h3>
-				{{ $t("dialog.問題標題") }}* ({{ allInputs.title.length }}/20)
+				{{ i18nStore.$t("dialog.問題標題") }}* ({{
+					allInputs.title.length
+				}}/20)
 			</h3>
 			<input
 				v-model="allInputs.title"
@@ -63,7 +66,7 @@ function handleClose() {
 				:maxLength="20"
 				required
 			/>
-			<h3>{{ $t("dialog.問題種類") }}*</h3>
+			<h3>{{ i18nStore.$t("dialog.問題種類") }}*</h3>
 			<div v-for="item in issueTypes" :key="item">
 				<input
 					:id="item"
@@ -74,11 +77,11 @@ function handleClose() {
 				/>
 				<label :for="item">
 					<div />
-					{{ $t(`dialog.${item}`) }}
+					{{ i18nStore.$t(`dialog.${item}`) }}
 				</label>
 			</div>
 			<h3>
-				{{ $t("dialog.問題簡述") }}* ({{
+				{{ i18nStore.$t("dialog.問題簡述") }}* ({{
 					allInputs.description.length
 				}}/200)
 			</h3>
@@ -90,14 +93,14 @@ function handleClose() {
 			/>
 			<div class="reportissue-control">
 				<button class="reportissue-control-cancel" @click="handleClose">
-					{{ $t("dialog.取消") }}
+					{{ i18nStore.$t("dialog.取消") }}
 				</button>
 				<button
 					v-if="allInputs.description && allInputs.title"
 					class="reportissue-control-confirm"
 					@click="handleSubmit"
 				>
-					{{ $t("dialog.回報問題") }}
+					{{ i18nStore.$t("dialog.回報問題") }}
 				</button>
 			</div>
 		</div>

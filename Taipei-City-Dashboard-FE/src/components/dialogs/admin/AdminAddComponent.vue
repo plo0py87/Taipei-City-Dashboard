@@ -7,7 +7,8 @@
 import { computed, onMounted, ref } from "vue";
 import http from "../../../router/axios";
 import DashboardComponent from "../../../dashboardComponent/DashboardComponent.vue";
-
+import { useI18nStore } from "../../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 import { useDialogStore } from "../../../store/dialogStore";
 import { useAdminStore } from "../../../store/adminStore";
 import { useContentStore } from "../../../store/contentStore";
@@ -25,7 +26,8 @@ const searchIndex = ref("");
 
 // Filters out components already in the dashboard
 const availableComponents = computed(() => {
-	const taken = adminStore.currentDashboard.components?.map((item) => item.id) || [];
+	const taken =
+		adminStore.currentDashboard.components?.map((item) => item.id) || [];
 	const available = allComponents.value?.filter(
 		(item) => !taken.includes(+item.id)
 	);
@@ -46,7 +48,9 @@ async function handleSearch() {
 }
 function handleSubmit() {
 	adminStore.currentDashboard.components =
-		adminStore.currentDashboard.components?.concat(componentsSelected.value) ?? componentsSelected.value;
+		adminStore.currentDashboard.components?.concat(
+			componentsSelected.value
+		) ?? componentsSelected.value;
 	handleClose();
 }
 function handleClose() {
@@ -63,91 +67,112 @@ onMounted(() => {
 </script>
 
 <template>
-  <DialogContainer
-    :dialog="`adminAddComponent`"
-    @on-close="handleClose"
-  >
-    <div class="addcomponent">
-      <div class="addcomponent-header">
-        <h2>{{ $t('新增組件至儀表板') }}</h2>
-        <div class="addcomponent-header-search">
-          <div>
-            <div>
-              <input
-                v-model="searchName"
-                type="text"
-                :placeholder="$t('以名稱搜尋 (Enter)')"
-                @keypress.enter="handleSearch"
-              >
-              <span
-                v-if="searchName"
-                @click="
-                  () => {
-                    searchName = '';
-                    handleSearch();
-                  }
-                "
-              >cancel</span>
-            </div>
-            <div>
-              <input
-                v-model="searchIndex"
-                type="text"
-                :placeholder="$t('以Index搜尋 (Enter)')"
-                @keypress.enter="handleSearch"
-              >
-              <span
-                v-if="searchIndex"
-                @click="
-                  () => {
-                    searchIndex = '';
-                    handleSearch();
-                  }
-                "
-              >cancel</span>
-            </div>
-          </div>
-          <div>
-            <button @click="handleClose">
-              {{ $t('取消') }}
-            </button>
-            <button
-              v-if="componentsSelected?.length > 0"
-              @click="handleSubmit"
-            >
-              <span>add_chart</span>{{ $t('確認新增') }}
-            </button>
-          </div>
-        </div>
-      </div>
-      <p :style="{ margin: '1rem 0 0.5rem' }">
-        {{ $t('計 {count} 個組件符合篩選條件', { count: availableComponents?.length }) }} | {{ $t('共選取 {count} 個', { count: componentsSelected?.length }) }}
-      </p>
+	<DialogContainer :dialog="`adminAddComponent`" @on-close="handleClose">
+		<div class="addcomponent">
+			<div class="addcomponent-header">
+				<h2>{{ i18nStore.$t("新增組件至儀表板") }}</h2>
+				<div class="addcomponent-header-search">
+					<div>
+						<div>
+							<input
+								v-model="searchName"
+								type="text"
+								:placeholder="
+									i18nStore.$t('以名稱搜尋 (Enter)')
+								"
+								@keypress.enter="handleSearch"
+							/>
+							<span
+								v-if="searchName"
+								@click="
+									() => {
+										searchName = '';
+										handleSearch();
+									}
+								"
+								>cancel</span
+							>
+						</div>
+						<div>
+							<input
+								v-model="searchIndex"
+								type="text"
+								:placeholder="
+									i18nStore.$t('以Index搜尋 (Enter)')
+								"
+								@keypress.enter="handleSearch"
+							/>
+							<span
+								v-if="searchIndex"
+								@click="
+									() => {
+										searchIndex = '';
+										handleSearch();
+									}
+								"
+								>cancel</span
+							>
+						</div>
+					</div>
+					<div>
+						<button @click="handleClose">
+							{{ i18nStore.$t("取消") }}
+						</button>
+						<button
+							v-if="componentsSelected?.length > 0"
+							@click="handleSubmit"
+						>
+							<span>add_chart</span>{{ i18nStore.$t("確認新增") }}
+						</button>
+					</div>
+				</div>
+			</div>
+			<p :style="{ margin: '1rem 0 0.5rem' }">
+				{{
+					i18nStore.$t("計 {count} 個組件符合篩選條件", {
+						count: availableComponents?.length,
+					})
+				}}
+				|
+				{{
+					i18nStore.$t("共選取 {count} 個", {
+						count: componentsSelected?.length,
+					})
+				}}
+			</p>
 
-      <div class="addcomponent-list">
-        <div
-          v-for="item in availableComponents"
-          :key="`${item.id}-${item.city}`"
-        >
-          <input
-            :id="`${item.name}-${item.city}`"
-            v-model="componentsSelected"
-            type="checkbox"
-            :value="{ id: item.id, name: item.name, city: item.city }"
-          >
-          <label :for="`${item.name}-${item.city}`">
-            <div class="addcomponent-list-item">
-              <DashboardComponent
-                :config="item"
-                :city-tag="contentStore.cityManager.getTagList(item.city)"
-                mode="preview"
-              />
-            </div>
-          </label>
-        </div>
-      </div>
-    </div>
-  </DialogContainer>
+			<div class="addcomponent-list">
+				<div
+					v-for="item in availableComponents"
+					:key="`${item.id}-${item.city}`"
+				>
+					<input
+						:id="`${item.name}-${item.city}`"
+						v-model="componentsSelected"
+						type="checkbox"
+						:value="{
+							id: item.id,
+							name: item.name,
+							city: item.city,
+						}"
+					/>
+					<label :for="`${item.name}-${item.city}`">
+						<div class="addcomponent-list-item">
+							<DashboardComponent
+								:config="item"
+								:city-tag="
+									contentStore.cityManager.getTagList(
+										item.city
+									)
+								"
+								mode="preview"
+							/>
+						</div>
+					</label>
+				</div>
+			</div>
+		</div>
+	</DialogContainer>
 </template>
 
 <style scoped lang="scss">

@@ -7,7 +7,8 @@ import { storeToRefs } from "pinia";
 import { useContentStore } from "../../../store/contentStore";
 import ComponentDragTags from "../forms/ComponentDragTags.vue";
 import { allIcons } from "../../../assets/configs/AllIcons";
-
+import { useI18nStore } from "../../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 const contentStore = useContentStore();
 
 const iconSearch = ref("");
@@ -37,7 +38,7 @@ const availableIcons = computed(() => {
 function switchDashboard() {
 	if (selectedDashboard.value === "new") {
 		editDashboard.value = {
-			name: $t("我的新儀表板"),
+			name: i18nStore.$t("我的新儀表板"),
 			icon: "dashboard",
 			components: [],
 		};
@@ -75,12 +76,12 @@ function handleConfirm() {
 
 <template>
 	<div :class="{ componentsidebar: true, 'hide-if-mobile': true }">
-		<h2>{{ $t("新增組件至儀表板") }}</h2>
+		<h2>{{ i18nStore.$t("新增組件至儀表板") }}</h2>
 		<div class="componentsidebar-settings">
-			<label>{{ $t("選擇儀表板") }}</label>
+			<label>{{ i18nStore.$t("選擇儀表板") }}</label>
 			<select v-model="selectedDashboard" @change="switchDashboard">
 				<option value="new">
-					{{ $t("新增儀表板") }}
+					{{ i18nStore.$t("新增儀表板") }}
 				</option>
 				<option
 					v-for="dashboard in contentStore.personalDashboards.filter(
@@ -97,10 +98,13 @@ function handleConfirm() {
 			v-if="selectedDashboard === 'new'"
 			class="componentsidebar-settings"
 		>
-			<label>{{ $t("名稱*") }}</label>
+			<label>{{ i18nStore.$t("名稱*") }}</label>
 			<input v-model="editDashboard.name" placeholder="" required />
-			<label>{{ $t("圖示*") }}</label>
-			<input v-model="iconSearch" :placeholder="$t('尋找圖示(英文)')" />
+			<label>{{ i18nStore.$t("圖示*") }}</label>
+			<input
+				v-model="iconSearch"
+				:placeholder="i18nStore.$t('尋找圖示(英文)')"
+			/>
 			<div class="componentsidebar-settings-icon">
 				<div v-for="item in availableIcons" :key="item">
 					<input
@@ -114,7 +118,9 @@ function handleConfirm() {
 			</div>
 		</div>
 		<div class="componentsidebar-settings">
-			<label>{{ $t("儀表板組件 (點擊右側組件 [+] 圖示以新增)") }}</label>
+			<label>{{
+				i18nStore.$t("儀表板組件 (點擊右側組件 [+] 圖示以新增)")
+			}}</label>
 			<div class="componentsidebar-settings-components">
 				<ComponentDragTags
 					:tags="editDashboard.components"
@@ -136,13 +142,13 @@ function handleConfirm() {
 				v-if="selectedDashboard === 'new' && editDashboard.name"
 				@click="handleConfirm"
 			>
-				{{ $t("新增組件至儀表板") }}
+				{{ i18nStore.$t("新增組件至儀表板") }}
 			</button>
 			<button
 				v-else-if="selectedDashboard !== 'new'"
 				@click="handleConfirm"
 			>
-				{{ $t("更新儀表板") }}
+				{{ i18nStore.$t("更新儀表板") }}
 			</button>
 		</div>
 	</div>
