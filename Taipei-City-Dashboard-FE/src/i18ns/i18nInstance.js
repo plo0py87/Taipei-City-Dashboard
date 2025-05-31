@@ -34,8 +34,28 @@ export const useI18nStore = defineStore("i18n", {
 	getters: {
 		// 翻譯方法
 		$t: (state) => (key) => {
-			// 確保當前語系存在，並嘗試取得翻譯，否則返回 key 本身
-			return state.messages[state.locale]?.[key] || key;
+			const localeMessages = state.messages[state.locale];
+			if (!localeMessages) {
+				// Locale not found, return key
+				return key;
+			}
+			// Ensure key is a string before trying to split
+			if (typeof key !== 'string') {
+				return key;
+			}
+
+			const keys = key.split('.');
+			let result = localeMessages;
+
+			for (const k of keys) {
+				if (result && typeof result === 'object' && Object.prototype.hasOwnProperty.call(result, k)) {
+					result = result[k];
+				} else {
+					// Translation not found, return original key
+					return key;
+				}
+			}
+			return result;
 		},
 		// 取得當前語系 (如果組件需要顯示當前語系)
 		currentLocale: (state) => state.locale,

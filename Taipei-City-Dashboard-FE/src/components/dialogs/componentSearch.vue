@@ -4,7 +4,7 @@
 import { ref, nextTick } from "vue";
 import { useChatStore } from "../../store/chatStore";
 import { useDialogStore } from "../../store/dialogStore";
-
+import http from "../../router/axios";
 import DialogContainer from "./DialogContainer.vue";
 import axios from "axios";
 const chatStore = useChatStore();
@@ -19,17 +19,19 @@ const sendMessage = async () => {
 		if (!chatStore.messages) {
 			chatStore.messages = [];
 		}
-
+		let newComponents = [];
 		chatStore.messages.push({
 			text: newMessage.value,
 			sender: "user",
 			timestamp: new Date().toLocaleTimeString(),
 		});
 		try {
+			const msg = newMessage.value;
+			newMessage.value = "";
 			const response = await axios.post(
 				"http://localhost:8000/query",
 				{
-					prompt: newMessage.value,
+					prompt: msg,
 				},
 				{
 					headers: {
@@ -39,12 +41,26 @@ const sendMessage = async () => {
 				}
 			);
 			console.log(response.data);
+			newComponents = response.data?.result;
 		} catch (error) {
 			console.error("API request failed:", error);
 			// Handle error appropriately
 		}
-		newMessage.value = "";
 
+		const createDashboard = async () => {
+			try {
+				const response = await http.post("/dashboard/", {
+					name: "智慧儀表板",
+					components: newComponents,
+					icon: "science",
+					updated_at: new Date().toISOString(),
+				});
+				console.log("Dashboard created:", response.data);
+			} catch (error) {
+				console.error("Error creating dashboard:", error);
+			}
+		};
+		console.log("New components:", createDashboard);
 		// Scroll to the latest message
 		await nextTick();
 		if (messagesContainer.value) {

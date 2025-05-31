@@ -18,19 +18,19 @@ const incidentDesc = ref("");
 const incidentDis = ref(0.5);
 
 const typeOptions = [
-	{ label: t("dialog.火災 Fire"), value: "fire" },
-	{ label: t("dialog.淹水 Flood"), value: "flood" },
-	{ label: t("dialog.道路 Road"), value: "road" },
-	{ label: t("dialog.建物 Building"), value: "building" },
-	{ label: t("dialog.其他 Others"), value: "other" },
+	{ label: i18nStore.$t("dialog.火災 Fire"), value: "fire" },
+	{ label: i18nStore.$t("dialog.淹水 Flood"), value: "flood" },
+	{ label: i18nStore.$t("dialog.道路 Road"), value: "road" },
+	{ label: i18nStore.$t("dialog.建物 Building"), value: "building" },
+	{ label: i18nStore.$t("dialog.其他 Others"), value: "other" },
 	// Add more options as needed
 ];
 
 const disOptions = [
-	{ label: t("dialog.500公尺內"), value: 0.5 },
-	{ label: t("dialog.500公尺~2公里"), value: 2 },
-	{ label: t("dialog.2公里~5公里"), value: 5 },
-	{ label: t("dialog.大於5公里"), value: 10 },
+	{ label: i18nStore.$t("dialog.500公尺內"), value: 0.5 },
+	{ label: i18nStore.$t("dialog.500公尺~2公里"), value: 2 },
+	{ label: i18nStore.$t("dialog.2公里~5公里"), value: 5 },
+	{ label: i18nStore.$t("dialog.大於5公里"), value: 10 },
 	// Add more options as needed
 ];
 
@@ -51,7 +51,10 @@ async function handleSubmit() {
 	incidentType.value = "";
 	incidentDesc.value = "";
 	incidentDis.value = "";
-	dialogStore.showNotification("success", t("dialog.災害新增成功"));
+	dialogStore.showNotification(
+		"success",
+		i18nStore.$t("dialog.災害新增成功")
+	);
 	dialogStore.hideAllDialogs();
 }
 
