@@ -82,6 +82,9 @@ func configureComponentRoutes() {
 		componentRoutes.GET("/:id/all", controllers.GetComponentByIDAll)
 		componentRoutes.GET("/:id/chart", controllers.GetComponentChartData)
 		componentRoutes.GET("/:id/history", controllers.GetComponentHistoryData)
+		componentRoutes.POST("/:id/view", controllers.RecordComponentView)
+		componentRoutes.GET("/top-viewed", controllers.GetTopViewedComponents)
+		componentRoutes.GET("/:id/view-count", controllers.GetComponentViewCount)
 	}
 	componentRoutes.Use(middleware.IsSysAdm())
 	{
@@ -94,7 +97,6 @@ func configureComponentRoutes() {
 		componentRoutes.PATCH("/:id/map", controllers.UpdateComponentMapConfig)
 	}
 }
-
 func configureDashboardRoutes() {
 	dashboardRoutes := RouterGroup.Group("/dashboard")
 	dashboardRoutes.Use(middleware.LimitAPIRequests(global.DashboardLimitAPIRequestsTimes, global.LimitRequestsDuration))
