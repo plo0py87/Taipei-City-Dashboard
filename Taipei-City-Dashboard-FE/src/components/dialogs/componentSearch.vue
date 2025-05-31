@@ -12,6 +12,7 @@ const dialogStore = useDialogStore();
 const newMessage = ref("");
 const messagesContainer = ref(null);
 import { useI18nStore } from "../../i18ns/i18nInstance";
+import router from "../../router";
 const i18nStore = useI18nStore();
 const sendMessage = async () => {
 	if (newMessage.value.trim()) {
@@ -41,25 +42,26 @@ const sendMessage = async () => {
 				}
 			);
 			console.log(response.data);
-			newComponents = response.data?.result;
+			const resultString = response.data?.result;
+			if (resultString) {
+				newComponents = JSON.parse(resultString).map(Number);
+			} else {
+				newComponents = [];
+			}
 		} catch (error) {
 			console.error("API request failed:", error);
 			// Handle error appropriately
 		}
+		console.log("New components to add:", newComponents);
+		const createDashboard = await http.post("/dashboard/", {
+			name: "智慧儀表板",
+			components: newComponents.map((component) =>
+				parseInt(component, 10)
+			),
+			icon: "science",
+			updated_at: new Date().toISOString(),
+		});
 
-		const createDashboard = async () => {
-			try {
-				const response = await http.post("/dashboard/", {
-					name: "智慧儀表板",
-					components: newComponents,
-					icon: "science",
-					updated_at: new Date().toISOString(),
-				});
-				console.log("Dashboard created:", response.data);
-			} catch (error) {
-				console.error("Error creating dashboard:", error);
-			}
-		};
 		console.log("New components:", createDashboard);
 		// Scroll to the latest message
 		await nextTick();
@@ -72,9 +74,12 @@ const sendMessage = async () => {
 		// Simulating a bot response after a short delay
 		setTimeout(() => {
 			chatStore.messages.push({
-				text: "This is a demo response. The actual implementation would connect to your backend service.",
+				text: newComponents
+					? "LLM 幫你選出了相關的組件，點下面的按鈕前往智慧儀表板吧！"
+					: "喔不，LLM 看起來不知道有什麼組件可以推薦給你…",
 				sender: "bot",
 				timestamp: new Date().toLocaleTimeString(),
+				newDashboard: createDashboard.data.data.index,
 			});
 
 			// Scroll to the new message
@@ -116,6 +121,18 @@ const handleClose = () => {
 						<div class="message-content">
 							{{ message.text }}
 						</div>
+						<div
+							v-if="message.newDashboard"
+							class="teleport-waypoint"
+							@click="handleClose"
+						>
+							<router-link
+								:to="`/dashboard?index=${message.newDashboard}`"
+								class="teleport-link"
+							>
+								前往智慧儀表板
+							</router-link>
+						</div>
 						<div class="message-time">
 							{{ message.timestamp }}
 						</div>
@@ -127,7 +144,7 @@ const handleClose = () => {
 					v-model="newMessage"
 					class="chat-input"
 					type="text"
-					:placeholder="i18nStore.$t('dialog.輸入您的訊息...')"
+					:placeholder="i18nStore.$t('輸入訊息...')"
 					@keyup.enter="sendMessage"
 				/>
 				<button
@@ -382,6 +399,55 @@ const handleClose = () => {
 	background: linear-gradient(135deg, #1e293b, #0f172a);
 }
 
+.teleport-waypoint {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.teleport-link {
+	display: inline-block;
+	padding: 10px 20px;
+	background: linear-gradient(90deg, #2563eb, #1e293b);
+	color: #f1f5f9;
+	border-radius: 25px;
+	text-decoration: none;
+	font-weight: bold;
+	overflow: hidden;
+	position: relative;
+	transition: all 0.3s ease;
+	box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+}
+
+.teleport-link::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(
+		90deg,
+		rgba(255, 255, 255, 0.2),
+		rgba(255, 255, 255, 0.1),
+		rgba(255, 255, 255, 0.2)
+	);
+	transition: left 0.5s ease;
+}
+
+.teleport-link:hover::before {
+	left: 100%;
+}
+
+.teleport-link:hover {
+	background: linear-gradient(90deg, #1e40af, #0f172a);
+	box-shadow: 0 6px 20px rgba(37, 99, 235, 0.35);
+	transform: translateY(-2px);
+}
+
+.teleport-link:active {
+	transform: translateY(0);
+	box-shadow: 0 2px 8px rgba(37, 99, 235, 0.25);
+}
 /* Responsive design */
 @media (max-width: 768px) {
 	.chat-container {
