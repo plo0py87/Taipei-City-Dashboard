@@ -60,7 +60,7 @@ async def get_components() -> List[Dict[str, str]]:
     connection = None
     try:
         connection = await get_db_connection("manager")
-        query = """SELECT index,name FROM public.components
+        query = """SELECT id,name FROM public.components
         ORDER BY id ASC """
         rows = await connection.fetch(query)
         # Convert rows to list of dictionaries
@@ -79,22 +79,22 @@ async def get_components() -> List[Dict[str, str]]:
 
 # Add database table reading tool
 @mcp.tool()
-async def read_component(component_indices: list[str]) -> str:
+async def read_component(component_ids: list[str]) -> str:
     """
     讀取指定組件資料 (支援多個組件查詢)
     
     Args:
-        component_indices: 組件索引列表，例如 ["bike_map", "city_age_distribution"]
+        component_ids: 組件索引列表，例如 ["212", "213", "214"]
     
     Returns:
         所有查詢組件的資訊
     """
-    if not component_indices:
+    if not component_ids:
         return "No components specified"
     
     results = []
-    for index in component_indices:
-        results.append(index)
+    for id in component_ids:
+        results.append(id)
     
     return "\n".join(results)
 # Add a dynamic greeting resource
