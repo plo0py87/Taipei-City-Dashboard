@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from ensemble_predictor import EnsemblePredictor
 
 app = Flask(__name__)
-predictor = EnsemblePredictor("train/improved_models") #path
+predictor = EnsemblePredictor("ai/improved_models") #path
 
 @app.route("/health", methods=["GET"])
 def health():
