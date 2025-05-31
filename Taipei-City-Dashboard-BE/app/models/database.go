@@ -127,10 +127,12 @@ func MigrateManagerSchema() {
 		DBManager.AutoMigrate(&Dashboard{}, &DashboardGroup{}, &Issue{}, &QueryCharts{})
 		DBManager.AutoMigrate(&ViewPoints{})
 		DBManager.AutoMigrate(&Incident{})
-
-		// All users beneath the public group do not need to be added to the public group
-		// DBManager.Exec("ALTER TABLE auth_user_group_roles ADD CONSTRAINT check_group_id CHECK (group_id > 1);")
-		// DBManager.Exec("ALTER TABLE isso_user_groups ADD CONSTRAINT check_group_id CHECK (group_id > 1);")
+		
+		// 新增 ComponentView 的遷移
+		DBManager.AutoMigrate(&ComponentView{})
+		
+		// 建立索引以提升查詢效能
+		DBManager.Exec("CREATE INDEX IF NOT EXISTS idx_component_views_component_id_viewed_at ON component_views(component_id, viewed_at DESC);")
 	} else {
 		panic("failed to get Manager database connection")
 	}

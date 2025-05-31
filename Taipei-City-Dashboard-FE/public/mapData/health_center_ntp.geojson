@@ -1,0 +1,1422 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.398815,25.147009 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"天康八里藥局",
+    "address":"新北市八里區中山路2段367號",
+    "telephone":"02-2610-1569"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.495756,25.068921 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"出雲藥局",
+    "address":"新北市三重區正義北路272號",
+    "telephone":"02-2984-2559"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.493057,25.067438 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"利民藥局",
+    "address":"新北市三重區自強路1段171號",
+    "telephone":"02-2985-2826"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.487403,25.071784 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"忠孝台安藥局",
+    "address":"新北市三重區忠孝路1段181號",
+    "telephone":"02-2937-1825"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.489736,25.066027 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"柏林藥局",
+    "address":"新北市三重區重陽路3段5巷18號",
+    "telephone":"0921-085-318"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.484068,25.077949 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"美康三和藥局",
+    "address":"新北市三重區三和路4段322號",
+    "telephone":"02-2286-6858"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.485398,25.05867 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"新宜安中西藥局",
+    "address":"新北市三重區三陽路30號",
+    "telephone":"02-2988-3693"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.502331,25.064975 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"親鄰藥局",
+    "address":"新北市三重區福德北路43號",
+    "telephone":"02-2976-0012"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.495429,25.070046 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"聯鑫藥師藥局",
+    "address":"新北市三重區正義北路269號",
+    "telephone":"02-8982-9880"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.378791,24.943723 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"北大藥局",
+    "address":"新北市三峽區大義路9號",
+    "telephone":"02-2673-8535"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.375595,24.942035 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"聯心藥局",
+    "address":"新北市三峽區大學路111號",
+    "telephone":"02-8671-5999"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.457122,24.988254 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"元蒼藥局",
+    "address":"新北市土城區學府路1段69號",
+    "telephone":"02-2273-3868"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.447073,24.983329 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"升立藥局",
+    "address":"新北市土城區明德路2段195號",
+    "telephone":"02-2260-5158"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.445772,24.976668 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"欣珉藥局",
+    "address":"新北市土城區學士路423號",
+    "telephone":"02-8261-7996"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.452221,24.985685 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"埔銓藥局",
+    "address":"新北市土城區裕民路164號",
+    "telephone":"02-2263-0230"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.441911,24.975486 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"惠蒼藥局",
+    "address":"新北市土城區中央路2段216號",
+    "telephone":"02-2260-6812"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.436087,24.967021 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"貓頭鷹藥妝藥局",
+    "address":"新北市土城區中央路3段88號",
+    "telephone":"02-2269-5659"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.498619,25.002193 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"中和光田藥局",
+    "address":"新北市中和區連城路28號",
+    "telephone":"02-2245-9602"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.47467,25.00084 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"正向專業藥局",
+    "address":"新北市中和區民享街91之10號",
+    "telephone":"02-2221-8968"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.482174,24.995565 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"正陽藥師藥局",
+    "address":"新北市中和區連城路354號",
+    "telephone":"02-8228-7336"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.526325,24.995031 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"禾心藥局",
+    "address":"新北市中和區秀朗路3段64號",
+    "telephone":"02-8668-8922"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.500686,25.005026 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"伍品藥局",
+    "address":"新北市中和區莊敬路35號",
+    "telephone":"02-8245-6789"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.499205,25.004403 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"壹品藥局",
+    "address":"新北市中和區福祥路55號",
+    "telephone":"02-2248-1818"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.504618,24.991915 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"萊恩藥局",
+    "address":"新北市中和區景安路209號",
+    "telephone":"02-2946-8395"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.433103,25.073645 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"虹元藥局",
+    "address":"新北市五股區自強路56號",
+    "telephone":"02-2292-5067"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.438417,25.084831 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"常安藥局",
+    "address":"新北市五股區工商路71號",
+    "telephone":"02-2291-7912"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.515004,25.006992 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"九州藥局",
+    "address":"新北市永和區自由街5號",
+    "telephone":"02-2922-6879"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.518261,25.013859 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"柏愛藥局",
+    "address":"新北市永和區竹林路57號",
+    "telephone":"02-8928-5609"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.514724,25.014994 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"皇誼藥局",
+    "address":"新北市永和區文化路33號",
+    "telephone":"02-29278732"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.510222,25.00608 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"級立健保藥局",
+    "address":"新北市永和區保平路139號",
+    "telephone":"02-2929-9995"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.65363,25.063035 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"永康中西綜合藥局",
+    "address":"新北市汐止區龍安路175號",
+    "telephone":"02-8691-5580"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.652862,25.064898 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"康元中西綜合藥局",
+    "address":"新北市汐止區大同路2段219號",
+    "telephone":"02-8692-3648"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.66322,25.063966 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"滿益藥局",
+    "address":"新北市汐止區仁愛路130號",
+    "telephone":"02-8642-1562"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.474051,25.023141 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"大峰藥局",
+    "address":"新北市板橋區莒光路168號",
+    "telephone":"02-2251-0338"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.45614,25.018024 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"台安藥局",
+    "address":"新北市板橋區中正路204號",
+    "telephone":"02-2966-3600"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.468675,25.007339 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"正安健保藥局",
+    "address":"新北市板橋區民族路224號",
+    "telephone":"02-2952-6813"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.478748,25.015151 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"正成藥師藥局",
+    "address":"新北市板橋區三民路2段154巷7號",
+    "telephone":"02-2951-2760"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.446673,25.002465 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"正康健保藥局",
+    "address":"新北市板橋區大觀路2段65號",
+    "telephone":"02-2275-6681"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.46702,25.020279 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"正康新埔藥局",
+    "address":"新北市板橋區介壽街4號",
+    "telephone":"02-8259-5882"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460072,25.002966 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"全國藥局",
+    "address":"新北市板橋區四川路1段231號",
+    "telephone":"02-2951-1212"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.464298,25.004369 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"向康藥局",
+    "address":"新北市板橋區實踐路147號",
+    "telephone":"02-2963-7248"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.461345,25.028507 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"谷全藥局",
+    "address":"新北市板橋區裕民街49號",
+    "telephone":"02-2256-1856"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.465673,25.024572 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"幸福健保藥局",
+    "address":"新北市板橋區四維路106號",
+    "telephone":"02-2253-0009"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.470574,25.031677 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"欣民藥局",
+    "address":"新北市板橋區雙十路3段39號",
+    "telephone":"02-2252-7143"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.478887,25.014202 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"信昌藥局",
+    "address":"新北市板橋區三民路2段202之9號",
+    "telephone":"02-2951-0784"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460818,25.002062 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"埔全藥局",
+    "address":"新北市板橋區忠孝路33號",
+    "telephone":"02-2956-7309"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.476963,25.017409 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"埔墘藥局",
+    "address":"新北市板橋區中山路2段227號",
+    "telephone":"02-2964-6705"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460716,25.007383 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"陸品藥局",
+    "address":"新北市板橋區館前東路29號",
+    "telephone":"02-2951-2288"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.455024,25.015149 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"華傳綜合大藥局",
+    "address":"新北市板橋區大智街40號",
+    "telephone":"02-2967-0029"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.462099,25.021162 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"詠笙藥局",
+    "address":"新北市板橋區新海路51號",
+    "telephone":"02-8258-8029"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.456129,25.017502 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"微笑藥局",
+    "address":"新北市板橋區中正路211號",
+    "telephone":"02-2965-5811"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.465447,25.022216 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"新埔健保藥局",
+    "address":"新北市板橋區自由路2號",
+    "telephone":"02-2255-8878"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.428121,24.989526 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"溪北藥局",
+    "address":"新北市板橋區溪北路78號",
+    "telephone":"02-2686-6528"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.471976,25.007338 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"漢民藥局",
+    "address":"新北市板橋區漢生東路346號",
+    "telephone":"02-2959-8168"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.467912,25.006676 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"賜您康大藥局",
+    "address":"新北市板橋區國泰街50號",
+    "telephone":"02-2951-3166"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.455657,25.019061 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"翰林藥局",
+    "address":"新北市板橋區中正路240號",
+    "telephone":"02-2960-2748"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.451868,24.996581 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"聯康藥局",
+    "address":"新北市板橋區南雅南路2段136號",
+    "telephone":"02-8967-4888"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.379406,25.082932 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"一家好藥局",
+    "address":"新北市林口區中山路500號",
+    "telephone":"02-2602-8270"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.369525,25.072254 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"林康藥局",
+    "address":"新北市林口區文化二路1段222號",
+    "telephone":"02-2608-8869"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3679,25.069125 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"美得心藥局",
+    "address":"新北市林口區公園路63號",
+    "telephone":"02-2600-1770"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.431102,25.058804 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"同榮藥局",
+    "address":"新北市泰山區明志路1段332號",
+    "telephone":"02-2900-0133"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.433146,25.055336 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"苗園健保特約藥局",
+    "address":"新北市泰山區仁愛路92號",
+    "telephone":"02-2297-0736"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.434121,25.055796 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"泰山藥局",
+    "address":"新北市泰山區全興路214號",
+    "telephone":"02-2296-1663"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.432089,25.060524 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"華特藥局",
+    "address":"新北市泰山區明志路1段260號",
+    "telephone":"02-2909-5662"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.44146,25.181663 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"天文大藥局",
+    "address":"新北市淡水區新春街136號",
+    "telephone":"02-8631-2050"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.447926,25.169286 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"天康大藥局",
+    "address":"新北市淡水區學府路49號",
+    "telephone":"02-2620-6517"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.448376,25.169979 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"佳藥長照藥局",
+    "address":"新北市淡水區學府路75號",
+    "telephone":"02-2621-1321"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.448415,25.170029 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"躍獅淡水長照藥局",
+    "address":"新北市淡水區學府路77號",
+    "telephone":"02-2629-5603"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.618358,25.003734 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"健康小站藥局",
+    "address":"新北市深坑區埔新里北深路2段75號",
+    "telephone":"02-2662-9568"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.516603,24.970077 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"永杏中西藥局",
+    "address":"新北市新店區安民街163號",
+    "telephone":"02-8921-0338"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.535937,24.971497 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"伸福康藥局",
+    "address":"新北市新店區三民路77號",
+    "telephone":"02-8919-3569"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.537777,24.959022 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"杏運草藥局",
+    "address":"新北市新店區北新路1段19號",
+    "telephone":"02-8911-5998"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.520512,24.986118 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"貳品藥局",
+    "address":"新北市新店區新和街75號",
+    "telephone":"02-8941-8890"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.543167,24.979778 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"耀生中西藥局",
+    "address":"新北市新店區文化路21巷6號",
+    "telephone":"02-2911-8598"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.452361,25.045439 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"十安藥局",
+    "address":"新北市新莊區中港路316號",
+    "telephone":"02 2992 2859"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.424858,25.024265 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"元大藥局",
+    "address":"新北市新莊區富國路204號",
+    "telephone":"02-2202-0082"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.465672,25.046494 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"武田藥局",
+    "address":"新北市新莊區化成路212號",
+    "telephone":"02-2994-4029"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.428094,25.019011 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"庭安藥局",
+    "address":"新北市新莊區民有里西盛街172號",
+    "telephone":"02-2208-0528"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.42833,25.027166 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"瑞豐大藥局",
+    "address":"新北市新莊區建福里後港一路105號",
+    "telephone":"02-2204-9932"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.463231,25.054612 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"福原藥局",
+    "address":"新北市新莊區中原東路70號",
+    "telephone":"02-8521-6190"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.451768,25.051871 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"蒲陽藥局",
+    "address":"新北市新莊區中港路514號",
+    "telephone":"02-2993-0069"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.451993,25.051054 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"環球藥局",
+    "address":"新北市新莊區中港路436號",
+    "telephone":"02-2990-1934"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.424247,25.021122 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"蘋果藥局",
+    "address":"新北市新莊區八德街105號",
+    "telephone":"02-2205-3933"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.805471,25.107733 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"瑞芳東亞大藥局",
+    "address":"新北市瑞芳區中正路84號",
+    "telephone":"02-2496-0179"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.686547,25.203026 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"焦藥局",
+    "address":"新北市萬里區港東新?6號",
+    "telephone":"02-2492-3188"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.423176,24.99178 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"又怡藥師藥局",
+    "address":"新北市樹林區中山路1段76巷2號",
+    "telephone":"02-2681-6886"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.422482,24.9924 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"良方藥局",
+    "address":"新北市樹林區日新街40號",
+    "telephone":"02-2675-0520"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.423496,24.982546 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"益銘藥師藥局",
+    "address":"新北市樹林區忠孝街19號",
+    "telephone":"02-8685-9376"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.424744,24.994648 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"澤安藥師藥局",
+    "address":"新北市樹林區保安二街26號",
+    "telephone":"02-2687-2764"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.462439,25.081042 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"中美永結藥局",
+    "address":"新北市蘆洲區中華街38號",
+    "telephone":"02-2288-7676"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.471266,25.082367 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"天士藥局",
+    "address":"新北市蘆洲區中正路36號",
+    "telephone":"02-2281-8227"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.473425,25.088678 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"光禾藥局",
+    "address":"新北市蘆洲區民權路122號",
+    "telephone":"02-2848-0050"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.479332,25.088164 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"松展多利日式連鎖藥粧藥局",
+    "address":"新北市蘆洲區民族路161號",
+    "telephone":"02-2288-2586"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.469756,25.084095 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"康群生活藥局",
+    "address":"新北市蘆洲區中正路105號",
+    "telephone":"02-8283-5630"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4852,25.063553 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"建興藥局",
+    "address":"新北市三重區三民街105號",
+    "telephone":"02-2988-8757"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.427486,25.020439 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"七安大藥局",
+    "address":"新北市新莊區民安西路55號",
+    "telephone":"02-2202-6066"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.420871,24.960996 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"美康中央藥局",
+    "address":"新北市土城區中央路4段26號",
+    "telephone":"02-2268-8068"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.508243,24.983919 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"華新藥局",
+    "address":"新北市中和區華新街73號",
+    "telephone":"02-29448345"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.441163,25.037851 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"美康頭前藥局",
+    "address":"新北市新莊區化成路373之5號",
+    "telephone":"02-8521-9638"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.489831,24.995852 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"錦和藥局",
+    "address":"新北市中和區錦和路164號",
+    "telephone":"02-8228-2296"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.425718,24.996606 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"暉民西藥局",
+    "address":"新北市樹林區千歲街36號",
+    "telephone":"02-2683-5868"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4262,25.022557 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"三大藥局",
+    "address":"新北市新莊區民安路197號",
+    "telephone":"02-2203-0503"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.511775,24.991676 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"信隆大藥局",
+    "address":"新北市中和區安樂路6號",
+    "telephone":"02-2942-6196"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.444857,25.041804 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"祥好大藥局",
+    "address":"新北市新莊區新泰路331號",
+    "telephone":"02-2993-9051"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.425919,24.99263 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"蔚海藥局",
+    "address":"新北市樹林區鎮前街17號",
+    "telephone":"02-8675-4203"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.483353,25.060603 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"美滿藥局",
+    "address":"新北市三重區中華路16號",
+    "telephone":"02-8982-4272"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.521603,24.993944 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"千大藥局",
+    "address":"新北市中和區立人街13號",
+    "telephone":"02-2944-1567"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.492775,25.067745 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"杜廣德葯局",
+    "address":"新北市三重區大智街53號",
+    "telephone":"02-2984-3152"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.511039,24.996518 ]
+    },
+    "properties": {
+    "type":"新北健康守護站",
+    "name":"璟福藥局",
+    "address":"新北市中和區安平路76號",
+    "telephone":"02-2940-8669"
+    }
+  }
+]
+}

@@ -11,6 +11,7 @@ Developed By Taipei Urban Intelligence Center 2023-2024
 package app
 
 import (
+	"time"
 	"TaipeiCityDashboardBE/app/cache"
 	"TaipeiCityDashboardBE/app/initial"
 	"TaipeiCityDashboardBE/app/middleware"
@@ -73,4 +74,21 @@ func InsertDashbaordSampleData() {
 	models.ConnectToDatabases("DASHBOARD")
 	initial.InitSampleCityData()
 	models.CloseConnects("DASHBOARD")
+}
+
+func startCleanupScheduler() {
+	ticker := time.NewTicker(24 * time.Hour) // 每 24 小時執行一次
+	defer ticker.Stop()
+
+	for {
+		select {
+		case <-ticker.C:
+			logs.Info("Starting cleanup of old component views...")
+			if err := models.CleanOldComponentViews(); err != nil {
+				logs.FError("Failed to clean old component views: %v", err)
+			} else {
+				logs.Info("Successfully cleaned old component views")
+			}
+		}
+	}
 }
