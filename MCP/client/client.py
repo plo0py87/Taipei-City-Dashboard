@@ -2,8 +2,11 @@
 Enhanced MCP Client with Ollama Integration and Dynamic Tool Discovery
 """
 import asyncio
+import json
 import logging
+import re
 import sys
+import traceback
 from mcp import ClientSession, StdioServerParameters
 from mcp.client.stdio import stdio_client
 import ollama
@@ -80,8 +83,7 @@ class SimpleMCPOllamaClient:
                     message = ollama_response['message']
                     final_text = []
                     component_ids = []
-                    
-                    # Step 4: Process response and handle tool calls (like Claude example)
+                      # Step 4: Process response and handle tool calls (like Claude example)
                     if message.get('content'):
                         final_text.append(message['content'])
                     
@@ -90,12 +92,17 @@ class SimpleMCPOllamaClient:
                         for tool_call in message['tool_calls']:
                             tool_name = tool_call['function']['name']
                             tool_args = tool_call['function']['arguments']
-                            
-                            # Execute tool call via MCP
+                            print(f"🔧 Found tool call: {tool_name} with args {tool_args}")
+                            # Fix type conversion for component_ids - convert integers to strings
+                            if 'component_ids' in tool_args and isinstance(tool_args['component_ids'], list):
+                                tool_args['component_ids'] = [str(id) for id in tool_args['component_ids']]
+                                print(f"🔧 Converted component_ids to strings: {tool_args['component_ids']}")
+                              # Execute tool call via MCP
                             result = await session.call_tool(tool_name, tool_args)
                             final_text.append(f"[Calling tool {tool_name} with args {tool_args}]")
                             final_text.append(f"Tool result: {result.content}")
-                              # Extract component IDs from the result
+                            
+                            # Extract component IDs from the result
                             if result.content:
                                 for content_item in result.content:
                                     if hasattr(content_item, 'text'):

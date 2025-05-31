@@ -86,6 +86,7 @@ async def read_component(components_topic: str,component_ids: list[str]) -> str:
     Args:
 		components_topic: 獲取組件之共同主題，例如 "高齡照護狀況"
         component_ids: 組件索引列表，例如 ["212", "213", "214"]
+        參數皆為字串類型
     
     Returns:
         所有查詢組件的資訊
