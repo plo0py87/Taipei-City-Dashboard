@@ -5,7 +5,8 @@ import { ref, computed } from "vue";
 import { useRoute } from "vue-router";
 import http from "../../../router/axios";
 import { storeToRefs } from "pinia";
-
+import { useI18nStore } from "../../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 import { useDialogStore } from "../../../store/dialogStore";
 import { useAdminStore } from "../../../store/adminStore";
 import { useContentStore } from "../../../store/contentStore";
@@ -25,7 +26,7 @@ const props = defineProps(["mode"]);
 const { currentDashboard } = storeToRefs(adminStore);
 const indexStatus = ref("");
 const iconSearch = ref("");
-const city = computed(() => route.query.city || '');
+const city = computed(() => route.query.city || "");
 
 const availableIcons = computed(() => {
 	let filteredIcons = [...allIcons];
@@ -76,113 +77,124 @@ function handleClose() {
 </script>
 
 <template>
-  <DialogContainer
-    :dialog="`adminAddEditDashboards`"
-    @on-close="handleClose"
-  >
-    <div class="adminaddeditdashboards">
-      <div class="adminaddeditdashboards-header">
-        <h2>{{ mode === "edit" ? "編輯" : "新增" }}公開儀表板</h2>
-        <button @click="handleConfirm">
-          確認{{ mode === "edit" ? "更改" : "新增" }}
-        </button>
-      </div>
-      <div class="adminaddeditdashboards-content">
-        <div class="adminaddeditdashboards-settings">
-          <div class="adminaddeditdashboards-settings-container">
-            <label>Index*</label>
-            <input
-              v-if="mode === 'edit'"
-              :value="currentDashboard.index"
-              disabled="true"
-            >
-            <div
-              v-else-if="mode === 'add'"
-              class="adminaddeditdashboards-settings-index"
-            >
-              <input
-                v-model="currentDashboard.index"
-                :minlength="1"
-                :maxlength="30"
-                required
-                @focusout="verifyIndex"
-              >
-              <span
-                :style="{
-                  color:
-                    indexStatus === 'cancel'
-                      ? 'rgb(237, 90, 90)'
-                      : 'greenyellow',
-                }"
-              >{{ indexStatus }}</span>
-            </div>
-            <label>名稱* ({{ currentDashboard.name.length }}/10)</label>
-            <input
-              v-model="currentDashboard.name"
-              :minlength="1"
-              :maxlength="10"
-              required
-            >
-            <template v-if="city">
-              <label>city</label>
-              <input
-                v-model="city"
-                :disabled="true"
-              >
-            </template>
-            <label>圖示*</label>
-            <input
-              v-model="iconSearch"
-              placeholder="尋找圖示(英文)"
-            >
-            <div class="adminaddeditdashboards-settings-icon">
-              <div
-                v-for="item in availableIcons"
-                :key="item"
-              >
-                <input
-                  :id="item"
-                  v-model="currentDashboard.icon"
-                  type="radio"
-                  :value="item"
-                >
-                <label :for="item">{{ item }}</label>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="adminaddeditdashboards-settings">
-          <label>{{
-            mode === "edit" ? "編輯" : "新增"
-          }}儀表板組件</label>
-          <div class="adminaddeditdashboards-settings-components">
-            <ComponentDragTags
-              :tags="currentDashboard.components"
-              @deletetag="
-                (index) => {
-                  currentDashboard.components.splice(
-                    index,
-                    1
-                  );
-                }
-              "
-              @updatetagorder="
-                (updatedTags) => {
-                  currentDashboard.components = updatedTags;
-                }
-              "
-            />
-            <button
-              @click="dialogStore.showDialog('adminAddComponent')"
-            >
-              +
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <AdminAddComponent />
-  </DialogContainer>
+	<DialogContainer :dialog="`adminAddEditDashboards`" @on-close="handleClose">
+		<div class="adminaddeditdashboards">
+			<div class="adminaddeditdashboards-header">
+				<h2>
+					{{
+						mode === "edit"
+							? i18nStore.$t("編輯")
+							: i18nStore.$t("新增")
+					}}{{ i18nStore.$t("公開儀表板") }}
+				</h2>
+				<button @click="handleConfirm">
+					{{ i18nStore.$t("確認")
+					}}{{
+						mode === "edit"
+							? i18nStore.$t("更改")
+							: i18nStore.$t("新增")
+					}}
+				</button>
+			</div>
+			<div class="adminaddeditdashboards-content">
+				<div class="adminaddeditdashboards-settings">
+					<div class="adminaddeditdashboards-settings-container">
+						<label>Index*</label>
+						<input
+							v-if="mode === 'edit'"
+							:value="currentDashboard.index"
+							disabled="true"
+						/>
+						<div
+							v-else-if="mode === 'add'"
+							class="adminaddeditdashboards-settings-index"
+						>
+							<input
+								v-model="currentDashboard.index"
+								:minlength="1"
+								:maxlength="30"
+								required
+								@focusout="verifyIndex"
+							/>
+							<span
+								:style="{
+									color:
+										indexStatus === 'cancel'
+											? 'rgb(237, 90, 90)'
+											: 'greenyellow',
+								}"
+								>{{ indexStatus }}</span
+							>
+						</div>
+						<label
+							>{{ i18nStore.$t("名稱") }}* ({{
+								currentDashboard.name.length
+							}}/10)</label
+						>
+						<input
+							v-model="currentDashboard.name"
+							:minlength="1"
+							:maxlength="10"
+							required
+						/>
+						<template v-if="city">
+							<label>city</label>
+							<input v-model="city" :disabled="true" />
+						</template>
+						<label>{{ i18nStore.$t("圖示") }}*</label>
+						<input
+							v-model="iconSearch"
+							:placeholder="i18nStore.$t('尋找圖示(英文)')"
+						/>
+						<div class="adminaddeditdashboards-settings-icon">
+							<div v-for="item in availableIcons" :key="item">
+								<input
+									:id="item"
+									v-model="currentDashboard.icon"
+									type="radio"
+									:value="item"
+								/>
+								<label :for="item">{{ item }}</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="adminaddeditdashboards-settings">
+					<label
+						>{{
+							mode === "edit"
+								? i18nStore.$t("編輯")
+								: i18nStore.$t("新增")
+						}}{{ i18nStore.$t("儀表板組件") }}</label
+					>
+					<div class="adminaddeditdashboards-settings-components">
+						<ComponentDragTags
+							:tags="currentDashboard.components"
+							@deletetag="
+								(index) => {
+									currentDashboard.components.splice(
+										index,
+										1
+									);
+								}
+							"
+							@updatetagorder="
+								(updatedTags) => {
+									currentDashboard.components = updatedTags;
+								}
+							"
+						/>
+						<button
+							@click="dialogStore.showDialog('adminAddComponent')"
+						>
+							+
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<AdminAddComponent />
+	</DialogContainer>
 </template>
 
 <style scoped lang="scss">

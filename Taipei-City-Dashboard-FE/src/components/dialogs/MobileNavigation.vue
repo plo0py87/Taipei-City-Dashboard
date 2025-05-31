@@ -5,14 +5,13 @@ import { onMounted, ref, watch } from "vue";
 import { useDialogStore } from "../../store/dialogStore";
 import { useContentStore } from "../../store/contentStore";
 import { useAuthStore } from "../../store/authStore";
-import { useI18n } from "vue-i18n";
-
+import { useI18nStore } from "../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 import SideBarTab from "../utilities/miscellaneous/SideBarTab.vue";
 
 const dialogStore = useDialogStore();
 const contentStore = useContentStore();
 const authStore = useAuthStore();
-const { t } = useI18n();
 
 // The collapsed states are for each dashboard
 const collapsedStates = ref({
@@ -69,16 +68,16 @@ onMounted(() => {
 									toggleCollapse(['favorites', 'personal'])
 								"
 							>
-								{{ $t("dialog.私人儀表板") }}
+								{{ i18nStore.$t("dialog.私人儀表板") }}
 							</h1>
 							<h2 @click="toggleCollapse('favorites')">
-								{{ $t("dialog.我的最愛") }}
+								{{ i18nStore.$t("dialog.我的最愛") }}
 							</h2>
 							<transition name="collapse">
 								<template v-if="!collapsedStates.favorites">
 									<SideBarTab
 										icon="favorite"
-										:title="$t('dialog.收藏組件')"
+										:title="i18nStore.$t('dialog.收藏組件')"
 										:expanded="true"
 										:index="contentStore.favorites?.index"
 										@click="dialogStore.hideAllDialogs"
@@ -87,7 +86,7 @@ onMounted(() => {
 							</transition>
 
 							<h2 @click="toggleCollapse('personal')">
-								{{ $t("dialog.個人儀表板") }}
+								{{ i18nStore.$t("dialog.個人儀表板") }}
 							</h2>
 							<div
 								v-if="
@@ -97,7 +96,9 @@ onMounted(() => {
 								"
 								class="mobilenavigation-sub-no"
 							>
-								<p>{{ $t("dialog.尚無個人儀表板") }}</p>
+								<p>
+									{{ i18nStore.$t("dialog.尚無個人儀表板") }}
+								</p>
 							</div>
 							<transition name="collapse">
 								<div v-if="!collapsedStates.personal">
@@ -122,7 +123,7 @@ onMounted(() => {
 								)
 							"
 						>
-							{{ $t("dialog.公共儀表板") }}
+							{{ i18nStore.$t("dialog.公共儀表板") }}
 						</h1>
 						<template
 							v-for="city in contentStore.cityManager

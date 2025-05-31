@@ -12,7 +12,8 @@ import DialogContainer from "./DialogContainer.vue";
 
 const dialogStore = useDialogStore();
 const contentStore = useContentStore();
-
+import { useI18nStore } from "../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 const allComponents = ref(null);
 const componentsSelected = ref([]);
 const searchName = ref("");
@@ -75,14 +76,16 @@ onMounted(() => {
 	<DialogContainer dialog="addComponent" @on-close="handleClose">
 		<div class="addcomponent">
 			<div class="addcomponent-header">
-				<h2>{{ $t("dialog.新增組件至儀表板") }}</h2>
+				<h2>{{ i18nStore.$t("dialog.新增組件至儀表板") }}</h2>
 				<div class="addcomponent-header-search">
 					<div>
 						<div>
 							<input
 								v-model="searchName"
 								type="text"
-								:placeholder="$t('dialog.以名稱搜尋 (Enter)')"
+								:placeholder="
+									i18nStore.$t('dialog.以名稱搜尋 (Enter)')
+								"
 								@keypress.enter="handleSearch"
 							/>
 							<span
@@ -100,7 +103,9 @@ onMounted(() => {
 							<input
 								v-model="searchIndex"
 								type="text"
-								:placeholder="$t('dialog.以Index搜尋 (Enter)')"
+								:placeholder="
+									i18nStore.$t('dialog.以Index搜尋 (Enter)')
+								"
 								@keypress.enter="handleSearch"
 							/>
 							<span
@@ -117,22 +122,25 @@ onMounted(() => {
 					</div>
 					<div>
 						<button @click="handleClose">
-							{{ $t("dialog.取消") }}
+							{{ i18nStore.$t("dialog.取消") }}
 						</button>
 						<button
 							v-if="componentsSelected?.length > 0"
 							@click="handleSubmit"
 						>
-							<span>add_chart</span>{{ $t("dialog.確認新增") }}
+							<span>add_chart</span
+							>{{ i18nStore.$t("dialog.確認新增") }}
 						</button>
 					</div>
 				</div>
 			</div>
 			<p :style="{ margin: '1rem 0 0.5rem' }">
-				{{ $t("dialog.計") }} {{ availableComponents?.length }}
-				{{ $t("dialog.個組件符合篩選條件") }} |
-				{{ $t("dialog.共選取") }} {{ componentsSelected?.length }}
-				{{ $t("dialog.個") }}
+				{{ i18nStore.$t("dialog.計") }}
+				{{ availableComponents?.length }}
+				{{ i18nStore.$t("dialog.個組件符合篩選條件") }} |
+				{{ i18nStore.$t("dialog.共選取") }}
+				{{ componentsSelected?.length }}
+				{{ i18nStore.$t("dialog.個") }}
 			</p>
 
 			<div class="addcomponent-list">

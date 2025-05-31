@@ -6,7 +6,8 @@ import { storeToRefs } from "pinia";
 
 import { useDialogStore } from "../../store/dialogStore";
 import { useContentStore } from "../../store/contentStore";
-
+import { useI18nStore } from "../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 import DialogContainer from "./DialogContainer.vue";
 import ComponentDragTags from "../utilities/forms/ComponentDragTags.vue";
 import CustomCheckBox from "../utilities/forms/CustomCheckBox.vue";
@@ -76,9 +77,9 @@ function handleClose() {
 				<h2>
 					{{
 						dialogStore.addEdit === "edit"
-							? $t("dialog.編輯")
-							: $t("dialog.新增")
-					}}{{ $t("dialog.儀表板") }}
+							? i18nStore.$t("dialog.編輯")
+							: i18nStore.$t("dialog.新增")
+					}}{{ i18nStore.$t("dialog.儀表板") }}
 				</h2>
 				<div class="addeditdashboards-header-buttons">
 					<button
@@ -89,14 +90,14 @@ function handleClose() {
 						:style="{ backgroundColor: 'rgb(192, 67, 67)' }"
 						@click="handleDelete"
 					>
-						{{ $t("dialog.刪除儀表板") }}
+						{{ i18nStore.$t("dialog.刪除儀表板") }}
 					</button>
 					<button v-if="editDashboard.name" @click="handleConfirm">
-						{{ $t("dialog.確認")
+						{{ i18nStore.$t("dialog.確認")
 						}}{{
 							dialogStore.addEdit === "edit"
-								? $t("dialog.更改")
-								: $t("dialog.新增")
+								? i18nStore.$t("dialog.更改")
+								: i18nStore.$t("dialog.新增")
 						}}
 					</button>
 				</div>
@@ -104,7 +105,7 @@ function handleClose() {
 			<div class="addeditdashboards-content">
 				<div class="addeditdashboards-settings">
 					<label v-if="dialogStore.addEdit === 'edit'"
-						>{{ $t("dialog.Index") }}*</label
+						>{{ i18nStore.$t("dialog.Index") }}*</label
 					>
 					<input
 						v-if="dialogStore.addEdit === 'edit'"
@@ -112,7 +113,7 @@ function handleClose() {
 						disabled="true"
 					/>
 					<label
-						>{{ $t("dialog.名稱") }}* ({{
+						>{{ i18nStore.$t("dialog.名稱") }}* ({{
 							editDashboard.name.length
 						}}/10)</label
 					>
@@ -122,10 +123,10 @@ function handleClose() {
 						:maxlength="10"
 						required
 					/>
-					<label>{{ $t("dialog.圖示") }}*</label>
+					<label>{{ i18nStore.$t("dialog.圖示") }}*</label>
 					<input
 						v-model="iconSearch"
-						:placeholder="$t('dialog.尋找圖示(英文)')"
+						:placeholder="i18nStore.$t('dialog.尋找圖示(英文)')"
 					/>
 					<div class="addeditdashboards-settings-icon">
 						<div v-for="item in availableIcons" :key="item">
@@ -143,8 +144,12 @@ function handleClose() {
 					<div class="addeditdashboards-settings">
 						<label>{{
 							dialogStore.addEdit === "edit"
-								? $t("dialog.編輯儀表板組件 (拖拉以更改順序)")
-								: $t("dialog.新增儀表板組件 (拖拉以更改順序)")
+								? i18nStore.$t(
+										"dialog.編輯儀表板組件 (拖拉以更改順序)"
+								  )
+								: i18nStore.$t(
+										"dialog.新增儀表板組件 (拖拉以更改順序)"
+								  )
 						}}</label>
 						<div class="addeditdashboards-settings-components">
 							<ComponentDragTags
@@ -182,7 +187,7 @@ function handleClose() {
 							class="custom-check-input"
 						/>
 						<CustomCheckBox for="delete">
-							{{ $t("dialog.啟動刪除儀表板功能") }}
+							{{ i18nStore.$t("dialog.啟動刪除儀表板功能") }}
 						</CustomCheckBox>
 					</div>
 				</div>

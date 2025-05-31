@@ -4,12 +4,12 @@
 import { ref, onMounted } from "vue";
 import { useDialogStore } from "../../store/dialogStore";
 import { useMapStore } from "../../store/mapStore";
-import { useI18n } from "vue-i18n";
+import { useI18nStore } from "../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 import http from "../../router/axios";
 
 import DialogContainer from "./DialogContainer.vue";
 
-const { t } = useI18n();
 const dialogStore = useDialogStore();
 const mapStore = useMapStore();
 
@@ -18,19 +18,19 @@ const incidentDesc = ref("");
 const incidentDis = ref(0.5);
 
 const typeOptions = [
-	{ label: t("dialog.火災 Fire"), value: "fire" },
-	{ label: t("dialog.淹水 Flood"), value: "flood" },
-	{ label: t("dialog.道路 Road"), value: "road" },
-	{ label: t("dialog.建物 Building"), value: "building" },
-	{ label: t("dialog.其他 Others"), value: "other" },
+	{ label: i18nStore.$t("dialog.火災 Fire"), value: "fire" },
+	{ label: i18nStore.$t("dialog.淹水 Flood"), value: "flood" },
+	{ label: i18nStore.$t("dialog.道路 Road"), value: "road" },
+	{ label: i18nStore.$t("dialog.建物 Building"), value: "building" },
+	{ label: i18nStore.$t("dialog.其他 Others"), value: "other" },
 	// Add more options as needed
 ];
 
 const disOptions = [
-	{ label: t("dialog.500公尺內"), value: 0.5 },
-	{ label: t("dialog.500公尺~2公里"), value: 2 },
-	{ label: t("dialog.2公里~5公里"), value: 5 },
-	{ label: t("dialog.大於5公里"), value: 10 },
+	{ label: i18nStore.$t("dialog.500公尺內"), value: 0.5 },
+	{ label: i18nStore.$t("dialog.500公尺~2公里"), value: 2 },
+	{ label: i18nStore.$t("dialog.2公里~5公里"), value: 5 },
+	{ label: i18nStore.$t("dialog.大於5公里"), value: 10 },
 	// Add more options as needed
 ];
 
@@ -51,7 +51,10 @@ async function handleSubmit() {
 	incidentType.value = "";
 	incidentDesc.value = "";
 	incidentDis.value = "";
-	dialogStore.showNotification("success", t("dialog.災害新增成功"));
+	dialogStore.showNotification(
+		"success",
+		i18nStore.$t("dialog.災害新增成功")
+	);
 	dialogStore.hideAllDialogs();
 }
 
@@ -63,8 +66,8 @@ onMounted(() => {
 <template>
 	<DialogContainer :dialog="`incidentReport`" @on-close="handleClose">
 		<div class="incidentreport">
-			<h2>{{ $t("dialog.事件通報") }}</h2>
-			<label> {{ $t("dialog.事件類型") }} </label>
+			<h2>{{ i18nStore.$t("dialog.事件通報") }}</h2>
+			<label> {{ i18nStore.$t("dialog.事件類型") }} </label>
 			<select v-model="incidentType">
 				<option
 					v-for="(option, index) in typeOptions"
@@ -76,16 +79,18 @@ onMounted(() => {
 			</select>
 
 			<label>
-				{{ $t("dialog.事件描述") }} ({{ incidentDesc.length }}/30)
+				{{ i18nStore.$t("dialog.事件描述") }} ({{
+					incidentDesc.length
+				}}/30)
 			</label>
 			<input
 				v-model="incidentDesc"
 				type="text"
-				:placeholder="$t('dialog.(請概述事件過程)')"
+				:placeholder="i18nStore.$t('dialog.(請概述事件過程)')"
 				required
 				:maxlength="30"
 			/>
-			<label> {{ $t("dialog.事件發生位置") }} </label>
+			<label> {{ i18nStore.$t("dialog.事件發生位置") }} </label>
 			<select v-model="incidentDis">
 				<option
 					v-for="(option, index) in disOptions"
@@ -95,7 +100,7 @@ onMounted(() => {
 					{{ option.label }}
 				</option>
 			</select>
-			<label> {{ $t("dialog.通報位置") }} </label>
+			<label> {{ i18nStore.$t("dialog.通報位置") }} </label>
 			<!-- <input :value="parseTime(editUser.login_at)" disabled /> -->
 			<input
 				:value="
@@ -105,7 +110,7 @@ onMounted(() => {
 				"
 				disabled
 			/>
-			<label> {{ $t("dialog.通報時間") }} </label>
+			<label> {{ i18nStore.$t("dialog.通報時間") }} </label>
 			<input :value="new Date().toLocaleString()" disabled />
 			<div class="incidentreport-control">
 				<button
@@ -113,7 +118,7 @@ onMounted(() => {
 					class="incidentreport-control-confirm"
 					@click="handleSubmit"
 				>
-					{{ $t("dialog.提交") }}
+					{{ i18nStore.$t("dialog.提交") }}
 				</button>
 			</div>
 		</div>

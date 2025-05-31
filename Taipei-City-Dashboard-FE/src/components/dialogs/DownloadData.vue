@@ -5,15 +5,14 @@
 <script setup>
 import { ref, computed } from "vue";
 import { useDialogStore } from "../../store/dialogStore";
-import { useI18n } from "vue-i18n";
-
+import { useI18nStore } from "../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 import { jsonToCsv } from "../../assets/utilityFunctions/jsonToCsv";
 import DialogContainer from "./DialogContainer.vue";
 
 const props = defineProps(["content"]);
 
 const dialogStore = useDialogStore();
-const { t } = useI18n();
 const content = computed(() => props.content || dialogStore.moreInfoContent);
 
 // Stores the inputted dashboard name
@@ -52,12 +51,12 @@ function handleClose() {
 <template>
 	<DialogContainer :dialog="`downloadData`" @on-close="handleClose">
 		<div class="downloaddata">
-			<h2>{{ $t("dialog.下載資料") }}</h2>
+			<h2>{{ i18nStore.$t("dialog.下載資料") }}</h2>
 			<div class="downloaddata-input">
-				<h3>{{ $t("dialog.請輸入檔名") }}</h3>
+				<h3>{{ i18nStore.$t("dialog.請輸入檔名") }}</h3>
 				<input v-model="name" type="text" :minlength="1" required />
 			</div>
-			<h3>{{ $t("dialog.請選擇檔案格式") }}</h3>
+			<h3>{{ i18nStore.$t("dialog.請選擇檔案格式") }}</h3>
 			<div>
 				<input
 					id="JSON"
@@ -87,7 +86,7 @@ function handleClose() {
 					class="downloaddata-control-cancel"
 					@click="handleClose"
 				>
-					{{ $t("dialog.取消") }}
+					{{ i18nStore.$t("dialog.取消") }}
 				</button>
 				<button
 					v-if="name && fileType === 'JSON'"
@@ -97,7 +96,7 @@ function handleClose() {
 					<a
 						:href="`data:application/json;charset=utf-8,${parsedJson}`"
 						:download="`${name}.json`"
-						>{{ $t("dialog.下載JSON") }}</a
+						>{{ i18nStore.$t("dialog.下載JSON") }}</a
 					>
 				</button>
 				<button
@@ -108,7 +107,7 @@ function handleClose() {
 					<a
 						:href="`data:text/csv;charset=utf-8,${parsedCsv}`"
 						:download="`${name}.csv`"
-						>{{ $t("dialog.下載CSV") }}</a
+						>{{ i18nStore.$t("dialog.下載CSV") }}</a
 					>
 				</button>
 			</div>

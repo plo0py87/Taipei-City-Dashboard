@@ -13,8 +13,6 @@ import { useDialogStore } from "./dialogStore";
 import { useAuthStore } from "./authStore";
 import { getComponentDataTimeframe } from "../assets/utilityFunctions/dataTimeframe";
 import { CityManager } from "../dashboardComponent/utilities/cityManager";
-import i18n from "../i18ns/i18nInstance";
-
 export const useContentStore = defineStore("content", {
 	state: () => ({
 		// cityManager is used to manage city settings. (tag, select, sidebar, mobileNavigation etc.)
@@ -68,7 +66,7 @@ export const useContentStore = defineStore("content", {
 			ja: 0,
 			ml: 0,
 		},
-		lang: "zh",
+		// lang: "zh",
 		controlvar: 0,
 		// Stores all contributors data. Reference the structure in /public/dashboards/all_contributors.json
 		contributors: {},
@@ -596,12 +594,12 @@ export const useContentStore = defineStore("content", {
 		// 			});
 		// 	}
 		// },
-		//setLang
-		async setLanguage(lang) {
-			this.lang = lang;
-			// await http.patch("/user/me", { lang: this.user.lang });
-			i18n.global.locale = lang;
-		},
+		// //setLang
+		// async setLanguage(lang) {
+		// 	this.lang = lang;
+		// 	await http.patch("/user/me", { lang: this.user.lang });
+		// 	// i18n.global.locale = lang;
+		// },
 
 		/* /component methods */
 		// 1. Search through all the components (used in /component)

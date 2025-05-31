@@ -4,9 +4,8 @@
 
 <script setup>
 import { useDialogStore } from "../../store/dialogStore";
-import { useI18n } from "vue-i18n";
-
-const { t } = useI18n();
+import { useI18nStore } from "../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 const dialogStore = useDialogStore();
 
 const statusToIcon = {
@@ -40,7 +39,7 @@ const statusToIcon = {
 				>
 					{{
 						dialogStore.notification.message.startsWith("dialog.")
-							? $t(dialogStore.notification.message)
+							? i18nStore.$t(dialogStore.notification.message)
 							: dialogStore.notification.message
 					}}
 				</h5>

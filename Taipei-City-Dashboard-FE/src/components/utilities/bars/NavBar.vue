@@ -3,27 +3,26 @@
 <!-- Navigation will be hidden from the navbar in mobile mode and moved to the settingsbar -->
 
 <script setup>
-const { VITE_APP_TITLE } = import.meta.env;
-import { computed } from "vue";
+import { computed } from "vue"; // Removed unused imports
 import { useRoute } from "vue-router";
 import { useFullscreen } from "@vueuse/core";
-import { useAuthStore } from "../../../store/authStore";
-import { useDialogStore } from "../../../store/dialogStore";
-import { useContentStore } from "../../../store/contentStore";
-import UserSettings from "../../dialogs/UserSettings.vue";
-import ContributorsList from "../../dialogs/ContributorsList.vue";
 import ComponentSearch from "../../dialogs/componentSearch.vue";
-const contentStore = useContentStore();
-const route = useRoute();
-const authStore = useAuthStore();
-const dialogStore = useDialogStore();
+import ContributorsList from "../../dialogs/ContributorsList.vue";
+import UserSettings from "../../dialogs/UserSettings.vue";
+import { useDialogStore } from "../../../store/dialogStore";
+import { useAuthStore } from "../../../store/authStore";
+import { useI18nStore } from "../../../i18ns/i18nInstance";
+
+const { VITE_APP_TITLE } = import.meta.env; // Used object destructuring
 const { isFullscreen, toggle } = useFullscreen();
+const dialogStore = useDialogStore();
+const authStore = useAuthStore();
+const i18nStore = useI18nStore();
+const route = useRoute();
 
 const linkQuery = computed(() => {
-	const { query } = route;
-	const indexQuery = `?index=${query.index}`;
-	const cityQuery = query.city ? `&city=${query.city}` : "";
-	return `${indexQuery}${cityQuery}`;
+	const { dashboard, mapview } = route.query;
+	return `?dashboard=${dashboard}&mapview=${mapview}`;
 });
 </script>
 
@@ -58,21 +57,21 @@ const linkQuery = computed(() => {
 						authStore.currentPath.includes('component'),
 				}"
 			>
-				{{ $t("組件瀏覽平台") }}
+				{{ i18nStore.$t("組件瀏覽平台") }}
 			</router-link>
 			<router-link
 				:to="`/dashboard${
 					linkQuery.includes('undefined') ? '' : linkQuery
 				}`"
 			>
-				{{ $t("儀表板總覽") }}
+				{{ i18nStore.$t("儀表板總覽") }}
 			</router-link>
 			<router-link
 				:to="`/mapview${
 					linkQuery.includes('undefined') ? '' : linkQuery
 				}`"
 			>
-				{{ $t("地圖交叉比對") }}
+				{{ i18nStore.$t("地圖交叉比對") }}
 			</router-link>
 		</div>
 		<div class="navbar-user">
@@ -97,14 +96,14 @@ const linkQuery = computed(() => {
 							href="https://tuic.gov.taipei/documentation"
 							target="_blank"
 							rel="noreferrer"
-							>{{ $t("技術文件") }}</a
+							>{{ i18nStore.$t("技術文件") }}</a
 						>
 					</li>
 					<li>
 						<button
 							@click="dialogStore.showDialog('contributorsList')"
 						>
-							{{ $t("專案貢獻者") }}
+							{{ i18nStore.$t("專案貢獻者") }}
 						</button>
 					</li>
 				</ul>
@@ -113,53 +112,53 @@ const linkQuery = computed(() => {
 				</teleport>
 			</div>
 
-			<div :key="contentStore.controlVar" class="navbar-user-info">
+			<div :key="i18nStore.currentLocale" class="navbar-user-info">
 				<button><span>language</span></button>
 				<ul>
 					<li>
-						<button @click="contentStore.setLanguage('zh')">
+						<button @click="i18nStore.setLocale('zh')">
 							繁體中文
 						</button>
 					</li>
 					<li>
-						<button @click="contentStore.setLanguage('en')">
-							English {{ contentStore.translateProg.en }}%
+						<button @click="i18nStore.setLocale('en')">
+							English
 						</button>
 					</li>
 
 					<li>
-						<button @click="contentStore.setLanguage('Khmer')">
-							Khmer {{ contentStore.translateProg.km }}%
+						<button @click="i18nStore.setLocale('Khmer')">
+							Khmer
 						</button>
 					</li>
 					<li>
-						<button @click="contentStore.setLanguage('Burmese')">
-							Burmese {{ contentStore.translateProg.my }}%
+						<button @click="i18nStore.setLocale('Burmese')">
+							Burmese
 						</button>
 					</li>
 					<li>
-						<button @click="contentStore.setLanguage('indonesian')">
-							indonesian {{ contentStore.translateProg.id }}%
+						<button @click="i18nStore.setLocale('indonesian')">
+							indonesian
 						</button>
 					</li>
 					<li>
-						<button @click="contentStore.setLanguage('vietnamese')">
-							Vietnamese {{ contentStore.translateProg.vi }}%
+						<button @click="i18nStore.setLocale('vietnamese')">
+							Vietnamese
 						</button>
 					</li>
 					<li>
-						<button @click="contentStore.setLanguage('thai')">
-							Thai {{ contentStore.translateProg.th }}%
+						<button @click="i18nStore.setLocale('thai')">
+							Thai
 						</button>
 					</li>
 					<li>
-						<button @click="contentStore.setLanguage('japanese')">
-							Japanese {{ contentStore.translateProg.ja }}%
+						<button @click="i18nStore.setLocale('japanese')">
+							Japanese
 						</button>
 					</li>
 					<li>
-						<button @click="contentStore.setLanguage('malayalam')">
-							Malayalam {{ 100 }}%
+						<button @click="i18nStore.setLocale('malayalam')">
+							Malayalam
 						</button>
 					</li>
 					<li>
@@ -168,7 +167,7 @@ const linkQuery = computed(() => {
 							target="_blank"
 							rel="noreferrer"
 						>
-							{{ $t("加入貢獻") }}
+							{{ i18nStore.$t("加入貢獻") }}
 						</a>
 					</li>
 				</ul>
@@ -186,7 +185,7 @@ const linkQuery = computed(() => {
 				<ul>
 					<li>
 						<button @click="dialogStore.showDialog('userSettings')">
-							{{ $t("用戶設定") }}
+							{{ i18nStore.$t("用戶設定") }}
 						</button>
 					</li>
 					<li
@@ -197,7 +196,7 @@ const linkQuery = computed(() => {
 						class="hide-if-mobile"
 					>
 						<router-link to="/admin">
-							{{ $t("管理員後臺") }}
+							{{ i18nStore.$t("管理員後臺") }}
 						</router-link>
 					</li>
 					<li
@@ -205,12 +204,12 @@ const linkQuery = computed(() => {
 						class="hide-if-mobile"
 					>
 						<router-link to="/dashboard">
-							{{ $t("返回儀表板") }}
+							{{ i18nStore.$t("返回儀表板") }}
 						</router-link>
 					</li>
 					<li>
 						<button @click="authStore.handleLogout">
-							{{ $t("登出") }}
+							{{ i18nStore.$t("登出") }}
 						</button>
 					</li>
 				</ul>
@@ -225,7 +224,7 @@ const linkQuery = computed(() => {
 				class="navbar-user-user"
 			>
 				<button @click="dialogStore.showDialog('login')">
-					{{ $t("登入") }}
+					{{ i18nStore.$t("登入") }}
 				</button>
 			</div>
 		</div>

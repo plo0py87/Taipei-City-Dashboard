@@ -4,14 +4,13 @@
 import { ref } from "vue";
 import { useDialogStore } from "../../store/dialogStore";
 import { useMapStore } from "../../store/mapStore";
-import { useI18n } from "vue-i18n";
 
 import DialogContainer from "./DialogContainer.vue";
 
 const dialogStore = useDialogStore();
 const mapStore = useMapStore();
-const { t } = useI18n();
-
+import { useI18nStore } from "../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 const props = defineProps(["name"]);
 
 const viewPoint = ref({
@@ -53,24 +52,24 @@ function handleAddViewPoint() {
 				<h2>
 					{{
 						name === "addPin"
-							? $t("dialog.新增地標")
-							: $t("dialog.新增視角")
+							? i18nStore.$t("dialog.新增地標")
+							: i18nStore.$t("dialog.新增視角")
 					}}
 				</h2>
 				<button
 					v-if="viewPoint.name.length > 0"
 					@click="handleAddViewPoint"
 				>
-					{{ $t("dialog.確認") }}
+					{{ i18nStore.$t("dialog.確認") }}
 				</button>
 			</div>
 			<div class="addviewpoint-content">
 				<label
 					>{{
 						name === "addPin"
-							? $t("dialog.地標")
-							: $t("dialog.視角")
-					}}{{ $t("dialog.名稱") }} ({{
+							? i18nStore.$t("dialog.地標")
+							: i18nStore.$t("dialog.視角")
+					}}{{ i18nStore.$t("dialog.名稱") }} ({{
 						viewPoint.name.length
 					}}/10)</label
 				>
@@ -81,8 +80,8 @@ function handleAddViewPoint() {
 					name="view-point-name"
 					:placeholder="
 						name === 'addPin'
-							? $t('dialog.請輸入地標名稱')
-							: $t('dialog.請輸入視角名稱')
+							? i18nStore.$t('dialog.請輸入地標名稱')
+							: i18nStore.$t('dialog.請輸入視角名稱')
 					"
 					required
 				/>

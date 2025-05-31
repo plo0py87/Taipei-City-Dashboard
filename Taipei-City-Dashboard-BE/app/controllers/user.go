@@ -38,7 +38,19 @@ func EditUserInfo(c *gin.Context) {
 		return
 	}
 
-	user, err = models.UpdateSelf(userID, user.Name)
+	var lang string
+	if user.Language != nil {
+		lang = *user.Language
+	} else {
+		// Handle the case where Language is nil, e.g., by setting a default or returning an error
+		// For now, let's assume an empty string is acceptable if no language is provided.
+		// Or, you might want to return a BadRequest error:
+		// c.JSON(http.StatusBadRequest, gin.H{\"error\": \"Language field is required\"})
+		// return
+		lang = "" // Or some default language
+	}
+
+	user, err = models.UpdateSelf(userID, user.Name, lang)
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to update user"})
 		return

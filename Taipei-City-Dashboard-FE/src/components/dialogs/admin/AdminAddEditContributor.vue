@@ -5,7 +5,8 @@ import { defineProps } from "vue";
 import { storeToRefs } from "pinia";
 import { useDialogStore } from "../../../store/dialogStore";
 import { useAdminStore } from "../../../store/adminStore";
-
+import { useI18nStore } from "../../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 import DialogContainer from "../DialogContainer.vue";
 
 const dialogStore = useDialogStore();
@@ -37,87 +38,95 @@ function handleClose() {
 </script>
 
 <template>
-  <DialogContainer
-    :dialog="`adminAddEditContributor`"
-    @on-close="handleClose"
-  >
-    <div
-      class="adminaddeditcontributor"
-      :style="{ height: props.mode === 'edit' ? '400px' : '340px' }"
-    >
-      <div class="adminaddeditcontributor-header">
-        <h2>
-          {{ props.mode === "edit" ? "設定貢獻者" : "新增貢獻者" }}
-        </h2>
-        <button @click="handleConfirm">
-          {{ props.mode === "edit" ? "確定更改" : "確定新增" }}
-        </button>
-      </div>
-      <div class="adminaddeditcontributor-settings">
-        <div class="adminaddeditcontributor-settings-items">
-          <div class="two-block">
-            <label>貢獻者 ID</label>
-            <label>貢獻者名稱</label>
-          </div>
-          <div class="two-block">
-            <input
-              v-model="currentContributor.user_id"
-              type="text"
-              required
-            >
-            <input
-              v-model="currentContributor.user_name"
-              type="text"
-              required
-            >
-          </div>
-          <div class="small-two-block">
-            <label>貢獻者身份</label>
-            <label>貢獻者清單</label>
-          </div>
-          <div class="small-two-block">
-            <input
-              v-model="currentContributor.identity"
-              type="text"
-            >
-            <label class="toggleswitch">
-              <input
-                v-model="currentContributor.include"
-                type="checkbox"
-                @change="handleToggle"
-              >
-              <span class="toggleswitch-slider" />
-            </label>
-          </div>
-          <label>貢獻者照片</label>
-          <input
-            v-model="currentContributor.image"
-            type="text"
-            required
-          >
-          <label>貢獻者簡介</label>
-          <input
-            v-model="currentContributor.description"
-            type="text"
-          >
-          <label>貢獻者連結</label>
-          <input
-            v-model="currentContributor.link"
-            type="text"
-            required
-          >
+	<DialogContainer
+		:dialog="`adminAddEditContributor`"
+		@on-close="handleClose"
+	>
+		<div
+			class="adminaddeditcontributor"
+			:style="{ height: props.mode === 'edit' ? '400px' : '340px' }"
+		>
+			<div class="adminaddeditcontributor-header">
+				<h2>
+					{{
+						props.mode === "edit"
+							? i18nStore.$t("設定貢獻者")
+							: i18nStore.$t("新增貢獻者")
+					}}
+				</h2>
+				<button @click="handleConfirm">
+					{{
+						props.mode === "edit"
+							? i18nStore.$t("確定更改")
+							: i18nStore.$t("確定新增")
+					}}
+				</button>
+			</div>
+			<div class="adminaddeditcontributor-settings">
+				<div class="adminaddeditcontributor-settings-items">
+					<div class="two-block">
+						<label>{{ i18nStore.$t("貢獻者 ID") }}</label>
+						<label>{{ i18nStore.$t("貢獻者名稱") }}</label>
+					</div>
+					<div class="two-block">
+						<input
+							v-model="currentContributor.user_id"
+							type="text"
+							required
+						/>
+						<input
+							v-model="currentContributor.user_name"
+							type="text"
+							required
+						/>
+					</div>
+					<div class="small-two-block">
+						<label>{{ i18nStore.$t("貢獻者身份") }}</label>
+						<label>{{ i18nStore.$t("貢獻者清單") }}</label>
+					</div>
+					<div class="small-two-block">
+						<input
+							v-model="currentContributor.identity"
+							type="text"
+						/>
+						<label class="toggleswitch">
+							<input
+								v-model="currentContributor.include"
+								type="checkbox"
+								@change="handleToggle"
+							/>
+							<span class="toggleswitch-slider" />
+						</label>
+					</div>
+					<label>{{ i18nStore.$t("貢獻者照片") }}</label>
+					<input
+						v-model="currentContributor.image"
+						type="text"
+						required
+					/>
+					<label>{{ i18nStore.$t("貢獻者簡介") }}</label>
+					<input
+						v-model="currentContributor.description"
+						type="text"
+					/>
+					<label>{{ i18nStore.$t("貢獻者連結") }}</label>
+					<input
+						v-model="currentContributor.link"
+						type="text"
+						required
+					/>
 
-          <template v-if="props.mode === 'edit'">
-            <label> 最後更新時間 </label>
-            <input
-              :value="parseTime(currentContributor.created_at)"
-              disabled
-            >
-          </template>
-        </div>
-      </div>
-    </div>
-  </DialogContainer>
+					<template v-if="props.mode === 'edit'">
+						<label>{{ i18nStore.$t("最後更新時間") }}</label>
+						<input
+							:value="parseTime(currentContributor.created_at)"
+							disabled
+						/>
+					</template>
+				</div>
+			</div>
+		</div>
+	</DialogContainer>
 </template>
 
 <style scoped lang="scss">

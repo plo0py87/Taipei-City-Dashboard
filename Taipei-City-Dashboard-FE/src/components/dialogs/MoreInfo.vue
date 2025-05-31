@@ -5,8 +5,8 @@ import DashboardComponent from "../../dashboardComponent/DashboardComponent.vue"
 import { useDialogStore } from "../../store/dialogStore";
 import { useContentStore } from "../../store/contentStore";
 import { useAuthStore } from "../../store/authStore";
-import { useI18n } from "vue-i18n";
-
+import { useI18nStore } from "../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 import DialogContainer from "./DialogContainer.vue";
 import HistoryChart from "../charts/HistoryChart.vue";
 import DownloadData from "./DownloadData.vue";
@@ -15,7 +15,6 @@ import EmbedComponent from "./EmbedComponent.vue";
 const dialogStore = useDialogStore();
 const contentStore = useContentStore();
 const authStore = useAuthStore();
-const { t } = useI18n();
 
 function getLinkTag(link, index) {
 	if (link.includes("data.taipei")) {
@@ -51,17 +50,21 @@ function getLinkTag(link, index) {
 			<div class="moreinfo-info">
 				<div class="moreinfo-info-data">
 					<h3>
-						{{ $t("dialog.組件說明") }}（{{
+						{{ i18nStore.$t("dialog.組件說明") }}（{{
 							` ID: ${dialogStore.moreInfoContent.id}｜Index: ${dialogStore.moreInfoContent.index}｜City: ${dialogStore.moreInfoContent.city}`
 						}}）
 					</h3>
 					<p>{{ dialogStore.moreInfoContent.long_desc }}</p>
-					<h3>{{ $t("dialog.範例情境") }}</h3>
+					<h3>{{ i18nStore.$t("dialog.範例情境") }}</h3>
 					<p>{{ dialogStore.moreInfoContent.use_case }}</p>
 					<div v-if="dialogStore.moreInfoContent.history_config">
-						<h3>{{ $t("dialog.歷史軸") }}</h3>
+						<h3>{{ i18nStore.$t("dialog.歷史軸") }}</h3>
 						<h4>
-							*{{ $t("dialog.點擊並拉動以檢視細部區間資料") }}
+							*{{
+								i18nStore.$t(
+									"dialog.點擊並拉動以檢視細部區間資料"
+								)
+							}}
 						</h4>
 						<HistoryChart
 							:chart_config="
@@ -74,7 +77,7 @@ function getLinkTag(link, index) {
 						/>
 					</div>
 					<div v-if="dialogStore.moreInfoContent.links?.length > 0">
-						<h3>{{ $t("dialog.相關資料") }}</h3>
+						<h3>{{ i18nStore.$t("dialog.相關資料") }}</h3>
 						<div class="moreinfo-info-links">
 							<a
 								v-for="(link, index) in dialogStore
@@ -88,7 +91,7 @@ function getLinkTag(link, index) {
 						</div>
 					</div>
 					<div v-if="dialogStore.moreInfoContent.contributors">
-						<h3>{{ $t("dialog.協作者") }}</h3>
+						<h3>{{ i18nStore.$t("dialog.協作者") }}</h3>
 						<div class="moreinfo-info-contributors">
 							<div
 								v-for="contributor in dialogStore
@@ -112,7 +115,9 @@ function getLinkTag(link, index) {
 												  ].image
 												: `/images/contributors/${contentStore.contributors[contributor].image}`
 										"
-										:alt="`${$t('dialog.協作者')}-${
+										:alt="`${i18nStore.$t(
+											'dialog.協作者'
+										)}-${
 											contentStore.contributors[
 												contributor
 											].user_name
@@ -134,7 +139,7 @@ function getLinkTag(link, index) {
 							)
 						"
 					>
-						<span>flag</span>{{ $t("dialog.回報") }}
+						<span>flag</span>{{ i18nStore.$t("dialog.回報") }}
 					</button>
 					<button
 						v-if="
@@ -143,10 +148,10 @@ function getLinkTag(link, index) {
 						"
 						@click="dialogStore.showDialog('downloadData')"
 					>
-						<span>download</span>{{ $t("dialog.下載") }}
+						<span>download</span>{{ i18nStore.$t("dialog.下載") }}
 					</button>
 					<button @click="dialogStore.showDialog('embedComponent')">
-						<span>code</span>{{ $t("dialog.內嵌") }}
+						<span>code</span>{{ i18nStore.$t("dialog.內嵌") }}
 					</button>
 				</div>
 				<DownloadData />

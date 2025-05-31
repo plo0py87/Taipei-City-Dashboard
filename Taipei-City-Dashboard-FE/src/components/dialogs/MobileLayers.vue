@@ -5,13 +5,12 @@
 import { computed } from "vue";
 import { useDialogStore } from "../../store/dialogStore";
 import { useContentStore } from "../../store/contentStore";
-import { useI18n } from "vue-i18n";
-
+import { useI18nStore } from "../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 import MobileLayerTab from "../utilities/miscellaneous/MobileLayerTab.vue";
 
 const dialogStore = useDialogStore();
 const contentStore = useContentStore();
-const { t } = useI18n();
 
 // Filter out components without maps
 const filteredMapLayers = computed(() => {
@@ -59,7 +58,7 @@ const filteredMapLayers = computed(() => {
 							:key="item.index"
 							:content="item"
 						/>
-						<h2>{{ $t("dialog.基本圖層") }}</h2>
+						<h2>{{ i18nStore.$t("dialog.基本圖層") }}</h2>
 						<MobileLayerTab
 							v-for="item in contentStore.mapLayers"
 							:key="`map-layer-${item.index}`"
@@ -68,7 +67,7 @@ const filteredMapLayers = computed(() => {
 					</div>
 					<!-- Other dashboards without components -->
 					<div v-else>
-						<h2>{{ $t("dialog.基本圖層") }}</h2>
+						<h2>{{ i18nStore.$t("dialog.基本圖層") }}</h2>
 						<MobileLayerTab
 							v-for="item in contentStore.mapLayers"
 							:key="`map-layer-${item.index}`"

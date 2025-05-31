@@ -4,13 +4,12 @@
 import { storeToRefs } from "pinia";
 import { useDialogStore } from "../../store/dialogStore";
 import { useAuthStore } from "../../store/authStore";
-import { useI18n } from "vue-i18n";
 
 import DialogContainer from "./DialogContainer.vue";
-
+import { useI18nStore } from "../../i18ns/i18nInstance";
+const i18nStore = useI18nStore();
 const dialogStore = useDialogStore();
 const authStore = useAuthStore();
-const { t } = useI18n();
 
 const { editUser } = storeToRefs(authStore);
 
@@ -41,15 +40,15 @@ async function handleSubmit() {
 <template>
 	<DialogContainer :dialog="`userSettings`" @on-close="handleClose">
 		<div class="usersettings">
-			<h2>{{ $t("dialog.用戶設定") }}</h2>
-			<label> {{ $t("dialog.用戶名稱") }} </label>
+			<h2>{{ i18nStore.$t("dialog.用戶設定") }}</h2>
+			<label> {{ i18nStore.$t("dialog.用戶名稱") }} </label>
 			<input
 				v-model="editUser.name"
 				:minlength="1"
 				:maxlength="10"
 				required
 			/>
-			<label> {{ $t("dialog.用戶帳號") }} </label>
+			<label> {{ i18nStore.$t("dialog.用戶帳號") }} </label>
 			<input
 				:value="
 					editUser.account ? editUser.account : editUser.TpAccount
@@ -57,17 +56,17 @@ async function handleSubmit() {
 				:minlength="1"
 				disabled
 			/>
-			<label> {{ $t("dialog.用戶類型") }} </label>
+			<label> {{ i18nStore.$t("dialog.用戶類型") }} </label>
 			<input
 				:value="
 					editUser.is_admin
-						? $t('dialog.管理員')
-						: $t('dialog.一般用戶')
+						? i18nStore.$t('dialog.管理員')
+						: i18nStore.$t('dialog.一般用戶')
 				"
 				disabled="true"
 				required
 			/>
-			<label> {{ $t("dialog.最近登入時間") }} </label>
+			<label> {{ i18nStore.$t("dialog.最近登入時間") }} </label>
 			<input :value="parseTime(editUser.login_at)" disabled />
 			<div class="usersettings-control">
 				<button
@@ -75,7 +74,7 @@ async function handleSubmit() {
 					class="usersettings-control-confirm"
 					@click="handleSubmit"
 				>
-					{{ $t("dialog.更改用戶資訊") }}
+					{{ i18nStore.$t("dialog.更改用戶資訊") }}
 				</button>
 			</div>
 		</div>
