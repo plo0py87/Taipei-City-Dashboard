@@ -3,7 +3,6 @@ package controllers
 import (
     "net/http"
     "strconv"
-    "fmt"
 
     "TaipeiCityDashboardBE/app/models"
 
@@ -118,17 +117,19 @@ func GetComponentViewCount(c *gin.Context) {
 }
 
 func UpdateDashboardTopComponents(c *gin.Context) {
-    // 從 query 參數取得 limit（最多取前幾名），預設 3，範圍 1～10
+    // 1. 從 query 參數取得 limit（最多取前幾名），預設 3，範圍 1～10
     limitStr := c.DefaultQuery("limit", "3")
     limit, err := strconv.Atoi(limitStr)
     if err != nil || limit <= 0 || limit > 10 {
         limit = 3
     }
 
+    // 2. 在 transaction 中執行更新並回傳更新後的 components
     err = models.DBManager.Transaction(func(tx *gorm.DB) error {
-        // 執行 UPDATE 並同時回傳更新後的 components
         var updatedComponents []int64
-        updateSQL := fmt.Sprintf(`
+
+        // 3. SQL 裡面用 ? 作參數佔位，並在最後加上 RETURNING components
+        updateSQL := `
             UPDATE dashboards
             SET
                 components = ARRAY(
@@ -143,29 +144,32 @@ func UpdateDashboardTopComponents(c *gin.Context) {
                             component_id
                         ORDER BY
                             query_count DESC
-                        LIMIT %d
+                        LIMIT ?
                     ) AS top_components
                 ),
                 updated_at = NOW()
-            WHERE index = 'spicyDashboard'
+            WHERE
+                name = '熱門組件'
             RETURNING components;
-        `, limit)
+        `
 
-        rows, err := tx.Raw(updateSQL).Rows()
+        // 4. 執行 Raw SQL，並把 limit 當作參數傳入
+        rows, err := tx.Raw(updateSQL, limit).Rows()
         if err != nil {
             return err
         }
         defer rows.Close()
 
+        // 5. 把回傳的 components（陣列）掃出來
         for rows.Next() {
-            var components []int64
-            if err := rows.Scan(pq.Array(&components)); err != nil {
+            var comps []int64
+            if err := rows.Scan(pq.Array(&comps)); err != nil {
                 return err
             }
-            updatedComponents = components
+            updatedComponents = comps
         }
 
-        // 儲存結果到 Gin Context
+        // 6. 把結果存到 Gin Context，供後續回傳 JSON 用
         c.Set("components", updatedComponents)
         return nil
     })
@@ -178,7 +182,7 @@ func UpdateDashboardTopComponents(c *gin.Context) {
         return
     }
 
-    // 回傳更新後的 components 給前端
+    // 7. 成功後從 Context 取出 components，並回傳給前端
     comps, _ := c.Get("components")
     c.JSON(http.StatusOK, gin.H{
         "status":     "success",
