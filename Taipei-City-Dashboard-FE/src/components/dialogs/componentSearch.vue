@@ -14,100 +14,163 @@ const messagesContainer = ref(null);
 import { useI18nStore } from "../../i18ns/i18nInstance";
 import router from "../../router";
 const i18nStore = useI18nStore();
-curFeat = ref("MCP"); // Current feature, default to NLP
+let curFeat = ref("MCP");
 const sendMessage = async () => {
-	if (curFeat === "MCP") {
-		router.push("/dashboard");
-		return;
-	}
-	if (newMessage.value.trim()) {
-		// Add message to store
-		if (!chatStore.messages) {
-			chatStore.messages = [];
-		}
-		let newComponents = [];
-		let topic = "智慧儀表板"; // Default topic - moved outside try-catch
-		chatStore.messages.push({
-			text: newMessage.value,
-			sender: "user",
-			timestamp: new Date().toLocaleTimeString(),
-		});
-		try {
-			const msg = newMessage.value;
-			newMessage.value = "";
-			const response = await axios.post(
-				"http://localhost:8000/query",
-				{
-					prompt: msg,
-				},
-				{
-					headers: {
-						"Content-Type": "application/json",
-						accept: "application/json",
-					},
-				}
-			);
-			console.log(response.data);
-			const resultString = response.data?.result;
-			if (resultString) {
-				const parsedResult = JSON.parse(resultString);
-				newComponents = parsedResult.component_ids.map(Number);
-				topic = parsedResult.topic || topic;
-			} else {
-				newComponents = [];
+	if (curFeat.value === "MCP") {
+		if (newMessage.value.trim()) {
+			if (!chatStore.messages) {
+				chatStore.messages = [];
 			}
-		} catch (error) {
-			console.error("API request failed:", error);
-			// Handle error appropriately
-		}
-		console.log("New components to add:", newComponents);
-		const createDashboard = await http.post("/dashboard/", {
-			name: topic,
-			components: newComponents.map((component) =>
-				parseInt(component, 10)
-			),
-			icon: "science",
-			updated_at: new Date().toISOString(),
-		});
-		newComponents.forEach((item) => {
-			http.post(`/component/${parseInt(item, 10)}/view`).catch(
-				(error) => {
-					console.error("Error logging component view:", error);
-				}
-			);
-		});
-		console.log("New components:", createDashboard);
-		// Scroll to the latest message
-		await nextTick();
-		if (messagesContainer.value) {
-			messagesContainer.value.scrollTop =
-				messagesContainer.value.scrollHeight;
-		}
-
-		// Here you would typically handle the bot response
-		// Simulating a bot response after a short delay
-		setTimeout(() => {
+			let newComponents = [];
+			let topic = "智慧儀表板";
 			chatStore.messages.push({
-				text:
-					newComponents.length > 0
-						? "LLM 幫你選出了相關的組件，點下面的按鈕前往智慧儀表板吧！"
-						: "喔不，LLM 看起來不知道有什麼組件可以推薦給你…",
-				sender: "bot",
+				text: newMessage.value,
+				sender: "user",
 				timestamp: new Date().toLocaleTimeString(),
-				newDashboard:
-					newComponents.length > 0
-						? createDashboard.data.data.index
-						: null,
 			});
-
-			// Scroll to the new message
-			nextTick(() => {
-				if (messagesContainer.value) {
-					messagesContainer.value.scrollTop =
-						messagesContainer.value.scrollHeight;
+			try {
+				const msg = newMessage.value;
+				newMessage.value = "";
+				const response = await axios.post(
+					"http://localhost:8000/query",
+					{
+						prompt: msg,
+					},
+					{
+						headers: {
+							"Content-Type": "application/json",
+							accept: "application/json",
+						},
+					}
+				);
+				console.log(response.data);
+				const resultString = response.data?.result;
+				if (resultString) {
+					const parsedResult = JSON.parse(resultString);
+					newComponents = parsedResult.component_ids.map(Number);
+					topic = parsedResult.topic || topic;
+				} else {
+					newComponents = [];
 				}
+			} catch (error) {
+				console.error("API request failed:", error);
+				// Handle error appropriately
+			}
+			console.log("New components to add:", newComponents);
+			const createDashboard = await http.post("/dashboard/", {
+				name: topic,
+				components: newComponents.map((component) =>
+					parseInt(component, 10)
+				),
+				icon: "science",
+				updated_at: new Date().toISOString(),
 			});
-		}, 1000);
+			newComponents.forEach((item) => {
+				http.post(`/component/${parseInt(item, 10)}/view`).catch(
+					(error) => {
+						console.error("Error logging component view:", error);
+					}
+				);
+			});
+			console.log("New components:", createDashboard);
+			// Scroll to the latest message
+			await nextTick();
+			if (messagesContainer.value) {
+				messagesContainer.value.scrollTop =
+					messagesContainer.value.scrollHeight;
+			}
+
+			// Here you would typically handle the bot response
+			// Simulating a bot response after a short delay
+			setTimeout(() => {
+				chatStore.messages.push({
+					text:
+						newComponents.length > 0
+							? "LLM 幫你選出了相關的組件，點下面的按鈕前往智慧儀表板吧！"
+							: "喔不，LLM 看起來不知道有什麼組件可以推薦給你…",
+					sender: "bot",
+					timestamp: new Date().toLocaleTimeString(),
+					newDashboard:
+						newComponents.length > 0
+							? createDashboard.data.data.index
+							: null,
+				});
+
+				// Scroll to the new message
+				nextTick(() => {
+					if (messagesContainer.value) {
+						messagesContainer.value.scrollTop =
+							messagesContainer.value.scrollHeight;
+					}
+				});
+			}, 1000);
+		}
+	} else if (curFeat.value == "NLP") {
+		console.log("NLP feature selected");
+		if (newMessage.value.trim()) {
+			// Add message to store
+			if (!chatStore.messages) {
+				chatStore.messages = [];
+			}
+			let newComponents = [];
+			let topic = "智慧儀表板"; // Default topic - moved outside try-catch
+			chatStore.messages.push({
+				text: newMessage.value,
+				sender: "user",
+				timestamp: new Date().toLocaleTimeString(),
+			});
+			try {
+				const msg = newMessage.value;
+				newMessage.value = "";
+				// Using proxy to avoid CORS issues
+				const response = await axios.post(
+					"/nlp_api/predict",
+					{
+						question: msg,
+					},
+					{
+						headers: {
+							"Content-Type": "application/json",
+							accept: "application/json",
+						},
+					}
+				);
+				console.log(response.data);
+			} catch (error) {
+				console.error("API request failed:", error);
+				// Show a more helpful message to the user
+				setTimeout(() => {
+					chatStore.messages.push({
+						text: "Sorry, I couldn't connect to the NLP service. The server might not be running.",
+						sender: "bot",
+						timestamp: new Date().toLocaleTimeString(),
+					});
+				}, 500);
+			}
+			await nextTick();
+			if (messagesContainer.value) {
+				messagesContainer.value.scrollTop =
+					messagesContainer.value.scrollHeight;
+			}
+
+			// Here you would typically handle the bot response
+			// Simulating a bot response after a short delay
+			setTimeout(() => {
+				chatStore.messages.push({
+					text: "喵喵喵",
+					sender: "bot",
+					timestamp: new Date().toLocaleTimeString(),
+				});
+
+				// Scroll to the new message
+				nextTick(() => {
+					if (messagesContainer.value) {
+						messagesContainer.value.scrollTop =
+							messagesContainer.value.scrollHeight;
+					}
+				});
+			}, 1000);
+		}
 	}
 };
 
@@ -117,10 +180,11 @@ const handleClose = () => {
 };
 const handleFeat = (feat) => {
 	if (feat === "MCP") {
-		router.push("/dashboard");
+		curFeat.value = "MCP";
 	} else if (feat === "NLP") {
-		dialogStore.hideDialog("NLPDialog");
+		curFeat.value = "NLP";
 	}
+	console.log("Current feature set to:", curFeat.value);
 };
 </script>
 

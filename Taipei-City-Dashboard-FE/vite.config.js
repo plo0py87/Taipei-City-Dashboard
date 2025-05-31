@@ -17,6 +17,11 @@ const serverConfig = isDockerCompose
 					changeOrigin: true,
 					rewrite: (path) => path.replace("/dev", "/v1"),
 				},
+				"/nlp_api": {
+					target: "http://localhost:8001",
+					changeOrigin: true,
+					rewrite: (path) => path.replace(/^\/nlp_api/, ""),
+				},
 			},
 	  }
 	: {
@@ -33,6 +38,11 @@ const serverConfig = isDockerCompose
 					target: "https://citydashboard.taipei/geo_server/",
 					changeOrigin: true,
 					rewrite: (path) => path.replace(/^\/geo_server/, ""),
+				},
+				"/nlp_api": {
+					target: "http://localhost:8001",
+					changeOrigin: true,
+					rewrite: (path) => path.replace(/^\/nlp_api/, ""),
 				},
 			},
 	  };
