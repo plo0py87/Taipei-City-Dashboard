@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 
 class SimpleMCPOllamaClient:
     
-    def __init__(self, ollama_host: str = "http://localhost:11434", model: str = "qwen3:4b"):
+    def __init__(self, ollama_host: str = "http://localhost:11434", model: str = "llama3.2:3b")
         self.ollama_host = ollama_host
         self.model = model
         self.ollama_client = ollama.Client(host=ollama_host)
