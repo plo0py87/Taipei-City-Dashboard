@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify   
 from ensemble_predictor import EnsemblePredictor
 
 app = Flask(__name__)
