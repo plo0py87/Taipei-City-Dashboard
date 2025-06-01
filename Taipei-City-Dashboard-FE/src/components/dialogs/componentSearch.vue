@@ -161,9 +161,41 @@ const sendMessage = async () => {
 					console.log("View count:", vc.data.data.view_count);
 
 					//attach to component
-					// component.chart = http.patch(
-					// 	`/component/${component.id}?city=taipei/chart`
-					// );
+					const chartDataResponse = await http.get(
+						`/component/${component.id}/chart`
+					);
+					// Format chart data properly based on the expected structure
+					try {
+						// If the response has nested data structure with chart_data property
+						if (
+							chartDataResponse.data &&
+							chartDataResponse.data.data
+						) {
+							if (Array.isArray(chartDataResponse.data.data)) {
+								// Direct array format for chart_data
+								component.chart_data =
+									chartDataResponse.data.data;
+							} else if (
+								chartDataResponse.data.data.data &&
+								Array.isArray(chartDataResponse.data.data.data)
+							) {
+								// Nested data structure
+								component.chart_data =
+									chartDataResponse.data.data.data;
+							} else {
+								// Use data property as is
+								component.chart_data =
+									chartDataResponse.data.data;
+							}
+						} else {
+							// Fallback to the entire response
+							component.chart_data = chartDataResponse.data;
+						}
+					} catch (error) {
+						console.error("Error processing chart data:", error);
+						component.chart_data = []; // Set empty array as fallback
+					}
+					console.log("Component chart data:", component.chart_data);
 					dialogStore.showMoreInfo(
 						component,
 						vc.data.data.view_count
