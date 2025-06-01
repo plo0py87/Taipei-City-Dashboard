@@ -36,6 +36,9 @@
   "[dotenv]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
-  "postman.settings.dotenv-detection-notification-visibility": false
+"postman.settings.dotenv-detection-notification-visibility": false,
+"[json]": {
+	"editor.defaultFormatter": "vscode.json-language-features"
+}
   // "go.useLanguageServer": false
 }

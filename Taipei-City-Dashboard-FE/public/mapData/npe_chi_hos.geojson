@@ -1,0 +1,7571 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6888329,25.177715 ]
+    },
+    "properties": {
+    "hosp_name":"天寶堂中醫診所",
+    "area":"萬里區",
+    "hosp_addr":"新北市萬里區瑪鍊路１１２號",
+    "tel":"02-24920789"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6383898,25.2197761 ]
+    },
+    "properties": {
+    "hosp_name":"吉元堂中醫診所",
+    "area":"金山區",
+    "hosp_addr":"新北市金山區忠孝一路26號",
+    "tel":"02-24082077"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4720776,25.0239265 ]
+    },
+    "properties": {
+    "hosp_name":"榮美中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區莒光路100號1樓",
+    "tel":"02-22508328"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4594088,25.0274183 ]
+    },
+    "properties": {
+    "hosp_name":"寶生中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區裕民街123號(1樓)",
+    "tel":"02-22597957"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4667927,25.019419 ]
+    },
+    "properties": {
+    "hosp_name":"板橋新生堂中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區文化路一段188巷17號(1樓)",
+    "tel":"02-82512188"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4635705,24.9994888 ]
+    },
+    "properties": {
+    "hosp_name":"建全中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區重慶路277號1樓及279號1樓",
+    "tel":"02-29533556"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4655846,25.0267109 ]
+    },
+    "properties": {
+    "hosp_name":"慈護一品中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區民生路三段159號（1樓）",
+    "tel":"02-22582584"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4561284,25.0028726 ]
+    },
+    "properties": {
+    "hosp_name":"東芳榮妹中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區貴興路82號(1樓)",
+    "tel":"02-29517373"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4776584,25.0178272 ]
+    },
+    "properties": {
+    "hosp_name":"文達中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區懷仁街88號(1樓)",
+    "tel":"02-29616363"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4545719,25.0227923 ]
+    },
+    "properties": {
+    "hosp_name":"六合堂中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區中正路332之4號(1樓)",
+    "tel":"02-29668397"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.448991,24.9941792 ]
+    },
+    "properties": {
+    "hosp_name":"林衡毅中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區四川路二段140巷16弄22號(1樓)",
+    "tel":"02-89678579"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4669115,25.0095702 ]
+    },
+    "properties": {
+    "hosp_name":"建中堂中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區長安街25巷17號1樓",
+    "tel":"02-29612449"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4627596,25.0025423 ]
+    },
+    "properties": {
+    "hosp_name":"潤宇堂中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區重慶路175號(1、2樓)",
+    "tel":"02-29525562"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4642134,25.0264078 ]
+    },
+    "properties": {
+    "hosp_name":"橘泉中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區四維路179之1號(1樓)",
+    "tel":"02-22506600"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4592912,25.0114313 ]
+    },
+    "properties": {
+    "hosp_name":"老德燕中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區文化路一段30號1樓",
+    "tel":"02-89681313"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4626491,25.0160369 ]
+    },
+    "properties": {
+    "hosp_name":"明遠中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區文化路一段159號1樓、2樓、3樓",
+    "tel":"02-89682782"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4637695,25.0237523 ]
+    },
+    "properties": {
+    "hosp_name":"聖恩中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區陽明街 126號1樓、2樓",
+    "tel":"02-22503186"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4610702,25.0021329 ]
+    },
+    "properties": {
+    "hosp_name":"六安堂中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區忠孝路39號(1樓)",
+    "tel":"02-29557797"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4746124,25.0122664 ]
+    },
+    "properties": {
+    "hosp_name":"御品堂中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區長安街333號1樓",
+    "tel":"02-29511867"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4752648,25.0318674 ]
+    },
+    "properties": {
+    "hosp_name":"杏蘊中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區仁化街53號1樓",
+    "tel":"02-82582909"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4628248,25.0194396 ]
+    },
+    "properties": {
+    "hosp_name":"德康中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區漢生西路86號(1樓)",
+    "tel":"02-22753379"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4597044,25.0097493 ]
+    },
+    "properties": {
+    "hosp_name":"新昌中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區府中路24號2樓",
+    "tel":"02-82879885"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4665569,25.0210438 ]
+    },
+    "properties": {
+    "hosp_name":"翰醫堂新板中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區文化路一段349號(1、2、3樓)",
+    "tel":"02-22555355"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.453496,25.001901 ]
+    },
+    "properties": {
+    "hosp_name":"保翔中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區南雅南路二段74號(1樓)",
+    "tel":"02-22710230"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.47887,25.018321 ]
+    },
+    "properties": {
+    "hosp_name":"全人中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區中山路二段262號1、2樓",
+    "tel":"02-29649699"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4606934,25.0082235 ]
+    },
+    "properties": {
+    "hosp_name":"板橋京都堂中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區重慶路3號1、2樓",
+    "tel":"02-77163553"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4794068,25.015743 ]
+    },
+    "properties": {
+    "hosp_name":"天祐中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區三民路二段119號(1樓)",
+    "tel":"02-29568821"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4643755,25.0042709 ]
+    },
+    "properties": {
+    "hosp_name":"晨軒中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區實踐路149號1樓",
+    "tel":"02-29637677"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4667454,25.024426 ]
+    },
+    "properties": {
+    "hosp_name":"薇晶中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區民生路三段83號1、2樓",
+    "tel":"02-22588368"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4732952,25.0087815 ]
+    },
+    "properties": {
+    "hosp_name":"樂昕中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區區運路39號(1樓)",
+    "tel":"02-29565366"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4567611,25.017547 ]
+    },
+    "properties": {
+    "hosp_name":"回春中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區國光路17號(1樓)",
+    "tel":"02-29667970"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4576116,25.0156629 ]
+    },
+    "properties": {
+    "hosp_name":"金正中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區民權路278號(1樓)",
+    "tel":"02-22710073"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4601928,25.0244744 ]
+    },
+    "properties": {
+    "hosp_name":"百善堂中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區新海路344號(1樓)",
+    "tel":"02-22562102"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4575776,25.0049719 ]
+    },
+    "properties": {
+    "hosp_name":"德睿中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區華興街62號(1樓)",
+    "tel":"02-29518803"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4284476,24.9909401 ]
+    },
+    "properties": {
+    "hosp_name":"板橋板樹風澤中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區溪崑二街43號1樓",
+    "tel":"02-77306873"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.471955,25.0218579 ]
+    },
+    "properties": {
+    "hosp_name":"澤林中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區莊敬路221號(1樓)",
+    "tel":"02-22219035"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4667222,25.0315513 ]
+    },
+    "properties": {
+    "hosp_name":"耀康中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區吳鳳路93號1樓及1樓夾層",
+    "tel":"02-22561159"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.474262,25.015838 ]
+    },
+    "properties": {
+    "hosp_name":"板新風澤中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區中山路2段64號（1樓）",
+    "tel":"02-29518558"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4770168,25.0174173 ]
+    },
+    "properties": {
+    "hosp_name":"健福中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區中山路二段237號1樓及成功路6巷34號1樓",
+    "tel":"02-29597695"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4722705,25.0310065 ]
+    },
+    "properties": {
+    "hosp_name":"家福中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區雙十路三段四十三號一樓",
+    "tel":"02-82525320"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4762394,25.0274084 ]
+    },
+    "properties": {
+    "hosp_name":"聖原中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區雙十路二段38號1樓",
+    "tel":"02-22541199"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4669621,25.0082331 ]
+    },
+    "properties": {
+    "hosp_name":"弘安中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區民族路１１３號",
+    "tel":"02-29509966"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4748624,25.0165425 ]
+    },
+    "properties": {
+    "hosp_name":"同心堂中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區中山路2段123號1樓",
+    "tel":"02-89531121"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4592425,25.0016309 ]
+    },
+    "properties": {
+    "hosp_name":"板橋同仁堂中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區四川路一段一三○號",
+    "tel":"02-29589000"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.478176,25.018312 ]
+    },
+    "properties": {
+    "hosp_name":"和康中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區中山路二段291-11號一樓",
+    "tel":"02-89530695"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4617298,24.9962263 ]
+    },
+    "properties": {
+    "hosp_name":"全心中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區國慶路159號1樓",
+    "tel":"02-29558802"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4720145,25.007815 ]
+    },
+    "properties": {
+    "hosp_name":"遠東中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區漢生東路335號1樓",
+    "tel":"02-29638668"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4636101,25.0237741 ]
+    },
+    "properties": {
+    "hosp_name":"鈺安中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區陽明街一三０號一樓",
+    "tel":"02-82586204"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4273521,24.984581 ]
+    },
+    "properties": {
+    "hosp_name":"洪金蘭中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區金門街六七巷二號一樓",
+    "tel":"02-26831087"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.45596,25.0026342 ]
+    },
+    "properties": {
+    "hosp_name":"裕芳中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區貴興路三十八號",
+    "tel":"02-29588222"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4570524,25.0111401 ]
+    },
+    "properties": {
+    "hosp_name":"仁心中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區北門街42-3號1、2樓",
+    "tel":"02-29665049"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4713497,25.0238058 ]
+    },
+    "properties": {
+    "hosp_name":"明德中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區莒光路78巷4號(1樓)",
+    "tel":"02-22502835"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4644962,25.0227824 ]
+    },
+    "properties": {
+    "hosp_name":"華康中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區陽明街80號",
+    "tel":"02-22581811"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4791423,25.0305196 ]
+    },
+    "properties": {
+    "hosp_name":"榮德中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區懷德街131號",
+    "tel":"02-22568227"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4789865,25.0162212 ]
+    },
+    "properties": {
+    "hosp_name":"鴻仁中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區三民路2段136之2號1樓",
+    "tel":"02-29546268"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4744281,25.0311152 ]
+    },
+    "properties": {
+    "hosp_name":"福霖堂中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區文化路二段410巷1弄2號",
+    "tel":"02-22521299"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4816552,25.0200441 ]
+    },
+    "properties": {
+    "hosp_name":"施丞修中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區中山路2段362號",
+    "tel":"02-29562225"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4640033,25.0230005 ]
+    },
+    "properties": {
+    "hosp_name":"坤儒中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區陽明街77號1樓",
+    "tel":"02-82598386"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4610193,25.0281662 ]
+    },
+    "properties": {
+    "hosp_name":"洪天註中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區四維路289巷44號1樓",
+    "tel":"02-82588019"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4700313,25.0323631 ]
+    },
+    "properties": {
+    "hosp_name":"宏國中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區宏國路103號1樓",
+    "tel":"02-22531680"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4611221,25.0050028 ]
+    },
+    "properties": {
+    "hosp_name":"鴻林中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區成都街37號1樓",
+    "tel":"02-89539118"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4643236,25.0050703 ]
+    },
+    "properties": {
+    "hosp_name":"程維德中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區實踐路117號（1樓）",
+    "tel":"02-29588113"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4617173,25.0022177 ]
+    },
+    "properties": {
+    "hosp_name":"勝濟堂中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區忠孝路69號（1樓）",
+    "tel":"02-29550556"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.474577,25.01598 ]
+    },
+    "properties": {
+    "hosp_name":"全泰中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區中山路2段78號（1樓）",
+    "tel":"02-59532998"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.469534,25.0262732 ]
+    },
+    "properties": {
+    "hosp_name":"向德中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區文化路2段109號(1樓)及松江街2號(1樓)",
+    "tel":"02-22591010"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4726567,25.0261801 ]
+    },
+    "properties": {
+    "hosp_name":"杏禾中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區莊敬路97號1樓",
+    "tel":"02-22588399"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4638746,25.0275967 ]
+    },
+    "properties": {
+    "hosp_name":"蓁佑中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區四維路218號1樓",
+    "tel":"02-22558869"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4265237,24.985235 ]
+    },
+    "properties": {
+    "hosp_name":"吉安中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區篤行路三段78號、78之1號(1樓)",
+    "tel":"02-26832002"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4280017,24.9895802 ]
+    },
+    "properties": {
+    "hosp_name":"太乙中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區溪北路74號1樓",
+    "tel":"02-26866656"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4680272,25.0078932 ]
+    },
+    "properties": {
+    "hosp_name":"皇漢中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區民族路149號1樓",
+    "tel":"02-89518880"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4642445,25.0047945 ]
+    },
+    "properties": {
+    "hosp_name":"菩提中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區實踐路129號(1樓)",
+    "tel":"02-29560086"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4573537,25.0086435 ]
+    },
+    "properties": {
+    "hosp_name":"康宸中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區南門街43號1樓、2樓、3樓",
+    "tel":"02-89681969"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4717946,25.0252667 ]
+    },
+    "properties": {
+    "hosp_name":"謙合科學中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區莊敬路68號1樓",
+    "tel":"02-22559390"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4675965,25.0218776 ]
+    },
+    "properties": {
+    "hosp_name":"祐新中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區文化路一段306號1樓、2樓",
+    "tel":"02-82573668"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4559288,24.9959969 ]
+    },
+    "properties": {
+    "hosp_name":"耀祥中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區四川路1段365號1樓",
+    "tel":"02-89535561"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.471858,25.0300289 ]
+    },
+    "properties": {
+    "hosp_name":"江翠中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區雙十路3段1號2樓及3號1、2樓",
+    "tel":"02-82570770"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4625705,25.0204919 ]
+    },
+    "properties": {
+    "hosp_name":"宏昌中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區新海路3號(1樓)",
+    "tel":"02-25585969"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4823096,25.020905 ]
+    },
+    "properties": {
+    "hosp_name":"裕安中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區中山路2段487號(1樓)",
+    "tel":"02-29506656"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4554698,25.0057165 ]
+    },
+    "properties": {
+    "hosp_name":"翰林居中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區南雅南路1段99號(1樓)",
+    "tel":"02-29650275"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4619654,25.0187278 ]
+    },
+    "properties": {
+    "hosp_name":"大雄中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區國光路207號1樓",
+    "tel":"02-82522518"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4579417,25.0093084 ]
+    },
+    "properties": {
+    "hosp_name":"鼎鈞中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區府中路67號3樓",
+    "tel":"02-29686878"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4744393,25.0260437 ]
+    },
+    "properties": {
+    "hosp_name":"鼎超中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區雙十路2段47巷8弄16號(1樓)",
+    "tel":"02-22521679"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4706742,25.0212287 ]
+    },
+    "properties": {
+    "hosp_name":"弘恩中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區萬板路15號1樓",
+    "tel":"02-22572700"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4683109,25.024622 ]
+    },
+    "properties": {
+    "hosp_name":"春易安中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區光武街3號1樓",
+    "tel":"02-22575233"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.429399,24.9887983 ]
+    },
+    "properties": {
+    "hosp_name":"天寧中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區溪北路87號(1樓)",
+    "tel":"02-26872360"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.458136,25.015054 ]
+    },
+    "properties": {
+    "hosp_name":"仁得中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區民權路258之7號1樓",
+    "tel":"02-89699248"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.468448,25.0244119 ]
+    },
+    "properties": {
+    "hosp_name":"德川中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區文化路2段13號1樓",
+    "tel":"02-22501930"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4764698,25.0167978 ]
+    },
+    "properties": {
+    "hosp_name":"璞和中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區中山路2段134號(1樓)",
+    "tel":"02-29570566"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4593374,25.0107736 ]
+    },
+    "properties": {
+    "hosp_name":"蘇鴻昶中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區府後街1巷2號1樓",
+    "tel":"02-29661120"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4516134,25.0141216 ]
+    },
+    "properties": {
+    "hosp_name":"郭中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區南雅西路2段182號(1樓)",
+    "tel":"02-29655358"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4698842,25.0117102 ]
+    },
+    "properties": {
+    "hosp_name":"華晟中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區漢生東路189號1樓及193巷1號1樓",
+    "tel":"02-29562956"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.464348,25.026869 ]
+    },
+    "properties": {
+    "hosp_name":"梁中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區四維路186號1樓",
+    "tel":"02-22586896"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4428331,25.0002408 ]
+    },
+    "properties": {
+    "hosp_name":"健昇中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區龍興街29號(1樓)",
+    "tel":"02-29667373"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4431033,24.9998631 ]
+    },
+    "properties": {
+    "hosp_name":"老記保壽堂中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區龍興街16號(1樓)",
+    "tel":"02-22710607"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4737614,25.0272639 ]
+    },
+    "properties": {
+    "hosp_name":"祥德中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區莊敬路25巷4弄14號(1樓)",
+    "tel":"02-22518870"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4787718,25.0278384 ]
+    },
+    "properties": {
+    "hosp_name":"仲德中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區文聖街157號(1樓)",
+    "tel":"02-22552215"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4736967,25.0126228 ]
+    },
+    "properties": {
+    "hosp_name":"倪國欽中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區長安街331巷23號(1樓)",
+    "tel":"02-89525988"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4611776,25.0288526 ]
+    },
+    "properties": {
+    "hosp_name":"靈群閣中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區裕民街56巷3號(1樓)",
+    "tel":"02-22528276"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.472376,25.0177323 ]
+    },
+    "properties": {
+    "hosp_name":"蓁禾堂中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區民生路二段48、50號1樓",
+    "tel":"02-22533579"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4627715,25.0189947 ]
+    },
+    "properties": {
+    "hosp_name":"竹林中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區漢生西路７７之２號",
+    "tel":"02-22560966"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4563017,25.0099849 ]
+    },
+    "properties": {
+    "hosp_name":"吉安堂中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區後菜園街４３號",
+    "tel":"02-29681998"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.45612,25.0128744 ]
+    },
+    "properties": {
+    "hosp_name":"生永中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區中正路２９號",
+    "tel":"02-29651386"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.480414,25.0177419 ]
+    },
+    "properties": {
+    "hosp_name":"漢昇中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區三民路二段３５巷２１號",
+    "tel":"02-29524149"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4564471,25.0174321 ]
+    },
+    "properties": {
+    "hosp_name":"新榮盛中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區國光路一八五號",
+    "tel":"02-29669065"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4644199,25.0048369 ]
+    },
+    "properties": {
+    "hosp_name":"弘濟堂中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區實踐路127號(1樓)",
+    "tel":"02-29613396"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4604894,25.0084747 ]
+    },
+    "properties": {
+    "hosp_name":"黃永生中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區中山路一段２８號",
+    "tel":"02-29552848"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4560688,25.0189108 ]
+    },
+    "properties": {
+    "hosp_name":"壽春中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區中正路２３６巷６號",
+    "tel":"02-29693238"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4683953,25.0077071 ]
+    },
+    "properties": {
+    "hosp_name":"惠群中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區民族路165號1樓",
+    "tel":"02-29589788"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4626053,25.0029225 ]
+    },
+    "properties": {
+    "hosp_name":"福安堂中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區重慶路一九三號一樓",
+    "tel":"02-29532645"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4610233,24.9980244 ]
+    },
+    "properties": {
+    "hosp_name":"廖世輝中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區國慶路１４９巷３６號",
+    "tel":"02-29542343"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4596566,25.0048262 ]
+    },
+    "properties": {
+    "hosp_name":"泰源中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區四川路一段９８號",
+    "tel":"02-29621298"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4713341,25.0308016 ]
+    },
+    "properties": {
+    "hosp_name":"儒林居中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區雙十路三段２２號",
+    "tel":"02-22526419"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4564777,25.0096954 ]
+    },
+    "properties": {
+    "hosp_name":"廣生堂中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區府中路７８號",
+    "tel":"02-29678438"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4561319,25.013144 ]
+    },
+    "properties": {
+    "hosp_name":"德昇中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區中正路37號1F、B1F",
+    "tel":"02-29698399"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4552159,25.0212733 ]
+    },
+    "properties": {
+    "hosp_name":"陳榮文中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區新生街11號1樓",
+    "tel":"02-22723526"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4598848,25.0184136 ]
+    },
+    "properties": {
+    "hosp_name":"國光中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區國光路157號〈1樓〉",
+    "tel":"02-29601980"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4760264,25.03058 ]
+    },
+    "properties": {
+    "hosp_name":"板橋聖昌中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區松柏街６５號1樓",
+    "tel":"02-22530844"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4702484,25.0273775 ]
+    },
+    "properties": {
+    "hosp_name":"陳東熙中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區文化路二段１６５號",
+    "tel":"02-22592189"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4561735,25.0173371 ]
+    },
+    "properties": {
+    "hosp_name":"日祥中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區中正路203號1、2、3樓",
+    "tel":"02-29662359"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.464675,25.0223108 ]
+    },
+    "properties": {
+    "hosp_name":"漢光中醫診所",
+    "area":"板橋區",
+    "hosp_addr":"新北市板橋區陽明街51號1樓、地下1樓",
+    "tel":"02-22569000"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6298165,25.0709973 ]
+    },
+    "properties": {
+    "hosp_name":"廣緣堂中醫診所",
+    "area":"汐止區",
+    "hosp_addr":"新北市汐止區明峰街132號",
+    "tel":"02-86951725"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6647968,25.0695219 ]
+    },
+    "properties": {
+    "hosp_name":"青蓮中醫診所",
+    "area":"汐止區",
+    "hosp_addr":"新北市汐止區忠孝東路323號1樓",
+    "tel":"02-86463767"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.662666,25.0680987 ]
+    },
+    "properties": {
+    "hosp_name":"周得民中醫診所",
+    "area":"汐止區",
+    "hosp_addr":"新北市汐止區新昌路50號1樓",
+    "tel":"02-26472779"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6374188,25.0670742 ]
+    },
+    "properties": {
+    "hosp_name":"敦揚中醫診所",
+    "area":"汐止區",
+    "hosp_addr":"新北市汐止區福德一路141巷15號1樓",
+    "tel":"02-26934957"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6602717,25.0677791 ]
+    },
+    "properties": {
+    "hosp_name":"秀峰中醫診所",
+    "area":"汐止區",
+    "hosp_addr":"新北市汐止區新台五路二段九號1樓",
+    "tel":"02-26431219"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6632425,25.0646191 ]
+    },
+    "properties": {
+    "hosp_name":"李春風中醫診所",
+    "area":"汐止區",
+    "hosp_addr":"新北市汐止區福安街47號1樓",
+    "tel":"02-26479090"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.642141,25.066209 ]
+    },
+    "properties": {
+    "hosp_name":"大新中醫診所",
+    "area":"汐止區",
+    "hosp_addr":"新北市汐止區樟樹一路141巷1號1樓",
+    "tel":"02-77299090"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6562307,25.064035 ]
+    },
+    "properties": {
+    "hosp_name":"唯其中醫診所",
+    "area":"汐止區",
+    "hosp_addr":"新北市汐止區復興路19號1樓",
+    "tel":"02-86910090"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.631283,25.065602 ]
+    },
+    "properties": {
+    "hosp_name":"杞子中醫診所",
+    "area":"汐止區",
+    "hosp_addr":"新北市汐止區福德二路120號1樓",
+    "tel":"02-26950065"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6621894,25.0664204 ]
+    },
+    "properties": {
+    "hosp_name":"大漢中醫診所",
+    "area":"汐止區",
+    "hosp_addr":"新北市汐止區忠孝東路212號1樓",
+    "tel":"02-86910097"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6637021,25.0691716 ]
+    },
+    "properties": {
+    "hosp_name":"和昌唐中醫診所",
+    "area":"汐止區",
+    "hosp_addr":"新北市汐止區新昌路73號1樓",
+    "tel":"02-26488007"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6556207,25.0661246 ]
+    },
+    "properties": {
+    "hosp_name":"汐科杞子中醫診所",
+    "area":"汐止區",
+    "hosp_addr":"新北市汐止區大同路二段312巷8號1樓",
+    "tel":"02-86423022"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6284473,25.0677168 ]
+    },
+    "properties": {
+    "hosp_name":"汐止泰興中醫診所",
+    "area":"汐止區",
+    "hosp_addr":"新北市汐止區康寧街361號1樓",
+    "tel":"02-26934789"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.657084,25.068832 ]
+    },
+    "properties": {
+    "hosp_name":"依紜中醫診所",
+    "area":"汐止區",
+    "hosp_addr":"新北市汐止區中正路262號1樓",
+    "tel":"02-26422635"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6420284,25.0647124 ]
+    },
+    "properties": {
+    "hosp_name":"明心堂中醫診所",
+    "area":"汐止區",
+    "hosp_addr":"新北市汐止區樟樹一路123之2號1樓",
+    "tel":"02-26488199"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6622494,25.0699396 ]
+    },
+    "properties": {
+    "hosp_name":"世樺中醫診所",
+    "area":"汐止區",
+    "hosp_addr":"新北市汐止區大同路二段５５１巷３號1樓",
+    "tel":"02-26433476"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6511836,25.0643856 ]
+    },
+    "properties": {
+    "hosp_name":"醫心館中醫診所",
+    "area":"汐止區",
+    "hosp_addr":"新北市汐止區大同路二段137號1樓",
+    "tel":"02-86926566"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6324408,25.0661337 ]
+    },
+    "properties": {
+    "hosp_name":"華成中醫診所",
+    "area":"汐止區",
+    "hosp_addr":"新北市汐止區福德二路１００號1樓",
+    "tel":"02-26934346"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6323616,25.0684653 ]
+    },
+    "properties": {
+    "hosp_name":"健榮中醫診所",
+    "area":"汐止區",
+    "hosp_addr":"新北市汐止區康寧街487號1樓",
+    "tel":"02-26926991"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6167883,25.0026026 ]
+    },
+    "properties": {
+    "hosp_name":"深耕中醫診所",
+    "area":"深坑區",
+    "hosp_addr":"新北市深坑區深坑街3巷5號1樓",
+    "tel":"02-26620817"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6141116,25.0023711 ]
+    },
+    "properties": {
+    "hosp_name":"禾生堂中醫診所",
+    "area":"深坑區",
+    "hosp_addr":"新北市深坑區北深路2段184號1樓",
+    "tel":"02-26628080"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6573986,24.9913877 ]
+    },
+    "properties": {
+    "hosp_name":"阿讚中醫診所",
+    "area":"石碇區",
+    "hosp_addr":"新北市石碇區碇坪路一段72號1樓",
+    "tel":"02-26632221"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.7618104,25.1004267 ]
+    },
+    "properties": {
+    "hosp_name":"冠誠中醫診所",
+    "area":"瑞芳區",
+    "hosp_addr":"新北市瑞芳區大埔路104號1樓",
+    "tel":"02-24586526"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.8054461,25.1082522 ]
+    },
+    "properties": {
+    "hosp_name":"大宏中醫診所",
+    "area":"瑞芳區",
+    "hosp_addr":"新北市瑞芳區明燈路三段71號1樓",
+    "tel":"02-24970153"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.9242697,25.0550497 ]
+    },
+    "properties": {
+    "hosp_name":"旗盛中醫診所",
+    "area":"貢寮區",
+    "hosp_addr":"新北市貢寮區延平街25號1樓",
+    "tel":"02-24901589"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5411017,24.9852347 ]
+    },
+    "properties": {
+    "hosp_name":"順安堂傷科中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區順安街１６號",
+    "tel":"02-29155971"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.543186,24.977835 ]
+    },
+    "properties": {
+    "hosp_name":"邱世宗中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區北新路2段250-1號1樓",
+    "tel":"02-89197383"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5096904,24.9591645 ]
+    },
+    "properties": {
+    "hosp_name":"安康中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區安康路2段175號1樓",
+    "tel":"02-86665679"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5372108,24.9544487 ]
+    },
+    "properties": {
+    "hosp_name":"天祥中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區新店路98號1樓",
+    "tel":"02-29111342"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5411281,24.9832373 ]
+    },
+    "properties": {
+    "hosp_name":"品宣中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區北新路3段145號2樓",
+    "tel":"02-29141333"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.545845,24.969651 ]
+    },
+    "properties": {
+    "hosp_name":"新店漢唐經方中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區中興路2段25號2樓",
+    "tel":"02-29110149"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5420335,24.9807657 ]
+    },
+    "properties": {
+    "hosp_name":"國華中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區北新路3段86號1樓、86號2樓",
+    "tel":"02-86653988"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5101804,24.9614158 ]
+    },
+    "properties": {
+    "hosp_name":"必安中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區 安德街75號（1樓）",
+    "tel":"02-86661250"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5404352,24.9762683 ]
+    },
+    "properties": {
+    "hosp_name":"上醫堂中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區建國路83號1樓",
+    "tel":"02-29121212"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5405078,24.9800987 ]
+    },
+    "properties": {
+    "hosp_name":"大豐中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區大豐路30號1樓",
+    "tel":"02-29162131"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.523976,24.9791992 ]
+    },
+    "properties": {
+    "hosp_name":"思邈堂中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區溪園路391號1樓",
+    "tel":"02-82180499"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.538562,24.9773909 ]
+    },
+    "properties": {
+    "hosp_name":"易豐中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區民族路103號1樓及地下室",
+    "tel":"02-29111399"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5170421,24.9651524 ]
+    },
+    "properties": {
+    "hosp_name":"桂枝香中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區安和路一段25號(1樓)、25之1號(1樓)",
+    "tel":"02-22123737"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.54024,24.9676207 ]
+    },
+    "properties": {
+    "hosp_name":"達泰中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區中華路43之1號(1樓、2樓)",
+    "tel":"02-29110656"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5339889,24.9401316 ]
+    },
+    "properties": {
+    "hosp_name":"問心田中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區直潭七街25號1樓",
+    "tel":"02-26660179"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5419919,24.9809059 ]
+    },
+    "properties": {
+    "hosp_name":"新店京都堂中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區北新路三段94號1樓、2樓",
+    "tel":"02-77307305"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5415365,24.971865 ]
+    },
+    "properties": {
+    "hosp_name":"新意中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區中正路160號1樓及2樓",
+    "tel":"02-29135657"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5398028,24.9684203 ]
+    },
+    "properties": {
+    "hosp_name":"頤光中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區中華路46號1樓",
+    "tel":"02-89193696"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.531171,24.9771599 ]
+    },
+    "properties": {
+    "hosp_name":"心圓中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區央北二路52號(1樓)",
+    "tel":"02-22183333"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.54299,24.9825106 ]
+    },
+    "properties": {
+    "hosp_name":"禪心中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區中興路3段221-1號1樓",
+    "tel":"02-29150678"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.538384,24.9828309 ]
+    },
+    "properties": {
+    "hosp_name":"岐伯齋中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區民權路79號1樓",
+    "tel":"02-29128116"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5439212,24.9690537 ]
+    },
+    "properties": {
+    "hosp_name":"覺真中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區五峯路28號1樓",
+    "tel":"02-29155838"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5386808,24.9585377 ]
+    },
+    "properties": {
+    "hosp_name":"瑞清中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區中興路1段159號1樓",
+    "tel":"02-29135052"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5407311,24.9645685 ]
+    },
+    "properties": {
+    "hosp_name":"鈺晟中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區光明街288號2樓",
+    "tel":"02-29126248"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5174941,24.9723441 ]
+    },
+    "properties": {
+    "hosp_name":"陳炳文中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區安民街220號1樓",
+    "tel":"02-86668001"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5380553,24.958534 ]
+    },
+    "properties": {
+    "hosp_name":"北新中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區北宜路1段35號1樓",
+    "tel":"02-29188666"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5351638,24.9763316 ]
+    },
+    "properties": {
+    "hosp_name":"德昌中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區中正路３７０號",
+    "tel":"02-29115401"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5169416,24.9852651 ]
+    },
+    "properties": {
+    "hosp_name":"德林中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區安和路三段１３３號",
+    "tel":"02-29420086"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5396653,24.9620422 ]
+    },
+    "properties": {
+    "hosp_name":"仁安中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區光明街１７８號",
+    "tel":"02-29112867"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5312258,24.9751543 ]
+    },
+    "properties": {
+    "hosp_name":"健宏中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區中央路一九八號",
+    "tel":"02-22188120"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5435979,24.9758738 ]
+    },
+    "properties": {
+    "hosp_name":"新店建成中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區永新街13號1樓",
+    "tel":"02-29135522"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5386573,24.9596432 ]
+    },
+    "properties": {
+    "hosp_name":"新福安中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區光明街64號1樓",
+    "tel":"02-29105657"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5360782,24.9714537 ]
+    },
+    "properties": {
+    "hosp_name":"育豐中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區三民路７３號",
+    "tel":"02-29111367"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5399791,24.9797597 ]
+    },
+    "properties": {
+    "hosp_name":"新店榮星中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區大豐路二十四號",
+    "tel":"02-89113502"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5342394,24.9785145 ]
+    },
+    "properties": {
+    "hosp_name":"百漢中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區中正路一一三號一樓",
+    "tel":"02-29178569"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4926502,24.9524537 ]
+    },
+    "properties": {
+    "hosp_name":"安慶中醫診所",
+    "area":"新店區",
+    "hosp_addr":"新北市新店區安康路三段51號1樓",
+    "tel":"02-22152889"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.509583,25.014079 ]
+    },
+    "properties": {
+    "hosp_name":"進昌中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區保福路二段139號1樓",
+    "tel":"02-29245182"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5186989,25.000336 ]
+    },
+    "properties": {
+    "hosp_name":"佑憲中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區得和路119號1樓",
+    "tel":"02-89214777"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.523004,24.9990507 ]
+    },
+    "properties": {
+    "hosp_name":"術德中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區民生路21號1樓",
+    "tel":"02-29410056"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5054996,25.009341 ]
+    },
+    "properties": {
+    "hosp_name":"甘霖中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區仁愛路289號1樓",
+    "tel":"02-29250303"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5127508,25.0044253 ]
+    },
+    "properties": {
+    "hosp_name":"永和明師中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區永和路一段2號1樓、2樓、3樓之3、3樓之5、4樓、4樓之4",
+    "tel":"02-22328688"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4964767,25.0065527 ]
+    },
+    "properties": {
+    "hosp_name":"李一宏中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區永和路1段2號1樓、2樓、3樓之3、3樓之5、4樓、4樓之4",
+    "tel":"02-22328688"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5141387,25.0106164 ]
+    },
+    "properties": {
+    "hosp_name":"永樂中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區中山路一段14號",
+    "tel":"02-22311022"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5162399,24.9984366 ]
+    },
+    "properties": {
+    "hosp_name":"樂源中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區中正路155號1樓、2樓",
+    "tel":"02-29425658"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5066335,25.0098956 ]
+    },
+    "properties": {
+    "hosp_name":"宜庭中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區永貞路439號1樓",
+    "tel":"02-29251376"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5158629,25.0101288 ]
+    },
+    "properties": {
+    "hosp_name":"靖林中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區中正路718號1樓",
+    "tel":"02-29288638"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5121922,25.0146158 ]
+    },
+    "properties": {
+    "hosp_name":"元化中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區信義路109號1樓",
+    "tel":"02-22324276"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5149534,25.0133801 ]
+    },
+    "properties": {
+    "hosp_name":"永和澄杏中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區仁愛路5號1樓",
+    "tel":"02-89232323"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5206461,25.0099748 ]
+    },
+    "properties": {
+    "hosp_name":"健祐中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區竹林路173號1樓",
+    "tel":"02-89253030"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5150495,25.0012218 ]
+    },
+    "properties": {
+    "hosp_name":"言嘉中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區安樂路188號1樓",
+    "tel":"02-86606780"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5069595,25.0129114 ]
+    },
+    "properties": {
+    "hosp_name":"有明中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區保安路153號1樓",
+    "tel":"02-29261351"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5226931,25.0036237 ]
+    },
+    "properties": {
+    "hosp_name":"新時代中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區林森路１０４號",
+    "tel":"02-22310066"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5224469,25.0017364 ]
+    },
+    "properties": {
+    "hosp_name":"清華中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區永元路八十九號",
+    "tel":"02-32335102"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5145353,25.0103251 ]
+    },
+    "properties": {
+    "hosp_name":"聖元中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區中山路1段168號1樓",
+    "tel":"02-29263939"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5090782,25.0054146 ]
+    },
+    "properties": {
+    "hosp_name":"華信中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區保平路246號1樓",
+    "tel":"02-29266688"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5089504,25.0118638 ]
+    },
+    "properties": {
+    "hosp_name":"福德中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區仁愛路241號一樓、241號B1",
+    "tel":"02-29283222"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5189839,25.0133046 ]
+    },
+    "properties": {
+    "hosp_name":"祺元堂中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區竹林路71-1號1樓",
+    "tel":"02-89253601"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5175232,25.0020208 ]
+    },
+    "properties": {
+    "hosp_name":"聖昇中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區中正路一０九號一、二樓",
+    "tel":"02-89411570"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5108964,25.0059056 ]
+    },
+    "properties": {
+    "hosp_name":"明仁中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區永貞路350號1樓",
+    "tel":"02-29223008"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.513432,24.994798 ]
+    },
+    "properties": {
+    "hosp_name":"永和易元堂中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區中正路62號1、2樓",
+    "tel":"02-29420899"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5191291,25.0122637 ]
+    },
+    "properties": {
+    "hosp_name":"祥寧中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區中興街104號1-2樓及106號1-2樓",
+    "tel":"02-29266869"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5162663,25.0148344 ]
+    },
+    "properties": {
+    "hosp_name":"泉安堂中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區竹林路4號1樓及地下1層",
+    "tel":"02-29207377"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5207698,25.0073296 ]
+    },
+    "properties": {
+    "hosp_name":"臻觀中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區永貞路8號1樓2樓",
+    "tel":"02-29257285"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5175498,25.0034454 ]
+    },
+    "properties": {
+    "hosp_name":"康福中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區中正路 478號一樓二樓",
+    "tel":"02-29232696"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5093101,25.0009803 ]
+    },
+    "properties": {
+    "hosp_name":"妙華中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區中和路429號5樓",
+    "tel":"02-29252277"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5145353,25.0103251 ]
+    },
+    "properties": {
+    "hosp_name":"從容中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區中山路1段202號1樓",
+    "tel":"02-86600667"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5236392,24.9993468 ]
+    },
+    "properties": {
+    "hosp_name":"順和堂中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區得和路342號1樓",
+    "tel":"02-29492238"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.508901,25.0121619 ]
+    },
+    "properties": {
+    "hosp_name":"永和健生堂中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區仁愛路218號1樓",
+    "tel":"02-86608198"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5143957,25.0107131 ]
+    },
+    "properties": {
+    "hosp_name":"世峰中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區永和路二段43號1樓",
+    "tel":"02-29233838"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5107481,25.0063699 ]
+    },
+    "properties": {
+    "hosp_name":"泰華內科針炙科中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區保平路１２１號",
+    "tel":"02-29275634"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5243549,24.9995815 ]
+    },
+    "properties": {
+    "hosp_name":"康源中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區得和路３５１號",
+    "tel":"02-29258628"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5163049,25.0131549 ]
+    },
+    "properties": {
+    "hosp_name":"俊發中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區復興街３１號",
+    "tel":"02-29213815"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5157376,25.0151455 ]
+    },
+    "properties": {
+    "hosp_name":"竹林堂中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區永和路二段２４９號",
+    "tel":"02-29213290"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5193257,25.0058415 ]
+    },
+    "properties": {
+    "hosp_name":"竹安堂中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區永亨路７號",
+    "tel":"02-29212751"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5151863,25.0040446 ]
+    },
+    "properties": {
+    "hosp_name":"上海堂中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區永貞路２１８號",
+    "tel":"02-22319589"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5199166,25.0076841 ]
+    },
+    "properties": {
+    "hosp_name":"獻寶中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區福和路三六二號",
+    "tel":"02-29296945"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5201613,24.999645 ]
+    },
+    "properties": {
+    "hosp_name":"合元中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區民權路８號",
+    "tel":"02-29418857"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5208175,25.0099783 ]
+    },
+    "properties": {
+    "hosp_name":"利源中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區竹林路179巷1號1樓",
+    "tel":"02-89252558"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5114962,25.0085907 ]
+    },
+    "properties": {
+    "hosp_name":"永豐中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區永平路１４６號",
+    "tel":"02-29213264"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5264803,24.9986711 ]
+    },
+    "properties": {
+    "hosp_name":"華興中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區成功路二段９０號",
+    "tel":"02-29488722"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5200887,24.9984528 ]
+    },
+    "properties": {
+    "hosp_name":"秀朗中醫診所",
+    "area":"永和區",
+    "hosp_addr":"新北市永和區民權路二四號",
+    "tel":"02-29488502"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5182085,24.991486 ]
+    },
+    "properties": {
+    "hosp_name":"雋恩中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區景德街30號",
+    "tel":"02-29462789"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4798018,25.0058765 ]
+    },
+    "properties": {
+    "hosp_name":"申一中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區中山路三段3號及5號(1樓)",
+    "tel":"02-82216711"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.47212,24.9986296 ]
+    },
+    "properties": {
+    "hosp_name":"宜佑中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區莒光路一一三號一樓",
+    "tel":"02-22218976"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5005789,25.0008479 ]
+    },
+    "properties": {
+    "hosp_name":"中和保源中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區中和路58號1樓",
+    "tel":"02-22495229"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4839101,24.9989323 ]
+    },
+    "properties": {
+    "hosp_name":"元宇中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區新生街241號1樓",
+    "tel":"02-82267606"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5088921,24.9988161 ]
+    },
+    "properties": {
+    "hosp_name":"詹錫彥中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區宜安路159號",
+    "tel":"02-29453592"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.505571,24.9963503 ]
+    },
+    "properties": {
+    "hosp_name":"玖德中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區景安路78-1.80號1樓",
+    "tel":"02-22401898"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4728295,25.0008487 ]
+    },
+    "properties": {
+    "hosp_name":"刁仁杰中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區莒光路155號1樓",
+    "tel":"02-22227562"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5120308,24.9852913 ]
+    },
+    "properties": {
+    "hosp_name":"富邦中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區忠孝街85號1樓",
+    "tel":"02-29487720"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5102804,24.9901736 ]
+    },
+    "properties": {
+    "hosp_name":"明安堂中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區和平街2巷2弄2號",
+    "tel":"02-29448567"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5120867,25.0024899 ]
+    },
+    "properties": {
+    "hosp_name":"康泉中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區新興街６巷７號１樓",
+    "tel":"02-29278333"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4837751,24.9969012 ]
+    },
+    "properties": {
+    "hosp_name":"中禾堂中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區新生街287號1樓",
+    "tel":"02-22230505"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4993647,24.9933687 ]
+    },
+    "properties": {
+    "hosp_name":"康乃馨中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區中正路137號1樓",
+    "tel":"02-22421052"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4997721,24.9982404 ]
+    },
+    "properties": {
+    "hosp_name":"中和明師中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區景平路４９７號１樓、４９９號１樓、４９９-１號〈２樓〉",
+    "tel":"02-22493788"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5117131,24.9973477 ]
+    },
+    "properties": {
+    "hosp_name":"陳承吉中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區安平路１０６號１樓",
+    "tel":"02-29475566"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5120743,25.0036302 ]
+    },
+    "properties": {
+    "hosp_name":"華漢中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區中和路４４８號〈第一層〉",
+    "tel":"02-86601999"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.504182,24.9908466 ]
+    },
+    "properties": {
+    "hosp_name":"耕德中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區景安路239號1樓",
+    "tel":"02-29443398"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5097779,24.9984446 ]
+    },
+    "properties": {
+    "hosp_name":"正宏堂中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區宜安路140號1樓",
+    "tel":"02-29211351"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4948922,24.9927861 ]
+    },
+    "properties": {
+    "hosp_name":"揚銘中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區圓通路234號1樓",
+    "tel":"02-22461918"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5204701,24.9909544 ]
+    },
+    "properties": {
+    "hosp_name":"真品堂中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區景平路61-8號1樓",
+    "tel":"02-86681690"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4999293,25.001286 ]
+    },
+    "properties": {
+    "hosp_name":"澄品中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區泰和街2號1樓、2樓",
+    "tel":"02-22462256"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5091733,24.9903595 ]
+    },
+    "properties": {
+    "hosp_name":"龍恩中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區和平街11號1、2樓",
+    "tel":"02-89423525"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5226555,24.9964849 ]
+    },
+    "properties": {
+    "hosp_name":"宣景中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區自立路7號1樓",
+    "tel":"02-89429878"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5175073,24.9931672 ]
+    },
+    "properties": {
+    "hosp_name":"明儒中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區大仁街19巷3號1樓",
+    "tel":"02-29405050"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5100965,25.0010659 ]
+    },
+    "properties": {
+    "hosp_name":"精誠中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區中和路324巷3弄5號1樓",
+    "tel":"02-29202233"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5261049,24.9913352 ]
+    },
+    "properties": {
+    "hosp_name":"秀景中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區成功路105號1樓",
+    "tel":"02-29455808"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4838812,24.9976238 ]
+    },
+    "properties": {
+    "hosp_name":"康博中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區新生街283號1樓",
+    "tel":"02-22225453"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4810884,25.0030506 ]
+    },
+    "properties": {
+    "hosp_name":"潤泰中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區員山路409號1樓、411號1樓",
+    "tel":"02-22258938"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5037547,24.996581 ]
+    },
+    "properties": {
+    "hosp_name":"承光中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區南華路41號1、2樓",
+    "tel":"02-29491753"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5022012,24.9950822 ]
+    },
+    "properties": {
+    "hosp_name":"景安現代中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區景平路558號1樓",
+    "tel":"02-22403600"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5086258,24.9870965 ]
+    },
+    "properties": {
+    "hosp_name":"沐心中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區興南路一段159號1樓",
+    "tel":"02-29418520"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.510564,24.996452 ]
+    },
+    "properties": {
+    "hosp_name":"永安健康中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區安平路87之5號1樓",
+    "tel":"02-29283963"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4834538,25.0008248 ]
+    },
+    "properties": {
+    "hosp_name":"新生堂中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區新生街142號1樓",
+    "tel":"02-32348277"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4989843,25.0015897 ]
+    },
+    "properties": {
+    "hosp_name":"行願中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區連城路23巷12號1樓",
+    "tel":"02-22426857"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4981685,24.9996976 ]
+    },
+    "properties": {
+    "hosp_name":"明芯中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區景平路561號1樓",
+    "tel":"02-22451680"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4972477,24.9994863 ]
+    },
+    "properties": {
+    "hosp_name":"永欣中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區連城路89巷7之1號1樓",
+    "tel":"02-82422858"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5107376,24.9982702 ]
+    },
+    "properties": {
+    "hosp_name":"辛中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區宜安路118巷10號（1樓及夾層）、12號（1樓及夾層）",
+    "tel":"02-86681188"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5054822,24.9932661 ]
+    },
+    "properties": {
+    "hosp_name":"妍喜中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區景平路335號1樓",
+    "tel":"02-29462580"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4976552,25.0005935 ]
+    },
+    "properties": {
+    "hosp_name":"頌和中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區景平路656號1樓至2樓",
+    "tel":"02-22438668"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5171812,24.9924902 ]
+    },
+    "properties": {
+    "hosp_name":"宣達中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區大勇街8號1樓",
+    "tel":"02-86686598"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5111729,24.9878665 ]
+    },
+    "properties": {
+    "hosp_name":"致中和中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區仁愛街54號1樓",
+    "tel":"02-29490191"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5103219,24.9926434 ]
+    },
+    "properties": {
+    "hosp_name":"天安中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區景平路225號1樓",
+    "tel":"02-29419764"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5118486,24.9909633 ]
+    },
+    "properties": {
+    "hosp_name":"心俞堂中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區景新街330號1樓",
+    "tel":"02-29410212"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.466976,24.996487 ]
+    },
+    "properties": {
+    "hosp_name":"願行中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區華福街64號1樓",
+    "tel":"02-89646857"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4844701,25.0128369 ]
+    },
+    "properties": {
+    "hosp_name":"逸心堂中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區中原街166號1樓及168號1樓",
+    "tel":"02-22251618"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4987563,25.0024272 ]
+    },
+    "properties": {
+    "hosp_name":"圉閎中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區中山路二段213號1樓、2樓",
+    "tel":"02-22400102"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5087889,24.987052 ]
+    },
+    "properties": {
+    "hosp_name":"華星中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區興南路一段１５１號",
+    "tel":"02-29432288"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5124857,24.9902323 ]
+    },
+    "properties": {
+    "hosp_name":"朝春中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區景新街３８５－２號２Ｆ",
+    "tel":"02-29419229"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5002017,24.9931563 ]
+    },
+    "properties": {
+    "hosp_name":"三元中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區中興街二０二巷十六之一號一樓",
+    "tel":"02-22429808"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.48347,24.9961872 ]
+    },
+    "properties": {
+    "hosp_name":"福星中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區連城路３１６號",
+    "tel":"02-22236609"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.474054,25.001995 ]
+    },
+    "properties": {
+    "hosp_name":"陳南中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區民享街５８－１號",
+    "tel":"02-22227337"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5064706,25.0039114 ]
+    },
+    "properties": {
+    "hosp_name":"進安中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區保平路356號、358號1樓",
+    "tel":"02-22485986"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5001198,24.9976129 ]
+    },
+    "properties": {
+    "hosp_name":"長安堂中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區景平路４８７號",
+    "tel":"02-29445546"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5112643,24.9929175 ]
+    },
+    "properties": {
+    "hosp_name":"中安中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區景平路３６０號",
+    "tel":"02-29415253"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4966738,25.0042502 ]
+    },
+    "properties": {
+    "hosp_name":"寶島中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區景平路742號１樓",
+    "tel":"02-22427093"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5111133,24.9973174 ]
+    },
+    "properties": {
+    "hosp_name":"元隆堂中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區宜安路一九號",
+    "tel":"02-29417504"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.481384,24.999804 ]
+    },
+    "properties": {
+    "hosp_name":"培敦中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區員山路168號1樓",
+    "tel":"02-22217076"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4809994,24.9950542 ]
+    },
+    "properties": {
+    "hosp_name":"大眾中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區員山路一七六號",
+    "tel":"02-22266680"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4813461,24.9953625 ]
+    },
+    "properties": {
+    "hosp_name":"培真中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區新生街二二０巷五號",
+    "tel":"02-22256618"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5131566,24.9881186 ]
+    },
+    "properties": {
+    "hosp_name":"景新中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區景新街４４８號",
+    "tel":"02-86687686"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5072913,24.9904807 ]
+    },
+    "properties": {
+    "hosp_name":"漢唐中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區捷運路125號1樓",
+    "tel":"02-89417376"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5040127,24.9924219 ]
+    },
+    "properties": {
+    "hosp_name":"國耀中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區南山路一六六號",
+    "tel":"02-29465157"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4718844,25.0046356 ]
+    },
+    "properties": {
+    "hosp_name":"常榮中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區莒光路2號（1樓）、2之1號（2樓）、4號（1樓）及4之1號（2樓）",
+    "tel":"02-29578260"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5019383,24.9933239 ]
+    },
+    "properties": {
+    "hosp_name":"詠德中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區中正路47號1樓",
+    "tel":"02-22480658"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5060717,24.9936045 ]
+    },
+    "properties": {
+    "hosp_name":"三大中醫診所",
+    "area":"中和區",
+    "hosp_addr":"新北市中和區景平路452號1樓",
+    "tel":"02-22455550"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.416631,24.957647 ]
+    },
+    "properties": {
+    "hosp_name":"弘祐中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區中央路4段113號1樓",
+    "tel":"02-22686628"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4601404,24.9815148 ]
+    },
+    "properties": {
+    "hosp_name":"耆康中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區清水路174號1樓",
+    "tel":"02-22749579"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4417435,24.9743749 ]
+    },
+    "properties": {
+    "hosp_name":"土城仁安堂中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區中央路2段207號1樓",
+    "tel":"02-22633566"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.46594,24.9845062 ]
+    },
+    "properties": {
+    "hosp_name":"欣揚中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區延吉街268號1樓",
+    "tel":"02-82622388"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.471232,24.9903067 ]
+    },
+    "properties": {
+    "hosp_name":"漢榮中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區延壽路13巷1號1樓",
+    "tel":"02-22659758"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.447913,24.9830489 ]
+    },
+    "properties": {
+    "hosp_name":"成德中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區明德路二段163號1樓",
+    "tel":"02-22657056"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4536505,24.9857701 ]
+    },
+    "properties": {
+    "hosp_name":"玉生堂中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區學府路一段155巷5號1樓",
+    "tel":"02-22659555"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.47118,24.9865346 ]
+    },
+    "properties": {
+    "hosp_name":"合安中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區延吉街119號1樓",
+    "tel":"02-22631561"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4460354,24.9866201 ]
+    },
+    "properties": {
+    "hosp_name":"漢邦中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區中央路一段205號1樓",
+    "tel":"02-22735415"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4609454,24.9792986 ]
+    },
+    "properties": {
+    "hosp_name":"福滿堂中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區青仁路37號1樓",
+    "tel":"02-22749873"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4521591,24.9853058 ]
+    },
+    "properties": {
+    "hosp_name":"聖滄中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區學府路一段216號",
+    "tel":"02-22601185"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4572138,24.9882116 ]
+    },
+    "properties": {
+    "hosp_name":"仁有堂中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區學府路一段67號1、2樓",
+    "tel":"02-22666408"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4535617,24.9838999 ]
+    },
+    "properties": {
+    "hosp_name":"維濃中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區裕民路228號1樓",
+    "tel":"02-82620598"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4523597,24.9876369 ]
+    },
+    "properties": {
+    "hosp_name":"太醫殿中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區學成路48號1樓",
+    "tel":"02-22606955"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4426783,24.9769077 ]
+    },
+    "properties": {
+    "hosp_name":"聯欣中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區中央路二段149巷15弄4號1樓",
+    "tel":"02-89651198"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4552969,24.9819295 ]
+    },
+    "properties": {
+    "hosp_name":"弘新中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區裕民路280號3樓",
+    "tel":"02-22617777"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4440774,24.9843384 ]
+    },
+    "properties": {
+    "hosp_name":"土城建宏中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區中央路一段260之2號1樓",
+    "tel":"02-22617568"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4592161,24.9802891 ]
+    },
+    "properties": {
+    "hosp_name":"三合堂中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區青雲路275號",
+    "tel":"02-22706078"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429878,24.9810447 ]
+    },
+    "properties": {
+    "hosp_name":"慶儒中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區中央路一段350號1樓",
+    "tel":"02-22706995"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4457038,24.9776725 ]
+    },
+    "properties": {
+    "hosp_name":"奕翔中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區學海街297號1樓",
+    "tel":"02-82612822"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4657097,24.9828548 ]
+    },
+    "properties": {
+    "hosp_name":"和陽中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區明德路一段101號1樓",
+    "tel":"02-82602868"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4537053,24.9843077 ]
+    },
+    "properties": {
+    "hosp_name":"土城風澤中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區裕民路191號1樓",
+    "tel":"02-22606858"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.467149,24.9836363 ]
+    },
+    "properties": {
+    "hosp_name":"世桓中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區永豐路135巷17弄6號1樓",
+    "tel":"02-22231054"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4682587,24.9854033 ]
+    },
+    "properties": {
+    "hosp_name":"吉德中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區土城市延吉街１６８巷３號",
+    "tel":"02-26462901"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.468774,24.990567 ]
+    },
+    "properties": {
+    "hosp_name":"延和中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區延和路127號1樓、125巷2號1樓、125巷4號1樓",
+    "tel":"02-22635611"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4516235,24.9862726 ]
+    },
+    "properties": {
+    "hosp_name":"祐生中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區裕民路二０二號",
+    "tel":"02-22741763"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4504594,24.9868342 ]
+    },
+    "properties": {
+    "hosp_name":"陳鴻翔中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區裕民路98號1、2樓",
+    "tel":"02-82732377"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4654353,24.984449 ]
+    },
+    "properties": {
+    "hosp_name":"清水建全中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區明德路一段59號1樓",
+    "tel":"02-22649299"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4527251,24.9843587 ]
+    },
+    "properties": {
+    "hosp_name":"林原億中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區學府路一段189巷11弄4號1樓",
+    "tel":"02-22649428"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4679352,24.9888975 ]
+    },
+    "properties": {
+    "hosp_name":"建明中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區金城路3段139巷12號1樓",
+    "tel":"02-82612522"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4556357,24.991689 ]
+    },
+    "properties": {
+    "hosp_name":"聖和中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區廣興街28、30號1樓",
+    "tel":"02-89666288"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4595162,24.9816346 ]
+    },
+    "properties": {
+    "hosp_name":"渼林中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區清水路179號1樓",
+    "tel":"02-22645353"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4593344,24.9885542 ]
+    },
+    "properties": {
+    "hosp_name":"易元堂中醫診所",
+    "area":"土城區",
+    "hosp_addr":"新北市土城區學府路1段107號1、2樓",
+    "tel":"02-22634669"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.367128,24.9360375 ]
+    },
+    "properties": {
+    "hosp_name":"太元堂中醫診所",
+    "area":"三峽區",
+    "hosp_addr":"新北市三峽區大勇路82號１樓",
+    "tel":"02-26714920"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3642663,24.9354898 ]
+    },
+    "properties": {
+    "hosp_name":"慈恩中醫診所",
+    "area":"三峽區",
+    "hosp_addr":"新北市三峽區文化路七○號一、二樓",
+    "tel":"02-86713371"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3741909,24.9293201 ]
+    },
+    "properties": {
+    "hosp_name":"同福堂中醫診所",
+    "area":"三峽區",
+    "hosp_addr":"新北市三峽區中正路一段111號1樓",
+    "tel":"02-26717719"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3724366,24.9350927 ]
+    },
+    "properties": {
+    "hosp_name":"元津堂中醫診所",
+    "area":"三峽區",
+    "hosp_addr":"新北市三峽區民生街146巷19號1樓",
+    "tel":"02-86716522"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3725372,24.9307702 ]
+    },
+    "properties": {
+    "hosp_name":"易安中醫診所",
+    "area":"三峽區",
+    "hosp_addr":"新北市三峽區中華路51號1樓",
+    "tel":"02-86717839"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3713266,24.936284 ]
+    },
+    "properties": {
+    "hosp_name":"仁合中醫診所",
+    "area":"三峽區",
+    "hosp_addr":"新北市三峽區文化路112號1樓",
+    "tel":"02-26717051"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3729043,24.936185 ]
+    },
+    "properties": {
+    "hosp_name":"賢明中醫診所",
+    "area":"三峽區",
+    "hosp_addr":"新北市三峽區文化路46號1樓",
+    "tel":"02-86710203"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3759312,24.9446193 ]
+    },
+    "properties": {
+    "hosp_name":"北大承光中醫診所",
+    "area":"三峽區",
+    "hosp_addr":"新北市三峽區大德路125號1樓",
+    "tel":"02-86712552"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3777872,24.9452664 ]
+    },
+    "properties": {
+    "hosp_name":"踏雪齋中醫診所",
+    "area":"三峽區",
+    "hosp_addr":"新北市三峽區大義路191號1樓(含夾層)",
+    "tel":"02-35012360"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3766694,24.9464235 ]
+    },
+    "properties": {
+    "hosp_name":"黃麟峰中醫診所",
+    "area":"三峽區",
+    "hosp_addr":"新北市三峽區學勤路180之1號1樓",
+    "tel":"02-77300537"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3750775,24.9434565 ]
+    },
+    "properties": {
+    "hosp_name":"北大風澤中醫診所",
+    "area":"三峽區",
+    "hosp_addr":"新北市三峽區大學路98號1樓、2樓",
+    "tel":"02-77301830"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3743334,24.9437811 ]
+    },
+    "properties": {
+    "hosp_name":"雲禾中醫診所",
+    "area":"三峽區",
+    "hosp_addr":"新北市三峽區大學路139號1、2樓",
+    "tel":"02-26710880"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4226687,24.9916098 ]
+    },
+    "properties": {
+    "hosp_name":"陳春錦中醫診所",
+    "area":"樹林區",
+    "hosp_addr":"新北市樹林區樹德街22號1樓",
+    "tel":"02-26843777"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4229546,24.9951145 ]
+    },
+    "properties": {
+    "hosp_name":"漢昌中醫診所",
+    "area":"樹林區",
+    "hosp_addr":"新北市樹林區保安街一段三一五號",
+    "tel":"02-26753115"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4291614,24.9972193 ]
+    },
+    "properties": {
+    "hosp_name":"游中醫診所",
+    "area":"樹林區",
+    "hosp_addr":"新北市樹林區樹新路三十六之一號",
+    "tel":"02-26837933"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4226868,24.9919301 ]
+    },
+    "properties": {
+    "hosp_name":"樹林同欣堂中醫診所",
+    "area":"樹林區",
+    "hosp_addr":"新北市樹林區日新街45號",
+    "tel":"02-26757616"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.420801,24.979974 ]
+    },
+    "properties": {
+    "hosp_name":"祥瑞中醫診所",
+    "area":"樹林區",
+    "hosp_addr":"新北市樹林區八德街102、106、106之1號",
+    "tel":"02-86865980"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4176361,24.9806614 ]
+    },
+    "properties": {
+    "hosp_name":"樹林建全中醫診所",
+    "area":"樹林區",
+    "hosp_addr":"新北市樹林區中華路122號1樓",
+    "tel":"02-29560979"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4212541,24.9879898 ]
+    },
+    "properties": {
+    "hosp_name":"福康中醫診所",
+    "area":"樹林區",
+    "hosp_addr":"新北市樹林區中山路一段216號1樓",
+    "tel":"02-26751585"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4230387,24.9905255 ]
+    },
+    "properties": {
+    "hosp_name":"吉人堂中醫診所",
+    "area":"樹林區",
+    "hosp_addr":"新北市樹林區中山路一段113號2樓",
+    "tel":"02-26823369"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.422237,24.991562 ]
+    },
+    "properties": {
+    "hosp_name":"慈愛中醫診所",
+    "area":"樹林區",
+    "hosp_addr":"新北市樹林區日新街52號1樓",
+    "tel":"02-26852300"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3794891,24.9450665 ]
+    },
+    "properties": {
+    "hosp_name":"佑康中醫診所",
+    "area":"樹林區",
+    "hosp_addr":"新北市樹林區學成路478號1樓",
+    "tel":"02-89706246"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4234473,24.9905039 ]
+    },
+    "properties": {
+    "hosp_name":"鈺唐中醫診所",
+    "area":"樹林區",
+    "hosp_addr":"新北市樹林區後站街3巷14號1樓",
+    "tel":"02-86874641"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4088195,25.017802 ]
+    },
+    "properties": {
+    "hosp_name":"厚德中醫診所",
+    "area":"樹林區",
+    "hosp_addr":"新北市樹林區中正路851號1樓",
+    "tel":"02-26893778"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4225357,24.9943419 ]
+    },
+    "properties": {
+    "hosp_name":"仁人中醫診所",
+    "area":"樹林區",
+    "hosp_addr":"新北市樹林區復興路21號1樓",
+    "tel":"02-26821321"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3336454,24.9631456 ]
+    },
+    "properties": {
+    "hosp_name":"世達中醫診所",
+    "area":"鶯歌區",
+    "hosp_addr":"新北市鶯歌區鶯桃路３７３號",
+    "tel":"02-26796812"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3508014,24.9532539 ]
+    },
+    "properties": {
+    "hosp_name":"孫中醫診所",
+    "area":"鶯歌區",
+    "hosp_addr":"新北市鶯歌區國慶街152號1樓及154號1樓",
+    "tel":"02-26700608"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3257298,24.9721144 ]
+    },
+    "properties": {
+    "hosp_name":"心醫堂中醫診所",
+    "area":"鶯歌區",
+    "hosp_addr":"新北市鶯歌區鶯桃路二段１７號一樓",
+    "tel":"02-26781181"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3504938,24.9539969 ]
+    },
+    "properties": {
+    "hosp_name":"國慶中醫診所",
+    "area":"鶯歌區",
+    "hosp_addr":"新北市鶯歌區國慶街114號1樓2樓",
+    "tel":"02-26771636"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3496275,24.9555368 ]
+    },
+    "properties": {
+    "hosp_name":"羅晉專中醫診所",
+    "area":"鶯歌區",
+    "hosp_addr":"新北市鶯歌區國慶街40號1樓",
+    "tel":"02-26703960"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3438832,24.9556373 ]
+    },
+    "properties": {
+    "hosp_name":"正峰中醫診所",
+    "area":"鶯歌區",
+    "hosp_addr":"新北市鶯歌區光明街169號1樓、171號1樓",
+    "tel":"02-26777710"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3449605,24.9556862 ]
+    },
+    "properties": {
+    "hosp_name":"廣安中醫診所",
+    "area":"鶯歌區",
+    "hosp_addr":"新北市鶯歌區育智路18號(1樓)",
+    "tel":"02-26798883"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4887487,25.075339 ]
+    },
+    "properties": {
+    "hosp_name":"誌仁中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區三和路四段136號",
+    "tel":"02-22870456"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4956101,25.0611925 ]
+    },
+    "properties": {
+    "hosp_name":"天德堂中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區大同南路3號、7巷1號1至2樓",
+    "tel":"02-29721515"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4888306,25.0861566 ]
+    },
+    "properties": {
+    "hosp_name":"慶竹中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區五華街178號1樓、2樓",
+    "tel":"02-28577900"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4903772,25.0598934 ]
+    },
+    "properties": {
+    "hosp_name":"松鶴中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區過圳街7巷36號1樓",
+    "tel":"02-89820999"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4977968,25.0690808 ]
+    },
+    "properties": {
+    "hosp_name":"禾豐中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區文化北路133號1樓",
+    "tel":"02-29771002"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.484066,25.0778873 ]
+    },
+    "properties": {
+    "hosp_name":"醫道中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區力行路二段165號1樓",
+    "tel":"02-22865277"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4981126,25.0680274 ]
+    },
+    "properties": {
+    "hosp_name":"安美中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區文化北路97號1樓",
+    "tel":"02-89851238"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4759563,25.0700424 ]
+    },
+    "properties": {
+    "hosp_name":"喜悅中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區中正北路392號1樓",
+    "tel":"02-89829779"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4834154,25.0586273 ]
+    },
+    "properties": {
+    "hosp_name":"弘曜中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區三陽路106號1樓及三陽路100巷1弄5號1樓",
+    "tel":"02-29863389"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4870578,25.0725961 ]
+    },
+    "properties": {
+    "hosp_name":"全心堂中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區自強路三段35、37號1樓",
+    "tel":"02-89829966"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.496428,25.0667076 ]
+    },
+    "properties": {
+    "hosp_name":"漢民中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區正義北路180號1樓",
+    "tel":"02-29803770"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4838552,25.0776883 ]
+    },
+    "properties": {
+    "hosp_name":"仲聖中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區力行路二段155號1樓",
+    "tel":"02-82839955"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5019737,25.0635031 ]
+    },
+    "properties": {
+    "hosp_name":"健安堂中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區重新路一段72號1樓",
+    "tel":"02-29749977"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4863624,25.0820916 ]
+    },
+    "properties": {
+    "hosp_name":"健安中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區碧華街141號1樓",
+    "tel":"02-89857066"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4839496,25.0700129 ]
+    },
+    "properties": {
+    "hosp_name":"三重同仁堂中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區忠孝路二段99號1樓、2樓及95號、97號2樓及車路頭街1號1樓",
+    "tel":"02-29857688"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4830717,25.0673662 ]
+    },
+    "properties": {
+    "hosp_name":"鼎真中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區中正北路135號1樓",
+    "tel":"02-29880135"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.492352,25.0716157 ]
+    },
+    "properties": {
+    "hosp_name":"麗水堂中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區忠孝路一段6號1樓",
+    "tel":"0800200390"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4846028,25.0780439 ]
+    },
+    "properties": {
+    "hosp_name":"仁安堂中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區三和路4段133號1樓",
+    "tel":"02-22861000"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4994416,25.0629794 ]
+    },
+    "properties": {
+    "hosp_name":"三重宥聖中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區重新路二段1之6號1樓、2樓、3樓及1之7號2樓、3樓",
+    "tel":"02-29851789"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.483263,25.0834924 ]
+    },
+    "properties": {
+    "hosp_name":"和璞中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區仁安街101號1樓",
+    "tel":"02-82868180"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.502012,25.064898 ]
+    },
+    "properties": {
+    "hosp_name":"大耀中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區福德北路30之1號1樓",
+    "tel":"02-29763983"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.490689,25.0653693 ]
+    },
+    "properties": {
+    "hosp_name":"大同中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區重陽路三段5巷1號1樓",
+    "tel":"02-89836900"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5003161,25.060556 ]
+    },
+    "properties": {
+    "hosp_name":"真如中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區文化南路特8號1樓",
+    "tel":"02-29720330"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4906288,25.0690123 ]
+    },
+    "properties": {
+    "hosp_name":"三重菩提中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區重陽路四段10號1樓",
+    "tel":"02-89857977"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4971599,25.0652525 ]
+    },
+    "properties": {
+    "hosp_name":"三重又一春中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區正義北路93號1樓",
+    "tel":"02-22791995"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.488619,25.0515839 ]
+    },
+    "properties": {
+    "hosp_name":"仰德中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區集成路5號1樓",
+    "tel":"02-29770655"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4936552,25.0560381 ]
+    },
+    "properties": {
+    "hosp_name":"三重天慕堂中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區中正南路165號1樓及夾層",
+    "tel":"02-29789090"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4966417,25.072673 ]
+    },
+    "properties": {
+    "hosp_name":"東華堂中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區龍門路５８號",
+    "tel":"02-29761080"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.481122,25.079502 ]
+    },
+    "properties": {
+    "hosp_name":"三和中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區三和路四段402號",
+    "tel":"02-22870080"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4923456,25.0595107 ]
+    },
+    "properties": {
+    "hosp_name":"永昇中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區中寮街20號之5",
+    "tel":"02-29780781"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4850875,25.0609689 ]
+    },
+    "properties": {
+    "hosp_name":"國嘉中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區三光街3號1樓",
+    "tel":"02-29804259"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5013129,25.063172 ]
+    },
+    "properties": {
+    "hosp_name":"陳逸德中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區中央南路2號",
+    "tel":"02-29721815"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4867114,25.0614534 ]
+    },
+    "properties": {
+    "hosp_name":"忠孝龍安中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區忠孝路二段五十三號",
+    "tel":"02-89813498"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.481635,25.0801621 ]
+    },
+    "properties": {
+    "hosp_name":"龍安中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區仁愛街680號1樓",
+    "tel":"02-22878797"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4863508,25.0555274 ]
+    },
+    "properties": {
+    "hosp_name":"健康中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區重新路四段三十五號",
+    "tel":"02-29882164"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4976131,25.0663376 ]
+    },
+    "properties": {
+    "hosp_name":"保安堂中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區正義北路四七.四九號一.二樓",
+    "tel":"02-29896251"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4880458,25.0516224 ]
+    },
+    "properties": {
+    "hosp_name":"六福中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區集成路１０號",
+    "tel":"02-29731088"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4846072,25.08137 ]
+    },
+    "properties": {
+    "hosp_name":"林源泉中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區碧華街５９號",
+    "tel":"02-29841753"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.492246,25.0733572 ]
+    },
+    "properties": {
+    "hosp_name":"福田中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區三和路三段182號",
+    "tel":"02-29807195"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4905988,25.0630912 ]
+    },
+    "properties": {
+    "hosp_name":"厚生堂中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區中正北路59號1樓",
+    "tel":"02-29802211"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.498223,25.0696256 ]
+    },
+    "properties": {
+    "hosp_name":"三重建成中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區三和路二段153號1樓",
+    "tel":"02-29764289"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.483056,25.0772419 ]
+    },
+    "properties": {
+    "hosp_name":"長駥堂中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區力行路二段180號1樓",
+    "tel":"02-82839291"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4954429,25.0721412 ]
+    },
+    "properties": {
+    "hosp_name":"三重養生堂中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區龍門路28號1樓、28號之1(1樓)",
+    "tel":"02-89728566"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4906382,25.0737453 ]
+    },
+    "properties": {
+    "hosp_name":"善慧堂中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區三和路四段20巷10號1樓",
+    "tel":"02-29869058"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4900739,25.0632641 ]
+    },
+    "properties": {
+    "hosp_name":"康欣中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區中正北路79號1樓",
+    "tel":"02-89857068"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4971728,25.0665081 ]
+    },
+    "properties": {
+    "hosp_name":"寶田中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區自強路一段66號2樓",
+    "tel":"02-29869416"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5003056,25.0685971 ]
+    },
+    "properties": {
+    "hosp_name":"惟康中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區長榮路8號1樓",
+    "tel":"02-29768556"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4977154,25.061654 ]
+    },
+    "properties": {
+    "hosp_name":"京品中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區正義南路15之2號1樓",
+    "tel":"02-29787789"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4821472,25.0793789 ]
+    },
+    "properties": {
+    "hosp_name":"璟欣中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區三和路四段199號1樓",
+    "tel":"02-22876060"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4962821,25.0686104 ]
+    },
+    "properties": {
+    "hosp_name":"六福堂中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區正義北路211號1樓",
+    "tel":"02-29840011"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4925564,25.0673723 ]
+    },
+    "properties": {
+    "hosp_name":"宏安中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區自強路一段254號1樓",
+    "tel":"02-89859068"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4963929,25.0642389 ]
+    },
+    "properties": {
+    "hosp_name":"佑安中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區信義西街98號(1樓)",
+    "tel":"02-29815899"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4987267,25.0644134 ]
+    },
+    "properties": {
+    "hosp_name":"重安養生中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區平安街9號(1樓)",
+    "tel":"02-29852222"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4828961,25.0786139 ]
+    },
+    "properties": {
+    "hosp_name":"鼎安堂中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區三和路四段372號1、2樓",
+    "tel":"02-22878800"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.481527,25.0797137 ]
+    },
+    "properties": {
+    "hosp_name":"軒林中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區三和路四段217號1、2樓",
+    "tel":"02-22877333"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4903897,25.0689027 ]
+    },
+    "properties": {
+    "hosp_name":"百昌堂中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區自強路２段1號1樓",
+    "tel":"02-89855670"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.488282,25.0807464 ]
+    },
+    "properties": {
+    "hosp_name":"長興中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區溪尾街１８４號",
+    "tel":"02-22866533"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4914514,25.071972 ]
+    },
+    "properties": {
+    "hosp_name":"何合安中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區忠孝路一段35號4樓之3",
+    "tel":"02-29803884"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4822261,25.0674637 ]
+    },
+    "properties": {
+    "hosp_name":"林寶華中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區中正北路２１８號",
+    "tel":"02-29889212"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4822236,25.0655113 ]
+    },
+    "properties": {
+    "hosp_name":"富信中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區三民街一四三號",
+    "tel":"02-29855368"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4976753,25.0747501 ]
+    },
+    "properties": {
+    "hosp_name":"慧光中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區仁福街６４巷４號",
+    "tel":"02-29736843"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.495457,25.0614445 ]
+    },
+    "properties": {
+    "hosp_name":"寶鶴堂中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區重新路三段２號－１１樓",
+    "tel":"02-29758369"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4879117,25.0571559 ]
+    },
+    "properties": {
+    "hosp_name":"生生堂中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區重新路四段９２號",
+    "tel":"02-29773210"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5011258,25.0622273 ]
+    },
+    "properties": {
+    "hosp_name":"新博愛中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區中央南路３１號",
+    "tel":"02-29757139"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4896399,25.079079 ]
+    },
+    "properties": {
+    "hosp_name":"正五華中醫診所",
+    "area":"三重區",
+    "hosp_addr":"新北市三重區溪尾街１２１號",
+    "tel":"02-29811575"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4273327,25.0259547 ]
+    },
+    "properties": {
+    "hosp_name":"林豊詔中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區後港一路76巷3弄1號1樓",
+    "tel":"02-22085330"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4660584,25.0541784 ]
+    },
+    "properties": {
+    "hosp_name":"昇源中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區化成路265號1樓",
+    "tel":"02-29920322"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4524235,25.0522391 ]
+    },
+    "properties": {
+    "hosp_name":"聖康中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區中華路二段185號1樓",
+    "tel":"02-29985820"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4506116,25.0492943 ]
+    },
+    "properties": {
+    "hosp_name":"新莊易元堂中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區幸福路680號1樓",
+    "tel":"02-29936199"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4530543,25.0436718 ]
+    },
+    "properties": {
+    "hosp_name":"大禾中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區復興路一段220號1樓",
+    "tel":"02-89925611"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4251393,25.0259172 ]
+    },
+    "properties": {
+    "hosp_name":"至善堂中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區後港一路24號1樓",
+    "tel":"02-82010502"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4549014,25.0494849 ]
+    },
+    "properties": {
+    "hosp_name":"幸福中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區幸福路552號1樓、564巷2弄10號1樓",
+    "tel":"02-29903397"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4595533,25.0532384 ]
+    },
+    "properties": {
+    "hosp_name":"行懿堂中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區思源路447號(1樓)",
+    "tel":"02-29911350"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4456748,25.0413443 ]
+    },
+    "properties": {
+    "hosp_name":"醫莘堂中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區復興路一段12號1樓",
+    "tel":"02-22778699"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4561972,25.0384051 ]
+    },
+    "properties": {
+    "hosp_name":"啟新中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區中港路48巷19號1樓",
+    "tel":"02-22791035"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4445929,25.051939 ]
+    },
+    "properties": {
+    "hosp_name":"瑞和中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區中平路363號1樓",
+    "tel":"02-89925178"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4542318,25.0509768 ]
+    },
+    "properties": {
+    "hosp_name":"一時中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區昌隆街15號1樓",
+    "tel":"02-22771314"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.461244,25.047341 ]
+    },
+    "properties": {
+    "hosp_name":"仁予中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區思源路128巷13號1樓",
+    "tel":"02-22776646"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4572451,25.0541351 ]
+    },
+    "properties": {
+    "hosp_name":"傳愛中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區中原路65號1樓",
+    "tel":"02-22766558"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4262331,25.0181085 ]
+    },
+    "properties": {
+    "hosp_name":"新莊光華風澤中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區龍安路503號1樓",
+    "tel":"02-22067036"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.448528,25.0360321 ]
+    },
+    "properties": {
+    "hosp_name":"新莊江翠中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區新泰路100號1樓",
+    "tel":"02-29900775"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.418977,25.0265032 ]
+    },
+    "properties": {
+    "hosp_name":"民安中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區富國路35號1樓",
+    "tel":"02-29019379"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4525527,25.0493846 ]
+    },
+    "properties": {
+    "hosp_name":"天澤中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區中華路2段91號1樓",
+    "tel":"02-89925687"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4179841,25.0261627 ]
+    },
+    "properties": {
+    "hosp_name":"仁愛中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區中正路879-6號1樓",
+    "tel":"02-29018130"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4577272,25.0495144 ]
+    },
+    "properties": {
+    "hosp_name":"美恩中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區幸福路46號1樓",
+    "tel":"02-89935598"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4272884,25.0113945 ]
+    },
+    "properties": {
+    "hosp_name":"有慶中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區民安西路311號1樓之1及313號1樓之1",
+    "tel":"02-22022200"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4446886,25.0497094 ]
+    },
+    "properties": {
+    "hosp_name":"御漢堂中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區中平路267號1樓",
+    "tel":"02-89938000"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4161046,25.0269923 ]
+    },
+    "properties": {
+    "hosp_name":"九和堂中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區雙鳳路41號1樓",
+    "tel":"02-29962088"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.414435,25.0230249 ]
+    },
+    "properties": {
+    "hosp_name":"彤發中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區龍安路1-1號1樓",
+    "tel":"02-29083314"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4519321,25.0531192 ]
+    },
+    "properties": {
+    "hosp_name":"慈護上品中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區中華路二段215號1樓",
+    "tel":"02-29941205"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4461996,25.0335155 ]
+    },
+    "properties": {
+    "hosp_name":"聯合中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區景德路384號1樓",
+    "tel":"02-22070105"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4478609,25.0348699 ]
+    },
+    "properties": {
+    "hosp_name":"超群中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區中正路321號1樓",
+    "tel":"02-22012299"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4512144,25.03568 ]
+    },
+    "properties": {
+    "hosp_name":"大大中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區中正路213號1樓",
+    "tel":"02-29970022"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4545303,25.0441753 ]
+    },
+    "properties": {
+    "hosp_name":"三德中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區復興路二段41號1樓.43號1樓",
+    "tel":"02-29983550"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.457714,25.0442584 ]
+    },
+    "properties": {
+    "hosp_name":"岐黃中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區復興路二段150號1樓",
+    "tel":"02-22760978"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4601955,25.0492856 ]
+    },
+    "properties": {
+    "hosp_name":"麗景中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區幸福東路141號1、2樓",
+    "tel":"02-29926776"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4259803,25.0128894 ]
+    },
+    "properties": {
+    "hosp_name":"國寶中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區民安西路272號1樓",
+    "tel":"02-22060150"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4537137,25.0542408 ]
+    },
+    "properties": {
+    "hosp_name":"至真中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區中原路171號1樓",
+    "tel":"02-22775171"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4573321,25.0500379 ]
+    },
+    "properties": {
+    "hosp_name":"昌隆中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區幸福路64巷4弄3號1樓",
+    "tel":"02-29910802"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.426258,25.015558 ]
+    },
+    "properties": {
+    "hosp_name":"德安中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區民安西路187號1樓",
+    "tel":"02-22040866"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4567238,25.0493082 ]
+    },
+    "properties": {
+    "hosp_name":"尊生堂中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區幸福路81號1樓",
+    "tel":"02-29937296"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4483534,25.0367069 ]
+    },
+    "properties": {
+    "hosp_name":"舞鶴中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區新泰路124號1、2樓",
+    "tel":"02-29905158"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4519166,25.049665 ]
+    },
+    "properties": {
+    "hosp_name":"心宇中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區幸福路670巷2弄17號1樓",
+    "tel":"02-29900791"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4552076,25.0453256 ]
+    },
+    "properties": {
+    "hosp_name":"宏泰中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區自立街112號1樓及夾層",
+    "tel":"02-29910077"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4479917,25.0442662 ]
+    },
+    "properties": {
+    "hosp_name":"翰醫堂中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區中和街39號1樓、2樓",
+    "tel":"02-89941133"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4448274,25.0532151 ]
+    },
+    "properties": {
+    "hosp_name":"極上中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區中平路350號1樓、352號1樓",
+    "tel":"02-29960366"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4557945,25.0523848 ]
+    },
+    "properties": {
+    "hosp_name":"至美中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區昌明街56號1樓",
+    "tel":"02-22766665"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.445613,25.048872 ]
+    },
+    "properties": {
+    "hosp_name":"宏嘉中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區幸福路815號1樓",
+    "tel":"02-22795566"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450727,25.0494875 ]
+    },
+    "properties": {
+    "hosp_name":"品妍中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區幸福路672號2樓",
+    "tel":"02-89928333"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4458616,25.0407561 ]
+    },
+    "properties": {
+    "hosp_name":"又一春中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區新泰路288號1樓",
+    "tel":"02-22791988"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4601442,25.0564139 ]
+    },
+    "properties": {
+    "hosp_name":"福澤國際中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區思源路622號1樓及夾層",
+    "tel":"02-85217129"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4538082,25.0356358 ]
+    },
+    "properties": {
+    "hosp_name":"一草中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區大觀街46-1號1樓",
+    "tel":"02-29966963"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4610929,25.0493277 ]
+    },
+    "properties": {
+    "hosp_name":"澄杏中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區幸福東路133號1樓",
+    "tel":"02-29902936"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.445147,25.041097 ]
+    },
+    "properties": {
+    "hosp_name":"康健堂中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區新泰路307號1樓",
+    "tel":"02-29984522"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4660152,25.0520082 ]
+    },
+    "properties": {
+    "hosp_name":"靜好中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區化成路217號1樓",
+    "tel":"02-22771228"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459505,25.053525 ]
+    },
+    "properties": {
+    "hosp_name":"真禾中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區思源路455號1樓",
+    "tel":"02-89922659"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4594271,25.0496266 ]
+    },
+    "properties": {
+    "hosp_name":"幸福翰醫堂中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區幸福路6、8號1樓",
+    "tel":"02-22765857"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4483994,25.0389967 ]
+    },
+    "properties": {
+    "hosp_name":"泰和中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區公園路18號1樓",
+    "tel":"02-29980992"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4493705,25.0347353 ]
+    },
+    "properties": {
+    "hosp_name":"宥聖中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區新泰路58號1樓、2樓",
+    "tel":"02-29901258"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4551605,25.0396783 ]
+    },
+    "properties": {
+    "hosp_name":"樹德中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區中港路１１１號",
+    "tel":"02-29941403"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4540717,25.0432339 ]
+    },
+    "properties": {
+    "hosp_name":"聯安中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區中港路240號1樓及250號1樓",
+    "tel":"02-29918808"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.450072,25.0462192 ]
+    },
+    "properties": {
+    "hosp_name":"平安中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區中港三街３５號",
+    "tel":"02-29944169"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4229061,25.0248533 ]
+    },
+    "properties": {
+    "hosp_name":"楊中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區富國路１４４號",
+    "tel":"02-22095366"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4487034,25.0334595 ]
+    },
+    "properties": {
+    "hosp_name":"瑞宏中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區新莊路３９８號",
+    "tel":"02-22033932"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4475663,25.0469756 ]
+    },
+    "properties": {
+    "hosp_name":"安心中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區中和街一九八號一樓",
+    "tel":"02-29910199"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.44646,25.048997 ]
+    },
+    "properties": {
+    "hosp_name":"仁山中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區幸福路７９３號",
+    "tel":"02-29900120"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4510713,25.0490456 ]
+    },
+    "properties": {
+    "hosp_name":"劉茂祥中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區幸福路655號1樓",
+    "tel":"02-29924158"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4274189,25.0201268 ]
+    },
+    "properties": {
+    "hosp_name":"永福中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區民安西路６７號",
+    "tel":"02-22030799"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4511169,25.0477466 ]
+    },
+    "properties": {
+    "hosp_name":"江吉亮中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區中誠街５３巷６號",
+    "tel":"02-22765763"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.422973,25.0248376 ]
+    },
+    "properties": {
+    "hosp_name":"豐生中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區富國路146號",
+    "tel":"02-82012206"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4536613,25.0402602 ]
+    },
+    "properties": {
+    "hosp_name":"健元中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區公園路57號1樓",
+    "tel":"02-29968418"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4259643,25.0182264 ]
+    },
+    "properties": {
+    "hosp_name":"賀安中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區龍安路495號1樓",
+    "tel":"02-22069545"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4461305,25.0398838 ]
+    },
+    "properties": {
+    "hosp_name":"神農中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區新泰路三四二號一樓",
+    "tel":"02-22791359"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4260079,25.0148494 ]
+    },
+    "properties": {
+    "hosp_name":"長青中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區民安西路十三號一樓",
+    "tel":"02-22066630"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4502286,25.0335984 ]
+    },
+    "properties": {
+    "hosp_name":"大德中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區新莊路四七五號一樓",
+    "tel":"02-82012550"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4238546,25.0201337 ]
+    },
+    "properties": {
+    "hosp_name":"佑德中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區八德街137號1樓",
+    "tel":"02-22070619"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4537962,25.0432267 ]
+    },
+    "properties": {
+    "hosp_name":"慶安居中醫診所",
+    "area":"新莊區",
+    "hosp_addr":"新北市新莊區中港路259號1樓",
+    "tel":"02-29980799"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4324449,25.057928 ]
+    },
+    "properties": {
+    "hosp_name":"懷聖中醫診所",
+    "area":"泰山區",
+    "hosp_addr":"新北市泰山區福興一街75號1樓",
+    "tel":"02-22966636"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4249846,25.0400192 ]
+    },
+    "properties": {
+    "hosp_name":"時珍中醫診所",
+    "area":"泰山區",
+    "hosp_addr":"新北市泰山區明志路3段147號1、2樓",
+    "tel":"02-29011707"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4251454,25.0438374 ]
+    },
+    "properties": {
+    "hosp_name":"泰明中醫診所",
+    "area":"泰山區",
+    "hosp_addr":"新北市泰山區明志路2段379號1樓",
+    "tel":"02-29061866"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4285872,25.0524422 ]
+    },
+    "properties": {
+    "hosp_name":"泰一中醫診所",
+    "area":"泰山區",
+    "hosp_addr":"新北市泰山區明志路2段78號1樓",
+    "tel":"02-22977951"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4339761,25.0577407 ]
+    },
+    "properties": {
+    "hosp_name":"耀德中醫診所",
+    "area":"泰山區",
+    "hosp_addr":"新北市泰山區福興三街28號1樓",
+    "tel":"02-22978588"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4327389,25.0575208 ]
+    },
+    "properties": {
+    "hosp_name":"馨德中醫診所",
+    "area":"泰山區",
+    "hosp_addr":"新北市泰山區福興二街31號1樓",
+    "tel":"02-22970142"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4265782,25.046194 ]
+    },
+    "properties": {
+    "hosp_name":"天仁堂中醫診所",
+    "area":"泰山區",
+    "hosp_addr":"新北市泰山區明志路二段３１７號",
+    "tel":"02-22962087"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4229172,25.0402127 ]
+    },
+    "properties": {
+    "hosp_name":"妙健堂中醫診所",
+    "area":"泰山區",
+    "hosp_addr":"新北市泰山區工專路三號",
+    "tel":"02-29062788"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4197624,25.0286564 ]
+    },
+    "properties": {
+    "hosp_name":"星光中醫診所",
+    "area":"泰山區",
+    "hosp_addr":"新北市泰山區明志路1段81號1樓",
+    "tel":"02-22968118"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4197624,25.0286564 ]
+    },
+    "properties": {
+    "hosp_name":"清祥中醫診所",
+    "area":"泰山區",
+    "hosp_addr":"新北市泰山區明志路1段49號1樓",
+    "tel":"02-22960850"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3687545,25.0715862 ]
+    },
+    "properties": {
+    "hosp_name":"元康中醫診所",
+    "area":"林口區",
+    "hosp_addr":"新北市林口區文化二路一段168號1樓",
+    "tel":"02-26089690"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3722447,25.0779603 ]
+    },
+    "properties": {
+    "hosp_name":"鼎豐中醫診所",
+    "area":"林口區",
+    "hosp_addr":"新北市林口區文化三路一段637號1樓",
+    "tel":"02-26085871"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3875162,25.0780359 ]
+    },
+    "properties": {
+    "hosp_name":"佳恩中醫診所",
+    "area":"林口區",
+    "hosp_addr":"新北市林口區竹林路58號1樓",
+    "tel":"02-26018186"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3733448,25.0774059 ]
+    },
+    "properties": {
+    "hosp_name":"妙吉祥中醫診所",
+    "area":"林口區",
+    "hosp_addr":"新北市林口區仁愛路二段269號2樓之1",
+    "tel":"02-26003996"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3787525,25.0810635 ]
+    },
+    "properties": {
+    "hosp_name":"信隆堂中醫診所",
+    "area":"林口區",
+    "hosp_addr":"新北市林口區文化二路二段86號1樓",
+    "tel":"02-26017747"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3582953,25.066619 ]
+    },
+    "properties": {
+    "hosp_name":"嘉德中醫診所",
+    "area":"林口區",
+    "hosp_addr":"新北市林口區三民路15號1樓及夾層",
+    "tel":"02-26081132"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3720413,25.0724998 ]
+    },
+    "properties": {
+    "hosp_name":"懷臨堂中醫診所",
+    "area":"林口區",
+    "hosp_addr":"新北市林口區公園路193號1樓",
+    "tel":"02-26003135"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3659175,25.0729368 ]
+    },
+    "properties": {
+    "hosp_name":"德心中醫診所",
+    "area":"林口區",
+    "hosp_addr":"新北市林口區文化三路一段394巷2號1樓",
+    "tel":"02-26082597"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3756735,25.0773324 ]
+    },
+    "properties": {
+    "hosp_name":"林口悅兒親子中醫診所",
+    "area":"林口區",
+    "hosp_addr":"新北市林口區文化二路一段392號(1樓)",
+    "tel":"02-26026852"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.368126,25.0795678 ]
+    },
+    "properties": {
+    "hosp_name":"丰荷中醫診所",
+    "area":"林口區",
+    "hosp_addr":"新北市林口區文化北路一段540號1樓",
+    "tel":"02-26000104"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3604211,25.070326 ]
+    },
+    "properties": {
+    "hosp_name":"聯生中醫診所",
+    "area":"林口區",
+    "hosp_addr":"新北市林口區三民路108號1樓",
+    "tel":"02-26068190"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3695092,25.0708895 ]
+    },
+    "properties": {
+    "hosp_name":"合元堂中醫診所",
+    "area":"林口區",
+    "hosp_addr":"新北市林口區忠孝路382之2號1樓",
+    "tel":"02-26003678"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3704011,25.0764725 ]
+    },
+    "properties": {
+    "hosp_name":"林口真如中醫診所",
+    "area":"林口區",
+    "hosp_addr":"新北市林口區文化三路一段571號1樓",
+    "tel":"02-26083832"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3673342,25.0722414 ]
+    },
+    "properties": {
+    "hosp_name":"六丼中醫診所",
+    "area":"林口區",
+    "hosp_addr":"新北市林口區忠孝路308巷19號1樓",
+    "tel":"02-26089833"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3753815,25.081251 ]
+    },
+    "properties": {
+    "hosp_name":"林口風澤中醫診所",
+    "area":"林口區",
+    "hosp_addr":"新北市林口區文化三路二段146號1樓及夾層",
+    "tel":"02-77287933"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3632108,25.0716134 ]
+    },
+    "properties": {
+    "hosp_name":"森奕閣中醫診所",
+    "area":"林口區",
+    "hosp_addr":"新北市林口區文化三路一段245號1、2樓",
+    "tel":"02-66041129"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3910718,25.0785505 ]
+    },
+    "properties": {
+    "hosp_name":"吉祥中醫診所",
+    "area":"林口區",
+    "hosp_addr":"新北市林口區林口路46號2樓",
+    "tel":"02-77299117"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3679682,25.0708555 ]
+    },
+    "properties": {
+    "hosp_name":"林口京都堂中醫診所",
+    "area":"林口區",
+    "hosp_addr":"新北市林口區文化二路1段166號1樓",
+    "tel":"02-77301377"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3672293,25.0742799 ]
+    },
+    "properties": {
+    "hosp_name":"雅丰唯心中醫診所",
+    "area":"林口區",
+    "hosp_addr":"新北市林口區文化三路一段415號1樓及夾層",
+    "tel":"02-77515567"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3870454,25.0838306 ]
+    },
+    "properties": {
+    "hosp_name":"恆安中醫診所",
+    "area":"林口區",
+    "hosp_addr":"新北市林口區竹林路４０７號",
+    "tel":"02-26011110"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.375381,25.0766663 ]
+    },
+    "properties": {
+    "hosp_name":"全德中醫診所",
+    "area":"林口區",
+    "hosp_addr":"新北市林口區仁愛路二段502號2樓之1",
+    "tel":"02-26002438"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3801315,25.0837898 ]
+    },
+    "properties": {
+    "hosp_name":"國寶堂中醫診所",
+    "area":"林口區",
+    "hosp_addr":"新北市林口區文化二路二段159號1樓",
+    "tel":"02-26021950"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4596054,25.0823475 ]
+    },
+    "properties": {
+    "hosp_name":"得康中醫診所",
+    "area":"蘆洲區",
+    "hosp_addr":"新北市蘆洲區中原路41號1樓",
+    "tel":"02-22898866"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.478919,25.084776 ]
+    },
+    "properties": {
+    "hosp_name":"信義中醫診所",
+    "area":"蘆洲區",
+    "hosp_addr":"新北市蘆洲區信義路261號",
+    "tel":"02-82831919"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4707202,25.0808373 ]
+    },
+    "properties": {
+    "hosp_name":"良和中醫診所",
+    "area":"蘆洲區",
+    "hosp_addr":"新北市蘆洲區中山二路172號1樓",
+    "tel":"02-22853300"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4755048,25.0824076 ]
+    },
+    "properties": {
+    "hosp_name":"永濟中醫診所",
+    "area":"蘆洲區",
+    "hosp_addr":"新北市蘆洲區中山二路46巷34號1樓",
+    "tel":"02-82857691"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.470837,25.0825397 ]
+    },
+    "properties": {
+    "hosp_name":"大祐中醫診所",
+    "area":"蘆洲區",
+    "hosp_addr":"新北市蘆洲區中正路47號1樓",
+    "tel":"02-22893488"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4750818,25.0865063 ]
+    },
+    "properties": {
+    "hosp_name":"芊瓏中醫診所",
+    "area":"蘆洲區",
+    "hosp_addr":"新北市蘆洲區復興路74號1樓",
+    "tel":"02-82858252"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4683208,25.0826677 ]
+    },
+    "properties": {
+    "hosp_name":"張志遠中醫診所",
+    "area":"蘆洲區",
+    "hosp_addr":"新北市蘆洲區光華路63號1樓",
+    "tel":"02-82856737"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4761852,25.0870436 ]
+    },
+    "properties": {
+    "hosp_name":"鴻昇中醫診所",
+    "area":"蘆洲區",
+    "hosp_addr":"新北市蘆洲區復興路106號1樓",
+    "tel":"02-22883238"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4657806,25.0889006 ]
+    },
+    "properties": {
+    "hosp_name":"宜德中醫診所",
+    "area":"蘆洲區",
+    "hosp_addr":"新北市蘆洲區中正路327號1樓",
+    "tel":"02-82852569"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4612146,25.0843728 ]
+    },
+    "properties": {
+    "hosp_name":"合安堂中醫診所",
+    "area":"蘆洲區",
+    "hosp_addr":"新北市蘆洲區長榮路179號1樓",
+    "tel":"02-22813581"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4718021,25.0864891 ]
+    },
+    "properties": {
+    "hosp_name":"華泰中醫診所",
+    "area":"蘆洲區",
+    "hosp_addr":"新北市蘆洲區三民路141號1樓",
+    "tel":"02-82860376"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4596565,25.0866696 ]
+    },
+    "properties": {
+    "hosp_name":"百和中醫診所",
+    "area":"蘆洲區",
+    "hosp_addr":"新北市蘆洲區長榮路321號1樓",
+    "tel":"02-22888329"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4613604,25.0847632 ]
+    },
+    "properties": {
+    "hosp_name":"祥永中醫診所",
+    "area":"蘆洲區",
+    "hosp_addr":"新北市蘆洲區長榮路146號1樓",
+    "tel":"02-22886677"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4768104,25.0830991 ]
+    },
+    "properties": {
+    "hosp_name":"鷺江中醫診所",
+    "area":"蘆洲區",
+    "hosp_addr":"新北市蘆洲區三民路26巷31弄3號1樓",
+    "tel":"02-82857667"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4567426,25.0886905 ]
+    },
+    "properties": {
+    "hosp_name":"興霖中醫診所",
+    "area":"蘆洲區",
+    "hosp_addr":"新北市蘆洲區永樂街90號1樓",
+    "tel":"02-82850057"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4782811,25.0854457 ]
+    },
+    "properties": {
+    "hosp_name":"春陽中醫診所",
+    "area":"蘆洲區",
+    "hosp_addr":"新北市蘆洲區民族路43號1樓",
+    "tel":"02-82851315"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.476492,25.086326 ]
+    },
+    "properties": {
+    "hosp_name":"宏怡中醫診所",
+    "area":"蘆洲區",
+    "hosp_addr":"新北市蘆洲區民權路32號1樓",
+    "tel":"02-82867982"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4639142,25.0816807 ]
+    },
+    "properties": {
+    "hosp_name":"六善堂中醫診所",
+    "area":"蘆洲區",
+    "hosp_addr":"新北市蘆洲區中華街7號1樓",
+    "tel":"02-22898651"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4735092,25.0818818 ]
+    },
+    "properties": {
+    "hosp_name":"培元中醫診所",
+    "area":"蘆洲區",
+    "hosp_addr":"新北市蘆洲區中山二路６９號",
+    "tel":"02-22810328"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4694166,25.0848819 ]
+    },
+    "properties": {
+    "hosp_name":"一品堂中醫診所",
+    "area":"蘆洲區",
+    "hosp_addr":"新北市蘆洲區中正路１１８號",
+    "tel":"02-22812373"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4785019,25.085985 ]
+    },
+    "properties": {
+    "hosp_name":"同仁堂中醫診所",
+    "area":"蘆洲區",
+    "hosp_addr":"新北市蘆洲區信義路297號1樓2樓、299號1樓、319巷13號1樓",
+    "tel":"02-22818192"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.478594,25.086299 ]
+    },
+    "properties": {
+    "hosp_name":"勝原堂中醫診所",
+    "area":"蘆洲區",
+    "hosp_addr":"新北市蘆洲區信義路246號之5  246號之6  1樓",
+    "tel":"02-82835981"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4703018,25.080222 ]
+    },
+    "properties": {
+    "hosp_name":"新立中醫診所",
+    "area":"蘆洲區",
+    "hosp_addr":"新北市蘆洲區中山二路四十六巷十三號",
+    "tel":"02-22817900"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4715867,25.0815976 ]
+    },
+    "properties": {
+    "hosp_name":"大春中醫診所",
+    "area":"蘆洲區",
+    "hosp_addr":"新北市蘆洲區中正路1號1樓",
+    "tel":"02-22881052"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4580391,25.0847547 ]
+    },
+    "properties": {
+    "hosp_name":"同慶堂中醫診所",
+    "area":"蘆洲區",
+    "hosp_addr":"新北市蘆洲區長安街295號1樓",
+    "tel":"02-22895799"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4625221,25.0831997 ]
+    },
+    "properties": {
+    "hosp_name":"長榮中醫診所",
+    "area":"蘆洲區",
+    "hosp_addr":"新北市蘆洲區長榮路55號",
+    "tel":"02-28479697"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4513095,25.1006888 ]
+    },
+    "properties": {
+    "hosp_name":"成泰中醫診所",
+    "area":"五股區",
+    "hosp_addr":"新北市五股區成泰路三段515號1樓",
+    "tel":"02-22924990"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4386177,25.0845243 ]
+    },
+    "properties": {
+    "hosp_name":"周中醫診所",
+    "area":"五股區",
+    "hosp_addr":"新北市五股區成泰路二段１８２號",
+    "tel":"02-22915662"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4388367,25.0849029 ]
+    },
+    "properties": {
+    "hosp_name":"大順中醫診所",
+    "area":"五股區",
+    "hosp_addr":"新北市五股區成泰路二段196號",
+    "tel":"02-22916650"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4477142,25.0949671 ]
+    },
+    "properties": {
+    "hosp_name":"五股璞和中醫診所",
+    "area":"五股區",
+    "hosp_addr":"新北市五股區成泰路三段311號1樓",
+    "tel":"02-22926200"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4017468,25.1485503 ]
+    },
+    "properties": {
+    "hosp_name":"建達中醫診所",
+    "area":"八里區",
+    "hosp_addr":"新北市八里區中山路二段282號1樓",
+    "tel":"02-86303035"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4223232,25.18312 ]
+    },
+    "properties": {
+    "hosp_name":"元甡堂中醫診所",
+    "area":"淡水區",
+    "hosp_addr":"新北市淡水區沙崙路131巷9號1樓",
+    "tel":"02-28057089"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.443382,25.178157 ]
+    },
+    "properties": {
+    "hosp_name":"水碓中醫診所",
+    "area":"淡水區",
+    "hosp_addr":"新北市淡水區大義街7號1樓",
+    "tel":"02-26261353"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4614472,25.1378191 ]
+    },
+    "properties": {
+    "hosp_name":"竹圍中醫診所",
+    "area":"淡水區",
+    "hosp_addr":"新北市淡水區民生路34號1樓",
+    "tel":"02-88094088"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4444812,25.1699641 ]
+    },
+    "properties": {
+    "hosp_name":"新悅中醫診所",
+    "area":"淡水區",
+    "hosp_addr":"新北市淡水區英專路21巷30號",
+    "tel":"02-26290059"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4476197,25.1678854 ]
+    },
+    "properties": {
+    "hosp_name":"藍瀅中醫診所",
+    "area":"淡水區",
+    "hosp_addr":"新北市淡水區學府路16號1樓",
+    "tel":"02-26262588"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4397336,25.189164 ]
+    },
+    "properties": {
+    "hosp_name":"金微笑中醫診所",
+    "area":"淡水區",
+    "hosp_addr":"新北市淡水區濱海路一段135號",
+    "tel":"02-26292020"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4348916,25.1912418 ]
+    },
+    "properties": {
+    "hosp_name":"真傳中醫診所",
+    "area":"淡水區",
+    "hosp_addr":"新北市淡水區濱海路二段202巷26號",
+    "tel":"02-26298222"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4468901,25.1782227 ]
+    },
+    "properties": {
+    "hosp_name":"金向德中醫診所",
+    "area":"淡水區",
+    "hosp_addr":"新北市淡水區北新路88號1樓",
+    "tel":"02-86316666"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4405549,25.1718954 ]
+    },
+    "properties": {
+    "hosp_name":"慶安中醫診所",
+    "area":"淡水區",
+    "hosp_addr":"新北市淡水區中山路１４３號",
+    "tel":"02-26223730"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.448449,25.1701284 ]
+    },
+    "properties": {
+    "hosp_name":"金德中醫診所",
+    "area":"淡水區",
+    "hosp_addr":"新北市淡水區學府路７９號",
+    "tel":"02-26226555"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4446838,25.1777272 ]
+    },
+    "properties": {
+    "hosp_name":"大愛中醫診所",
+    "area":"淡水區",
+    "hosp_addr":"新北市淡水區北新路17號2樓",
+    "tel":"02-26200525"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4452044,25.176772 ]
+    },
+    "properties": {
+    "hosp_name":"仙台中醫診所",
+    "area":"淡水區",
+    "hosp_addr":"新北市淡水區大忠街七十五號",
+    "tel":"02-26282297"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4457317,25.1711725 ]
+    },
+    "properties": {
+    "hosp_name":"建順中醫診所",
+    "area":"淡水區",
+    "hosp_addr":"新北市淡水區英專路一二 一號",
+    "tel":"02-86312418"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4421796,25.171698 ]
+    },
+    "properties": {
+    "hosp_name":"仁禾中醫診所",
+    "area":"淡水區",
+    "hosp_addr":"新北市淡水區原德路37號",
+    "tel":"02-26260719"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.440654,25.1751075 ]
+    },
+    "properties": {
+    "hosp_name":"達觀中醫診所",
+    "area":"淡水區",
+    "hosp_addr":"新北市淡水區新生街51巷10號",
+    "tel":"02-26298318"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4430632,25.1704023 ]
+    },
+    "properties": {
+    "hosp_name":"陽明中醫診所",
+    "area":"淡水區",
+    "hosp_addr":"新北市淡水區中山路63號",
+    "tel":"02-26268298"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4505333,25.1795203 ]
+    },
+    "properties": {
+    "hosp_name":"祐安中醫診所",
+    "area":"淡水區",
+    "hosp_addr":"新北市淡水區北新路171號1樓",
+    "tel":"02-26293058"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.449267,25.1800365 ]
+    },
+    "properties": {
+    "hosp_name":"建和堂中醫診所",
+    "area":"淡水區",
+    "hosp_addr":"新北市淡水區北新路169巷31弄5號1樓",
+    "tel":"02-26281826"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4469669,25.1705913 ]
+    },
+    "properties": {
+    "hosp_name":"寶樹堂中醫診所",
+    "area":"淡水區",
+    "hosp_addr":"新北市淡水區水源街一段122巷40號1樓",
+    "tel":"02-26212709"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.462586,25.135056 ]
+    },
+    "properties": {
+    "hosp_name":"祐興中醫診所",
+    "area":"淡水區",
+    "hosp_addr":"新北市淡水區民族路112巷3號1樓",
+    "tel":"02-28098266"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4512645,25.1793484 ]
+    },
+    "properties": {
+    "hosp_name":"富康中醫診所",
+    "area":"淡水區",
+    "hosp_addr":"新北市淡水區北新路192-12號2樓",
+    "tel":"02-26227687"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.447672,25.1831438 ]
+    },
+    "properties": {
+    "hosp_name":"淡海中醫診所",
+    "area":"淡水區",
+    "hosp_addr":"新北市淡水區新市一路3段147號1樓",
+    "tel":"02-26226266"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5226127,25.0526041 ]
+    },
+    "properties": {
+    "hosp_name":"順心中醫診所",
+    "area":"淡水區",
+    "hosp_addr":"新北市淡水區中山北路1段175號1樓",
+    "tel":"02-26219397"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4474685,25.168867 ]
+    },
+    "properties": {
+    "hosp_name":"三易中醫診所",
+    "area":"淡水區",
+    "hosp_addr":"新北市淡水區學府路51巷1弄21號1樓",
+    "tel":"02-26281786"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460029,25.1339654 ]
+    },
+    "properties": {
+    "hosp_name":"全元堂中醫診所",
+    "area":"淡水區",
+    "hosp_addr":"新北市淡水區民權路185巷7號1樓",
+    "tel":"02-88098837"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5032347,25.2586004 ]
+    },
+    "properties": {
+    "hosp_name":"昆德中醫診所",
+    "area":"三芝區",
+    "hosp_addr":"新北市三芝區中正路一段28號",
+    "tel":"02-86351595"
+    }
+  }
+]
+}
