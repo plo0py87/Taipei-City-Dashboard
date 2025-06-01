@@ -46,4 +46,5 @@ app.use(pinia);
 app.use(VueApexCharts);
 // app.use(i18n);
 const i18nStore = useI18nStore();
+i18nStore.initializeLocale();
 app.mount("#app");
