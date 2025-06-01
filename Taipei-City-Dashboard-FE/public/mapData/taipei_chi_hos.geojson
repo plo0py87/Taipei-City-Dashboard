@@ -1,0 +1,7640 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5107141,25.0272788 ]
+    },
+    "properties": {
+    "id":"1",
+    "clinic_name":"幸吉堂中醫診所",
+    "address":"台灣台北市中正區延平南路187號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.527937,25.0360538 ]
+    },
+    "properties": {
+    "id":"2",
+    "clinic_name":"李家雄中醫診所",
+    "address":"台灣台北市中正區金山南路一段121號3樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.522486,25.0248057 ]
+    },
+    "properties": {
+    "id":"3",
+    "clinic_name":"同一中醫診所",
+    "address":"台灣台北市中正區通安街41號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5075443,25.0341047 ]
+    },
+    "properties": {
+    "id":"4",
+    "clinic_name":"仁愛中醫診所",
+    "address":"台灣台北市中正區延平南路187號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5204652,25.0301642 ]
+    },
+    "properties": {
+    "id":"5",
+    "clinic_name":"吳龍源中醫診所",
+    "address":"台灣台北市中正區羅斯福路一段131號3樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5161447,25.0298908 ]
+    },
+    "properties": {
+    "id":"6",
+    "clinic_name":"寧波中醫診所",
+    "address":"台灣台北市中正區寧波西街80-1號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5303037,25.0428567 ]
+    },
+    "properties": {
+    "id":"7",
+    "clinic_name":"珍仁堂中醫診所",
+    "address":"台灣台北市中正區忠孝東路二段98號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5167902,25.0315952 ]
+    },
+    "properties": {
+    "id":"8",
+    "clinic_name":"儒德中醫診所",
+    "address":"台灣台北市中正區南昌路一段50號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5061148,25.0329562 ]
+    },
+    "properties": {
+    "id":"9",
+    "clinic_name":"和平中醫診所",
+    "address":"台灣台北市中正區和平西路二段123號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5189592,25.0314374 ]
+    },
+    "properties": {
+    "id":"10",
+    "clinic_name":"李明潤中醫診所",
+    "address":"台灣台北市中正區羅斯福路一段28號2樓之一",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5107445,25.0424151 ]
+    },
+    "properties": {
+    "id":"11",
+    "clinic_name":"順天中醫診所",
+    "address":"台灣台北市中正區衡陽路85號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5121778,25.0287758 ]
+    },
+    "properties": {
+    "id":"12",
+    "clinic_name":"勝昌現代中醫診所",
+    "address":"台灣台北市中正區和平西路二段56之1號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5158078,25.0435284 ]
+    },
+    "properties": {
+    "id":"13",
+    "clinic_name":"恆美中醫診所",
+    "address":"台灣台北市中正區襄陽路9號8樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5182615,25.0299982 ]
+    },
+    "properties": {
+    "id":"14",
+    "clinic_name":"洪麗妃中醫診所",
+    "address":"台灣台北市中正區南昌路一段123號3樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5213745,25.0281286 ]
+    },
+    "properties": {
+    "id":"15",
+    "clinic_name":"張順晶中醫診所",
+    "address":"台灣台北市中正區羅斯福路二段44號五樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5167398,25.044101 ]
+    },
+    "properties": {
+    "id":"16",
+    "clinic_name":"嘉柏中醫診所",
+    "address":"台灣台北市中正區公園路32號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5255991,25.044495 ]
+    },
+    "properties": {
+    "id":"17",
+    "clinic_name":"劉桂蘭中醫診所",
+    "address":"台灣台北市中正區忠孝東路一段35號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5252729,25.045302 ]
+    },
+    "properties": {
+    "id":"18",
+    "clinic_name":"顧安千金中醫診所",
+    "address":"台灣台北市中正區紹興北街8號2樓之1",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5187283,25.0317266 ]
+    },
+    "properties": {
+    "id":"19",
+    "clinic_name":"劉紀昌中醫診所",
+    "address":"台灣台北市中正區羅斯福路一段24號4樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5195647,25.0263464 ]
+    },
+    "properties": {
+    "id":"20",
+    "clinic_name":"寶生堂中醫診所",
+    "address":"台灣台北市中正區和平西路一段56號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [  121.52069445146653,25.031862973263042 ]
+    },
+    "properties": {
+    "id":"21",
+    "clinic_name":"長德中醫診所",
+    "address":"台灣台北市中正區金華街55號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5205609,25.0265672 ]
+    },
+    "properties": {
+    "id":"22",
+    "clinic_name":"峻毅中醫診所",
+    "address":"台灣台北市中正區和平西路一段30號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5301598,25.034459 ]
+    },
+    "properties": {
+    "id":"23",
+    "clinic_name":"永康中醫診所",
+    "address":"台灣台北市中正區連雲街75號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.517003,25.030485 ]
+    },
+    "properties": {
+    "id":"24",
+    "clinic_name":"佳譽堂中醫診所",
+    "address":"台灣台北市中正區寧波西街71號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5273016,25.0435992 ]
+    },
+    "properties": {
+    "id":"25",
+    "clinic_name":"仲景中醫診所",
+    "address":"台灣台北市中正區忠孝東路二段16號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5310876,25.0405423 ]
+    },
+    "properties": {
+    "id":"26",
+    "clinic_name":"華御中醫診所",
+    "address":"台灣台北市中正區濟南路二段51號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.513106,25.043901 ]
+    },
+    "properties": {
+    "id":"27",
+    "clinic_name":"日明耀中醫診所",
+    "address":"台灣台北市中正區重慶南路一段58號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5323742,25.0432263 ]
+    },
+    "properties": {
+    "id":"28",
+    "clinic_name":"華陽中醫診所",
+    "address":"台灣台北市中正區新生南路一段16-4號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5175385,25.0310005 ]
+    },
+    "properties": {
+    "id":"29",
+    "clinic_name":"益壽中醫診所",
+    "address":"台灣台北市中正區南昌路一段71號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5285026,25.0370073 ]
+    },
+    "properties": {
+    "id":"31",
+    "clinic_name":"李思儀中醫診所",
+    "address":"台灣台北市中正區金山南路一段73巷6號一樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.533652,25.0142249 ]
+    },
+    "properties": {
+    "id":"32",
+    "clinic_name":"宏達中醫診所",
+    "address":"台灣台北市中正區汀州路三段211號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5230255,25.0258591 ]
+    },
+    "properties": {
+    "id":"33",
+    "clinic_name":"榮星中醫診所",
+    "address":"台灣台北市中正區羅斯福路二段140號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5233557,25.0226535 ]
+    },
+    "properties": {
+    "id":"34",
+    "clinic_name":"六節中醫診所",
+    "address":"台灣台北市中正區汀州路二段198號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5112521,25.044426 ]
+    },
+    "properties": {
+    "id":"35",
+    "clinic_name":"喜豐堂中醫診所",
+    "address":"台灣台北市中正區博愛路88號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5318192,25.0167585 ]
+    },
+    "properties": {
+    "id":"36",
+    "clinic_name":"時代中醫診所",
+    "address":"台灣台北市中正區羅斯福路三段272號10樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.512017,25.044235 ]
+    },
+    "properties": {
+    "id":"37",
+    "clinic_name":"天心中醫診所",
+    "address":"台灣台北市中正區武昌街一段33號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5301464,25.0344329 ]
+    },
+    "properties": {
+    "id":"38",
+    "clinic_name":"東門中醫診所",
+    "address":"台灣台北市中正區連雲街81號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5225913,25.0235872 ]
+    },
+    "properties": {
+    "id":"39",
+    "clinic_name":"汀洲中醫診所",
+    "address":"台灣台北市中正區汀州路二段213號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.517328,25.0313215 ]
+    },
+    "properties": {
+    "id":"40",
+    "clinic_name":"厚德中醫診所",
+    "address":"台灣台北市中正區南昌路一段53號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5278286,25.0357269 ]
+    },
+    "properties": {
+    "id":"41",
+    "clinic_name":"怡安堂中醫診所",
+    "address":"台灣台北市中正區金山南路一段125號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4447818,25.0532002 ]
+    },
+    "properties": {
+    "id":"42",
+    "clinic_name":"極上中醫診所",
+    "address":"台灣新北市新莊區中平路352號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.526423,25.0438334 ]
+    },
+    "properties": {
+    "id":"43",
+    "clinic_name":"薛宏昇中醫診所",
+    "address":"台灣台北市中正區忠孝東路一段176號四樓之2",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5303341,25.0426477 ]
+    },
+    "properties": {
+    "id":"44",
+    "clinic_name":"沂禾中醫診所",
+    "address":"台灣台北市中正區臨沂街6巷5號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.522008,25.027219 ]
+    },
+    "properties": {
+    "id":"45",
+    "clinic_name":"羅福中醫診所",
+    "address":"台灣台北市中正區羅斯福路二段70號六樓之6",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5162058,25.0452988 ]
+    },
+    "properties": {
+    "id":"46",
+    "clinic_name":"南陽中醫診所",
+    "address":"台灣台北市中正區南陽街3號7樓之2",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5286227,25.0341022 ]
+    },
+    "properties": {
+    "id":"47",
+    "clinic_name":"溪垣中醫診所",
+    "address":"台灣台北市中正區信義路二段153號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5182492,25.0462078 ]
+    },
+    "properties": {
+    "id":"48",
+    "clinic_name":"大道中醫診所",
+    "address":"台灣台北市中正區忠孝西路一段41號8樓之6",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5248815,25.0459086 ]
+    },
+    "properties": {
+    "id":"49",
+    "clinic_name":"睿鳴堂中醫診所",
+    "address":"台灣台北市中正區北平東路20-3號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.569429,25.0236599 ]
+    },
+    "properties": {
+    "id":"50",
+    "clinic_name":"建成中醫診所",
+    "address":"台灣台北市信義區吳興街477號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5318421,25.0413787 ]
+    },
+    "properties": {
+    "id":"51",
+    "clinic_name":"松澤中醫診所",
+    "address":"台灣台北市中正區新生南路一段54巷11號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5324954,25.040373 ]
+    },
+    "properties": {
+    "id":"52",
+    "clinic_name":"慧明中醫診所",
+    "address":"台灣台北市中正區新生南路一段92號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [  121.52961458214817,25.034181517229143 ]
+    },
+    "properties": {
+    "id":"53",
+    "clinic_name":"侑澄中醫診所",
+    "address":"台灣台北市中正區信義路二段189號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [  121.50904194878099,25.052097067262235 ]
+    },
+    "properties": {
+    "id":"54",
+    "clinic_name":"臺北市立聯合醫院",
+    "address":"台灣台北市大同區鄭州路145號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5140989,25.064829 ]
+    },
+    "properties": {
+    "id":"55",
+    "clinic_name":"陳欽銘中醫內科診所",
+    "address":"台灣台北市大同區重慶北路三段25巷2號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.515088,25.0636659 ]
+    },
+    "properties": {
+    "id":"56",
+    "clinic_name":"信陽中醫診所",
+    "address":"台灣台北市大同區蘭州街59號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5164144,25.0632012 ]
+    },
+    "properties": {
+    "id":"57",
+    "clinic_name":"陳潮宗中醫診所",
+    "address":"台灣台北市大同區民權西路153號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5118529,25.056851 ]
+    },
+    "properties": {
+    "id":"58",
+    "clinic_name":"華源堂中醫診所",
+    "address":"台灣台北市大同區民生西路318號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5111336,25.0658078 ]
+    },
+    "properties": {
+    "id":"59",
+    "clinic_name":"廣順中醫診所",
+    "address":"台灣台北市大同區延平北路三段82號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.514386,25.0730669 ]
+    },
+    "properties": {
+    "id":"60",
+    "clinic_name":"保順中醫診所",
+    "address":"台灣台北市大同區哈密街99號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5184587,25.0572652 ]
+    },
+    "properties": {
+    "id":"61",
+    "clinic_name":"一聖堂中醫診所",
+    "address":"台灣台北市大同區民生西路154號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.513459,25.0651429 ]
+    },
+    "properties": {
+    "id":"62",
+    "clinic_name":"陳月琴中醫診所",
+    "address":"台灣台北市大同區重慶北路三段32號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.513387,25.0621449 ]
+    },
+    "properties": {
+    "id":"63",
+    "clinic_name":"全生中醫診所",
+    "address":"台灣台北市大同區重慶北路二段184號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5136373,25.0566151 ]
+    },
+    "properties": {
+    "id":"64",
+    "clinic_name":"御聖堂中醫診所",
+    "address":"台灣台北市大同區重慶北路二段121號103號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5143909,25.0550711 ]
+    },
+    "properties": {
+    "id":"65",
+    "clinic_name":"松興堂中醫診所",
+    "address":"台灣台北市大同區重慶北路二段35號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.514302,25.065996 ]
+    },
+    "properties": {
+    "id":"66",
+    "clinic_name":"順天堂中醫診所",
+    "address":"台灣台北市大同區長記街79號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.511619,25.054287 ]
+    },
+    "properties": {
+    "id":"67",
+    "clinic_name":"林志宏中醫診所",
+    "address":"台灣台北市大同區延平北路二段14號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.513569,25.057405 ]
+    },
+    "properties": {
+    "id":"68",
+    "clinic_name":"濟民中醫診所",
+    "address":"台灣台北市大同區重慶北路二段106號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.518139,25.0679635 ]
+    },
+    "properties": {
+    "id":"69",
+    "clinic_name":"控八控控中醫診所",
+    "address":"台灣台北市大同區承德路三段148-1號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5134282,25.0667234 ]
+    },
+    "properties": {
+    "id":"70",
+    "clinic_name":"天一中醫診所",
+    "address":"台灣台北市大同區重慶北路三段98號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5160681,25.0637846 ]
+    },
+    "properties": {
+    "id":"71",
+    "clinic_name":"泓斌中醫診所",
+    "address":"台灣台北市大同區大龍街27號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.519288,25.0537199 ]
+    },
+    "properties": {
+    "id":"72",
+    "clinic_name":"明昇中醫診所",
+    "address":"台灣台北市大同區赤峰街13號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5136294,25.0567071 ]
+    },
+    "properties": {
+    "id":"73",
+    "clinic_name":"人生中醫診所",
+    "address":"台灣台北市大同區重慶北路二段88號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5114614,25.0562041 ]
+    },
+    "properties": {
+    "id":"74",
+    "clinic_name":"重慶堂中醫診所",
+    "address":"台灣台北市大同區延平北路二段88之1號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5173711,25.0631597 ]
+    },
+    "properties": {
+    "id":"75",
+    "clinic_name":"正德中醫診所",
+    "address":"台灣台北市大同區民權西路125號5樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.514466,25.052651 ]
+    },
+    "properties": {
+    "id":"76",
+    "clinic_name":"翰鳴堂中醫診所",
+    "address":"台灣台北市大同區重慶北路一段83巷6號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5183321,25.0718411 ]
+    },
+    "properties": {
+    "id":"77",
+    "clinic_name":"救鼻堂中醫診所",
+    "address":"台灣台北市大同區庫倫街48-4號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5139449,25.0528559 ]
+    },
+    "properties": {
+    "id":"78",
+    "clinic_name":"安世中醫診所",
+    "address":"台灣台北市大同區重慶北路一段102號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5135928,25.0718686 ]
+    },
+    "properties": {
+    "id":"79",
+    "clinic_name":"光點中醫診所",
+    "address":"台灣台北市大同區重慶北路三段274-1號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5138162,25.0552409 ]
+    },
+    "properties": {
+    "id":"80",
+    "clinic_name":"杏菖中醫診所",
+    "address":"台灣台北市大同區重慶北路二段42號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.510082,25.0543076 ]
+    },
+    "properties": {
+    "id":"81",
+    "clinic_name":"德和中醫診所",
+    "address":"台灣台北市大同區迪化街一段22號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5121992,25.0545945 ]
+    },
+    "properties": {
+    "id":"82",
+    "clinic_name":"生元德中醫診所",
+    "address":"台灣台北市大同區南京西路185巷14號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.516633,25.057277 ]
+    },
+    "properties": {
+    "id":"83",
+    "clinic_name":"原平中醫診所",
+    "address":"台灣台北市大同區民生西路199號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5147012,25.0730899 ]
+    },
+    "properties": {
+    "id":"85",
+    "clinic_name":"佳安中醫診所",
+    "address":"台灣台北市大同區哈密街87號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [  121.51769705146702,25.05107638909626 ]
+    },
+    "properties": {
+    "id":"86",
+    "clinic_name":"良元中醫診所",
+    "address":"台灣台北市大同區長安西路51-1號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5092917,25.0621898 ]
+    },
+    "properties": {
+    "id":"87",
+    "clinic_name":"郁品堂老中醫診所",
+    "address":"台灣台北市大同區迪化街一段315號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5199308,25.0576763 ]
+    },
+    "properties": {
+    "id":"88",
+    "clinic_name":"新悅中醫診所",
+    "address":"台灣台北市大同區民生西路71號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5105836,25.0640073 ]
+    },
+    "properties": {
+    "id":"89",
+    "clinic_name":"學而中醫診所",
+    "address":"台灣台北市大同區延平北路三段18巷7號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5199517,25.0525897 ]
+    },
+    "properties": {
+    "id":"90",
+    "clinic_name":"京水堂中醫診所",
+    "address":"台灣台北市大同區南京西路22號3樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5142884,25.0553104 ]
+    },
+    "properties": {
+    "id":"91",
+    "clinic_name":"正和中醫診所",
+    "address":"台灣台北市大同區重慶北路二段51號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5092622,25.0521476 ]
+    },
+    "properties": {
+    "id":"92",
+    "clinic_name":"琥珀中醫診所",
+    "address":"台灣台北市大同區長安西路289號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5203559,25.057483 ]
+    },
+    "properties": {
+    "id":"93",
+    "clinic_name":"知田中醫診所",
+    "address":"台灣台北市大同區民生西路78號2樓之一",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5203559,25.057483 ]
+    },
+    "properties": {
+    "id":"94",
+    "clinic_name":"雙連同仁中醫診所",
+    "address":"台灣台北市大同區民生西路78號4樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5165611,25.0533342 ]
+    },
+    "properties": {
+    "id":"95",
+    "clinic_name":"信賴堂中醫診所",
+    "address":"台灣台北市大同區南京西路222號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5186466,25.0688683 ]
+    },
+    "properties": {
+    "id":"96",
+    "clinic_name":"阡禾中醫診所",
+    "address":"台灣台北市大同區承德路三段169號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5541571,25.084235 ]
+    },
+    "properties": {
+    "id":"97",
+    "clinic_name":"醫貫東西中醫診所",
+    "address":"台灣台北市中山區敬業一街189號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [  121.54294825516033,25.056436660994525 ]
+    },
+    "properties": {
+    "id":"98",
+    "clinic_name":"聆心中醫診所",
+    "address":"台灣台北市中山區興安街75號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5428479,25.0480798 ]
+    },
+    "properties": {
+    "id":"99",
+    "clinic_name":"國興中醫診所",
+    "address":"台灣台北市中山區長安東路二段230號六樓之1",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5491911,25.0813955 ]
+    },
+    "properties": {
+    "id":"100",
+    "clinic_name":"勝耀中醫診所",
+    "address":"台灣台北市中山區北安路608巷4弄21號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5405719,25.0556461 ]
+    },
+    "properties": {
+    "id":"101",
+    "clinic_name":"醫誠堂中醫診所",
+    "address":"台灣台北市中山區龍江路185-1號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5223178,25.0529467 ]
+    },
+    "properties": {
+    "id":"102",
+    "clinic_name":"麗風堂中醫診所",
+    "address":"台灣台北市中山區中山北路二段12號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5241377,25.0632639 ]
+    },
+    "properties": {
+    "id":"103",
+    "clinic_name":"晴光中醫診所",
+    "address":"台灣台北市中山區雙城街4巷2號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [  121.52635438214934,25.065208884027083 ]
+    },
+    "properties": {
+    "id":"104",
+    "clinic_name":"和心中醫診所",
+    "address":"台灣台北市中山區農安街43之2號1F",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5343066,25.0494383 ]
+    },
+    "properties": {
+    "id":"105",
+    "clinic_name":"祐瑞中醫診所",
+    "address":"台灣台北市中山區松江路69巷11號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5434411,25.0621203 ]
+    },
+    "properties": {
+    "id":"106",
+    "clinic_name":"漢補世家中醫診所",
+    "address":"台灣台北市中山區民權東路三段80號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5322717,25.0511613 ]
+    },
+    "properties": {
+    "id":"107",
+    "clinic_name":"澄玥中醫診所",
+    "address":"台灣台北市中山區松江路100巷1號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5315016,25.0623234 ]
+    },
+    "properties": {
+    "id":"109",
+    "clinic_name":"科學中醫診所",
+    "address":"台灣台北市中山區民權東路二段86號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4903772,25.0598934 ]
+    },
+    "properties": {
+    "id":"110",
+    "clinic_name":"劉氏松鶴中醫診所",
+    "address":"台灣新北市三重區國珍街7巷36號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5437872,25.0513843 ]
+    },
+    "properties": {
+    "id":"111",
+    "clinic_name":"太初中醫診所",
+    "address":"台灣台北市中山區復興北路92號6F-1",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [  121.52878019379682,25.052985285916563 ]
+    },
+    "properties": {
+    "id":"112",
+    "clinic_name":"八通關中醫診所",
+    "address":"台灣台北市中山區南京東路二段21巷13號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5260454,25.0648203 ]
+    },
+    "properties": {
+    "id":"113",
+    "clinic_name":"聖璽中醫診所",
+    "address":"台灣台北市中山區農安街26號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5208849,25.0622535 ]
+    },
+    "properties": {
+    "id":"114",
+    "clinic_name":"楊基中醫診所",
+    "address":"台灣台北市中山區天祥路62號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5438788,25.0551775 ]
+    },
+    "properties": {
+    "id":"115",
+    "clinic_name":"日禾中醫診所",
+    "address":"台灣台北市中山區復興北路186號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4627665,25.0025165 ]
+    },
+    "properties": {
+    "id":"116",
+    "clinic_name":"潤中醫診所",
+    "address":"台灣新北市板橋區重慶路175號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.531699,25.0666691 ]
+    },
+    "properties": {
+    "id":"117",
+    "clinic_name":"吉林中醫診所",
+    "address":"台灣台北市中山區德惠街167巷2號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.531149,25.058108 ]
+    },
+    "properties": {
+    "id":"118",
+    "clinic_name":"斯林中醫診所",
+    "address":"台灣台北市中山區民生東路二段95號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5223977,25.0588457 ]
+    },
+    "properties": {
+    "id":"119",
+    "clinic_name":"台灣基督長老教會馬偕醫療財團法人馬偕紀念醫院",
+    "address":"台灣台北市中山區中山北路二段92號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5422532,25.0485294 ]
+    },
+    "properties": {
+    "id":"120",
+    "clinic_name":"信德中醫診所",
+    "address":"台灣台北市中山區遼寧街35號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5306619,25.060464 ]
+    },
+    "properties": {
+    "id":"121",
+    "clinic_name":"德全中醫診所",
+    "address":"台灣台北市中山區錦州街171號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5204147,25.0609508 ]
+    },
+    "properties": {
+    "id":"122",
+    "clinic_name":"高國良中醫診所",
+    "address":"台灣台北市中山區民權西路70巷43弄1號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5417921,25.0550094 ]
+    },
+    "properties": {
+    "id":"123",
+    "clinic_name":"元生中醫診所",
+    "address":"台灣台北市中山區龍江路179巷40號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.50412,25.0414589 ]
+    },
+    "properties": {
+    "id":"124",
+    "clinic_name":"立生中醫診所",
+    "address":"台灣台北市萬華區內江街80號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.540911,25.0599511 ]
+    },
+    "properties": {
+    "id":"125",
+    "clinic_name":"朝暉中醫診所",
+    "address":"台灣台北市中山區龍江路281巷1號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5439331,25.0600525 ]
+    },
+    "properties": {
+    "id":"126",
+    "clinic_name":"福田中醫診所",
+    "address":"台灣台北市中山區復興北路350號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.541487,25.0661129 ]
+    },
+    "properties": {
+    "id":"127",
+    "clinic_name":"恩濟堂中醫診所",
+    "address":"台灣台北市中山區復興北路514巷63號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5343046,25.0647904 ]
+    },
+    "properties": {
+    "id":"128",
+    "clinic_name":"林源泉中醫診所",
+    "address":"台灣台北市中山區農安街235號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5387732,25.0601734 ]
+    },
+    "properties": {
+    "id":"129",
+    "clinic_name":"漢明中醫診所",
+    "address":"台灣台北市中山區錦州街336號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.529461,25.0488489 ]
+    },
+    "properties": {
+    "id":"130",
+    "clinic_name":"滋和堂中醫診所",
+    "address":"台灣台北市中山區新生北路一段59-1號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5249399,25.062907 ]
+    },
+    "properties": {
+    "id":"131",
+    "clinic_name":"鐳力中醫診所",
+    "address":"台灣台北市中山區民權東路一段63號5樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5437968,25.0507754 ]
+    },
+    "properties": {
+    "id":"132",
+    "clinic_name":"慎德堂中醫診所",
+    "address":"台灣台北市中山區復興北路70號4樓之1",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5430042,25.0625461 ]
+    },
+    "properties": {
+    "id":"133",
+    "clinic_name":"龍心堂中醫診所",
+    "address":"台灣台北市中山區民權東路三段53號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5328415,25.0633218 ]
+    },
+    "properties": {
+    "id":"134",
+    "clinic_name":"京元中醫診所",
+    "address":"台灣台北市中山區松江路378號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.531992,25.0486037 ]
+    },
+    "properties": {
+    "id":"135",
+    "clinic_name":"常生中醫診所",
+    "address":"台灣台北市中山區長安東路二段47號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5303924,25.0607092 ]
+    },
+    "properties": {
+    "id":"136",
+    "clinic_name":"元氣堂中醫診所",
+    "address":"台灣台北市中山區吉林路223號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5287453,25.0584159 ]
+    },
+    "properties": {
+    "id":"137",
+    "clinic_name":"有聲中醫診所",
+    "address":"台灣台北市中山區中源街50號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5488771,25.0817368 ]
+    },
+    "properties": {
+    "id":"138",
+    "clinic_name":"駿琳大直中醫診所",
+    "address":"台灣台北市中山區北安路598之1號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.540781,25.0544559 ]
+    },
+    "properties": {
+    "id":"139",
+    "clinic_name":"仁心堂中醫診所",
+    "address":"台灣台北市中山區長春路326號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.51962,25.063485 ]
+    },
+    "properties": {
+    "id":"140",
+    "clinic_name":"文化中醫診所",
+    "address":"台灣台北市中山區福順街37號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.543233,25.056219 ]
+    },
+    "properties": {
+    "id":"141",
+    "clinic_name":"新生中醫診所",
+    "address":"台灣台北市中山區興安街91號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5460942,25.0787405 ]
+    },
+    "properties": {
+    "id":"142",
+    "clinic_name":"漢坤中醫診所",
+    "address":"台灣台北市中山區北安路458巷41弄40號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5323364,25.0523277 ]
+    },
+    "properties": {
+    "id":"143",
+    "clinic_name":"景欣中醫診所",
+    "address":"台灣台北市中山區南京東路二段95號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5329457,25.059591 ]
+    },
+    "properties": {
+    "id":"144",
+    "clinic_name":"禾儒中醫診所",
+    "address":"台灣台北市中山區松江路268號5樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5438423,25.0603094 ]
+    },
+    "properties": {
+    "id":"145",
+    "clinic_name":"緻美堂中醫診所",
+    "address":"台灣台北市中山區復興北路356號4樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5336997,25.0517444 ]
+    },
+    "properties": {
+    "id":"146",
+    "clinic_name":"溫崇凱中醫診所",
+    "address":"台灣台北市中山區南京東路二段132號6樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.530381,25.0613072 ]
+    },
+    "properties": {
+    "id":"147",
+    "clinic_name":"長榮中醫診所",
+    "address":"台灣台北市中山區吉林路245號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5208998,25.0498929 ]
+    },
+    "properties": {
+    "id":"148",
+    "clinic_name":"延安中醫診所",
+    "address":"台灣台北市中山區長安西路18號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5429432,25.051592 ]
+    },
+    "properties": {
+    "id":"149",
+    "clinic_name":"鼎昌中醫診所",
+    "address":"台灣台北市中山區南京東路三段200號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5322014,25.0612476 ]
+    },
+    "properties": {
+    "id":"150",
+    "clinic_name":"品君中醫診所",
+    "address":"台灣台北市中山區松江路330巷15號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5404959,25.0485879 ]
+    },
+    "properties": {
+    "id":"151",
+    "clinic_name":"傳愛經典中醫診所",
+    "address":"台灣台北市中山區龍江路29號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.530172,25.0506496 ]
+    },
+    "properties": {
+    "id":"152",
+    "clinic_name":"澄觀中醫診所",
+    "address":"台灣台北市中山區吉林路23號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5319214,25.0526986 ]
+    },
+    "properties": {
+    "id":"153",
+    "clinic_name":"居仁堂中醫診所",
+    "address":"台灣台北市中山區松江路124巷11號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5317883,25.0530125 ]
+    },
+    "properties": {
+    "id":"154",
+    "clinic_name":"杜李威中醫診所",
+    "address":"台灣台北市中山區松江路132巷9號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5437612,25.0512878 ]
+    },
+    "properties": {
+    "id":"155",
+    "clinic_name":"王倩梅中醫診所",
+    "address":"台灣台北市中山區復興北路86號7號樓之1",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5586519,25.0796293 ]
+    },
+    "properties": {
+    "id":"156",
+    "clinic_name":"詠生中醫診所",
+    "address":"台灣台北市中山區樂群二路196號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5238584,25.0681141 ]
+    },
+    "properties": {
+    "id":"157",
+    "clinic_name":"全真堂中醫診所",
+    "address":"台灣台北市中山區中山北路三段55巷7號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5315942,25.0534414 ]
+    },
+    "properties": {
+    "id":"158",
+    "clinic_name":"益曼中醫診所",
+    "address":"台灣台北市中山區義江街31-1號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [  121.53558462632508,25.06068674843432 ]
+    },
+    "properties": {
+    "id":"159",
+    "clinic_name":"東仁中醫診所",
+    "address":"台灣台北市中山區錦州街275號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5425612,25.0561978 ]
+    },
+    "properties": {
+    "id":"160",
+    "clinic_name":"漢研中醫診所",
+    "address":"台灣台北市中山區興安街63號2樓之10",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5218121,25.0525227 ]
+    },
+    "properties": {
+    "id":"161",
+    "clinic_name":"林佳瑩中醫診所",
+    "address":"台灣台北市中山區南京西路1-1號3樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5326855,25.0470089 ]
+    },
+    "properties": {
+    "id":"162",
+    "clinic_name":"祺祥中醫診所",
+    "address":"台灣台北市中山區松江路20-1號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5345792,25.0604225 ]
+    },
+    "properties": {
+    "id":"163",
+    "clinic_name":"得原中醫診所",
+    "address":"台灣台北市中山區錦州街259號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5408932,25.0607724 ]
+    },
+    "properties": {
+    "id":"164",
+    "clinic_name":"璞心中醫診所",
+    "address":"台灣台北市中山區龍江路297號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.529518,25.051155 ]
+    },
+    "properties": {
+    "id":"165",
+    "clinic_name":"台灣九芝堂中醫診所",
+    "address":"台灣台北市中山區吉林路22巷7號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5485066,25.0813098 ]
+    },
+    "properties": {
+    "id":"166",
+    "clinic_name":"大直北安中醫診所",
+    "address":"台灣台北市中山區北安路575號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5335206,25.0508869 ]
+    },
+    "properties": {
+    "id":"167",
+    "clinic_name":"學德堂中醫診所",
+    "address":"台灣台北市中山區松江路97巷2-1號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.532177,25.0559371 ]
+    },
+    "properties": {
+    "id":"168",
+    "clinic_name":"雲門中醫診所",
+    "address":"台灣台北市中山區松江路170巷12號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5312226,25.0578274 ]
+    },
+    "properties": {
+    "id":"169",
+    "clinic_name":"林國榮中醫診所",
+    "address":"台灣台北市中山區民生東路二段112號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5207707,25.0486711 ]
+    },
+    "properties": {
+    "id":"170",
+    "clinic_name":"宏品中醫診所",
+    "address":"台灣台北市中山區中山北路一段64號1樓66號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5334085,25.0600526 ]
+    },
+    "properties": {
+    "id":"171",
+    "clinic_name":"昌盛堂中醫診所",
+    "address":"台灣台北市中山區松江路277號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5209373,25.0611924 ]
+    },
+    "properties": {
+    "id":"172",
+    "clinic_name":"祥瑞堂中醫診所",
+    "address":"台灣台北市中山區天祥路24號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5412992,25.0562026 ]
+    },
+    "properties": {
+    "id":"173",
+    "clinic_name":"興安養生堂中醫診所",
+    "address":"台灣台北市中山區興安街51之6號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.529412,25.0549936 ]
+    },
+    "properties": {
+    "id":"174",
+    "clinic_name":"力慈科學中醫診所",
+    "address":"台灣台北市中山區長春路105號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.533836,25.0528418 ]
+    },
+    "properties": {
+    "id":"175",
+    "clinic_name":"新昇中醫診所",
+    "address":"台灣台北市中山區松江路123巷6-2號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5254614,25.0613076 ]
+    },
+    "properties": {
+    "id":"176",
+    "clinic_name":"正元中醫診所",
+    "address":"台灣台北市中山區林森北路482號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [  121.53336119564334,25.051139428178452 ]
+    },
+    "properties": {
+    "id":"177",
+    "clinic_name":"京華中醫診所",
+    "address":"台灣台北市中山區松江路95-1號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5262706,25.0518993 ]
+    },
+    "properties": {
+    "id":"178",
+    "clinic_name":"南京京都堂中醫診所",
+    "address":"台灣台北市中山區南京東路一段100號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5210027,25.0491316 ]
+    },
+    "properties": {
+    "id":"179",
+    "clinic_name":"馥林中醫診所",
+    "address":"台灣台北市中山區中山北路一段82號六樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5324279,25.0627117 ]
+    },
+    "properties": {
+    "id":"180",
+    "clinic_name":"芸安堂中醫診所",
+    "address":"台灣台北市中山區民生東路二段95號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5223787,25.0577417 ]
+    },
+    "properties": {
+    "id":"181",
+    "clinic_name":"雙連中醫診所",
+    "address":"台灣台北市中山區民生西路6號9樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5395684,25.0671566 ]
+    },
+    "properties": {
+    "id":"182",
+    "clinic_name":"濱江中醫診所",
+    "address":"台灣台北市中山區武昌街53巷30之2號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9,6 ]
+    },
+    "properties": {
+    "id":"183",
+    "clinic_name":"長庚醫療財團法人台北長庚紀念醫院",
+    "address":"台灣台北市松山區南京東路三段337號亞細亞通商大樓南京微風百貨同5",
+    "FIELD6":"10樓",
+    "FIELD7":25.0520316,
+    "FIELD8":121.5481058
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.575912,25.0502874 ]
+    },
+    "properties": {
+    "id":"184",
+    "clinic_name":"瑞宏中醫診所",
+    "address":"台灣台北市松山區八德路四段673巷10號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [  121.5657310514676,25.063696823863815 ]
+    },
+    "properties": {
+    "id":"185",
+    "clinic_name":"振誠中醫診所",
+    "address":"台灣台北市松山區撫遠街368號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5564587,25.0474361 ]
+    },
+    "properties": {
+    "id":"186",
+    "clinic_name":"國晉中醫診所",
+    "address":"台灣台北市松山區光復南路6巷46號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.559794,25.0512899 ]
+    },
+    "properties": {
+    "id":"187",
+    "clinic_name":"理想中醫診所",
+    "address":"台灣台北市松山區南京東路五段46號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5537157,25.0466104 ]
+    },
+    "properties": {
+    "id":"188",
+    "clinic_name":"延吉中醫診所",
+    "address":"台灣台北市松山區延吉街11號5號樓之5",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5543171,25.0513998 ]
+    },
+    "properties": {
+    "id":"189",
+    "clinic_name":"維哲中醫診所",
+    "address":"台灣台北市松山區南京東路四段102號4樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5618144,25.0521574 ]
+    },
+    "properties": {
+    "id":"190",
+    "clinic_name":"永昌漢方中醫診所",
+    "address":"台灣台北市松山區南京東路五段123巷2弄25號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5695213,25.0500801 ]
+    },
+    "properties": {
+    "id":"191",
+    "clinic_name":"見安中醫診所",
+    "address":"台灣台北市松山區基隆路一段32號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5637319,25.048923 ]
+    },
+    "properties": {
+    "id":"192",
+    "clinic_name":"仁和堂中醫診所",
+    "address":"台灣台北市松山區八德路四段201號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5567768,25.0479281 ]
+    },
+    "properties": {
+    "id":"193",
+    "clinic_name":"仲佑中醫診所",
+    "address":"台灣台北市松山區八德路三段212號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5533589,25.0455721 ]
+    },
+    "properties": {
+    "id":"194",
+    "clinic_name":"育晟中醫診所",
+    "address":"台灣台北市松山區延吉街46巷4號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5645626,25.0523401 ]
+    },
+    "properties": {
+    "id":"195",
+    "clinic_name":"和豐中醫診所",
+    "address":"台灣台北市松山區南京東路五段251巷24弄19號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5535639,25.0458696 ]
+    },
+    "properties": {
+    "id":"196",
+    "clinic_name":"德昌中醫診所",
+    "address":"台灣台北市松山區延吉街38號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5606098,25.0483645 ]
+    },
+    "properties": {
+    "id":"197",
+    "clinic_name":"楠桐中醫診所",
+    "address":"台灣台北市松山區八德路四段94號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5500766,25.0462871 ]
+    },
+    "properties": {
+    "id":"198",
+    "clinic_name":"益茂中醫診所",
+    "address":"台灣台北市松山區八德路三段12巷52弄10號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5499931,25.0475937 ]
+    },
+    "properties": {
+    "id":"199",
+    "clinic_name":"弘祐中醫診所",
+    "address":"台灣台北市松山區八德路三段12巷4弄15號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.553372,25.0468661 ]
+    },
+    "properties": {
+    "id":"200",
+    "clinic_name":"正一中醫診所",
+    "address":"台灣台北市松山區延吉街18號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5444343,25.059795 ]
+    },
+    "properties": {
+    "id":"201",
+    "clinic_name":"宜陞中醫診所",
+    "address":"台灣台北市松山區復興北路333號4樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5674479,25.057069 ]
+    },
+    "properties": {
+    "id":"202",
+    "clinic_name":"聖唐中醫診所",
+    "address":"台灣台北市松山區延壽街48號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.566486,25.059268 ]
+    },
+    "properties": {
+    "id":"203",
+    "clinic_name":"新富錦中醫診所",
+    "address":"台灣台北市松山區民生東路五段203號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5669432,25.0511662 ]
+    },
+    "properties": {
+    "id":"204",
+    "clinic_name":"博康中醫診所",
+    "address":"台灣台北市松山區南京東路五段280號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5645256,25.0504593 ]
+    },
+    "properties": {
+    "id":"205",
+    "clinic_name":"皇脈中醫診所",
+    "address":"台灣台北市松山區八德路四段245巷2弄29號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [  121.56789159748998,25.059578218165292 ]
+    },
+    "properties": {
+    "id":"206",
+    "clinic_name":"東青中醫診所",
+    "address":"台灣台北市松山區民生東路五段245號市",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5630925,25.0516656 ]
+    },
+    "properties": {
+    "id":"207",
+    "clinic_name":"青花瓷養生中醫診所",
+    "address":"台灣台北市松山區南京東路五段169號南京三民1號出口",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5626917,25.0498002 ]
+    },
+    "properties": {
+    "id":"208",
+    "clinic_name":"慈和中醫診所",
+    "address":"台灣台北市松山區八德路四段245巷32弄65號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5549586,25.0580873 ]
+    },
+    "properties": {
+    "id":"209",
+    "clinic_name":"漢浤堂健康中醫診所",
+    "address":"台灣台北市松山區民生東路四段128號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.564536,25.051626 ]
+    },
+    "properties": {
+    "id":"210",
+    "clinic_name":"茶米中醫診所",
+    "address":"台灣台北市松山區南京東路五段225號3樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [  121.55937629564346,25.05893128630009 ]
+    },
+    "properties": {
+    "id":"211",
+    "clinic_name":"民昇中醫診所",
+    "address":"台灣台北市松山區民生東路五段87號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5629136,25.0543304 ]
+    },
+    "properties": {
+    "id":"212",
+    "clinic_name":"伍德中醫診所",
+    "address":"台灣台北市松山區健康路231號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5567529,25.0518483 ]
+    },
+    "properties": {
+    "id":"213",
+    "clinic_name":"欣悅中醫診所",
+    "address":"台灣台北市松山區南京東路四段193號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5471608,25.0524747 ]
+    },
+    "properties": {
+    "id":"214",
+    "clinic_name":"鳳凰中醫診所",
+    "address":"台灣台北市松山區南京東路三段303巷6弄9號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5576203,25.0563396 ]
+    },
+    "properties": {
+    "id":"215",
+    "clinic_name":"杏莆堂中醫診所",
+    "address":"台灣台北市松山區延壽街392號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5545417,25.0480275 ]
+    },
+    "properties": {
+    "id":"216",
+    "clinic_name":"渼生堂中醫診所",
+    "address":"台灣台北市松山區八德路三段138號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5660269,25.0623199 ]
+    },
+    "properties": {
+    "id":"217",
+    "clinic_name":"華泰中醫診所",
+    "address":"台灣台北市松山區福元街346號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5455348,25.0513075 ]
+    },
+    "properties": {
+    "id":"218",
+    "clinic_name":"春日和中醫診所",
+    "address":"台灣台北市松山區復興北路81巷35號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5457712,25.0536922 ]
+    },
+    "properties": {
+    "id":"219",
+    "clinic_name":"爾雅中醫診所",
+    "address":"台灣台北市松山區晴川街24號5樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5617285,25.0584998 ]
+    },
+    "properties": {
+    "id":"220",
+    "clinic_name":"民生漢唐中醫診所",
+    "address":"台灣台北市松山區民生東路五段138巷3號二樓之5",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5612039,25.0512604 ]
+    },
+    "properties": {
+    "id":"221",
+    "clinic_name":"欣百漢中醫診所",
+    "address":"台灣台北市松山區南京東路五段80號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5603361,25.0590332 ]
+    },
+    "properties": {
+    "id":"222",
+    "clinic_name":"民生瀚威中醫診所",
+    "address":"台灣台北市松山區新中街25號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5660928,25.0509462 ]
+    },
+    "properties": {
+    "id":"223",
+    "clinic_name":"彥明中醫診所",
+    "address":"台灣台北市松山區南京東路五段250巷2弄1-1號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5452921,25.0544304 ]
+    },
+    "properties": {
+    "id":"224",
+    "clinic_name":"頤鳴堂中醫診所",
+    "address":"台灣台北市松山區長春路446號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5315417,25.0250047 ]
+    },
+    "properties": {
+    "id":"225",
+    "clinic_name":"金龍堂中醫診所",
+    "address":"台灣台北市大安區泰順街17號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5331705,25.0403267 ]
+    },
+    "properties": {
+    "id":"226",
+    "clinic_name":"深浦中醫診所",
+    "address":"台灣台北市大安區新生南路一段111號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5509265,25.0217438 ]
+    },
+    "properties": {
+    "id":"227",
+    "clinic_name":"鴻安中醫診所",
+    "address":"台灣台北市大安區樂業街78號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5312367,25.028048 ]
+    },
+    "properties": {
+    "id":"228",
+    "clinic_name":"古道堂中醫診所",
+    "address":"台灣台北市大安區青田街6巷8-5號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5550559,25.030526 ]
+    },
+    "properties": {
+    "id":"229",
+    "clinic_name":"國仁中醫診所",
+    "address":"台灣台北市大安區通化街57巷29號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5264752,25.0341157 ]
+    },
+    "properties": {
+    "id":"230",
+    "clinic_name":"粗淡中醫診所",
+    "address":"台灣台北市大安區信義路二段80號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5557144,25.0368317 ]
+    },
+    "properties": {
+    "id":"231",
+    "clinic_name":"醫道堂黃中醫診所",
+    "address":"台灣台北市大安區延吉街233之3號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5261173,25.0228658 ]
+    },
+    "properties": {
+    "id":"232",
+    "clinic_name":"潘淋華中醫診所",
+    "address":"台灣台北市大安區羅斯福路三段75號3樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5332544,25.0260244 ]
+    },
+    "properties": {
+    "id":"233",
+    "clinic_name":"呂文智中醫診所",
+    "address":"台灣台北市大安區和平東路一段258號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5435641,25.0239317 ]
+    },
+    "properties": {
+    "id":"234",
+    "clinic_name":"吉辰中醫診所",
+    "address":"台灣台北市大安區復興南路二段321號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5303626,25.0188883 ]
+    },
+    "properties": {
+    "id":"235",
+    "clinic_name":"育生中醫診所",
+    "address":"台灣台北市大安區羅斯福路三段261號4樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5411608,25.0413978 ]
+    },
+    "properties": {
+    "id":"236",
+    "clinic_name":"聶美華中醫診所",
+    "address":"台灣台北市大安區忠孝東路三段246號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.546287,25.0422649 ]
+    },
+    "properties": {
+    "id":"237",
+    "clinic_name":"當代漢醫苑中醫診所",
+    "address":"台灣台北市大安區大安路一段73號4樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.544866,25.041413 ]
+    },
+    "properties": {
+    "id":"238",
+    "clinic_name":"麗華中醫診所",
+    "address":"台灣台北市大安區忠孝東路四段48號3",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.531729,25.017621 ]
+    },
+    "properties": {
+    "id":"239",
+    "clinic_name":"李穎哲中醫診所",
+    "address":"台灣台北市大安區羅斯福路三段297-2號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5406043,25.042161 ]
+    },
+    "properties": {
+    "id":"240",
+    "clinic_name":"宏秀堂中醫診所",
+    "address":"台灣台北市大安區忠孝東路三段217巷2弄16號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5468002,25.0283339 ]
+    },
+    "properties": {
+    "id":"241",
+    "clinic_name":"維康中醫診所",
+    "address":"台灣台北市大安區四維路170巷29號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5428899,25.0331489 ]
+    },
+    "properties": {
+    "id":"242",
+    "clinic_name":"長春中醫診所",
+    "address":"台灣台北市大安區信義路三段190之2號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5281438,25.0221997 ]
+    },
+    "properties": {
+    "id":"243",
+    "clinic_name":"天慈中醫診所",
+    "address":"台灣台北市大安區師大路102巷3號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5437569,25.0289109 ]
+    },
+    "properties": {
+    "id":"244",
+    "clinic_name":"杏福中醫診所",
+    "address":"台灣台北市大安區復興南路二段131號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5548019,25.0369109 ]
+    },
+    "properties": {
+    "id":"245",
+    "clinic_name":"宜仁堂中醫診所",
+    "address":"台灣台北市大安區仁愛路四段300巷9弄2號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5420809,25.0331379 ]
+    },
+    "properties": {
+    "id":"246",
+    "clinic_name":"佶安中醫診所",
+    "address":"台灣台北市大安區信義路三段172號3樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5525742,25.0397682 ]
+    },
+    "properties": {
+    "id":"247",
+    "clinic_name":"育群中醫診所",
+    "address":"台灣台北市大安區忠孝東路四段216巷32弄8號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5548779,25.031766 ]
+    },
+    "properties": {
+    "id":"248",
+    "clinic_name":"保源中醫診所",
+    "address":"台灣台北市大安區通化街19巷7號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5492049,25.024786 ]
+    },
+    "properties": {
+    "id":"249",
+    "clinic_name":"和恩堂中醫診所",
+    "address":"台灣台北市大安區和平東路三段63號之3",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5401513,25.0286421 ]
+    },
+    "properties": {
+    "id":"250",
+    "clinic_name":"瑞康中醫診所",
+    "address":"台灣台北市大安區瑞安街208巷24弄12號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5412649,25.033141 ]
+    },
+    "properties": {
+    "id":"251",
+    "clinic_name":"百安堂中醫診所",
+    "address":"台灣台北市大安區信義路三段162之5號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5382292,25.0415285 ]
+    },
+    "properties": {
+    "id":"252",
+    "clinic_name":"介良中醫診所",
+    "address":"台灣台北市大安區忠孝東路三段154號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5565456,25.0387753 ]
+    },
+    "properties": {
+    "id":"253",
+    "clinic_name":"萬安中醫診所",
+    "address":"台灣台北市大安區光復南路308巷25號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5570101,25.0199177 ]
+    },
+    "properties": {
+    "id":"254",
+    "clinic_name":"明圓中醫診所",
+    "address":"台灣台北市大安區和平東路三段320號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5427047,25.0251641 ]
+    },
+    "properties": {
+    "id":"255",
+    "clinic_name":"育揚中醫診所",
+    "address":"台灣台北市大安區和平東路二段221號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5261173,25.0228658 ]
+    },
+    "properties": {
+    "id":"256",
+    "clinic_name":"全德中醫診所",
+    "address":"台灣台北市大安區羅斯福路三段37號3樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "id":"...(部分數據已截斷，請提供完整文件以繼續翻譯)...",
+    "clinic_name":"",
+    "address":"",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5003107,25.0259024 ]
+    },
+    "properties": {
+    "id":"362",
+    "clinic_name":"守謙中醫診所",
+    "address":"台灣台北市萬華區萬大路266號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4919023,25.0323231 ]
+    },
+    "properties": {
+    "id":"363",
+    "clinic_name":"群笙中醫診所",
+    "address":"台灣台北市萬華區環河南路二段193號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4967467,25.018814 ]
+    },
+    "properties": {
+    "id":"364",
+    "clinic_name":"旭生中醫診所",
+    "address":"台灣台北市萬華區萬大路526號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4933818,25.0263177 ]
+    },
+    "properties": {
+    "id":"365",
+    "clinic_name":"聯安中醫診所",
+    "address":"台灣台北市萬華區西園路二段243之12號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5020696,25.0397957 ]
+    },
+    "properties": {
+    "id":"366",
+    "clinic_name":"瑞泰中醫診所",
+    "address":"台灣台北市萬華區康定路91號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5075066,25.0409552 ]
+    },
+    "properties": {
+    "id":"367",
+    "clinic_name":"程惠政中醫診所",
+    "address":"台灣台北市萬華區中華路一段170號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4972748,25.0315551 ]
+    },
+    "properties": {
+    "id":"368",
+    "clinic_name":"丞安堂中醫診所",
+    "address":"台灣台北市萬華區西園路二段47號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5003575,25.029107 ]
+    },
+    "properties": {
+    "id":"369",
+    "clinic_name":"全心中醫診所",
+    "address":"台灣台北市萬華區萬大路138號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4960724,25.0264576 ]
+    },
+    "properties": {
+    "id":"370",
+    "clinic_name":"王新于中醫診所",
+    "address":"台灣台北市萬華區東園街46巷2號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5017796,25.039582 ]
+    },
+    "properties": {
+    "id":"371",
+    "clinic_name":"感恩中醫診所",
+    "address":"台灣台北市萬華區康定路158號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5003864,25.0301623 ]
+    },
+    "properties": {
+    "id":"372",
+    "clinic_name":"天祥中醫診所",
+    "address":"台灣台北市萬華區萬大路100號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4957875,25.0180058 ]
+    },
+    "properties": {
+    "id":"373",
+    "clinic_name":"興宏中醫診所",
+    "address":"台灣台北市萬華區武成街11巷1號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5057322,25.0270977 ]
+    },
+    "properties": {
+    "id":"374",
+    "clinic_name":"致元中醫診所",
+    "address":"台灣台北市萬華區國興路96號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5065567,25.0266736 ]
+    },
+    "properties": {
+    "id":"375",
+    "clinic_name":"岐善中醫診所",
+    "address":"台灣台北市萬華區中華路二段484巷14-3號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.501467,25.0356988 ]
+    },
+    "properties": {
+    "id":"376",
+    "clinic_name":"仁善美中醫診所",
+    "address":"台灣台北市萬華區康定路217號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5037618,25.0370101 ]
+    },
+    "properties": {
+    "id":"377",
+    "clinic_name":"大順中醫診所",
+    "address":"台灣台北市萬華區昆明街277號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5012998,25.0402917 ]
+    },
+    "properties": {
+    "id":"378",
+    "clinic_name":"昱安堂中醫診所",
+    "address":"台灣台北市萬華區貴陽街二段135號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5040653,25.0283541 ]
+    },
+    "properties": {
+    "id":"379",
+    "clinic_name":"博華中醫診所",
+    "address":"台灣台北市萬華區中華路二段364巷15號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5014713,25.0233161 ]
+    },
+    "properties": {
+    "id":"380",
+    "clinic_name":"馥毓中醫診所",
+    "address":"台灣台北市萬華區萬慶街174號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5004657,25.0242542 ]
+    },
+    "properties": {
+    "id":"381",
+    "clinic_name":"億靇中醫診所",
+    "address":"台灣台北市萬華區萬大路325號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5065605,25.0413417 ]
+    },
+    "properties": {
+    "id":"382",
+    "clinic_name":"全昌堂中醫診所",
+    "address":"台灣台北市萬華區內江街2號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5113177,25.0450211 ]
+    },
+    "properties": {
+    "id":"383",
+    "clinic_name":"群欣中醫診所",
+    "address":"台灣台北市中正區博愛路70號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5055406,25.0401849 ]
+    },
+    "properties": {
+    "id":"384",
+    "clinic_name":"元祐中醫診所",
+    "address":"台灣台北市萬華區長沙街二段74-1號3樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.505714,25.0407299 ]
+    },
+    "properties": {
+    "id":"385",
+    "clinic_name":"博安中醫診所",
+    "address":"台灣台北市萬華區長沙街二段51號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5010306,25.0347862 ]
+    },
+    "properties": {
+    "id":"387",
+    "clinic_name":"廣益中醫診所",
+    "address":"台灣台北市萬華區康定路352號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5097152,25.024061 ]
+    },
+    "properties": {
+    "id":"388",
+    "clinic_name":"同仁院醫療財團法人萬華醫院",
+    "address":"台灣台北市萬華區中華路二段606巷6號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.572327,25.040748 ]
+    },
+    "properties": {
+    "id":"389",
+    "clinic_name":"臺北漢唐中醫診所",
+    "address":"台灣台北市信義區忠孝東路五段242號4樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.7155,25.0976521 ]
+    },
+    "properties": {
+    "id":"390",
+    "clinic_name":"濟德中醫診所",
+    "address":"台灣基隆市七堵區重利街8號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5638592,25.0281322 ]
+    },
+    "properties": {
+    "id":"391",
+    "clinic_name":"頌讚中醫診所",
+    "address":"台灣台北市信義區莊敬路325巷4號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5617791,25.0409919 ]
+    },
+    "properties": {
+    "id":"392",
+    "clinic_name":"鍼還中醫診所",
+    "address":"台灣台北市信義區忠孝東路四段500號麗園大廈二樓之六",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.580442,25.045582 ]
+    },
+    "properties": {
+    "id":"393",
+    "clinic_name":"昫安中醫診所",
+    "address":"台灣台北市信義區永吉路527號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5757927,25.0348943 ]
+    },
+    "properties": {
+    "id":"394",
+    "clinic_name":"之華中醫診所",
+    "address":"台灣台北市信義區信義路六段33巷3號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5762518,25.0404016 ]
+    },
+    "properties": {
+    "id":"395",
+    "clinic_name":"慈昱中醫診所",
+    "address":"台灣台北市信義區湖林街132巷20號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5695715,25.0411984 ]
+    },
+    "properties": {
+    "id":"396",
+    "clinic_name":"新六福堂中醫診所",
+    "address":"台灣台北市信義區忠孝東路五段197號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5748548,25.0410435 ]
+    },
+    "properties": {
+    "id":"397",
+    "clinic_name":"景得中醫診所",
+    "address":"台灣台北市信義區忠孝東路五段365號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5869536,25.0392097 ]
+    },
+    "properties": {
+    "id":"398",
+    "clinic_name":"青禾中醫診所",
+    "address":"台灣台北市信義區福德街296號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3743334,24.9437811 ]
+    },
+    "properties": {
+    "id":"399",
+    "clinic_name":"沄禾中醫診所",
+    "address":"台灣新北市三峽區大學路139號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.574376,25.0453719 ]
+    },
+    "properties": {
+    "id":"400",
+    "clinic_name":"昱明中醫診所",
+    "address":"台灣台北市信義區永吉路284號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5617791,25.0409919 ]
+    },
+    "properties": {
+    "id":"401",
+    "clinic_name":"悠美中醫診所",
+    "address":"台灣台北市信義區忠孝東路四段500號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.578463,25.0368669 ]
+    },
+    "properties": {
+    "id":"402",
+    "clinic_name":"松山漢唐中醫診所",
+    "address":"台灣台北市信義區松山路565號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [  121.57607414710438,25.042977336041467 ]
+    },
+    "properties": {
+    "id":"403",
+    "clinic_name":"杏中醫診所",
+    "address":"台灣台北市信義區忠孝東路五段423巷4弄24號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5678798,25.0344547 ]
+    },
+    "properties": {
+    "id":"404",
+    "clinic_name":"松仁中醫診所",
+    "address":"台灣台北市信義區松仁路100號14樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5594892,25.0373334 ]
+    },
+    "properties": {
+    "id":"405",
+    "clinic_name":"盧樹森中醫診所",
+    "address":"台灣台北市信義區仁愛路四段460號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [  121.56611319748875,25.02774266391033 ]
+    },
+    "properties": {
+    "id":"406",
+    "clinic_name":"川豐中醫診所",
+    "address":"台灣台北市信義區莊敬路403號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5670213,25.0271901 ]
+    },
+    "properties": {
+    "id":"407",
+    "clinic_name":"格康中醫診所",
+    "address":"台灣台北市信義區莊敬路437號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5754958,25.0423462 ]
+    },
+    "properties": {
+    "id":"409",
+    "clinic_name":"鐵椎中醫診所",
+    "address":"台灣台北市信義區湖林街108巷54號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.577457,25.0401869 ]
+    },
+    "properties": {
+    "id":"410",
+    "clinic_name":"興漢中醫診所",
+    "address":"台灣台北市信義區湖林街121巷10號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5780272,25.043757 ]
+    },
+    "properties": {
+    "id":"411",
+    "clinic_name":"粱美鳳中醫診所",
+    "address":"台灣台北市信義區松山路261-2號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5653777,25.0287208 ]
+    },
+    "properties": {
+    "id":"412",
+    "clinic_name":"康華中醫診所",
+    "address":"台灣台北市信義區莊敬路391巷11弄9號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5550602,25.024325 ]
+    },
+    "properties": {
+    "id":"413",
+    "clinic_name":"昱華中醫診所",
+    "address":"台灣台北市信義區崇德里街67號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5716664,25.0403102 ]
+    },
+    "properties": {
+    "id":"414",
+    "clinic_name":"岐綝中醫診所",
+    "address":"台灣台北市信義區忠孝東路五段236巷2弄1號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5740425,25.0421384 ]
+    },
+    "properties": {
+    "id":"415",
+    "clinic_name":"頂心中醫診所",
+    "address":"台灣台北市信義區湖林街120巷152號捷運1號出口",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5674554,25.0418543 ]
+    },
+    "properties": {
+    "id":"416",
+    "clinic_name":"微笑中醫診所",
+    "address":"台灣台北市信義區忠孝東路五段71巷11弄2號1F",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.578042,25.040611 ]
+    },
+    "properties": {
+    "id":"417",
+    "clinic_name":"心悅中醫診所",
+    "address":"台灣台北市信義區忠孝東路五段482號3樓之1號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5612871,25.0299875 ]
+    },
+    "properties": {
+    "id":"418",
+    "clinic_name":"宏森中醫診所",
+    "address":"台灣台北市信義區吳興街115號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5643217,25.0281948 ]
+    },
+    "properties": {
+    "id":"419",
+    "clinic_name":"鍼鼎善中醫診所",
+    "address":"台灣台北市信義區莊敬路341巷3號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5758728,25.0404116 ]
+    },
+    "properties": {
+    "id":"420",
+    "clinic_name":"歸元中醫診所",
+    "address":"台灣台北市信義區湖林街132巷32號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.57805,25.041858 ]
+    },
+    "properties": {
+    "id":"421",
+    "clinic_name":"太淵中醫診所",
+    "address":"台灣台北市信義區松山路335號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5682473,25.0276925 ]
+    },
+    "properties": {
+    "id":"422",
+    "clinic_name":"元貞中醫診所",
+    "address":"台灣台北市信義區松仁路188號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.577434,25.035889 ]
+    },
+    "properties": {
+    "id":"423",
+    "clinic_name":"陳彥良中醫診所",
+    "address":"台灣台北市信義區信義路六段87號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5618754,25.0298102 ]
+    },
+    "properties": {
+    "id":"424",
+    "clinic_name":"健銨中醫診所",
+    "address":"台灣台北市信義區莊敬路226號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5668326,25.0270272 ]
+    },
+    "properties": {
+    "id":"425",
+    "clinic_name":"成功中醫診所",
+    "address":"台灣台北市信義區莊敬路432號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5770011,25.0406441 ]
+    },
+    "properties": {
+    "id":"426",
+    "clinic_name":"寶晟紀中醫診所",
+    "address":"台灣台北市信義區忠孝東路五段472號5樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5584614,25.0204423 ]
+    },
+    "properties": {
+    "id":"427",
+    "clinic_name":"聖心中醫診所",
+    "address":"台灣台北市信義區和平東路三段391巷28號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.578014,25.044488 ]
+    },
+    "properties": {
+    "id":"428",
+    "clinic_name":"聖醫中醫診所",
+    "address":"台灣台北市信義區松山路245號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5725249,25.0433238 ]
+    },
+    "properties": {
+    "id":"429",
+    "clinic_name":"大成中醫診所",
+    "address":"台灣台北市信義區永吉路200巷56弄2號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5620317,25.0395672 ]
+    },
+    "properties": {
+    "id":"430",
+    "clinic_name":"世芳中醫診所",
+    "address":"台灣台北市信義區義仙路26巷5號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5778765,25.038713 ]
+    },
+    "properties": {
+    "id":"431",
+    "clinic_name":"天元中醫診所",
+    "address":"台灣台北市信義區松山路486號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5793536,25.0451853 ]
+    },
+    "properties": {
+    "id":"432",
+    "clinic_name":"陳士源中醫診所",
+    "address":"台灣台北市信義區永吉路492號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5745114,25.0407363 ]
+    },
+    "properties": {
+    "id":"433",
+    "clinic_name":"大曜中醫診所",
+    "address":"台灣台北市信義區忠孝東路五段394號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5631515,25.0272445 ]
+    },
+    "properties": {
+    "id":"434",
+    "clinic_name":"臺北醫學大學附設醫院",
+    "address":"台灣台北市信義區吳興街252號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5687221,25.0452048 ]
+    },
+    "properties": {
+    "id":"435",
+    "clinic_name":"陽明中醫診所",
+    "address":"台灣台北市信義區永吉路30巷10號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5797219,25.037373 ]
+    },
+    "properties": {
+    "id":"436",
+    "clinic_name":"蔡榮鏡中醫診所",
+    "address":"台灣台北市信義區林口街24巷8號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.577567,25.0440659 ]
+    },
+    "properties": {
+    "id":"437",
+    "clinic_name":"欣佑許寶童中醫診所",
+    "address":"台灣台北市信義區松山路244號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5624749,25.0405048 ]
+    },
+    "properties": {
+    "id":"438",
+    "clinic_name":"逸安中醫診所",
+    "address":"台灣台北市信義區義仙路50巷12號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5722372,25.0462071 ]
+    },
+    "properties": {
+    "id":"439",
+    "clinic_name":"進安中醫診所",
+    "address":"台灣台北市信義區松信路77號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.578661,25.039507 ]
+    },
+    "properties": {
+    "id":"440",
+    "clinic_name":"三稜中醫診所",
+    "address":"台灣台北市信義區松山路465巷8號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.578208,25.0370029 ]
+    },
+    "properties": {
+    "id":"441",
+    "clinic_name":"大同中醫診所",
+    "address":"台灣台北市信義區松山路576號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5554859,25.0266959 ]
+    },
+    "properties": {
+    "id":"442",
+    "clinic_name":"健生堂中醫診所",
+    "address":"台灣台北市信義區基隆路二段149之16號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5291852,25.1103023 ]
+    },
+    "properties": {
+    "id":"443",
+    "clinic_name":"百安堂仁心中醫診所",
+    "address":"台灣台北市士林區忠誠路二段40巷20號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5241848,25.1069745 ]
+    },
+    "properties": {
+    "id":"444",
+    "clinic_name":"天方中醫診所",
+    "address":"台灣台北市士林區中山北路六段157巷14號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5256863,25.0930315 ]
+    },
+    "properties": {
+    "id":"445",
+    "clinic_name":"澄隆中醫診所",
+    "address":"台灣台北市士林區文林路340號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5075464,25.0876295 ]
+    },
+    "properties": {
+    "id":"446",
+    "clinic_name":"仁佑中醫診所",
+    "address":"台灣台北市士林區社子街41號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5197807,25.0849624 ]
+    },
+    "properties": {
+    "id":"447",
+    "clinic_name":"畢士大中醫診所",
+    "address":"台灣台北市士林區前港街84號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5097068,25.0845956 ]
+    },
+    "properties": {
+    "id":"448",
+    "clinic_name":"悅展中醫診所",
+    "address":"台灣台北市士林區延平北路五段243號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.521127,25.104043 ]
+    },
+    "properties": {
+    "id":"449",
+    "clinic_name":"指筌中醫診所",
+    "address":"台灣台北市士林區德行西路102號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5262486,25.0917811 ]
+    },
+    "properties": {
+    "id":"450",
+    "clinic_name":"源遠堂中醫診所",
+    "address":"台灣台北市士林區文林路289號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.509017,25.0863759 ]
+    },
+    "properties": {
+    "id":"451",
+    "clinic_name":"同一中醫診所",
+    "address":"台灣台北市士林區忠正路615號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5783409,25.0812239 ]
+    },
+    "properties": {
+    "id":"452",
+    "clinic_name":"寶安中醫診所",
+    "address":"台灣台北市內湖區港前路63號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5221517,25.0835832 ]
+    },
+    "properties": {
+    "id":"453",
+    "clinic_name":"劍潭中醫診所",
+    "address":"台灣台北市士林區劍潭路46號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.526848,25.095387 ]
+    },
+    "properties": {
+    "id":"454",
+    "clinic_name":"承新中醫診所",
+    "address":"台灣台北市士林區忠正路203號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5085981,25.0884982 ]
+    },
+    "properties": {
+    "id":"455",
+    "clinic_name":"社子中醫診所",
+    "address":"台灣台北市士林區延平北路六段87號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5175493,25.0849764 ]
+    },
+    "properties": {
+    "id":"456",
+    "clinic_name":"承德中醫診所",
+    "address":"台灣台北市士林區福岡街232之1號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5192971,25.0844915 ]
+    },
+    "properties": {
+    "id":"457",
+    "clinic_name":"百齡中醫診所",
+    "address":"台灣台北市士林區華齡街57號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.52691,25.111745 ]
+    },
+    "properties": {
+    "id":"458",
+    "clinic_name":"士林錦禾中醫診所",
+    "address":"台灣台北市士林區士東路16號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5246179,25.0956489 ]
+    },
+    "properties": {
+    "id":"459",
+    "clinic_name":"存德中醫診所",
+    "address":"台灣台北市士林區文林路460號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5250853,25.093857 ]
+    },
+    "properties": {
+    "id":"460",
+    "clinic_name":"士林同仁中醫診所",
+    "address":"台灣台北市士林區文林路402號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5298673,25.110229 ]
+    },
+    "properties": {
+    "id":"461",
+    "clinic_name":"泓景中醫診所",
+    "address":"台灣台北市士林區忠誠路二段40巷6號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5253887,25.1083091 ]
+    },
+    "properties": {
+    "id":"462",
+    "clinic_name":"泰昌堂中醫診所",
+    "address":"台灣台北市士林區中山北路六段208號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5229354,25.0801296 ]
+    },
+    "properties": {
+    "id":"463",
+    "clinic_name":"天梁堂中醫診所",
+    "address":"台灣台北市士林區同河街35號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.524856,25.0946268 ]
+    },
+    "properties": {
+    "id":"464",
+    "clinic_name":"璟元中醫診所",
+    "address":"台灣台北市士林區文林路432號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5190819,25.0885044 ]
+    },
+    "properties": {
+    "id":"465",
+    "clinic_name":"爾康中醫診所",
+    "address":"台灣台北市士林區大南路285巷5號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5305149,25.1193025 ]
+    },
+    "properties": {
+    "id":"466",
+    "clinic_name":"天宇中醫診所",
+    "address":"台灣台北市士林區中山北路七段29號一樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5315525,25.1089461 ]
+    },
+    "properties": {
+    "id":"468",
+    "clinic_name":"一春堂中醫診所",
+    "address":"台灣台北市士林區德行東路187-1號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5247086,25.1184704 ]
+    },
+    "properties": {
+    "id":"469",
+    "clinic_name":"歐彥君中醫診所",
+    "address":"台灣台北市士林區天母西路52號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5240642,25.0977331 ]
+    },
+    "properties": {
+    "id":"470",
+    "clinic_name":"昀樣中醫診所",
+    "address":"台灣台北市士林區文林路558號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5239861,25.09696 ]
+    },
+    "properties": {
+    "id":"471",
+    "clinic_name":"崇生中醫診所",
+    "address":"台灣台北市士林區文林路519號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5201549,25.0964041 ]
+    },
+    "properties": {
+    "id":"472",
+    "clinic_name":"新光醫療財團法人新光吳火獅紀念醫院",
+    "address":"台灣台北市士林區文昌路95號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.495384,25.096568 ]
+    },
+    "properties": {
+    "id":"473",
+    "clinic_name":"存安堂中醫診所",
+    "address":"台灣台北市士林區延平北路七段82號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [  121.52499180913908,25.09784659720112 ]
+    },
+    "properties": {
+    "id":"474",
+    "clinic_name":"政德中醫診所",
+    "address":"台灣台北市士林區前街17號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5244669,25.096065 ]
+    },
+    "properties": {
+    "id":"475",
+    "clinic_name":"信愛中醫診所",
+    "address":"台灣台北市士林區文林路478號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.519604,25.0911129 ]
+    },
+    "properties": {
+    "id":"476",
+    "clinic_name":"柏宏中醫診所",
+    "address":"台灣台北市士林區石尚路78號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5251953,25.0930533 ]
+    },
+    "properties": {
+    "id":"477",
+    "clinic_name":"新長庚中醫診所",
+    "address":"台灣台北市士林區大東路176號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5286593,25.1106501 ]
+    },
+    "properties": {
+    "id":"478",
+    "clinic_name":"易元堂中醫診所",
+    "address":"台灣台北市士林區德行東路109巷91號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5278543,25.1118815 ]
+    },
+    "properties": {
+    "id":"479",
+    "clinic_name":"寬安中醫診所",
+    "address":"台灣台北市士林區士東路50號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.527989,25.107371 ]
+    },
+    "properties": {
+    "id":"480",
+    "clinic_name":"瀚儒中醫診所",
+    "address":"台灣台北市士林區德行東路92號二樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5301952,25.1108572 ]
+    },
+    "properties": {
+    "id":"481",
+    "clinic_name":"天母中醫診所",
+    "address":"台灣台北市士林區忠誠路二段50巷4號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5262796,25.0903621 ]
+    },
+    "properties": {
+    "id":"482",
+    "clinic_name":"常甡中醫診所",
+    "address":"台灣台北市士林區小北街15號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.519471,25.0844799 ]
+    },
+    "properties": {
+    "id":"483",
+    "clinic_name":"顏居雲中醫診所",
+    "address":"台灣台北市士林區華齡街72號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.525784,25.110619 ]
+    },
+    "properties": {
+    "id":"484",
+    "clinic_name":"士東中醫診所",
+    "address":"台灣台北市士林區中山北路六段300號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5220254,25.1021097 ]
+    },
+    "properties": {
+    "id":"485",
+    "clinic_name":"普濟中醫診所",
+    "address":"台灣台北市士林區福國路98之5號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5262669,25.1197772 ]
+    },
+    "properties": {
+    "id":"486",
+    "clinic_name":"仰德中醫診所",
+    "address":"台灣台北市士林區天母北路18號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.530318,25.111934 ]
+    },
+    "properties": {
+    "id":"487",
+    "clinic_name":"福華中醫診所",
+    "address":"台灣台北市士林區忠誠路二段76巷8號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5275419,25.1120459 ]
+    },
+    "properties": {
+    "id":"488",
+    "clinic_name":"易和中醫診所",
+    "address":"台灣台北市士林區士東路45號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5332226,25.1250763 ]
+    },
+    "properties": {
+    "id":"489",
+    "clinic_name":"慶昇中醫診所",
+    "address":"台灣台北市士林區中山北路七段190巷1號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5264982,25.0903039 ]
+    },
+    "properties": {
+    "id":"490",
+    "clinic_name":"漢醫堂中醫診所",
+    "address":"台灣台北市士林區小北街7號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5251098,25.0956968 ]
+    },
+    "properties": {
+    "id":"491",
+    "clinic_name":"惠眾中醫診所",
+    "address":"台灣台北市士林區美德街70號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5326841,25.1093219 ]
+    },
+    "properties": {
+    "id":"492",
+    "clinic_name":"天御中醫診所",
+    "address":"台灣台北市士林區德行東路215號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5103529,25.082904 ]
+    },
+    "properties": {
+    "id":"493",
+    "clinic_name":"保晟中醫診所",
+    "address":"台灣台北市士林區延平北路五段172號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5259539,25.118237 ]
+    },
+    "properties": {
+    "id":"494",
+    "clinic_name":"世康中醫診所",
+    "address":"台灣台北市士林區天母西路40號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4973389,25.135884 ]
+    },
+    "properties": {
+    "id":"495",
+    "clinic_name":"大易中醫診所",
+    "address":"台灣台北市北投區中央北路一段201號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5012006,25.1302338 ]
+    },
+    "properties": {
+    "id":"496",
+    "clinic_name":"逢春中醫診所",
+    "address":"台灣台北市北投區中央南路一段125號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5119159,25.1140528 ]
+    },
+    "properties": {
+    "id":"497",
+    "clinic_name":"佳禾中醫診所",
+    "address":"台灣台北市北投區石牌路一段101號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5195874,25.1106311 ]
+    },
+    "properties": {
+    "id":"498",
+    "clinic_name":"定傳中醫診所",
+    "address":"台灣台北市北投區華德街3-7號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5067468,25.1177088 ]
+    },
+    "properties": {
+    "id":"499",
+    "clinic_name":"石牌尊賢中醫診所",
+    "address":"台灣台北市北投區尊賢街249巷2號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5184327,25.1097725 ]
+    },
+    "properties": {
+    "id":"500",
+    "clinic_name":"悅馨中醫診所",
+    "address":"台灣台北市北投區西安街一段173號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.499528,25.1314829 ]
+    },
+    "properties": {
+    "id":"501",
+    "clinic_name":"和悅經典中醫診所",
+    "address":"台灣台北市北投區光明路2巷9-5號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5022189,25.126714 ]
+    },
+    "properties": {
+    "id":"502",
+    "clinic_name":"三合中醫診所",
+    "address":"台灣台北市北投區三和街二段446號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5026616,25.1350476 ]
+    },
+    "properties": {
+    "id":"503",
+    "clinic_name":"全禾中醫診所",
+    "address":"台灣台北市北投區光明路166-1號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5169809,25.1152213 ]
+    },
+    "properties": {
+    "id":"504",
+    "clinic_name":"天璽中醫診所",
+    "address":"台灣台北市北投區裕民路33巷2號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5072367,25.1181162 ]
+    },
+    "properties": {
+    "id":"506",
+    "clinic_name":"健嘉中醫診所",
+    "address":"台灣台北市北投區尊賢街302巷9號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5011361,25.132282 ]
+    },
+    "properties": {
+    "id":"507",
+    "clinic_name":"光美中醫診所",
+    "address":"台灣台北市北投區光明路72巷66號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.518711,25.1093712 ]
+    },
+    "properties": {
+    "id":"508",
+    "clinic_name":"善揚中醫診所",
+    "address":"台灣台北市北投區西安街一段157號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [  121.50810631283258,25.115260854579624 ]
+    },
+    "properties": {
+    "id":"509",
+    "clinic_name":"謙懿中醫診所",
+    "address":"台灣台北市北投區實踐街21號1F",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [  121.51522064962278,25.11208595784902 ]
+    },
+    "properties": {
+    "id":"510",
+    "clinic_name":"健群中醫診所",
+    "address":"台灣台北市北投區石牌路一段166巷116號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5067462,25.1195998 ]
+    },
+    "properties": {
+    "id":"511",
+    "clinic_name":"潔品中醫診所",
+    "address":"台灣台北市北投區西安街二段275巷20號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.520789,25.111092 ]
+    },
+    "properties": {
+    "id":"512",
+    "clinic_name":"隆豪中醫診所",
+    "address":"台灣台北市北投區明德路157號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.50233,25.134649 ]
+    },
+    "properties": {
+    "id":"513",
+    "clinic_name":"三進中醫診所",
+    "address":"台灣台北市北投區光明路133-8號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5012404,25.1305325 ]
+    },
+    "properties": {
+    "id":"514",
+    "clinic_name":"沐荷中醫診所",
+    "address":"台灣台北市北投區中央南路一段113號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5201492,25.1197546 ]
+    },
+    "properties": {
+    "id":"515",
+    "clinic_name":"臺北榮民總醫院",
+    "address":"台灣台北市北投區石牌路二段201號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5201492,25.1197546 ]
+    },
+    "properties": {
+    "id":"516",
+    "clinic_name":"臺北市立關渡醫院─委託臺北榮民總醫院經營",
+    "address":"台灣台北市北投區石牌路二段201號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5228648,25.1160245 ]
+    },
+    "properties": {
+    "id":"517",
+    "clinic_name":"振興醫療財團法人振興醫院",
+    "address":"台灣台北市北投區振興街45號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.501224,25.129057 ]
+    },
+    "properties": {
+    "id":"518",
+    "clinic_name":"人德中醫診所",
+    "address":"台灣台北市北投區中央南路一段179號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.511509,25.113842 ]
+    },
+    "properties": {
+    "id":"519",
+    "clinic_name":"順建中醫診所",
+    "address":"台灣台北市北投區石牌路一段85號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5008689,25.134001 ]
+    },
+    "properties": {
+    "id":"520",
+    "clinic_name":"耕德中醫診所",
+    "address":"台灣台北市北投區中央北路一段38號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5002778,25.1227778 ]
+    },
+    "properties": {
+    "id":"521",
+    "clinic_name":"茂元中醫診所",
+    "address":"台灣台北市北投區中央南路二段75號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5150442,25.1146358 ]
+    },
+    "properties": {
+    "id":"522",
+    "clinic_name":"華杏中醫診所",
+    "address":"台灣台北市北投區西安街一段369號二樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4974916,25.1293598 ]
+    },
+    "properties": {
+    "id":"523",
+    "clinic_name":"廣澤堂中醫診所",
+    "address":"台灣台北市北投區大業路370號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5200591,25.1085488 ]
+    },
+    "properties": {
+    "id":"524",
+    "clinic_name":"東華中醫診所",
+    "address":"台灣台北市北投區東華街一段46號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5152836,25.1107336 ]
+    },
+    "properties": {
+    "id":"525",
+    "clinic_name":"慈愛中醫診所",
+    "address":"台灣台北市北投區自強街108號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.501654,25.139261 ]
+    },
+    "properties": {
+    "id":"526",
+    "clinic_name":"十方中醫診所",
+    "address":"台灣台北市北投區中和街228號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5167621,25.1162409 ]
+    },
+    "properties": {
+    "id":"527",
+    "clinic_name":"懸壺中醫診所",
+    "address":"台灣台北市北投區石牌路二段68巷20號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5170709,25.117049 ]
+    },
+    "properties": {
+    "id":"528",
+    "clinic_name":"懷德中醫診所",
+    "address":"台灣台北市北投區石牌路二段90巷18號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5177586,25.1073356 ]
+    },
+    "properties": {
+    "id":"529",
+    "clinic_name":"普生中醫診所",
+    "address":"台灣台北市北投區明德路31號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5057146,25.1206301 ]
+    },
+    "properties": {
+    "id":"530",
+    "clinic_name":"康禾堂中醫診所",
+    "address":"台灣台北市北投區西安街二段335號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5164305,25.1109575 ]
+    },
+    "properties": {
+    "id":"531",
+    "clinic_name":"豐禾中醫診所",
+    "address":"台灣台北市北投區自強街150號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5924212,25.0824342 ]
+    },
+    "properties": {
+    "id":"532",
+    "clinic_name":"和慶中醫診所",
+    "address":"台灣台北市內湖區成功路四段58號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.579104,25.0769089 ]
+    },
+    "properties": {
+    "id":"533",
+    "clinic_name":"萬安堂中醫診所",
+    "address":"台灣台北市內湖區文德路22巷9弄42號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6159318,25.0673451 ]
+    },
+    "properties": {
+    "id":"534",
+    "clinic_name":"聿麒中醫診所",
+    "address":"台灣台北市內湖區五分街93號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6146901,25.0687645 ]
+    },
+    "properties": {
+    "id":"535",
+    "clinic_name":"龍門中醫診所",
+    "address":"台灣台北市內湖區東湖路57號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5855023,25.0457989 ]
+    },
+    "properties": {
+    "id":"536",
+    "clinic_name":"麗馨中醫診所",
+    "address":"台灣台北市南港區通德路84號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6049835,25.0736882 ]
+    },
+    "properties": {
+    "id":"537",
+    "clinic_name":"騏安中醫診所",
+    "address":"台灣台北市內湖區金湖路386號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5993934,25.0849136 ]
+    },
+    "properties": {
+    "id":"538",
+    "clinic_name":"文華內湖中醫診所",
+    "address":"台灣台北市內湖區成功路四段338號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [  121.58932365105167,25.083913947597946 ]
+    },
+    "properties": {
+    "id":"539",
+    "clinic_name":"內湖中醫診所",
+    "address":"台灣台北市內湖區成功路三段174巷1號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5939374,25.0849256 ]
+    },
+    "properties": {
+    "id":"540",
+    "clinic_name":"允康中醫診所",
+    "address":"台灣台北市內湖區金龍路41號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5784399,25.0815188 ]
+    },
+    "properties": {
+    "id":"541",
+    "clinic_name":"韻德中醫診所",
+    "address":"台灣台北市內湖區港前路55號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5764003,25.0782673 ]
+    },
+    "properties": {
+    "id":"542",
+    "clinic_name":"錦禾中醫診所",
+    "address":"台灣台北市內湖區港前路121號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5736493,25.083597 ]
+    },
+    "properties": {
+    "id":"543",
+    "clinic_name":"臻澄中醫診所",
+    "address":"台灣台北市內湖區港華街99號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5787456,25.0782085 ]
+    },
+    "properties": {
+    "id":"544",
+    "clinic_name":"恩光中醫診所",
+    "address":"台灣台北市內湖區江南街15號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6075603,25.0729009 ]
+    },
+    "properties": {
+    "id":"545",
+    "clinic_name":"鍾醫中醫診所",
+    "address":"台灣台北市內湖區康寧路三段31號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5916424,25.0824433 ]
+    },
+    "properties": {
+    "id":"546",
+    "clinic_name":"善品中醫診所",
+    "address":"台灣台北市內湖區成功路四段30巷22號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6152588,25.06807 ]
+    },
+    "properties": {
+    "id":"547",
+    "clinic_name":"信任中醫診所",
+    "address":"台灣台北市內湖區東湖路106巷14號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.586203,25.057385 ]
+    },
+    "properties": {
+    "id":"548",
+    "clinic_name":"瀚威中醫診所",
+    "address":"台灣台北市內湖區新明路277號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6284473,25.0677168 ]
+    },
+    "properties": {
+    "id":"549",
+    "clinic_name":"泰興中醫診所",
+    "address":"台灣新北市汐止區康寧街361號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.583437,25.0789314 ]
+    },
+    "properties": {
+    "id":"550",
+    "clinic_name":"照境中醫診所",
+    "address":"台灣台北市內湖區文德路101巷1弄1號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5686136,25.0865695 ]
+    },
+    "properties": {
+    "id":"551",
+    "clinic_name":"圓覺中醫診所",
+    "address":"台灣台北市內湖區環山路一段130號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.59036,25.081329 ]
+    },
+    "properties": {
+    "id":"552",
+    "clinic_name":"建榮中醫診所",
+    "address":"台灣台北市內湖區成功路三段174巷16號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5696949,25.0821237 ]
+    },
+    "properties": {
+    "id":"553",
+    "clinic_name":"詠樂中醫診所",
+    "address":"台灣台北市內湖區內湖路一段373號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5886032,25.0787598 ]
+    },
+    "properties": {
+    "id":"554",
+    "clinic_name":"佳鄰中醫診所",
+    "address":"台灣台北市內湖區文德路238號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5784731,25.0807321 ]
+    },
+    "properties": {
+    "id":"555",
+    "clinic_name":"濟淵堂中醫診所",
+    "address":"台灣台北市內湖區內湖路一段737巷50弄37號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5734375,25.0809343 ]
+    },
+    "properties": {
+    "id":"556",
+    "clinic_name":"內湖芸安堂中醫診所",
+    "address":"台灣台北市內湖區內湖路一段595號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5924282,25.0716466 ]
+    },
+    "properties": {
+    "id":"557",
+    "clinic_name":"三軍總醫院附設民眾診療服務處",
+    "address":"台灣台北市內湖區成功路二段325號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5907252,25.0820989 ]
+    },
+    "properties": {
+    "id":"558",
+    "clinic_name":"中國醫藥大學附設醫院臺北分院",
+    "address":"台灣台北市內湖區內湖路二段360號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5920314,25.0835274 ]
+    },
+    "properties": {
+    "id":"559",
+    "clinic_name":"卓家泉安堂老舖中醫診所",
+    "address":"台灣台北市內湖區內湖路二段353號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5784039,25.082673 ]
+    },
+    "properties": {
+    "id":"560",
+    "clinic_name":"林德中醫診所",
+    "address":"台灣台北市內湖區港前路23號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.601404,25.084718 ]
+    },
+    "properties": {
+    "id":"561",
+    "clinic_name":"蘇中醫診所",
+    "address":"台灣台北市內湖區成功路五段20號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5906766,25.0810771 ]
+    },
+    "properties": {
+    "id":"562",
+    "clinic_name":"內湖中醫診所",
+    "address":"台灣台北市內湖區成功路三段174巷1號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5846469,25.0770686 ]
+    },
+    "properties": {
+    "id":"563",
+    "clinic_name":"祐康中醫診所",
+    "address":"台灣台北市內湖區文德路210巷30弄23號１樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6193947,25.0691501 ]
+    },
+    "properties": {
+    "id":"564",
+    "clinic_name":"惠元中醫診所",
+    "address":"台灣台北市內湖區康樂街61巷15號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6130791,25.0702501 ]
+    },
+    "properties": {
+    "id":"565",
+    "clinic_name":"璟榮中醫診所",
+    "address":"台灣台北市內湖區東湖路43巷31號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5934061,25.0843389 ]
+    },
+    "properties": {
+    "id":"566",
+    "clinic_name":"憫泰中醫診所",
+    "address":"台灣台北市內湖區內湖路二段488號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.609476,25.071108 ]
+    },
+    "properties": {
+    "id":"567",
+    "clinic_name":"健崴中醫診所",
+    "address":"台灣台北市內湖區康寧路三段16巷113號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [  121.61882970913824,25.070638246741066 ]
+    },
+    "properties": {
+    "id":"568",
+    "clinic_name":"內湖鴻成中醫診所",
+    "address":"台灣台北市內湖區康樂街86號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6141188,25.0456286 ]
+    },
+    "properties": {
+    "id":"569",
+    "clinic_name":"聖原中醫診所",
+    "address":"台灣台北市南港區研究院路二段70巷33號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.613123,25.052578 ]
+    },
+    "properties": {
+    "id":"570",
+    "clinic_name":"宏勝中醫診所",
+    "address":"台灣台北市南港區忠孝東路七段558號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [  121.6166729974899,25.053933048757674 ]
+    },
+    "properties": {
+    "id":"571",
+    "clinic_name":"翰林中醫診所",
+    "address":"台灣台北市南港區研究院路一段27號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.58865,25.0414797 ]
+    },
+    "properties": {
+    "id":"572",
+    "clinic_name":"羅撒中醫診所",
+    "address":"台灣台北市南港區成福路171巷13號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6165946,25.0541408 ]
+    },
+    "properties": {
+    "id":"573",
+    "clinic_name":"張一凡中醫診所",
+    "address":"台灣台北市南港區研究院路一段15號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5850355,25.0455731 ]
+    },
+    "properties": {
+    "id":"574",
+    "clinic_name":"天滋中醫診所",
+    "address":"台灣台北市南港區通德路64號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5840988,25.0451546 ]
+    },
+    "properties": {
+    "id":"575",
+    "clinic_name":"同德中醫診所",
+    "address":"台灣台北市南港區通德路30號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6132431,25.0551333 ]
+    },
+    "properties": {
+    "id":"576",
+    "clinic_name":"杞子中醫診所",
+    "address":"台灣台北市南港區南港路一段169號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6106604,25.0522856 ]
+    },
+    "properties": {
+    "id":"577",
+    "clinic_name":"戴承杰中醫診所",
+    "address":"台灣台北市南港區忠孝東路七段518號4樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5809683,25.047007 ]
+    },
+    "properties": {
+    "id":"578",
+    "clinic_name":"漢唐經方中醫診所",
+    "address":"台灣台北市南港區中坡北路66號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.595502,25.054918 ]
+    },
+    "properties": {
+    "id":"579",
+    "clinic_name":"洪澤安中醫診所",
+    "address":"台灣台北市南港區重陽路4號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.610304,25.0557624 ]
+    },
+    "properties": {
+    "id":"580",
+    "clinic_name":"赫奕中醫診所",
+    "address":"台灣台北市南港區惠民街13號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.558903,24.997865 ]
+    },
+    "properties": {
+    "id":"581",
+    "clinic_name":"東山中醫診所",
+    "address":"台灣台北市文山區興隆路三段198號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5581444,24.999925 ]
+    },
+    "properties": {
+    "id":"582",
+    "clinic_name":"臺北市立萬芳醫院-委託臺北醫學大學辦理",
+    "address":"台灣台北市文山區興隆路三段111號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5594899,24.9818872 ]
+    },
+    "properties": {
+    "id":"583",
+    "clinic_name":"寶顧中醫診所",
+    "address":"台灣台北市文山區木新路三段232巷6弄10號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5491825,25.0007754 ]
+    },
+    "properties": {
+    "id":"584",
+    "clinic_name":"慧安堂中醫診所",
+    "address":"台灣台北市文山區興隆路二段179號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5550497,25.0012297 ]
+    },
+    "properties": {
+    "id":"585",
+    "clinic_name":"游正賢中醫診所",
+    "address":"台灣台北市文山區辛亥路四段241號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.538989,25.00253 ]
+    },
+    "properties": {
+    "id":"586",
+    "clinic_name":"常春藤中醫診所",
+    "address":"台灣台北市文山區羅斯福路五段197號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.566303,24.9848 ]
+    },
+    "properties": {
+    "id":"587",
+    "clinic_name":"保儀中醫診所",
+    "address":"台灣台北市文山區忠順街二段110號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5604535,24.9844251 ]
+    },
+    "properties": {
+    "id":"588",
+    "clinic_name":"真善美中醫診所",
+    "address":"台灣台北市文山區忠順街一段129號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.55264,25.0002585 ]
+    },
+    "properties": {
+    "id":"589",
+    "clinic_name":"楊麗姝中醫診所",
+    "address":"台灣台北市文山區興隆路二段220巷31弄6號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5557749,25.000212 ]
+    },
+    "properties": {
+    "id":"590",
+    "clinic_name":"京順中醫診所",
+    "address":"台灣台北市文山區興隆路三段52號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5707955,24.9878146 ]
+    },
+    "properties": {
+    "id":"591",
+    "clinic_name":"聞容中醫診所",
+    "address":"台灣台北市文山區指南路一段47-1號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5448437,24.9956101 ]
+    },
+    "properties": {
+    "id":"592",
+    "clinic_name":"星福中醫診所",
+    "address":"台灣台北市文山區景興路93號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5505789,24.9876596 ]
+    },
+    "properties": {
+    "id":"593",
+    "clinic_name":"玉函中醫診所",
+    "address":"台灣台北市文山區木柵路一段159號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5409816,24.9889579 ]
+    },
+    "properties": {
+    "id":"594",
+    "clinic_name":"千順中醫診所",
+    "address":"台灣台北市文山區景文街173號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5413974,24.9943135 ]
+    },
+    "properties": {
+    "id":"595",
+    "clinic_name":"雙全漢醫中醫診所",
+    "address":"台灣台北市文山區羅斯福路六段299號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5610633,24.984289 ]
+    },
+    "properties": {
+    "id":"596",
+    "clinic_name":"養生堂中醫診所",
+    "address":"台灣台北市文山區忠順街一段80號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5448713,24.9972544 ]
+    },
+    "properties": {
+    "id":"597",
+    "clinic_name":"德方中醫診所",
+    "address":"台灣台北市文山區景興路39-2號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5526695,25.0011804 ]
+    },
+    "properties": {
+    "id":"598",
+    "clinic_name":"合春中醫診所",
+    "address":"台灣台北市文山區興隆路二段220巷1號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [  121.53959016893677,24.990348628971585 ]
+    },
+    "properties": {
+    "id":"599",
+    "clinic_name":"長青傳統中醫診所",
+    "address":"台灣台北市文山區羅斯福路六段316號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.538933,25.0013529 ]
+    },
+    "properties": {
+    "id":"600",
+    "clinic_name":"禎美中醫診所",
+    "address":"台灣台北市文山區羅斯福路五段240號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5519673,25.0015779 ]
+    },
+    "properties": {
+    "id":"601",
+    "clinic_name":"泰明堂中醫診所",
+    "address":"台灣台北市文山區興隆路二段198號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5603476,24.9817658 ]
+    },
+    "properties": {
+    "id":"602",
+    "clinic_name":"晴明中醫診所",
+    "address":"台灣台北市文山區木新路三段186號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5412351,24.9915606 ]
+    },
+    "properties": {
+    "id":"603",
+    "clinic_name":"至善醫坊中醫診所",
+    "address":"台灣台北市文山區景文街46-1號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5385973,25.0022195 ]
+    },
+    "properties": {
+    "id":"604",
+    "clinic_name":"安心堂中醫診所",
+    "address":"台灣台北市文山區羅斯福路五段216-2號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5397966,25.0004701 ]
+    },
+    "properties": {
+    "id":"605",
+    "clinic_name":"意一堂中醫診所",
+    "address":"台灣台北市文山區羅斯福路五段295號1樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5407305,24.9965895 ]
+    },
+    "properties": {
+    "id":"606",
+    "clinic_name":"陳鐵誠中醫診所",
+    "address":"台灣台北市文山區羅斯福路六段138號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5696117,24.9844832 ]
+    },
+    "properties": {
+    "id":"607",
+    "clinic_name":"信願堂中醫診所",
+    "address":"台灣台北市文山區木新路二段118號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5598144,24.9821586 ]
+    },
+    "properties": {
+    "id":"608",
+    "clinic_name":"生德堂中醫診所",
+    "address":"台灣台北市文山區忠順街一段26巷23號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5410314,24.9950967 ]
+    },
+    "properties": {
+    "id":"609",
+    "clinic_name":"天光中醫診所",
+    "address":"台灣台北市文山區羅斯福路六段158號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.54221,25.001455 ]
+    },
+    "properties": {
+    "id":"610",
+    "clinic_name":"黃嘉欣中醫診所",
+    "address":"台灣台北市文山區興隆路一段164號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5410064,25.0031035 ]
+    },
+    "properties": {
+    "id":"611",
+    "clinic_name":"豫章堂中醫診所",
+    "address":"台灣台北市文山區興隆路一段90號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5620859,24.9890199 ]
+    },
+    "properties": {
+    "id":"612",
+    "clinic_name":"元昌堂中醫診所",
+    "address":"台灣台北市文山區木柵路二段127號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5525523,24.9876793 ]
+    },
+    "properties": {
+    "id":"613",
+    "clinic_name":"宏福中醫診所",
+    "address":"台灣台北市文山區木柵路一段182號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5417487,24.9941772 ]
+    },
+    "properties": {
+    "id":"614",
+    "clinic_name":"天和堂中醫診所",
+    "address":"台灣台北市文山區景美街1之5號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5405224,24.9975262 ]
+    },
+    "properties": {
+    "id":"615",
+    "clinic_name":"耿誠中醫診所",
+    "address":"台灣台北市文山區羅斯福路六段114號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5386596,25.0078728 ]
+    },
+    "properties": {
+    "id":"616",
+    "clinic_name":"吳明珠中醫診所",
+    "address":"台灣台北市文山區羅斯福路五段21-1號2樓",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5605954,24.981528 ]
+    },
+    "properties": {
+    "id":"617",
+    "clinic_name":"育德堂中醫診所",
+    "address":"台灣台北市文山區木新路三段173號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5585729,24.9981889 ]
+    },
+    "properties": {
+    "id":"618",
+    "clinic_name":"元品中醫診所",
+    "address":"台灣台北市文山區興隆路三段174號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5506092,25.0011313 ]
+    },
+    "properties": {
+    "id":"619",
+    "clinic_name":"張純龍中醫診所",
+    "address":"台灣台北市文山區興隆路二段132號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.538943,24.993761 ]
+    },
+    "properties": {
+    "id":"620",
+    "clinic_name":"安德中醫診所",
+    "address":"台灣台北市文山區景福街228號",
+    "FIELD6":"",
+    "FIELD7":null,
+    "FIELD8":null
+    }
+  }
+]
+}

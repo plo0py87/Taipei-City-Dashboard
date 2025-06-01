@@ -1,0 +1,278 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5248865,25.0458983 ]
+    },
+    "properties": {
+    "序號":1,
+    "機構名稱":"彩虹樹職能治療所",
+    "地址":"100, Taiwan, Taipei City, Zhongzheng District, Beiping E Rd, 20號3樓",
+    "行政區":"中正區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5474223,25.0822738 ]
+    },
+    "properties": {
+    "序號":2,
+    "機構名稱":"愛能大直職能治療所",
+    "地址":"104, Taiwan, Taipei City, Zhongshan District, Lane 595, Beian Rd, 21號1樓",
+    "行政區":"中山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5361594,25.048543 ]
+    },
+    "properties": {
+    "序號":3,
+    "機構名稱":"愛迪樂中山職能治療所",
+    "地址":"104097, Taiwan, Taipei City, Zhongshan District, ChangAn East Rd Section 2, 131-2號1樓",
+    "行政區":"中山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5226656,25.0645264 ]
+    },
+    "properties": {
+    "序號":4,
+    "機構名稱":"好生活居家職能治療所",
+    "地址":"104, Taiwan, Taipei City, Zhongshan District, Section 3, Zhongshan N Rd, 25之12號",
+    "行政區":"中山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.532984,25.066886 ]
+    },
+    "properties": {
+    "序號":6,
+    "機構名稱":"珂斯汀職能治療所",
+    "地址":"104, Taiwan, Taipei City, Zhongshan District, SongJiang Rd, 530號2樓",
+    "行政區":"中山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5361594,25.048543 ]
+    },
+    "properties": {
+    "序號":7,
+    "機構名稱":"暖時光職能治療所",
+    "地址":"104097, Taiwan, Taipei City, Zhongshan District, ChangAn East Rd Section 2, 131-2號1樓",
+    "行政區":"中山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5529992,25.082106 ]
+    },
+    "properties": {
+    "序號":8,
+    "機構名稱":"幼思職能治療所",
+    "地址":"104, Taiwan, Taipei City, Zhongshan District, Lane 69, Jingyeer Rd, 55號2樓",
+    "行政區":"中山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5461801,25.0600654 ]
+    },
+    "properties": {
+    "序號":9,
+    "機構名稱":"啟端職能治療所",
+    "地址":"105, Taiwan, Taipei City, Songshan District, Alley 15, Lane 106, Section 3, Minquan E Rd, 25號2樓",
+    "行政區":"松山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5253535,25.0235425 ]
+    },
+    "properties": {
+    "序號":14,
+    "機構名稱":"啟端古亭職能治療所",
+    "地址":"106, Taiwan, Taipei City, Da’an District, Section 3, Roosevelt Rd, 37號10 樓",
+    "行政區":"大安區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5454988,25.0335412 ]
+    },
+    "properties": {
+    "序號":15,
+    "機構名稱":"起辰職能治療所",
+    "地址":"3樓, No. 65號, Section 4, Xinyi Rd, Da’an District, Taipei City, Taiwan 106",
+    "行政區":"大安區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4908656,25.0353256 ]
+    },
+    "properties": {
+    "序號":17,
+    "機構名稱":"樂親居家職能治療所",
+    "地址":"108, Taiwan, Taipei City, Wanhua District, 和平西路三段396號106室",
+    "行政區":"萬華區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5659519,25.0429861 ]
+    },
+    "properties": {
+    "序號":18,
+    "機構名稱":"星星碼頭職能治療所",
+    "地址":"110, Taiwan, Taipei City, Xinyi District, Section 1, Keelung Rd, 141號5號樓之8",
+    "行政區":"信義區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5262317,25.1194748 ]
+    },
+    "properties": {
+    "序號":20,
+    "機構名稱":"愛能職能治療所",
+    "地址":"11157, Taiwan, Taipei City, Shilin District, Tianmu N Rd, 10-1號1樓",
+    "行政區":"士林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5332157,25.1098277 ]
+    },
+    "properties": {
+    "序號":21,
+    "機構名稱":"優兒巧兒童職能治療所",
+    "地址":"No. 48, Lane 21, Section 2, Zhongcheng Rd, Shilin District, 台灣 Taiwan 111",
+    "行政區":"士林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5268913,25.1014391 ]
+    },
+    "properties": {
+    "序號":22,
+    "機構名稱":"新康居家職能治療所",
+    "地址":"No. 1號, Lane 120, Section 2, Zhicheng Rd, Shilin District, Taipei City, Taiwan 111",
+    "行政區":"士林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4686231,25.0090166 ]
+    },
+    "properties": {
+    "序號":23,
+    "機構名稱":"大心居家職能治療所",
+    "地址":"220, Taiwan, New Taipei City, Banqiao District, Haishan Rd, 19號1樓",
+    "行政區":"板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5020468,25.1332926 ]
+    },
+    "properties": {
+    "序號":24,
+    "機構名稱":"安安優腦職能治療所",
+    "地址":"112, Taiwan, Taipei City, Beitou District, Huanggang Rd, 8號7樓",
+    "行政區":"北投區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4893883,25.1409893 ]
+    },
+    "properties": {
+    "序號":25,
+    "機構名稱":"稻香職能治療所-委託臺北榮民總醫院經營管理",
+    "地址":"112, Taiwan, Taipei City, Beitou District, Daoxiang Rd, 81號6樓之1",
+    "行政區":"北投區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6171933,25.0770092 ]
+    },
+    "properties": {
+    "序號":26,
+    "機構名稱":"沐晨職能治療所",
+    "地址":"114, Taiwan, Taipei City, Neihu District, Lane 125, Antai St, 19號5樓",
+    "行政區":"內湖區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5323424,25.0597099 ]
+    },
+    "properties": {
+    "序號":27,
+    "機構名稱":"愛迪樂居家職能治療所",
+    "地址":"No. 19號, Lane 127, Section 2, Minsheng E Rd, Zhongshan District, Taipei City, Taiwan 10491",
+    "行政區":"中山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5502429,24.9965995 ]
+    },
+    "properties": {
+    "序號":30,
+    "機構名稱":"麥恩居家職能治療所",
+    "地址":"116, Taiwan, Taipei City, Wenshan District, Lane 16, Xianyan Rd, 46號6 樓 之 14",
+    "行政區":"文山區"
+    }
+  }
+]
+}
