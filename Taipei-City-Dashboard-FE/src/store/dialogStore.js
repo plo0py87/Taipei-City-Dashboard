@@ -103,6 +103,11 @@ export const useDialogStore = defineStore("dialog", {
 			this.moreInfoContent = [content, vc];
 			console.log("More Info Content:", this.moreInfoContent);
 		},
+		showMoreLeg(content) {
+			this.showDialog("moreInfo");
+			// Wrap the content in an array for consistency with other code
+			this.moreInfoContent = [content];
+		},
 		// Show the report issue dialog and enter the id and name of the component of origin
 		showReportIssue(id, index, name) {
 			this.showDialog("reportIssue");

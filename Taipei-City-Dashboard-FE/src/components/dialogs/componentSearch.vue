@@ -158,7 +158,16 @@ const sendMessage = async () => {
 						`/component/${component.id}/view-count`
 					);
 					http.post(`/component/${component.id}/view`);
-					dialogStore.showMoreInfo(component, vc.data.view_count);
+					console.log("View count:", vc.data.data.view_count);
+
+					//attach to component
+					// component.chart = http.patch(
+					// 	`/component/${component.id}?city=taipei/chart`
+					// );
+					dialogStore.showMoreInfo(
+						component,
+						vc.data.data.view_count
+					);
 					dialogStore.showDialog("moreInfo");
 					dialogStore.dialogs.NLPDialog = false;
 				} else {
@@ -203,11 +212,19 @@ const handleFeat = (feat) => {
 		<div class="chat-container">
 			<nav>
 				<div class="chat-header">
-					<button class="close-button" @click="handleFeat('MCP')">
+					<button
+						class="close-button"
+						:class="{ active: curFeat === 'MCP' }"
+						@click="handleFeat('MCP')"
+					>
 						<span class="material-icons">dashboard</span>
 						{{ i18nStore.$t("dialog.智慧儀表板") }}
 					</button>
-					<button class="minimize-button" @click="handleFeat('NLP')">
+					<button
+						class="minimize-button"
+						:class="{ active: curFeat === 'NLP' }"
+						@click="handleFeat('NLP')"
+					>
 						<span class="material-icons">search</span>
 						{{ i18nStore.$t("dialog.精準查詢") }}
 					</button>
@@ -308,12 +325,10 @@ const handleFeat = (feat) => {
 
 .chat-header {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	padding: 15px 20px;
 	background: linear-gradient(
-		to right,
-		rgba(23, 25, 35, 0.95),
-		rgba(30, 35, 50, 0.95)
+		/* Assuming there was a gradient here, if not, adjust as needed */
 	);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 	box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15);
@@ -326,39 +341,14 @@ const handleFeat = (feat) => {
 		border-radius: 8px;
 		font-weight: 500;
 		font-size: 14px;
-		transition: all 0.3s ease;
-		background: rgba(37, 99, 235, 0.1);
-		border: 1px solid rgba(255, 255, 255, 0.05);
-
-		.material-icons {
-			font-size: 18px;
-			margin-right: 4px;
-		}
-
-		&:hover {
-			background: rgba(37, 99, 235, 0.2);
-			transform: translateY(-2px);
-		}
-
-		&:active {
-			transform: translateY(0);
-		}
+		transition: background-color 0.3s ease, color 0.3s ease,
+			filter 0.3s ease; /* Added filter for brightness */
 	}
 
-	.close-button {
-		background: linear-gradient(
-			90deg,
-			rgba(37, 99, 235, 0.2),
-			rgba(37, 99, 235, 0.1)
-		);
-	}
-
-	.minimize-button {
-		background: rgba(30, 41, 59, 0.4);
-
-		&:hover {
-			background: rgba(30, 41, 59, 0.6);
-		}
+	button.active {
+		background-color: #4a5568; /* Example brighter background */
+		color: #ffffff; /* Example brighter text color */
+		filter: brightness(1.2); /* Increase brightness */
 	}
 }
 

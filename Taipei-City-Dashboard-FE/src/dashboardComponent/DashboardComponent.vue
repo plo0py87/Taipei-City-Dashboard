@@ -249,7 +249,7 @@ const i18nStore = useI18nStore();
 			<!-- Upper Left Corner -->
 			<div>
 				<h3>
-					{{ config.name }}
+					{{ i18nStore.$t("data." + config.name) }}
 					<ComponentTag
 						v-if="!mode.includes('map')"
 						icon=""
@@ -274,7 +274,7 @@ const i18nStore = useI18nStore();
 					</div>
 				</h3>
 				<p v-if="mode === 'preview'">
-					{{ props.config.short_desc }}
+					{{ i18nStore.$t("data." + props.config.short_desc) }}
 				</p>
 				<div v-if="!mode.includes('map') || toggleOn">
 					<h4
