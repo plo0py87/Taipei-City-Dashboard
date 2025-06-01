@@ -6,12 +6,18 @@ import json
 from typing import List, Dict, Any
 from mcp.server.fastmcp import FastMCP
 from dotenv import load_dotenv
+from fastapi import FastAPI
+from cors_middleware import setup_cors
 
 # Load environment variables
 load_dotenv("../../docker/.env")
 
 # Create an MCP server
 mcp = FastMCP("Demo")
+
+# Setup CORS middleware
+app = mcp.get_app()
+setup_cors(app)
 
 # Database configuration
 # Note: postgres-manager has external port access (5432:5432), postgres-data is internal only

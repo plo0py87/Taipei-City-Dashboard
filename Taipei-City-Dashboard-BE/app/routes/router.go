@@ -85,6 +85,7 @@ func configureComponentRoutes() {
 		componentRoutes.POST("/:id/view", controllers.RecordComponentView)
 		componentRoutes.GET("/top-viewed", controllers.GetTopViewedComponents)
 		componentRoutes.GET("/:id/view-count", controllers.GetComponentViewCount)
+		componentRoutes.GET("/pop", controllers.UpdateDashboardTopComponents)
 	}
 	componentRoutes.Use(middleware.IsSysAdm())
 	{

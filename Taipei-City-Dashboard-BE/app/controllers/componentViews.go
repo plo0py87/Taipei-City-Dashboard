@@ -1,14 +1,15 @@
 package controllers
 
 import (
-	"net/http"
-	"strconv"
+    "net/http"
+    "strconv"
 
-	"TaipeiCityDashboardBE/app/models"
+    "TaipeiCityDashboardBE/app/models"
 
-	"github.com/gin-gonic/gin"
+    "github.com/gin-gonic/gin"
+    "gorm.io/gorm"
+    "github.com/lib/pq"
 )
-
 /*
 RecordComponentView 記錄組件瀏覽次數
 POST /api/v1/component/:id/view
@@ -113,4 +114,78 @@ func GetComponentViewCount(c *gin.Context) {
 			"view_count":     viewCount,
 		},
 	})
+}
+
+func UpdateDashboardTopComponents(c *gin.Context) {
+    // 1. 從 query 參數取得 limit（最多取前幾名），預設 3，範圍 1～10
+    limitStr := c.DefaultQuery("limit", "3")
+    limit, err := strconv.Atoi(limitStr)
+    if err != nil || limit <= 0 || limit > 10 {
+        limit = 3
+    }
+
+    // 2. 在 transaction 中執行更新並回傳更新後的 components
+    err = models.DBManager.Transaction(func(tx *gorm.DB) error {
+        var updatedComponents []int64
+
+        // 3. SQL 裡面用 ? 作參數佔位，並在最後加上 RETURNING components
+        updateSQL := `
+            UPDATE dashboards
+            SET
+                components = ARRAY(
+                    SELECT top_components.component_id
+                    FROM (
+                        SELECT
+                            component_id,
+                            COUNT(component_id) AS query_count
+                        FROM
+                            component_views
+                        GROUP BY
+                            component_id
+                        ORDER BY
+                            query_count DESC
+                        LIMIT ?
+                    ) AS top_components
+                ),
+                updated_at = NOW()
+            WHERE
+                name = '熱門組件'
+            RETURNING components;
+        `
+
+        // 4. 執行 Raw SQL，並把 limit 當作參數傳入
+        rows, err := tx.Raw(updateSQL, limit).Rows()
+        if err != nil {
+            return err
+        }
+        defer rows.Close()
+
+        // 5. 把回傳的 components（陣列）掃出來
+        for rows.Next() {
+            var comps []int64
+            if err := rows.Scan(pq.Array(&comps)); err != nil {
+                return err
+            }
+            updatedComponents = comps
+        }
+
+        // 6. 把結果存到 Gin Context，供後續回傳 JSON 用
+        c.Set("components", updatedComponents)
+        return nil
+    })
+
+    if err != nil {
+        c.JSON(http.StatusInternalServerError, gin.H{
+            "status":  "error",
+            "message": "更新失敗：" + err.Error(),
+        })
+        return
+    }
+
+    // 7. 成功後從 Context 取出 components，並回傳給前端
+    comps, _ := c.Get("components")
+    c.JSON(http.StatusOK, gin.H{
+        "status":     "success",
+        "components": comps,
+    })
 }

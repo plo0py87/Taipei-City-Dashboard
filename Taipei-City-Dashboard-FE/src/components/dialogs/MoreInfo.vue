@@ -40,11 +40,11 @@ function getLinkTag(link, index) {
 	>
 		<div class="moreinfo">
 			<DashboardComponent
-				:config="dialogStore.moreInfoContent"
-				:active-city="dialogStore.moreInfoContent.city"
+				:config="dialogStore.moreInfoContent[0]"
+				:active-city="dialogStore.moreInfoContent[0].city"
 				:city-tag="
 					contentStore.cityManager.getTagList(
-						dialogStore.moreInfoContent.city
+						dialogStore.moreInfoContent[0].city
 					)
 				"
 				mode="large"
@@ -53,13 +53,13 @@ function getLinkTag(link, index) {
 				<div class="moreinfo-info-data">
 					<h3>
 						{{ i18nStore.$t("dialog.組件說明") }}（{{
-							` ID: ${dialogStore.moreInfoContent.id}｜Index: ${dialogStore.moreInfoContent.index}｜City: ${dialogStore.moreInfoContent.city}`
+							` ID: ${dialogStore.moreInfoContent[0].id}｜Index: ${dialogStore.moreInfoContent[0].index}｜City: ${dialogStore.moreInfoContent[0].city}`
 						}}）
 					</h3>
-					<p>{{ dialogStore.moreInfoContent.long_desc }}</p>
+					<p>{{ dialogStore.moreInfoContent[0].long_desc }}</p>
 					<h3>{{ i18nStore.$t("dialog.範例情境") }}</h3>
-					<p>{{ dialogStore.moreInfoContent.use_case }}</p>
-					<div v-if="dialogStore.moreInfoContent.history_config">
+					<p>{{ dialogStore.moreInfoContent[0].use_case }}</p>
+					<div v-if="dialogStore.moreInfoContent[0].history_config">
 						<h3>{{ i18nStore.$t("dialog.歷史軸") }}</h3>
 						<h4>
 							*{{
@@ -70,20 +70,24 @@ function getLinkTag(link, index) {
 						</h4>
 						<HistoryChart
 							:chart_config="
-								dialogStore.moreInfoContent.chart_config
+								dialogStore.moreInfoContent[0].chart_config
 							"
-							:series="dialogStore.moreInfoContent.history_data"
+							:series="
+								dialogStore.moreInfoContent[0].history_data
+							"
 							:history_config="
-								dialogStore.moreInfoContent.history_config
+								dialogStore.moreInfoContent[0].history_config
 							"
 						/>
 					</div>
-					<div v-if="dialogStore.moreInfoContent.links?.length > 0">
+					<div
+						v-if="dialogStore.moreInfoContent[0].links?.length > 0"
+					>
 						<h3>{{ i18nStore.$t("dialog.相關資料") }}</h3>
 						<div class="moreinfo-info-links">
 							<a
 								v-for="(link, index) in dialogStore
-									.moreInfoContent.links"
+									.moreInfoContent[0].links"
 								:key="link"
 								:href="link"
 								target="_blank"
@@ -92,12 +96,16 @@ function getLinkTag(link, index) {
 							>
 						</div>
 					</div>
-					<div v-if="dialogStore.moreInfoContent.contributors">
+					<div v-if="dialogStore.moreInfoContent[1].view_count">
+						<h3>{{ i18nStore.$t("dialog.查找人次") }}</h3>
+						<p>{{ dialogStore.moreInfoContent[1].view_count }}</p>
+					</div>
+					<div v-if="dialogStore.moreInfoContent[0].contributors">
 						<h3>{{ i18nStore.$t("dialog.協作者") }}</h3>
 						<div class="moreinfo-info-contributors">
 							<div
 								v-for="contributor in dialogStore
-									.moreInfoContent.contributors"
+									.moreInfoContent[0].contributors"
 								:key="contributor"
 							>
 								<a
@@ -135,9 +143,9 @@ function getLinkTag(link, index) {
 						v-if="authStore.token"
 						@click="
 							dialogStore.showReportIssue(
-								dialogStore.moreInfoContent.id,
-								dialogStore.moreInfoContent.index,
-								dialogStore.moreInfoContent.name
+								dialogStore.moreInfoContent[0].id,
+								dialogStore.moreInfoContent[0].index,
+								dialogStore.moreInfoContent[0].name
 							)
 						"
 					>
@@ -145,7 +153,7 @@ function getLinkTag(link, index) {
 					</button>
 					<button
 						v-if="
-							dialogStore.moreInfoContent.chart_config
+							dialogStore.moreInfoContent[0].chart_config
 								.types[0] !== 'MetroChart'
 						"
 						@click="dialogStore.showDialog('downloadData')"

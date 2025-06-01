@@ -4,9 +4,7 @@
 import { ref } from "vue";
 import { useDialogStore } from "../../store/dialogStore";
 import { useMapStore } from "../../store/mapStore";
-
 import DialogContainer from "./DialogContainer.vue";
-
 const dialogStore = useDialogStore();
 const mapStore = useMapStore();
 import { useI18nStore } from "../../i18ns/i18nInstance";
@@ -35,10 +33,16 @@ function handleClose() {
 function handleAddViewPoint() {
 	if (props.name === "addPin") {
 		mapStore.addMarker(viewPoint.value.name);
-		dialogStore.showNotification("success", t("dialog.新增地標成功"));
+		dialogStore.showNotification(
+			"success",
+			i18nStore.$t("dialog.新增地標成功")
+		);
 	} else {
 		mapStore.addViewPoint(viewPoint.value.name);
-		dialogStore.showNotification("success", t("dialog.新增視角成功"));
+		dialogStore.showNotification(
+			"success",
+			i18nStore.$t("dialog.新增視角成功")
+		);
 	}
 
 	handleClose();
