@@ -97,7 +97,6 @@ class QueryRequest(BaseModel):
 class QueryResponse(BaseModel):
     result: str
     status: str
-    model_used: str
 
 class HealthResponse(BaseModel):
     status: str
@@ -191,14 +190,13 @@ async def process_query(request: QueryRequest):
         if request.ollama_host != app_state.mcp_client.ollama_host:
             app_state.mcp_client.ollama_host = request.ollama_host
             app_state.mcp_client.ollama_client = ollama.Client(host=request.ollama_host)
-          # Process the query
+        # Process the query
         logger.info("Processing query: %s", request.prompt)
         result = await app_state.mcp_client.process_query(query=request.prompt)
         logger.info("Query processed successfully")
         return QueryResponse(
             result=result,
-            status="success",
-            model_used=app_state.mcp_client.model
+            status="success"
         )
     
     except Exception as e:
