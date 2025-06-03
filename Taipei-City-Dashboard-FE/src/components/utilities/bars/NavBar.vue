@@ -6,7 +6,6 @@
 import { computed } from "vue"; // Removed unused imports
 import { useRoute } from "vue-router";
 import { useFullscreen } from "@vueuse/core";
-import ComponentSearch from "../../dialogs/componentSearch.vue";
 import ContributorsList from "../../dialogs/ContributorsList.vue";
 import UserSettings from "../../dialogs/UserSettings.vue";
 import { useDialogStore } from "../../../store/dialogStore";
@@ -75,15 +74,6 @@ const linkQuery = computed(() => {
 			</router-link>
 		</div>
 		<div class="navbar-user">
-			<button
-				v-if="authStore.token"
-				@click="dialogStore.showDialog('NLPDialog')"
-			>
-				🔎
-			</button>
-			<teleport to="body">
-				<ComponentSearch />
-			</teleport>
 			<button
 				v-if="!(authStore.isMobileDevice && authStore.isNarrowDevice)"
 				class="hide-if-mobile"
