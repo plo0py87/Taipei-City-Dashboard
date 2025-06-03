@@ -1,0 +1,52 @@
+{
+	"CallBack": {
+		"正在為您導向臺北城市儀表板...": "Redirecting you to Taipei City Dashboard..."
+	},
+	"DashboardView": {
+		"發生錯誤，無法載入儀表板": "Error occurred, unable to load dashboard",
+		"尚未加入組件": "No components added yet",
+		"加入您的第一個組件": "Add your first component",
+		"點擊其他儀表板組件之愛心以新增至收藏組件": "Click the heart on other dashboard components to add them to favorites"
+	},
+	"MapView": {
+		"基本圖層": "Base Layers",
+		"無空間資料組件": "Components Without Spatial Data",
+		"本組件沒有空間資料，不會渲染地圖": "This component has no spatial data and will not render on the map"
+	},
+	"ComponentView": {
+		"以名稱搜尋": "Search by name",
+		"搜尋": "Search",
+		"資訊頁面": "Info page",
+		"發生錯誤，無法載入": "Error occurred, unable to load",
+		"查無組件": "No components found",
+		"請重新搜尋或更改篩選條件": "Please try a different search or change filters"
+	},
+	"ComponentInfoView": {
+		"返回儀表板": "Back to Dashboard",
+		"返回組件瀏覽平台": "Back to Component Browser",
+		"組件 ID | Index | City": "Component ID | Index | City",
+		"組件說明": "Component Description",
+		"範例情境": "Example Scenarios",
+		"回報": "Report",
+		"下載": "Download",
+		"內嵌": "Embed",
+		"歷史資料": "Historical Data",
+		"相關資料": "Related Data",
+		"協作者": "Contributors",
+		"發生錯誤，無法載入。請確認組件Index是否正確。": "Error occurred while loading. Please verify that the component Index is correct."
+	},
+	"EmbedView": {
+		"查無組件，請確認組件ID是否正確": "No component found, please check if the component ID is correct"
+	},
+	"AdminContributor": {
+		"新增貢獻者": "Add Contributor",
+		"名稱": "Name",
+		"圖片": "Image",
+		"連結": "Link",
+		"建立時間": "Created At",
+		"更新時間": "Updated At",
+		"發生錯誤，無法載入貢獻者列表": "Error occurred, unable to load contributor list",
+		"查無符合篩選條件的貢獻者": "No contributors matching the filter criteria",
+		"每頁顯示": "Show per page"
+	}
+}

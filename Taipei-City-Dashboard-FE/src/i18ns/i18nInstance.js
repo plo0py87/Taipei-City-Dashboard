@@ -10,6 +10,8 @@ import zhMaps from "./maps/zh.json";
 import enMaps from "./maps/en.json"; // Added import for English maps translations
 import zhData from "./data/zh.json";
 import enData from "./data/en.json"; // Added import for English data translations
+import zhViews from "./views/zh.json"; // Added import for Chinese views translations
+import enViews from "./views/en.json"; // Added import for English views translations
 import { defineStore } from "pinia";
 import http from "../router/axios";
 const messages = {
@@ -20,6 +22,7 @@ const messages = {
 		components: zhComponents, // Changed from component to components
 		maps: zhMaps, // Added Chinese maps translations
 		data: zhData, // Added Chinese data translations
+		views: zhViews, // Added Chinese views translations
 	},
 	en: {
 		...enBar,
@@ -28,6 +31,7 @@ const messages = {
 		components: enComponents, // Added English components translations
 		maps: enMaps, // Added English maps translations
 		data: enData, // Added English data translations
+		views: enViews, // Added English views translations
 	},
 };
 
@@ -84,7 +88,7 @@ export const useI18nStore = defineStore("i18n", {
 				// 檢查語系是否存在
 				this.locale = newLocale;
 				http.patch("/user/me", { language: newLocale });
-				console.log(await http.get("/user/me"));
+				// console.log(await http.get("/user/me"));
 			} else {
 				console.warn(`Locale '${newLocale}' not found in messages.`);
 			}

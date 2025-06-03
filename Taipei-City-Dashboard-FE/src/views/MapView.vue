@@ -17,6 +17,7 @@ import DashboardComponent from "../dashboardComponent/DashboardComponent.vue";
 import { useContentStore } from "../store/contentStore";
 import { useDialogStore } from "../store/dialogStore";
 import { useMapStore } from "../store/mapStore";
+import { useI18nStore } from "../i18ns/i18nInstance";
 import MapContainer from "../components/map/MapContainer.vue";
 import MoreInfo from "../components/dialogs/MoreInfo.vue";
 import ReportIssue from "../components/dialogs/ReportIssue.vue";
@@ -25,6 +26,7 @@ const contentStore = useContentStore();
 const dialogStore = useDialogStore();
 const mapStore = useMapStore();
 const route = useRoute();
+const i18nStore = useI18nStore();
 
 const toggleOn = ref({
 	hasMap: [],
@@ -81,7 +83,7 @@ function handleToggle(value, map_config) {
 		if (value) {
 			dialogStore.showNotification(
 				"info",
-				"本組件沒有空間資料，不會渲染地圖"
+				i18nStore.$t("views.MapView.本組件沒有空間資料，不會渲染地圖")
 			);
 		}
 		return;
@@ -327,7 +329,9 @@ function shouldDisable(map_config) {
 						}
 					"
 				/>
-				<h2 v-if="contentStore.mapLayers.length > 0">基本圖層</h2>
+				<h2 v-if="contentStore.mapLayers.length > 0">
+					{{ i18nStore.$t("views.MapView.基本圖層") }}
+				</h2>
 				<DashboardComponent
 					v-for="(item, arrayIdx) in contentStore.mapLayers"
 					:key="`map-layer-${item.index}-${item.city}`"
@@ -419,7 +423,9 @@ function shouldDisable(map_config) {
 						}
 					"
 				/>
-				<h2 v-if="parseMapLayers.noMap?.length > 0">無空間資料組件</h2>
+				<h2 v-if="parseMapLayers.noMap?.length > 0">
+					{{ i18nStore.$t("views.MapView.無空間資料組件") }}
+				</h2>
 				<DashboardComponent
 					v-for="(item, arrayIdx) in parseMapLayers.noMap"
 					:key="`map-layer-${item.index}`"

@@ -6,16 +6,18 @@ import { useRoute } from "vue-router";
 import http from "../router/axios";
 import DashboardComponent from "../dashboardComponent/DashboardComponent.vue";
 import { useContentStore } from "../store/contentStore";
+import { useI18nStore } from "../i18ns/i18nInstance";
 
 import { getComponentDataTimeframe } from "../assets/utilityFunctions/dataTimeframe";
 
 const contentStore = useContentStore();
+const i18nStore = useI18nStore();
 const route = useRoute();
 
 const content = ref(null);
 const cities = computed(() => {
-	const cities = contentStore.embedComponents.map((data) => data.city)
-	return contentStore.cityManager.getCities(cities)
+	const cities = contentStore.embedComponents.map((data) => data.city);
+	return contentStore.cityManager.getCities(cities);
 });
 
 function changeCity(city) {
@@ -25,7 +27,7 @@ function changeCity(city) {
 	if (selectedComponent) {
 		content.value = selectedComponent;
 	}
-};
+}
 
 onMounted(async () => {
 	try {
@@ -38,15 +40,15 @@ onMounted(async () => {
 				{
 					params: {
 						city: component.city,
-						...!["static", "current", "demo"].includes(
+						...(!["static", "current", "demo"].includes(
 							component.time_from
 						)
-						? getComponentDataTimeframe(
-							component.time_from,
-							component.time_to,
-							true
-						)
-						: {}
+							? getComponentDataTimeframe(
+									component.time_from,
+									component.time_to,
+									true
+							  )
+							: {}),
 					},
 				}
 			);
@@ -56,9 +58,7 @@ onMounted(async () => {
 			}
 		}
 		contentStore.embedComponents = res.data.data;
-		content.value = resData.find(
-			(data) => data.city === route.params.city
-		);
+		content.value = resData.find((data) => data.city === route.params.city);
 		contentStore.loading = false;
 	} catch (error) {
 		console.error(error);
@@ -68,37 +68,37 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div class="embedview">
-    <div
-      v-if="contentStore.loading"
-      class="embedview-loading"
-    >
-      <div />
-    </div>
-    <DashboardComponent
-      v-else-if="content"
-      :config="content"
-      :footer="false"
-      :active-city="content.city"
-      :select-btn="true"
-      :select-btn-disabled="cities.length === 1"
-      :select-btn-list="cities"
-      :city-tag="cities"
-      :style="{
-        height: 'calc(100% - 36px)',
-        maxHeight: 'calc(100% - 36px)',
-      }"
-      @change-city="changeCity"
-    />
-    <div
-      v-else
-      class="embedview-error"
-    >
-      <span>warning</span>
-      <p>查無組件，請確認組件ID是否正確</p>
-      <p>Component Not Found</p>
-    </div>
-  </div>
+	<div class="embedview">
+		<div v-if="contentStore.loading" class="embedview-loading">
+			<div />
+		</div>
+		<DashboardComponent
+			v-else-if="content"
+			:config="content"
+			:footer="false"
+			:active-city="content.city"
+			:select-btn="true"
+			:select-btn-disabled="cities.length === 1"
+			:select-btn-list="cities"
+			:city-tag="cities"
+			:style="{
+				height: 'calc(100% - 36px)',
+				maxHeight: 'calc(100% - 36px)',
+			}"
+			@change-city="changeCity"
+		/>
+		<div v-else class="embedview-error">
+			<span>warning</span>
+			<p>
+				{{
+					i18nStore.$t(
+						"views.EmbedView.查無組件，請確認組件ID是否正確"
+					)
+				}}
+			</p>
+			<p>Component Not Found</p>
+		</div>
+	</div>
 </template>
 
 <style scoped lang="scss">

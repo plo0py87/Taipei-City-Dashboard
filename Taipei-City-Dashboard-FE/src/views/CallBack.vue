@@ -2,8 +2,10 @@
 import { onMounted } from "vue";
 import router from "../router";
 import { useAuthStore } from "../store/authStore";
+import { useI18nStore } from "../i18ns/i18nInstance";
 
 const authStore = useAuthStore();
+const i18nStore = useI18nStore();
 
 onMounted(() => {
 	const urlParams = new URLSearchParams(window.location.search);
@@ -18,7 +20,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <div>正在為您導向臺北城市儀表板...</div>
+	<div>
+		{{ i18nStore.$t("views.CallBack.正在為您導向臺北城市儀表板...") }}
+	</div>
 </template>
 
 <style scoped></style>
